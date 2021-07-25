@@ -16,21 +16,20 @@ define constant, begin
 	5,		battle:enemyKoBit
 end
 
-plotscript, testbattle, begin
-	BattleInit (1)
-end
-
-plotscript, BattleInit, formation, begin
+plotscript, Battle, formation, begin
 	variable (i, sli, counter)
+
+	suspendMovement
 	
 	#disolve and then hide hero sprites
 	for (i, 0, 3) do (
 		if (hero by slot (i)<>-1) then (
 			sli := get hero sprite by slot (i)
 			dissolve sprite (sli, dissolve:puff, 45)
+			specwait(4)
 		)
 	)
-	specwaitmode (20)
+	specwait(20)
 
 	load slice collection (0)
 
@@ -78,25 +77,25 @@ plotscript, BattleInit, formation, begin
 	)
 	setupSprites(lookupSlice(sli:enemy grid))
 
-	battleupdate()
-
 	set sprite visible (lookupslice (sli:hideheroes), true)
 	set sprite visible (lookupslice (sli:enemygrid), true)
 
 	loadbattleback(formation)
-	specwaitmode (20)
+	specwait (20)
+
 	for (i, 0, 3) do (
 		if (hero by slot (i)<>-1) then (
 			set hero picture (i, 0)
 		)
 	)
-	specwaitmode (20)
+	specwait (20)
 
 	showsprites 
 
-	specwaitmode (50)
+	specwait (50)
 
 	battle:turn := 0
+	game:mode :=  mode:battle
 	initBattleMenu
 	
 
@@ -150,6 +149,54 @@ plotscript, BattleInit, formation, begin
 	end
 end
 
+
+script, battleEnd, condition=1, begin
+	variable (i, formation, sli)
+
+	if (condition == 1) then (
+		#get formation for rewards etc
+		formation := getElement(get array(array:battleinfo), battle:formation)
+
+		set sprite visible (lookupslice (sli:hide heroes), false)
+		set sprite visible (lookupslice (sli:enemygrid), false)
+
+		freebattleback
+		specwait (20)
+
+		#show and reverse dissolve hero sprites
+		for (i, 0, 3) do (
+			if (hero by slot (i)<>-1) then (
+				reset hero picture (i)
+			)
+		)
+		for (i, 0, 3) do (
+			if (hero by slot (i)<>-1) then (
+				sli := get hero sprite by slot (i)
+				dissolve sprite (sli, dissolve:puff, 45, 20, true)
+			)
+		)
+		specwait (20)
+
+		free slice (lookupslice(array:battleinfo))
+		free slice (lookupslice(sli:battlecol))
+
+		
+		specwait (30)
+
+		show no value
+		resumeMovement
+	)else (
+		sli := loadBackdropSprite (8)
+		dissolve sprite (sli, dissolve:puff, 80,0, true)
+		specwait (80)
+		waitforNewKey
+		reset game
+	)
+end
+
+#=======================================================================
+#=======================================================================
+
 script, initTurnArray, begin
 	variable (sli, i)
 	clear(lookupslice(array:turn))
@@ -182,76 +229,6 @@ script, battleAddEnemy, who, formation, begin
 	)
 		for (i, stat:HP, stat:PP) do (
 		append (sli, get enemy stat (formation slot enemy (formation, who), i))
-	)
-end
-
-
-script, animation, which, target, damage, sli=0, sli2=0, i=0, speed=0, max=0, begin
-	#setup to animate
-	if (i == 0) then (
-		if (target < 4) then (
-			sli := slice child(lookupslice(sli:herogrid), target)
-		) else (
-			sli := sliceChild(lookupslice(sli:enemygrid), target--4)
-		)
-		setupanimation (which, target)
-		switch (which) do (
-			case (attack:normal) do (max := 4)
-		)
-	#end animation
-	) elseif (i > max) then (
-		endanimation(which, sli, damage, target)
-		exit script
-	) else (
-		animating(which, sli, i)
-	)
-
-	i += 1
-	setTimer(timer:battleani, speed, 1, @animation)
-	set timer args (timer:battleani, which, target, damage, sli, sli2, i, speed, max)
-end
-
-script, battleEnd, condition=1, begin
-	variable (i, formation, sli)
-
-	if (condition == 1) then (
-		#get formation for rewards etc
-		formation := getElement(get array(array:battleinfo), battle:formation)
-
-		set sprite visible (lookupslice (sli:hide heroes), false)
-		set sprite visible (lookupslice (sli:enemygrid), false)
-
-		freebattleback
-		specwaitmode (20)
-
-		#show and reverse dissolve hero sprites
-		for (i, 0, 3) do (
-			if (hero by slot (i)<>-1) then (
-				reset hero picture (i)
-			)
-		)
-		for (i, 0, 3) do (
-			if (hero by slot (i)<>-1) then (
-				sli := get hero sprite by slot (i)
-				dissolve sprite (sli, dissolve:puff, 45, 20, true)
-			)
-		)
-		specwaitmode (20)
-
-		free slice (lookupslice(array:battleinfo))
-		free slice (lookupslice(sli:battlecol))
-
-		
-		specwaitmode (30)
-
-		show no value
-		game:mode := mode:resume player
-	)else (
-		sli := loadBackdropSprite (8)
-		dissolve sprite (sli, dissolve:puff, 80,0, true)
-		specwaitmode (80)
-		waitforNewKey
-		reset game
 	)
 end
 

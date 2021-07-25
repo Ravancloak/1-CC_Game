@@ -3,8 +3,9 @@ include, util.hss
 include, default.hss
 include, keypress.hss
 include, array.hss
-include, battle.hss
-include, attacks.hss
+include, battleinitend.hss
+include, battlemain.hss
+include, battleattacks.hss
 include, thirdparty.hss
 include, anidistortions.hss
 include, menu.hss

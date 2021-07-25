@@ -28,6 +28,10 @@ define constant, begin
 	4,		bkey:item	
 end
 
+
+
+
+
 script, addattack, which, who, target, begin
 	variable (speed, sli)
 
@@ -49,61 +53,6 @@ end
 script, writestat, who, stat, amount, begin
 	setElement (slicechild(lookupslice(array:stats), who), stat, amount)
 end
-
-script, turns, begin
-	variable (which, who, target, mod1, mod2, targstat, extdam, sli, type, healing, damage, i, var)
-	sli := lookupslice(array:turn)
-	sortChildren (sli)
-	game:mode := mode:specwait
-
-	while (firstChild (lookupslice(array:turn))) do (
-		sli := firstChild (lookupslice(array:turn))
-		which		:= getElement(sli, 0)
-		who			:= getElement(sli, 1)
-		target		:= getElement(sli, 2)
-
-		switch (which) do (
-			case (attack:normal) do (
-				mod1 := readStat (who, stat:Atk)
-				mod2 := readStat (target, stat:Def)
-				targstat := stat:targetHP
-				type := battle:normalDamage
-				extdam := 0
-				healing := 1
-			)
-		)
-
-		damage	:= returndamage (mod1, mod2, extdam, type, healing)
-		if (healing == 1 && readStat(target, stat:row)==1) then (
-			damage := damage -- damage/3
-		)
-		writeStat (target, targstat, readStat(target, targstat) -- damage)
-		if (readStat(target, targstat)<0) then(writeStat (target, targstat, 0))
-
-		animation(which, target, damage)
-
-		specwaitmode (10)
-		if (readstat (target,stat:curHP)<0) then (
-			if (target < 4) then (
-				var := 0
-				var := getElement(get array(array:battleinfo), battle:heroKoBit)
-				setElement(get array(array:battleinfo), battle:heroKoBit, var + target)
-			) else (
-				var := 0
-				var := getElement(get array(array:battleinfo), battle:enemyKoBit)
-				setElement(get array(array:battleinfo), battle:enemyKoBit, var + target--4)
-			)
-		)
-
-		freeSlice (firstChild (lookupslice(array:turn)))
-	)
-	initTurnArray()
-	battle:turn := 0
-	specwait (10)
-	initBattleMenu
-end
-
-
 
 
 script, setupanimation, which, sli, begin
@@ -155,7 +104,7 @@ script, endanimation, which, sli, damage, target, begin
 		) else (
 			set slice x (sli, -6+i)
 		)
-		specwaitmode (6)
+		specwait (6)
 	)
 
 	variable(sli2, ones, tens, hundreds)

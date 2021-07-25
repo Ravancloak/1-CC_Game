@@ -10,29 +10,26 @@ script, specwait, time=1, begin
 
 		if (lookupslice(sli:battleback)) then (battleAnimate)
 
-		switch (game:mode) do (
-			case (mode:battle) do (battleUpdate)
-		)
 		mapUpdate()
 		game:tick += 1
 		wait()
 	)
-	
 end
 
 script, mapUpdate, begin,
 	variable (grassLayer, sli, i)
 	switch (currentMap) do (
-		case (map:TEST MAP) do (scrollLayer0(8))
+		case (map:TEST MAP) do (scrollLayer0(8,0))
 		case (1) do ()
 	)
 
 	subscript, grassSprite, begin
 	end
 
-	subscript, scrollLayer0,speed, begin
+	subscript, scrollLayer0, speedx, speedy, begin
 		sli := lookupslice(sl:maplayer0)
-		if (game:tick,mod,speed==1) then (setSlicex(sli, slicex(sli)+1))
+		if (game:tick,mod,speedx==1 && speedx<>0) then (setSlicex(sli, slicex(sli)+1))
+		if (game:tick,mod,speedy==1 && speedy<>0) then (setSlicey(sli, slicey(sli)+1))
 	end
 
 	subscript, movelayer, begin
@@ -44,35 +41,6 @@ script, mapUpdate, begin,
 			moveSliceAbove (sli, lookupSlice(sl:walkabout layer))
 		)
 	end
-end
-
-script, battleUpdate, begin
-	variable (var, var2, sli, counter, i)
-
-	#check for all characters dead or all enemies dead
-	counter := getElement(get array(array:battleinfo), battle:herocount)
-	var2 := 0
-	while (counter > 0) do (
-		var2 += counter
-		counter -= 1
-	)
-	var := getElement(get array(array:battleinfo), battle:heroKoBit)
-	if (var == var2) then (battleEnd(0))
-
-	counter := getElement(get array(array:battleinfo), battle:enemycount)
-	var2 := 0
-	while (counter > 0) do (
-		var2 += counter
-		counter -= 1
-	)
-	var := getElement(get array(array:battleinfo), battle:enemyKoBit)
-	if (var == var2) then (battleEnd(1))
-
-
-	#exit script so animating stuff don't get messy
-	if (game:mode == mode:resume player) then (exit script)
-
-	#handle turns
 end
 
 script, battleAnimate, begin
@@ -132,7 +100,6 @@ script, battleAnimate, begin
 		var := 0
 	)
 end
-
 
 script, scroll map layer, begin
 	variable (sli, x, y)

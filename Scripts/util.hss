@@ -1,3 +1,25 @@
+#util==========================================
+script, activatableNPC, who, begin
+	if (read NPC (who,NPCstat:activation) == NPCactivation:use) then (return (true))
+end
+
+script, dirX, dir, begin
+    switch (dir) do (
+    case (up, down) do (return (0))
+    case (right) do (return (1))
+    case (left) do (return (-1))
+    )
+end
+
+script, dirY, dir, begin
+    switch (dir) do (
+    case (left, right) do (return (0))
+    case (down) do (return (1))
+    case (up) do (return (-1))
+    )
+end
+
+#various==========================================
 plotscript, doorscript, begin
 	variable (x, y, who, door)
 	suspendmovement
@@ -22,8 +44,46 @@ plotscript, doorscript, begin
 	resumemovement
 end
 
+plotscript, doorscriptstairs, begin
+	variable (x, y, who, door)
+	x := hero x (me)
+	y := hero y (me)
+	door := door at spot (x,y)
+	specwait (8)
+	use door (door, false)
+	suspend movement
+	walk hero (me, 1, east)
+	resume movement
+end
+
+script,fademusicout,time,begin
+	variable(loop)
+	original_volume := get music volume
+	for(loop,1,time,1) do(
+		set music volume(original_volume --(original_volume/time)*loop)
+		specwait
+	)
+	stop song
+	set music volume(original_volume)
+end
+
+#animation==========================================
+
 define constant, begin
 	255, wildpal:palsize
+end
+script, wildpal, rand, begin
+	variable (r, g, b, i)
+	if (rand > 15) then (rand := 15)
+	if (rand < -15) then (rand := -15)
+	reset palette
+	for (i, 1, wildpal:palsize) do (
+		r := random (rand*-1, rand)
+		g := random (rand*-1, rand)
+		b := random (rand*-1, rand)
+		tweak palette (r, g, b, i, i)
+		update palette
+	)
 end
 
 script, screenfadeout, ticks=30, begin
@@ -48,20 +108,6 @@ script, screenfadein, ticks=30, begin
 	free slice (sli)
 end
 
-script, wildpal, rand, begin
-	variable (r, g, b, i)
-	if (rand > 15) then (rand := 15)
-	if (rand < -15) then (rand := -15)
-	reset palette
-	for (i, 1, wildpal:palsize) do (
-		r := random (rand*-1, rand)
-		g := random (rand*-1, rand)
-		b := random (rand*-1, rand)
-		tweak palette (r, g, b, i, i)
-		update palette
-	)
-end
-
 script, animateframe, sli, timer, first, last, ticks, begin
     variable (var)
     var := get sprite frame (sli)
@@ -80,57 +126,7 @@ script, animate, sli, timer, first, last, ticks, begin
     set timer args (timer, sli, timer, first, last, ticks)
 end
 
-script, specwaitmode, ticks=1, begin
-	variable (i, var)
-	var := game:mode
-	game:mode := (mode:specwait)
-	for (i, 0, ticks) do (specwait)
-	game:mode := var
-end
-
-script,fademusicout,time,begin
-	variable(loop)
-	original_volume := get music volume
-	for(loop,1,time,1) do(
-		set music volume(original_volume --(original_volume/time)*loop)
-		specwait
-	)
-	stop song
-	set music volume(original_volume)
-end
-
-script, activatableNPC, who, begin
-	if (read NPC (who,NPCstat:activation) == NPCactivation:use) then (return (true))
-end
-
-plotscript, doorscriptstairs, begin
-	variable (x, y, who, door)
-	x := hero x (me)
-	y := hero y (me)
-	door := door at spot (x,y)
-	specwait (8)
-	use door (door, false)
-	suspend movement
-	walk hero (me, 1, east)
-	resume movement
-end
-
-script, dirX, dir, begin
-    switch (dir) do (
-    case (up, down) do (return (0))
-    case (right) do (return (1))
-    case (left) do (return (-1))
-    )
-end
-
-script, dirY, dir, begin
-    switch (dir) do (
-    case (left, right) do (return (0))
-    case (down) do (return (1))
-    case (up) do (return (-1))
-    )
-end
-
+#Controls==========================================
 script, resetControls, begin
 	cont:A	:= joy:A
 	cont:B	:= joy:B
