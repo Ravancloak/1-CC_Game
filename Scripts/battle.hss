@@ -185,98 +185,30 @@ script, battleAddEnemy, who, formation, begin
 	)
 end
 
-script, battleUpdate, begin
-	variable (var, var2, sli, counter, i)
 
-	#check for all characters dead or all enemies dead
-	counter := getElement(get array(array:battleinfo), battle:herocount)
-	var2 := 0
-	while (counter > 0) do (
-		var2 += counter
-		counter -= 1
-	)
-	var := getElement(get array(array:battleinfo), battle:heroKoBit)
-	if (var == var2) then (battleEnd(0))
-
-	counter := getElement(get array(array:battleinfo), battle:enemycount)
-	var2 := 0
-	while (counter > 0) do (
-		var2 += counter
-		counter -= 1
-	)
-	var := getElement(get array(array:battleinfo), battle:enemyKoBit)
-	if (var == var2) then (battleEnd(1))
-
-
-	#exit script so animating stuff don't get messy
-	if (game:mode == mode:resume player) then (exit script)
-
-	#handle turns
-
-	#animate shit
-	if (lookupslice(sli:battleback)) then (battleAnimate)
-	
-
-	setTimer (timer:battle, 1, 1, @battleUpdate)
-	#setTimerArgs(timer:battle)
-end
-
-script, battleAnimate, begin
-
-	variable (var, sli, counter, i)
-
-	sinedist
-
-	#sli := (first child (first child (lookupslice(sli:battle col))))
-	#var := get slice extra (sli, 0)
-	#if (var >= 4) then (
-	#	put slice (sli, random (-50, 50), random (-50, 50))
-	#	var := 0
-	#) else (var += 1)
-	#set slice extra (sli, 0, var)
-	#var := 0
-
-	counter := getElement(get array(array:battleinfo), battle:enemycount)
-	
-	for (i, 0, counter--1) do (
-		if (first child (sliceChild (lookupSlice (sli:enemygrid), i))<>0) then (
-			sli := first child (slice child (lookupSlice (sli:enemygrid), i))
-			var := getSliceExtra (sli, 0)
-			if (var >= 32) then (
-				setSpriteFrame (sli, 1)
-				var := 0
-			) else if (var == 16) then (
-				setSpriteFrame (sli, 0)
-				var += 1
-			) else (var += 1)
-			setSliceExtra (sli, 0, var)
-			var := 0
-			sli := firstChild (first child (slice child (lookupSlice (sli:enemygrid), i)))
-			var := getSliceExtra (sli, 0)
-			if (var >= 12) then (
-				setSpriteSetNumber(sli, 4)
-				var := 0
-			) else if (var == 6) then (
-				setSpriteSetNumber(sli, 5)
-				var += 1
-			) else (var += 1)
-			setSliceExtra (sli, 0, var)
-			var := 0
+script, animation, which, target, damage, sli=0, sli2=0, i=0, speed=0, max=0, begin
+	#setup to animate
+	if (i == 0) then (
+		if (target < 4) then (
+			sli := slice child(lookupslice(sli:herogrid), target)
+		) else (
+			sli := sliceChild(lookupslice(sli:enemygrid), target--4)
 		)
+		setupanimation (which, target)
+		switch (which) do (
+			case (attack:normal) do (max := 4)
+		)
+	#end animation
+	) elseif (i > max) then (
+		endanimation(which, sli, damage, target)
+		exit script
+	) else (
+		animating(which, sli, i)
 	)
 
-	if (lookupslice (sli:selected text)) then (
-		sli := lookupslice (sli:selected text)
-		var := get slice extra (sli, 0)
-		if (var >= 2) then (
-			if (get text color (sli)==ui:menuitem) then (
-				set text color(sli, ui:text)
-			) else (set text color(sli, ui:menuitem))
-			var := 0
-		) else (var += 1)
-		set slice extra (sli, 0, var)
-		var := 0
-	)
+	i += 1
+	setTimer(timer:battleani, speed, 1, @animation)
+	set timer args (timer:battleani, which, target, damage, sli, sli2, i, speed, max)
 end
 
 script, battleEnd, condition=1, begin

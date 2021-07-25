@@ -409,7 +409,7 @@ subscript, refresh, (
 		specwait (3)
 		specwaitForNewKey
 		if (choice<>0) then (open menu(choice))
-		specwait for menu (top menu)
+		wait for menu (top menu)
 
 		variable(spr)
 		letter:=first container child(msg)		

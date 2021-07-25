@@ -61,7 +61,7 @@ end
 # shows text box with auto specwaitfortextbox
 script, tb, textbox, begin
   showtextbox(textbox)
-  specwaitfortextbox
+  waitfortextbox
 end
 
 script, distance, num1, num2, begin
