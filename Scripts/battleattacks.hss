@@ -28,10 +28,6 @@ define constant, begin
 	4,		bkey:item	
 end
 
-
-
-
-
 script, addattack, which, who, target, begin
 	variable (speed, sli)
 

@@ -16,7 +16,7 @@ define constant, begin
 	5,		battle:enemyKoBit
 end
 
-plotscript, Battle, formation, begin
+script, initBattle, formation, begin
 	variable (i, sli, counter)
 
 	suspendMovement
@@ -30,6 +30,13 @@ plotscript, Battle, formation, begin
 		)
 	)
 	specwait(20)
+	for (i, 0, 3) do (
+		if (hero by slot (i)<>-1) then (
+			sli := get hero sprite by slot (i)
+			set slice visible (sli, false)
+			specwait(4)
+		)
+	)
 
 	load slice collection (0)
 
@@ -95,8 +102,6 @@ plotscript, Battle, formation, begin
 	specwait (50)
 
 	battle:turn := 0
-	game:mode :=  mode:battle
-	initBattleMenu
 	
 
 	subscript, setupSprites, gridslice, begin
@@ -153,7 +158,14 @@ end
 script, battleEnd, condition=1, begin
 	variable (i, formation, sli)
 
-	if (condition == 1) then (
+
+	if (condition == 0) then (
+		sli := loadBackdropSprite (8)
+		dissolve sprite (sli, dissolve:puff, 80,0, true)
+		specwait (80)
+		waitforNewKey
+		reset game
+	) else (
 		#get formation for rewards etc
 		formation := getElement(get array(array:battleinfo), battle:formation)
 
@@ -172,26 +184,22 @@ script, battleEnd, condition=1, begin
 		for (i, 0, 3) do (
 			if (hero by slot (i)<>-1) then (
 				sli := get hero sprite by slot (i)
-				dissolve sprite (sli, dissolve:puff, 45, 20, true)
+				set slice visible (sli, true)
+				dissolve sprite (sli, dissolve:puff, 45, 0, true)
 			)
 		)
+
 		specwait (20)
 
 		free slice (lookupslice(array:battleinfo))
 		free slice (lookupslice(sli:battlecol))
-
-		
-		specwait (30)
-
 		show no value
+
+		specwait(60)
+
 		resumeMovement
-	)else (
-		sli := loadBackdropSprite (8)
-		dissolve sprite (sli, dissolve:puff, 80,0, true)
-		specwait (80)
-		waitforNewKey
-		reset game
 	)
+	
 end
 
 #=======================================================================

@@ -1,12 +1,92 @@
-script, battleKeypress, begin
+script, keypressBattle, begin
 	variable ()
 
-	if (battle:bkey == bkey:action) then (battlemenu)
-	if (battle:bkey  == bkey:targatk) then (seltargetatk)
+	if (battle:bkey == bkey:action) then (keybattlemenu)
+	if (battle:bkey  == bkey:targatk) then (keyseltargetatk)
 end
 
+script, keybattlemenu, begin
+	variable (sli, var, var2, sel, ext)
 
-script, movementkeypress, begin
+	sli := lookupslice (sli:actionmenu)
+	sel := getSliceExtra (sli, 0)
+
+	if (keypressA) then (
+		switch (sel) do (
+			case (0) do (
+				suspendMovement
+				exit script
+			)
+			case (3) do (
+				battle:win := 1
+				suspendMovement
+				exit script
+			)
+		)
+	)
+
+	if (keypress(key:up)) then (
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		setSliceLookup(sli, 0)
+		setTextColor(sli, ui:menuitem)
+
+		if (sel > 0) then (sel -= 1) else (sel := (child count(lookupslice (sli:actionmenu)))--1)
+
+		setSliceExtra (lookupslice (sli:actionmenu), 0, sel)
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		setSliceLookup(sli, sli:selected text)
+		exit script
+	)
+	if(keypress(key:down)) then (
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		setSliceLookup(sli, 0)
+		setTextColor(sli, ui:menuitem)
+
+		if (sel <(child count(lookupslice (sli:actionmenu)))--1) then (sel += 1) else (sel := 0)
+		
+		setSliceExtra(lookupslice (sli:actionmenu), 0, sel)
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		setSliceLookup(sli, sli:selected text)
+		exit script
+	)
+	show value (sel)
+end
+
+script, keyseltargetatk, begin
+	variable (sli, var, var2, sel, ext)
+
+	var := getElement(get array(array:battleinfo), battle:enemycount)
+	if (var < 3) then (ext := 1)
+	var2:= getElement(get array(array:battleinfo), battle:herocount)
+	sli := lookupslice (sli:enemygrid)
+	sel := getSliceExtra (sli, 0)
+
+	if (keypressA) then (
+		addattack (attack:normal, battle:turn, sel+4)
+		suspendMovement
+		exit script
+	)
+
+	if (keypress(key:left)) then (
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
+
+		if (sel > 0 + ext) then (sel -= 1)
+		setSliceExtra (lookupslice (sli:enemygrid), 0, sel) 
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
+		exit script
+	)
+	if(keypress(key:right)) then ( 
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
+		if (sel < var2--1) then (sel += 1)
+		setSliceExtra (lookupslice (sli:enemygrid), 0, sel) 
+
+		sli := slice child (lookupslice (sli:enemygrid), sel)
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
+		exit script
+	)
+end
+
+script, keypressMovement, begin
 	variable (x,y, who, cur map, var)
 	if (movementAllowed==false) then (exitScript)
 	#checks to see if player should stop for npc event

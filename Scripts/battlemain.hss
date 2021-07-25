@@ -1,8 +1,168 @@
+plotscript, battle, formation, begin
+	variable (i, var)
+	initBattle(1)
+	battle:win := 2
+	while (battle:win==2) do (
+		var := 1
+		#break
+
+		for (i, 0, 3) do (
+			if (battle:win<>2) then (break(2))
+			if (heroBySlot(i)==-1) then (break)
+			battleMenu(i)
+			specwait
+		)
+		turns
+		battlecheck
+		specwait
+	)
+	battleEnd(battle:win)
+end
+
+script, BattleMenu,which, begin
+	variable (sli, var, sel, who)
+	battle:bkey := bkey:action
+
+	#position and show slice
+	var := getElement(get array(array:battleinfo), battle:herocount)
+	sli := lookupslice (sli:actionmenu)
+
+	switch (var) do (
+		case (1, 3) do(
+			put slice (sli, battle:turn*100+64, sliceY(sli))		
+		)
+		case (2,4) do(
+			put slice (sli, battle:turn*100+14, sliceY(sli))
+		)
+	)
+
+	who := hero by slot (which)
+
+	switch (who) do (
+		case (hero:Keifer) do (
+			#create text for menu
+			$2="stab"
+			addText()
+			$2="skill"
+			addText()
+			$2="item"
+			addText()
+			$2="run"
+			addText()
+		)
+		case (hero:Jenkins) do (
+			#create text for menu
+			$2="splash"
+			addText()
+			$2="skill"
+			addText()
+			$2="item"
+			addText()
+		)
+		case (hero:GMoney) do (
+			#create text for menu
+			$2="punch"
+			addText()
+			$2="skill"
+			addText()
+			$2="item"
+			addText()
+		)
+		case (hero:Daisy) do (
+			#create text for menu
+			$2="slap"
+			addText()
+			$2="skill"
+			addText()
+			$2="item"
+			addText()
+		)
+	)
+
+	sli := lookupslice (sli:actionmenu)
+	set slice visible (sli, true)
+	set slice extra (sli, 0, sel)
+
+	#set text to flash
+	sli := slice child (sli, sel)
+	set slice lookup(sli, sli:selected text)
+
+	specwait(8)
+
+	game:mode := mode:battle
+	while (game:mode == mode:battle) do (
+		specwait
+	)
+
+	sli := lookupslice (sli:actionmenu)
+	sel := getSliceExtra (sli, 0)
+	exitBattleMenu
+
+	if (battle:win<>2) then (exit script)
+
+	specwait(10)
+	battle:bkey := bkey:targatk
+	switch (sel) do (
+		case (0) do (
+			initTargatk
+		)
+	)
+
+	game:mode := mode:battle
+	while (game:mode == mode:battle) do (
+		specwait
+	)
+
+	sli := lookupslice (sli:enemygrid)
+	sel := getSliceExtra (sli, 0)
+	exitSelect()
+
+	specwait(20)
+
+	subscript, addText, begin
+		sli := create text
+		set slice text (sli, 2)
+		set outline(sli, true)
+		set text color(sli, ui:menuitem)
+		set parent (sli, lookupslice (sli:actionmenu))
+		set slice y (sli, slice child index (sli)*10)
+		sli := lookupslice (sli:actionmenu)
+		set slice height (sli, slice height(sli)+10)
+	end
+
+	subscript, exitBattleMenu, begin
+		#hide slice and resume battle shit
+		sli := lookupslice (sli:actionmenu)
+		set slice height (sli, 8)
+		free slice children (sli)
+		set slice visible (sli, false)
+		specwait (3)
+	end
+	subscript, exitSelect, begin
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
+
+		setSliceExtra (lookupslice (sli:enemygrid), 0, 0)
+	end
+end
+
+script, initTargatk, begin
+	variable (sli, var, sel, ext, who)
+
+	var := getElement(get array(array:battleinfo), battle:enemycount)
+	if (var < 3) then (ext := 1)
+	sli := lookupslice (sli:enemygrid)
+	set slice extra (sli, 0, sel)
+
+	sel := ext
+	setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
+
+	battle:bkey := bkey:targatk
+end
+
 script, turns, begin
 	variable (which, who, target, mod1, mod2, targstat, extdam, sli, type, healing, damage, i, var)
 	sli := lookupslice(array:turn)
 	sortChildren (sli)
-	game:mode := mode:specwait
 
 	while (firstChild (lookupslice(array:turn))) do (
 		sli := firstChild (lookupslice(array:turn))
@@ -42,18 +202,14 @@ script, turns, begin
 				setElement(get array(array:battleinfo), battle:enemyKoBit, var + target--4)
 			)
 		)
-		battlecontinue()
 
 		freeSlice (firstChild (lookupslice(array:turn)))
 	)
 	initTurnArray()
-	battle:turn := 0
 	specwait (10)
-	initBattleMenu
 end
 
-
-script, battlecontinue, begin
+script, battlecheck, begin
 	variable (var, var2, sli, counter, i)
 
 	#check for all characters dead or all enemies dead
@@ -64,7 +220,7 @@ script, battlecontinue, begin
 		counter -= 1
 	)
 	var := getElement(get array(array:battleinfo), battle:heroKoBit)
-	if (var == var2) then (battleEnd(0))
+	if (var == var2) then (battle:win := 0)
 
 	counter := getElement(get array(array:battleinfo), battle:enemycount)
 	var2 := 0
@@ -73,7 +229,7 @@ script, battlecontinue, begin
 		counter -= 1
 	)
 	var := getElement(get array(array:battleinfo), battle:enemyKoBit)
-	if (var == var2) then (battleEnd(1))
+	if (var == var2) then (battle:win := 1)
 end
 
 script, animation, which, target, damage, sli=0, sli2=0, i=0, speed=0, max=0, begin
@@ -99,217 +255,4 @@ script, animation, which, target, damage, sli=0, sli2=0, i=0, speed=0, max=0, be
 	i += 1
 	setTimer(timer:battleani, speed, 1, @animation)
 	set timer args (timer:battleani, which, target, damage, sli, sli2, i, speed, max)
-end
-
-script, seltargetatk, begin
-	variable (sli, var, var2, sel, ext)
-
-	var := getElement(get array(array:battleinfo), battle:enemycount)
-	if (var < 3) then (ext := 1)
-	var2:= getElement(get array(array:battleinfo), battle:herocount)
-	sli := lookupslice (sli:enemygrid)
-	sel := getSliceExtra (sli, 0)
-
-	#if (Keypress(key:Esc)) then (exitSelect, battleEnd(), exit script)
-
-	if (keypressA()) then (
-		addattack (attack:normal, battle:turn, sel+4)
-		exitSelect()
-		if (battle:turn < var2--1) then (
-			battle:turn += 1
-			initBattleMenu()
-		) else (turns())
-		exitScript()
-	)elseif (keypressB()) then (
-		exitSelect()
-		initBattleMenu()
-		exitScript()
-	) elseif (keypress(key:left)) then (
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
-
-		if (sel > 0 + ext) then (sel -= 1)
-		setSliceExtra (lookupslice (sli:enemygrid), 0, sel) 
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
-
-	) else if(keypress(key:right)) then ( 
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
-		if (sel < var2--1) then (sel += 1)
-		setSliceExtra (lookupslice (sli:enemygrid), 0, sel) 
-
-		sli := slice child (lookupslice (sli:enemygrid), sel)
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
-
-	)
-
-	subscript, exitSelect, begin
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
-
-		setSliceExtra (lookupslice (sli:enemygrid), 0, 0)
-	end
-end
-
-script, initTargatk, begin
-	variable (sli, var, sel, ext, who)
-
-	var := getElement(get array(array:battleinfo), battle:enemycount)
-	if (var < 3) then (ext := 1)
-	sli := lookupslice (sli:enemygrid)
-	set slice extra (sli, 0, sel)
-
-	sel := ext
-	setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
-
-	game:mode := mode:battle
-	battle:bkey := bkey:targatk
-end
-
-script, battlemenu, begin
-	variable (sli, var, sel)
-
-	sli := lookupslice (sli:actionmenu)
-	sel := getSliceExtra (sli, 0)
-
-	#if (Keypress(key:Esc)) then (exitBattleMenu, battleEnd(), exit script)
-	
-	
-	if (keypressA()) then (
-		switch (sel) do (
-			case (0) do (
-				exitBattleMenu
-				initTargatk
-				exit script
-			)
-			case (3) do (exitBattleMenu, battleEnd(), exit script)
-		)
-	) elseif (keypressB()) then (
-		if (battle:turn>0) then (
-			exitBattleMenu()
-			battle:turn -= 1
-			initBattleMenu()
-			exitScript()
-		)
-	) elseif (keypress(key:up)) then (
-		sli := slice child (lookupslice (sli:actionmenu), sel)
-		setSliceLookup(sli, 0)
-		setTextColor(sli, ui:menuitem)
-
-		if (sel >0) then (sel -= 1) else (sel := (child count(lookupslice (sli:actionmenu)))--1)
-
-		setSliceExtra (lookupslice (sli:actionmenu), 0, sel)
-		sli := slice child (lookupslice (sli:actionmenu), sel)
-		setSliceLookup(sli, sli:selected text)
-
-	) else if(keypress(key:down)) then (
-		sli := slice child (lookupslice (sli:actionmenu), sel)
-		setSliceLookup(sli, 0)
-		setTextColor(sli, ui:menuitem)
-
-		if (sel <(child count(lookupslice (sli:actionmenu)))--1) then (sel += 1) else (sel := 0)
-		
-		setSliceExtra(lookupslice (sli:actionmenu), 0, sel)
-		sli := slice child (lookupslice (sli:actionmenu), sel)
-		setSliceLookup(sli, sli:selected text)
-	)
-	show value (sel)
-	subscript, exitBattleMenu, begin
-		#hide slice and resume battle shit
-		sli := lookupslice (sli:actionmenu)
-		set slice height (sli, 8)
-		free slice children (sli)
-		set slice visible (sli, false)
-		game:mode := mode:specwait
-		specwait (3)
-	end
-end
-
-script, initBattleMenu, begin
-	variable (sli, var, sel, who)
-
-	battlecontinue()
-
-	#position and show slice
-	var := getElement(get array(array:battleinfo), battle:herocount)
-	sli := lookupslice (sli:actionmenu)
-
-	switch (var) do (
-		case (1, 3) do(
-			put slice (sli, battle:turn*100+64, sliceY(sli))		
-		)
-		case (2,4) do(
-			put slice (sli, battle:turn*100+14, sliceY(sli))
-		)
-	)
-
-	who := hero by slot (battle:turn)
-
-	switch (who) do (
-		case (hero:Keifer) do (
-			#create text for menu
-			$2="stab"
-			addText()
-			$2="skill"
-			addText()
-			$2="item"
-			addText()
-			$2="run"
-			addText()
-		)
-		case (hero:Jenkins) do (
-			#create text for menu
-			$2="splash"
-			addText()
-			$2="skill"
-			addText()
-			$2="item"
-			addText()
-			$2="run"
-			addText()
-		)
-		case (hero:GMoney) do (
-			#create text for menu
-			$2="punch"
-			addText()
-			$2="skill"
-			addText()
-			$2="item"
-			addText()
-			$2="run"
-			addText()
-		)
-		case (hero:Daisy) do (
-			#create text for menu
-			$2="slap"
-			addText()
-			$2="skill"
-			addText()
-			$2="item"
-			addText()
-			$2="run"
-			addText()
-		)
-	)
-	
-
-	sli := lookupslice (sli:actionmenu)
-	set slice visible (sli, true)
-	set slice extra (sli, 0, sel)
-
-	#set text to flash
-	sli := slice child (sli, sel)
-	set slice lookup(sli, sli:selected text)
-
-	specwait(8)
-	game:mode := mode:battle
-	battle:bkey := bkey:action
-
-	subscript, addText, begin
-		sli := create text
-		set slice text (sli, 2)
-		set outline(sli, true)
-		set text color(sli, ui:menuitem)
-		set parent (sli, lookupslice (sli:actionmenu))
-		set slice y (sli, slice child index (sli)*10)
-		sli := lookupslice (sli:actionmenu)
-		set slice height (sli, slice height(sli)+10)
-	end
 end

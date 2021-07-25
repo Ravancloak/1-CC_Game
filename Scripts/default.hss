@@ -21,8 +21,8 @@ plotscript, defkeypress, begin
 	if (newkeypress (key:2)) then (reset palette, update palette)
 	if (topmenu) then (exit script)
 	switch (game:mode) do (
-		case (mode:battle) do (battleKeypress, exit script)
-		case (mode:resume player) do (movementKeypress, exit script)
+		case (mode:battle) do (keypressBattle, exit script)
+		case (mode:resume player) do (keypressMovement, exit script)
 	)
 end
 
