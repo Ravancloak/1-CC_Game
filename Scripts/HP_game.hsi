@@ -1,6 +1,7 @@
 # HamsterSpeak constant definitions for HP_game.rpg
 
 define constant, begin
+2,tag:YesNo
 0,hero:Keifer
 1,hero:Jenkins
 2,hero:GMoney

@@ -238,7 +238,6 @@ script, battleEnd, condition=1, begin
 		)
 		specwaitmode (20)
 
-		stop timer (timer:battle)
 		free slice (lookupslice(array:battleinfo))
 		free slice (lookupslice(sli:battlecol))
 
@@ -251,7 +250,7 @@ script, battleEnd, condition=1, begin
 		sli := loadBackdropSprite (8)
 		dissolve sprite (sli, dissolve:puff, 80,0, true)
 		specwaitmode (80)
-		specwaitforNewKey
+		waitforNewKey
 		reset game
 	)
 end

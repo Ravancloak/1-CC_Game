@@ -21,20 +21,23 @@ script, specwait, time=1, begin
 end
 
 script, mapUpdate, begin,
-	variable (grass layer, sli, i)
-	switch (current map) do (
-		case (map:TEST MAP) do ()
+	variable (grassLayer, sli, i)
+	switch (currentMap) do (
+		case (map:TEST MAP) do (scrollLayer0(8))
 		case (1) do ()
 	)
 
 	subscript, grassSprite, begin
 	end
 
-	subscript, movelayer, begin
-		switch (current map) do (
-			
-		)
+	subscript, scrollLayer0,speed, begin
+		sli := lookupslice(sl:maplayer0)
+		if (game:tick,mod,speed==1) then (setSlicex(sli, slicex(sli)+1))
+	end
 
+	subscript, movelayer, begin
+		switch (currentMap) do (
+		)
 		if (heroIsWalking(me)==true && heroDirection(me)<>left && heroDirection(me)<>right) then (
 			moveSliceBelow (sli, lookupSlice(sl:walkabout layer))
 		) else (

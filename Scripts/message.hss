@@ -59,6 +59,7 @@ plotscript, write, text,blank=0,choice=0,pausenpc=0(
 	w
 	h
 
+	i
 	mode
 	)
 
@@ -95,29 +96,25 @@ plotscript, write, text,blank=0,choice=0,pausenpc=0(
 	lx:= 0, lw:= 0, ly:= 0
 	#$2="", append number (2, stlenmax), show string(2)
 	letter:=first container child(msg)
-		specwait (1)
-		for(pos, 1, string length(string)) do(
-		
-				set slice visible(letter, ON)
-		  	letter:=next sibling(letter)
-		  	if (newKeyCheck) then (
+	specwait (4)
+	play sound (random(0,2))
+	for(pos, 1, string length(string)) do(
+	
+			set slice visible(letter, ON)
+	  	letter:=next sibling(letter)
+	  	
+	  	for (i, 0,1) do (
+	  		if (skip==0) then (
+				specwait
+				sfx += 1
+				if (sfx,mod,2==1) then (play sound (random(0,2), false, true))
+			)
+			if (newKeyCheck) then (
 		  		skip:=1
-		  		play sound (random(0,4),false,true)		  		
-		  	)
-		  	if (skip==0&&wt==1) then (
-		  		if (sfx==3) then (
-		  			play sound (random(0,4),false,true)
-		  			sfx:=0
-		  		) else (sfx:=sfx+1)
-		  			if (sfx==0||sfx==2) then (specwait)
-		  	)	else if (skip==0&&wt==2) then (
-		  		if (sfx==2) then (
-		  			play sound (random(0,4),false,true)
-		  			sfx:=0
-		  		) else (sfx:=sfx+1)
-		  			specwait
-		  	)
+		  		play sound (random(0,2))
+	  		) 	
 		)
+	)
 	refresh
 	game:mode := mode
 
@@ -407,26 +404,37 @@ subscript, drawabox, (
 
 subscript, refresh, (
 		specwait (3)
-		specwaitForNewKey
-		if (choice<>0) then (open menu(choice))
-		wait for menu (top menu)
-
+		waitForAnyKey
+		if (choice<>0) then (set tag (tag:yesno, off), open menu(choice))
+		while (top menu) do (specwait)
+		skip :=0
 		variable(spr)
-		letter:=first container child(msg)		
-	
-		for(pos, 1, string length(string)) do(
-			spr:=first child(letter)
-           dissolve sprite(spr, dissolve:phase out, string length(string), 1, 0)
-		   letter:=next sibling(letter)
-		   specwait
-        )
 		letter:=first container child(msg)
+		play sound (random(3,5),false,true)	
 		for(pos, 1, string length(string)) do(
 			spr:=first child(letter)
-          free slice(spr), spr:=0
-		   letter:=next sibling(letter)
-		   specwait
-        )
+    	    dissolve sprite(spr, dissolve:phase out, string length(string)*2, 1, 0)
+			letter:=next sibling(letter)
+			if (skip==0) then (
+				specwait
+				play sound (random(3,5), false, true)
+				sfx += 1
+			)
+			if (newKeyCheck) then (
+			  	skip:=1
+			  	play sound (random(0,2))
+		  	) 	
+		)
+		letter:=first container child(msg)
+		for(pos, 1, string length(string)--string length(string)*2/3) do(
+			spr:=first child(letter)
+        	free slice(spr), spr:=0
+			letter:=next sibling(letter)
+			if (skip==0) then (specwait)
+			if (anyKeyCheck) then (
+			  	skip:=1		
+			) 	
+		)
 		
 		specwait (2)
 		free slice(msg)

@@ -102,3 +102,620 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 148.5  msg: M general.reld
 227.9  msg: M ohrrpgce.gen
 227.9  msg: M general.reld
+1816.5  msg: M backdrops.rgfx
+1818.0  msg: M ohrrpgce.gen
+1824.6  msg: M ohrrpgce.gen
+1824.9  msg: M ohrrpgce.gen
+1824.9  msg: M general.reld
+1844.6  msg: M ohrrpgce.hsp
+1844.6  msg: M plotscr.lst
+1844.6  msg: M plotscr.lst
+1844.6  msg: M lookup1.bin
+1844.8  plotscr.hsd version: 3U 
+1846.4  ! Scripterr(5): defautorun -> mapauto0: setparent: invalid slice handle 0
+1846.4  unlock_resolution(420,240)
+1847.2  set_resolution 420*240
+1847.2  lock_resolution()
+1850.3  ! Scripterr(5): defautorun -> mapauto0: setparent: invalid slice handle 0
+1850.3  unlock_resolution(420,240)
+1860.3  msg: M ohrrpgce.hsp
+1860.3  msg: M plotscr.lst
+1860.3  msg: M plotscr.lst
+1860.3  msg: M lookup1.bin
+1860.5  plotscr.hsd version: 3U 
+1860.5  not reloading script mapauto0 because it's in use: refcount=1
+1860.5  unlock_resolution(420,240)
+1863.5  set_resolution 420*240
+1863.5  lock_resolution()
+1864.2  plotscr.hsd version: 3U 
+1886.8  msg: M ohrrpgce.hsp
+1886.8  msg: M plotscr.lst
+1886.8  msg: M plotscr.lst
+1886.8  msg: M lookup1.bin
+1887.0  plotscr.hsd version: 3U 
+1888.2  ! Scripterr(5): defautorun -> mapauto0: setparent: invalid slice handle 0
+1888.2  unlock_resolution(420,240)
+1888.8  set_resolution 420*240
+1888.8  lock_resolution()
+1901.2  msg: M ohrrpgce.hsp
+1901.2  msg: M plotscr.lst
+1901.2  msg: M plotscr.lst
+1901.2  msg: M lookup1.bin
+1901.4  plotscr.hsd version: 3U 
+2129.9  msg: M ohrrpgce.gen
+2129.9  msg: M general.reld
+2132.5  msg: M ohrrpgce.gen
+2132.6  msg: M general.reld
+2141.4  msg: M ohrrpgce.til
+2143.4  msg: M ohrrpgce.gen
+2144.9  msg: M ohrrpgce.gen
+2148.3  msg: M ohrrpgce.til
+2148.6  msg: M ohrrpgce.til
+2148.9  msg: M ohrrpgce.til
+2149.0  msg: M ohrrpgce.til
+2149.2  msg: M ohrrpgce.til
+2149.4  msg: M ohrrpgce.til
+2149.9  msg: M ohrrpgce.til
+2150.0  msg: M ohrrpgce.til
+2150.1  msg: M ohrrpgce.til
+2150.4  msg: M ohrrpgce.til
+2150.7  msg: M ohrrpgce.til
+2151.2  msg: M ohrrpgce.til
+2151.4  msg: M ohrrpgce.til
+2151.8  msg: M ohrrpgce.til
+2151.9  msg: M ohrrpgce.til
+2152.2  msg: M ohrrpgce.til
+2152.7  msg: M ohrrpgce.til
+2152.9  msg: M ohrrpgce.til
+2153.3  msg: M ohrrpgce.til
+2153.6  msg: M ohrrpgce.til
+2153.9  msg: M ohrrpgce.til
+2154.4  msg: M ohrrpgce.til
+2154.7  msg: M ohrrpgce.til
+2155.0  msg: M ohrrpgce.til
+2155.3  msg: M ohrrpgce.til
+2155.6  msg: M ohrrpgce.til
+2155.9  msg: M ohrrpgce.til
+2156.2  msg: M ohrrpgce.til
+2156.5  msg: M ohrrpgce.til
+2156.8  msg: M ohrrpgce.til
+2157.1  msg: M ohrrpgce.til
+2157.4  msg: M ohrrpgce.til
+2157.7  msg: M ohrrpgce.til
+2157.9  msg: M ohrrpgce.til
+2158.1  msg: M ohrrpgce.til
+2158.3  msg: M ohrrpgce.til
+2158.5  msg: M ohrrpgce.til
+2158.7  msg: M ohrrpgce.til
+2158.9  msg: M ohrrpgce.til
+2159.1  msg: M ohrrpgce.til
+2159.3  msg: M ohrrpgce.til
+2159.5  msg: M ohrrpgce.til
+2159.9  msg: M ohrrpgce.til
+2160.2  msg: M ohrrpgce.til
+2160.5  msg: M ohrrpgce.til
+2160.6  msg: M ohrrpgce.til
+2160.8  msg: M ohrrpgce.til
+2161.0  msg: M ohrrpgce.til
+2161.2  msg: M ohrrpgce.til
+2161.4  msg: M ohrrpgce.til
+2161.6  msg: M ohrrpgce.til
+2161.8  msg: M ohrrpgce.til
+2162.1  msg: M ohrrpgce.til
+2163.3  msg: M ohrrpgce.til
+2163.8  msg: M ohrrpgce.til
+2164.1  msg: M ohrrpgce.til
+2164.8  msg: M ohrrpgce.til
+2165.2  msg: M ohrrpgce.til
+2165.5  msg: M ohrrpgce.til
+2166.0  msg: M ohrrpgce.til
+2166.3  msg: M ohrrpgce.til
+2166.6  msg: M ohrrpgce.til
+2166.9  msg: M ohrrpgce.til
+2167.2  msg: M ohrrpgce.til
+2167.6  msg: M ohrrpgce.til
+2167.9  msg: M ohrrpgce.til
+2168.2  msg: M ohrrpgce.til
+2168.7  msg: M ohrrpgce.til
+2169.0  msg: M ohrrpgce.til
+2169.4  msg: M ohrrpgce.til
+2170.0  msg: M ohrrpgce.til
+2170.5  msg: M ohrrpgce.til
+2170.7  msg: M ohrrpgce.til
+2171.1  msg: M ohrrpgce.til
+2171.4  msg: M ohrrpgce.til
+2171.9  msg: M ohrrpgce.til
+2172.2  msg: M ohrrpgce.til
+2172.5  msg: M ohrrpgce.til
+2172.8  msg: M ohrrpgce.til
+2172.9  msg: M ohrrpgce.til
+2173.1  msg: M ohrrpgce.til
+2173.5  msg: M ohrrpgce.til
+2173.8  msg: M ohrrpgce.til
+2174.0  msg: M ohrrpgce.til
+2174.2  msg: M ohrrpgce.til
+2174.9  msg: M ohrrpgce.til
+2175.4  msg: M ohrrpgce.til
+2175.6  msg: M ohrrpgce.til
+2176.0  msg: M ohrrpgce.til
+2176.3  msg: M ohrrpgce.til
+2176.7  msg: M ohrrpgce.til
+2177.0  msg: M ohrrpgce.til
+2177.2  msg: M ohrrpgce.til
+2177.5  msg: M ohrrpgce.til
+2177.8  msg: M ohrrpgce.til
+2178.1  msg: M ohrrpgce.til
+2178.6  msg: M ohrrpgce.til
+2181.5  msg: M ohrrpgce.til
+2194.8  msg: M ohrrpgce.til
+2195.3  msg: M ohrrpgce.til
+2199.0  msg: M ohrrpgce.til
+2199.8  msg: M ohrrpgce.til
+2200.6  msg: M ohrrpgce.til
+2200.9  msg: M ohrrpgce.til
+2201.5  msg: M ohrrpgce.til
+2202.0  msg: M ohrrpgce.til
+2202.4  msg: M ohrrpgce.til
+2202.8  msg: M ohrrpgce.til
+2203.2  msg: M ohrrpgce.til
+2203.7  msg: M ohrrpgce.til
+2204.0  msg: M ohrrpgce.til
+2204.3  msg: M ohrrpgce.til
+2204.5  msg: M ohrrpgce.til
+2204.9  msg: M ohrrpgce.til
+2205.6  msg: M ohrrpgce.til
+2205.9  msg: M ohrrpgce.til
+2206.8  msg: M ohrrpgce.til
+2207.2  msg: M ohrrpgce.til
+2207.6  msg: M ohrrpgce.til
+2207.9  msg: M ohrrpgce.til
+2210.4  msg: M ohrrpgce.til
+2210.9  msg: M ohrrpgce.til
+2211.0  msg: M defpass.bin
+2211.0  did not reload defpass.bin
+2212.0  msg: M ohrrpgce.gen
+2214.0  msg: M ohrrpgce.gen
+2214.0  msg: M general.reld
+2217.5  msg: M ohrrpgce.map
+2217.5  msg: M ohrrpgce.t00
+2217.5  msg: M ohrrpgce.p00
+2217.5  msg: M ohrrpgce.e00
+2217.5  msg: M ohrrpgce.z00
+2217.5  msg: M ohrrpgce.l00
+2217.5  msg: M ohrrpgce.n00
+2217.5  msg: M ohrrpgce.dox
+2217.5  msg: M ohrrpgce.d00
+2217.5  msg: M ohrrpgce.mn
+2217.5  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+2217.5  did not reload ohrrpgce.d00
+2267.9  msg: M ohrrpgce.map
+2267.9  msg: M ohrrpgce.t00
+2267.9  msg: M ohrrpgce.p00
+2267.9  msg: M ohrrpgce.e00
+2267.9  msg: M ohrrpgce.z00
+2267.9  msg: M ohrrpgce.l00
+2267.9  msg: M ohrrpgce.n00
+2267.9  msg: M ohrrpgce.dox
+2267.9  msg: M ohrrpgce.d00
+2267.9  msg: M ohrrpgce.mn
+2267.9  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+2267.9  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+2267.9  did not reload ohrrpgce.d00
+2268.2  msg: M ohrrpgce.map
+2268.2  msg: M ohrrpgce.t00
+2268.2  msg: M ohrrpgce.p00
+2268.2  msg: M ohrrpgce.e00
+2268.2  msg: M ohrrpgce.z00
+2268.2  msg: M ohrrpgce.l00
+2268.2  msg: M ohrrpgce.n00
+2268.2  msg: M ohrrpgce.dox
+2268.2  msg: M ohrrpgce.d00
+2268.2  msg: M ohrrpgce.mn
+2268.2  did not reload ohrrpgce.d00
+2268.7  msg: M ohrrpgce.gen
+2268.7  msg: M general.reld
+2269.8  msg: M ohrrpgce.gen
+2284.1  msg: M ohrrpgce.til
+2284.4  msg: M ohrrpgce.til
+2285.3  msg: M ohrrpgce.gen
+2286.1  msg: M ohrrpgce.gen
+2286.1  msg: M general.reld
+2368.9  msg: M ohrrpgce.map
+2368.9  msg: M ohrrpgce.t00
+2368.9  msg: M ohrrpgce.p00
+2368.9  msg: M ohrrpgce.e00
+2368.9  msg: M ohrrpgce.z00
+2368.9  msg: M ohrrpgce.l00
+2368.9  msg: M ohrrpgce.n00
+2368.9  msg: M ohrrpgce.dox
+2368.9  msg: M ohrrpgce.d00
+2368.9  msg: M ohrrpgce.mn
+2368.9  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+2368.9  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+2368.9  did not reload ohrrpgce.d00
+2625.1  msg: M ohrrpgce.map
+2625.1  msg: M ohrrpgce.t00
+2625.1  msg: M ohrrpgce.p00
+2625.1  msg: M ohrrpgce.e00
+2625.1  msg: M ohrrpgce.z00
+2625.1  msg: M ohrrpgce.l00
+2625.1  msg: M ohrrpgce.n00
+2625.1  msg: M ohrrpgce.dox
+2625.1  msg: M ohrrpgce.d00
+2625.1  msg: M ohrrpgce.mn
+2625.1  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+2625.1  did not reload ohrrpgce.d00
+2653.6  msg: M ohrrpgce.map
+2653.6  msg: M ohrrpgce.t00
+2653.6  msg: M ohrrpgce.p00
+2653.6  msg: M ohrrpgce.e00
+2653.6  msg: M ohrrpgce.z00
+2653.6  msg: M ohrrpgce.l00
+2653.6  msg: M ohrrpgce.n00
+2653.6  msg: M ohrrpgce.dox
+2653.6  msg: M ohrrpgce.d00
+2653.6  msg: M ohrrpgce.mn
+2653.6  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+2653.6  did not reload ohrrpgce.d00
+2670.4  msg: M ohrrpgce.map
+2670.4  msg: M ohrrpgce.t00
+2670.4  msg: M ohrrpgce.p00
+2670.4  msg: M ohrrpgce.e00
+2670.4  msg: M ohrrpgce.z00
+2670.4  msg: M ohrrpgce.l00
+2670.4  msg: M ohrrpgce.n00
+2670.4  msg: M ohrrpgce.dox
+2670.4  msg: M ohrrpgce.d00
+2670.4  msg: M ohrrpgce.mn
+2670.4  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+2670.4  did not reload ohrrpgce.d00
+2701.0  msg: M ohrrpgce.map
+2701.0  msg: M ohrrpgce.t00
+2701.0  msg: M ohrrpgce.p00
+2701.0  msg: M ohrrpgce.e00
+2701.0  msg: M ohrrpgce.z00
+2701.0  msg: M ohrrpgce.l00
+2701.0  msg: M ohrrpgce.n00
+2701.0  msg: M ohrrpgce.dox
+2701.0  msg: M ohrrpgce.d00
+2701.0  msg: M ohrrpgce.mn
+2701.0  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+2701.0  did not reload ohrrpgce.d00
+2743.9  msg: M ohrrpgce.map
+2743.9  msg: M ohrrpgce.t00
+2743.9  msg: M ohrrpgce.p00
+2743.9  msg: M ohrrpgce.e00
+2743.9  msg: M ohrrpgce.z00
+2743.9  msg: M ohrrpgce.l00
+2743.9  msg: M ohrrpgce.n00
+2743.9  msg: M ohrrpgce.dox
+2743.9  msg: M ohrrpgce.d00
+2743.9  msg: M ohrrpgce.mn
+2744.0  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+2744.0  did not reload ohrrpgce.d00
+2753.3  msg: M ohrrpgce.map
+2753.3  msg: M ohrrpgce.t00
+2753.3  msg: M ohrrpgce.p00
+2753.3  msg: M ohrrpgce.e00
+2753.3  msg: M ohrrpgce.z00
+2753.3  msg: M ohrrpgce.l00
+2753.3  msg: M ohrrpgce.n00
+2753.3  msg: M ohrrpgce.dox
+2753.3  msg: M ohrrpgce.d00
+2753.3  msg: M ohrrpgce.mn
+2753.3  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+2753.3  did not reload ohrrpgce.d00
+2833.3  msg: M ohrrpgce.map
+2833.3  msg: M ohrrpgce.t00
+2833.3  msg: M ohrrpgce.p00
+2833.3  msg: M ohrrpgce.e00
+2833.3  msg: M ohrrpgce.z00
+2833.3  msg: M ohrrpgce.l00
+2833.3  msg: M ohrrpgce.n00
+2833.3  msg: M ohrrpgce.dox
+2833.3  msg: M ohrrpgce.d00
+2833.3  msg: M ohrrpgce.mn
+2833.3  did not reload ohrrpgce.d00
+2833.8  msg: M ohrrpgce.gen
+2833.8  msg: M general.reld
+2839.2  msg: M backdrops.rgfx
+2843.5  msg: M ohrrpgce.gen
+2848.2  msg: M ohrrpgce.gen
+2848.2  msg: M general.reld
+2855.2  msg: M ohrrpgce.map
+2855.2  msg: M ohrrpgce.t00
+2855.2  msg: M ohrrpgce.p00
+2855.2  msg: M ohrrpgce.e00
+2855.2  msg: M ohrrpgce.z00
+2855.2  msg: M ohrrpgce.l00
+2855.2  msg: M ohrrpgce.n00
+2855.2  msg: M ohrrpgce.dox
+2855.2  msg: M ohrrpgce.d00
+2855.2  msg: M ohrrpgce.mn
+2855.2  did not reload ohrrpgce.d00
+2891.2  msg: M ohrrpgce.map
+2891.2  msg: M ohrrpgce.t00
+2891.2  msg: M ohrrpgce.p00
+2891.2  msg: M ohrrpgce.e00
+2891.2  msg: M ohrrpgce.z00
+2891.2  msg: M ohrrpgce.l00
+2891.2  msg: M ohrrpgce.n00
+2891.2  msg: M ohrrpgce.dox
+2891.2  msg: M ohrrpgce.d00
+2891.2  msg: M ohrrpgce.mn
+2891.2  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+2891.2  reload_MAP_lump: layers changed
+2891.2  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+2891.2  did not reload ohrrpgce.d00
+2933.1  msg: M ohrrpgce.map
+2933.1  msg: M ohrrpgce.t00
+2933.1  msg: M ohrrpgce.p00
+2933.1  msg: M ohrrpgce.e00
+2933.1  msg: M ohrrpgce.z00
+2933.1  msg: M ohrrpgce.l00
+2933.1  msg: M ohrrpgce.n00
+2933.1  msg: M ohrrpgce.dox
+2933.1  msg: M ohrrpgce.d00
+2933.1  msg: M ohrrpgce.mn
+2933.1  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+2933.1  reload_MAP_lump: layers changed
+2933.1  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+2933.1  did not reload ohrrpgce.d00
+2933.5  msg: M ohrrpgce.map
+2933.5  msg: M ohrrpgce.t00
+2933.5  msg: M ohrrpgce.p00
+2933.5  msg: M ohrrpgce.e00
+2933.5  msg: M ohrrpgce.z00
+2933.5  msg: M ohrrpgce.l00
+2933.5  msg: M ohrrpgce.n00
+2933.5  msg: M ohrrpgce.dox
+2933.5  msg: M ohrrpgce.d00
+2933.5  msg: M ohrrpgce.mn
+2933.5  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+2933.5  did not reload ohrrpgce.d00
+2933.9  msg: M ohrrpgce.gen
+2933.9  msg: M general.reld
+2980.2  msg: M ohrrpgce.hsp
+2980.2  msg: M plotscr.lst
+2980.2  msg: M plotscr.lst
+2980.2  msg: M lookup1.bin
+2980.4  plotscr.hsd version: 3U 
+3164.6  msg: M ohrrpgce.hsp
+3164.6  msg: M plotscr.lst
+3164.6  msg: M plotscr.lst
+3164.6  msg: M lookup1.bin
+3164.8  plotscr.hsd version: 3U 
+3274.6  msg: M ohrrpgce.gen
+3274.6  msg: M general.reld
+3311.2  msg: M ohrrpgce.til
+3312.3  msg: M ohrrpgce.gen
+3313.1  msg: M ohrrpgce.gen
+3313.1  msg: M general.reld
+3322.4  msg: M ohrrpgce.map
+3322.4  msg: M ohrrpgce.t00
+3322.4  msg: M ohrrpgce.p00
+3322.4  msg: M ohrrpgce.e00
+3322.4  msg: M ohrrpgce.z00
+3322.4  msg: M ohrrpgce.l00
+3322.4  msg: M ohrrpgce.n00
+3322.4  msg: M ohrrpgce.dox
+3322.4  msg: M ohrrpgce.d00
+3322.4  msg: M ohrrpgce.mn
+3322.4  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+3322.4  did not reload ohrrpgce.d00
+3323.1  msg: M ohrrpgce.map
+3323.1  msg: M ohrrpgce.t00
+3323.1  msg: M ohrrpgce.p00
+3323.1  msg: M ohrrpgce.e00
+3323.1  msg: M ohrrpgce.z00
+3323.1  msg: M ohrrpgce.l00
+3323.1  msg: M ohrrpgce.n00
+3323.1  msg: M ohrrpgce.dox
+3323.1  msg: M ohrrpgce.d00
+3323.1  msg: M ohrrpgce.mn
+3323.1  did not reload ohrrpgce.d00
+3324.4  msg: M ohrrpgce.gen
+3324.4  msg: M general.reld
+3328.6  msg: M ohrrpgce.map
+3328.6  msg: M ohrrpgce.t00
+3328.6  msg: M ohrrpgce.p00
+3328.6  msg: M ohrrpgce.e00
+3328.6  msg: M ohrrpgce.z00
+3328.6  msg: M ohrrpgce.l00
+3328.6  msg: M ohrrpgce.n00
+3328.6  msg: M ohrrpgce.dox
+3328.6  msg: M ohrrpgce.d00
+3328.6  msg: M ohrrpgce.mn
+3328.6  did not reload ohrrpgce.d00
+3330.5  msg: M ohrrpgce.map
+3330.5  msg: M ohrrpgce.t00
+3330.5  msg: M ohrrpgce.p00
+3330.5  msg: M ohrrpgce.e00
+3330.5  msg: M ohrrpgce.z00
+3330.5  msg: M ohrrpgce.l00
+3330.5  msg: M ohrrpgce.n00
+3330.5  msg: M ohrrpgce.dox
+3330.5  msg: M ohrrpgce.d00
+3330.5  msg: M ohrrpgce.mn
+3330.5  did not reload ohrrpgce.d00
+3345.8  msg: M ohrrpgce.map
+3345.8  msg: M ohrrpgce.t00
+3345.8  msg: M ohrrpgce.p00
+3345.8  msg: M ohrrpgce.e00
+3345.8  msg: M ohrrpgce.z00
+3345.8  msg: M ohrrpgce.l00
+3345.8  msg: M ohrrpgce.n00
+3345.8  msg: M ohrrpgce.dox
+3345.8  msg: M ohrrpgce.d00
+3345.8  msg: M ohrrpgce.mn
+3345.8  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+3345.8  reload_MAP_lump: layers changed
+3345.8  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+3345.8  did not reload ohrrpgce.d00
+3378.3  msg: M ohrrpgce.map
+3378.3  msg: M ohrrpgce.t00
+3378.3  msg: M ohrrpgce.p00
+3378.3  msg: M ohrrpgce.e00
+3378.3  msg: M ohrrpgce.z00
+3378.3  msg: M ohrrpgce.l00
+3378.3  msg: M ohrrpgce.n00
+3378.3  msg: M ohrrpgce.dox
+3378.3  msg: M ohrrpgce.d00
+3378.3  msg: M ohrrpgce.mn
+3378.3  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+3378.3  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+3378.3  did not reload ohrrpgce.d00
+3378.9  msg: M ohrrpgce.map
+3378.9  msg: M ohrrpgce.t00
+3378.9  msg: M ohrrpgce.p00
+3378.9  msg: M ohrrpgce.e00
+3378.9  msg: M ohrrpgce.z00
+3378.9  msg: M ohrrpgce.l00
+3378.9  msg: M ohrrpgce.n00
+3378.9  msg: M ohrrpgce.dox
+3378.9  msg: M ohrrpgce.d00
+3378.9  msg: M ohrrpgce.mn
+3378.9  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+3378.9  did not reload ohrrpgce.d00
+3379.6  msg: M ohrrpgce.gen
+3379.6  msg: M general.reld
+3396.5  msg: M ohrrpgce.hsp
+3396.5  msg: M plotscr.lst
+3396.5  msg: M plotscr.lst
+3396.5  msg: M lookup1.bin
+3396.6  plotscr.hsd version: 3U 
+3403.5  msg: M ohrrpgce.gen
+3403.5  msg: M general.reld
+3405.2  msg: M ohrrpgce.gen
+3407.3  msg: M ohrrpgce.gen
+3421.0  msg: M browse.txt
+3421.0  msg: M browse.txt
+3421.0  msg: M general.reld
+3421.0  msg: M ohrrpgce.gen
+3421.0  msg: M general.reld
+3422.0  msg: M ohrrpgce.gen
+3447.4  msg: M ohrrpgce.gen
+3447.4  msg: M general.reld
+3474.1  msg: M ohrrpgce.map
+3474.1  msg: M ohrrpgce.t00
+3474.1  msg: M ohrrpgce.p00
+3474.1  msg: M ohrrpgce.e00
+3474.1  msg: M ohrrpgce.z00
+3474.1  msg: M ohrrpgce.l00
+3474.1  msg: M ohrrpgce.n00
+3474.1  msg: M ohrrpgce.dox
+3474.1  msg: M ohrrpgce.d00
+3474.1  msg: M ohrrpgce.mn
+3474.1  did not reload ohrrpgce.d00
+3480.2  msg: M ohrrpgce.map
+3480.2  msg: M ohrrpgce.t00
+3480.2  msg: M ohrrpgce.p00
+3480.2  msg: M ohrrpgce.e00
+3480.2  msg: M ohrrpgce.z00
+3480.2  msg: M ohrrpgce.l00
+3480.2  msg: M ohrrpgce.n00
+3480.2  msg: M ohrrpgce.dox
+3480.2  msg: M ohrrpgce.d00
+3480.2  msg: M ohrrpgce.mn
+3480.2  did not reload ohrrpgce.d00
+3496.6  msg: M ohrrpgce.map
+3496.6  msg: M ohrrpgce.t00
+3496.6  msg: M ohrrpgce.p00
+3496.6  msg: M ohrrpgce.e00
+3496.6  msg: M ohrrpgce.z00
+3496.6  msg: M ohrrpgce.l00
+3496.6  msg: M ohrrpgce.n00
+3496.6  msg: M ohrrpgce.dox
+3496.6  msg: M ohrrpgce.d00
+3496.6  msg: M ohrrpgce.mn
+3496.6  did not reload ohrrpgce.d00
+3497.1  msg: M ohrrpgce.gen
+3497.1  msg: M general.reld
+3499.9  msg: M ohrrpgce.hsp
+3500.0  plotscr.hsd version: 3U 
+3500.0  msg: M plotscr.lst
+3500.0  msg: M plotscr.lst
+3500.0  msg: M lookup1.bin
+3833.0  msg: M ohrrpgce.gen
+3833.0  msg: M general.reld
+3844.9  msg: M browse.txt
+3844.9  msg: M browse.txt
+3844.9  msg: M general.reld
+3844.9  msg: M ohrrpgce.gen
+3844.9  msg: M general.reld
+4198.9  msg: M ohrrpgce.hsp
+4198.9  msg: M plotscr.lst
+4198.9  msg: M plotscr.lst
+4198.9  msg: M lookup1.bin
+4199.1  plotscr.hsd version: 3U 
+4243.8  msg: M ohrrpgce.hsp
+4243.8  msg: M plotscr.lst
+4243.8  msg: M plotscr.lst
+4243.8  msg: M lookup1.bin
+4243.9  plotscr.hsd version: 3U 
+4287.9  msg: M ohrrpgce.hsp
+4287.9  msg: M plotscr.lst
+4287.9  msg: M plotscr.lst
+4287.9  msg: M lookup1.bin
+4288.1  plotscr.hsd version: 3U 
+4308.5  msg: M ohrrpgce.hsp
+4308.5  msg: M plotscr.lst
+4308.5  msg: M plotscr.lst
+4308.5  msg: M lookup1.bin
+4308.7  plotscr.hsd version: 3U 
+4317.4  msg: M ohrrpgce.hsp
+4317.4  msg: M plotscr.lst
+4317.4  msg: M plotscr.lst
+4317.4  msg: M lookup1.bin
+4317.6  plotscr.hsd version: 3U 
+5306.8  msg: M ohrrpgce.gen
+5306.8  msg: M general.reld
+5307.2  msg: M ohrrpgce.gen
+5311.4  msg: M ohrrpgce.gen
+5311.4  msg: M general.reld
+5312.0  msg: M ohrrpgce.gen
+5315.5  msg: M ohrrpgce.tmn
+5315.8  msg: M ohrrpgce.tmn
+5316.0  msg: M ohrrpgce.tmn
+5316.4  msg: M ohrrpgce.tmn
+5316.6  msg: M ohrrpgce.tmn
+5317.0  msg: M ohrrpgce.gen
+5317.0  msg: M general.reld
+5319.1  msg: M ohrrpgce.gen
+5322.0  msg: M ohrrpgce.hsp
+5322.0  msg: M plotscr.lst
+5322.0  msg: M plotscr.lst
+5322.0  msg: M lookup1.bin
+5322.2  plotscr.hsd version: 3U 
+5322.8  msg: M ohrrpgce.gen
+5322.8  msg: M general.reld
+5352.0  msg: M ohrrpgce.gen
+5354.0  msg: M ohrrpgce.gen
+5356.3  msg: M ohrrpgce.gen
+5359.0  msg: M ohrrpgce.gen
+5360.6  msg: M ohrrpgce.gen
+5393.9  msg: M defpal0.bin
+5393.9  msg: M heroes.rgfx
+5393.9  msg: M ohrrpgce.pal
+5393.9  did not reload defpal0.bin
+5393.9  msg: PAL 6
+5398.2  msg: M defpal0.bin
+5398.2  msg: M heroes.rgfx
+5398.2  msg: M ohrrpgce.pal
+5398.2  did not reload defpal0.bin
+5398.2  msg: PAL 7
+5402.0  msg: M defpal0.bin
+5402.0  msg: M heroes.rgfx
+5402.0  msg: M ohrrpgce.pal
+5402.0  msg: PAL 14
+5402.0  did not reload defpal0.bin
+5406.9  msg: M ohrrpgce.gen
+5426.3  msg: M backdrops.rgfx
+5434.2  msg: M backdrops.rgfx
+5437.8  msg: M backdrops.rgfx
+5443.1  msg: M backdrops.rgfx
+5446.6  msg: M backdrops.rgfx
+5452.7  msg: M backdrops.rgfx
+5456.0  msg: M backdrops.rgfx
+5470.5  msg: M backdrops.rgfx
+5476.9  msg: M ohrrpgce.gen

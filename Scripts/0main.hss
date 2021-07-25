@@ -21,9 +21,7 @@ define constant, begin
 	6, mode:menu
 
 	#timers
-	0, timer:map
-	1, timer:battle
-	2, timer:battleani
+	0, timer:battleani
 
 	#lookups
 	200, sli:hero0cont
@@ -60,5 +58,7 @@ globalVariable, begin
 	63, cont:down
 	64, cont:left
 	65, cont:right
+
+	300, sli:fade
 end
 

@@ -217,17 +217,18 @@ script, initBattleMenu, begin
 end
 
 
-
-script, movement keypress, begin
+script, movementkeypress, begin
 	variable (x,y, who, cur map, var)
-
+	if (movementAllowed==false) then (exitScript)
 	#checks to see if player should stop for npc event
 	cur map := current map
-	if (npc at spot (hero x, hero y)) then (exit script)
+	x := heroX
+	y := heroY
+	if (npc at spot (x,y)) then (suspendMovement, usenpcatspot(), specwait, resumemovement)
 
 	if(hero is walking(0)==false && hero is walking(1)==false && hero is walking(2)==false && hero is walking(3)==false) then (
-		if (check tag(14)==on) then (set hero speed (me,2)) else (set hero speed(me, 1))
-				#b button, dashing
+		set hero speed(me, 1)
+		#b button, dashing
 		if (keyIsPressedB) then (
 			set hero speed(me, 2)
 		)
@@ -242,10 +243,16 @@ script, movement keypress, begin
 				usenpcatspot
 				exit script
 			)
-		)	
+		)
+		exit script
 	)
 	
-	if (newkeypressX) then (open menu (0), exitscript)
+	if (newkeypressX) then (
+		#mm()
+		#open menu (0)
+		#select menu item(menu item by true slot(top menu, menu:lastmain))
+		exitscript
+	)
 	#arrow keys, move character
 
 	if (hero is walking(me) == false) then (
@@ -253,44 +260,48 @@ script, movement keypress, begin
 		x := heroX(me)
 		y := heroY(me)--1
 		if (NPC at spot (x,y)) then (
-			if (activatableNPC(NPC at spot (x,y))) then (
+			who := npc at spot (x,y)
+			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
 				set hero direction (me, up)
 				usenpcatspot
-				exit script
 			)
+			exit script
 		)
 	)
 	if (keypress(down key)) then (
 		x := heroX(me)
 		y := heroY(me)+1
 		if (NPC at spot (x,y)) then (
-			if (activatableNPC(NPC at spot (x,y))) then (
+			who := npc at spot (x,y)
+			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
 				set hero direction (me, down)
 				usenpcatspot
-				exit script
 			)
+			exit script
 		)
 	)
 	if (keypress(left key)) then (
 		x := heroX(me)--1
 		y := heroY(me)
 		if (NPC at spot (x,y)) then (
-			if (activatableNPC(NPC at spot (x,y))) then (
+			who := npc at spot (x,y)
+			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
 				set hero direction (me, left)
 				usenpcatspot
-				exit script
 			)
+			exit script
 		)
 	)
 	if (keypress(right key)) then (
 		x := heroX(me)+1
 		y := heroY(me)
 		if (NPC at spot (x,y)) then (
-			if (activatableNPC(NPC at spot (x,y))) then (
+			who := npc at spot (x,y)
+			if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:touch) then (
 				set hero direction (me, right)
 				usenpcatspot
-				exit script
 			)
+			exit script
 		)
 	)
 	)
@@ -304,8 +315,8 @@ script, movement keypress, begin
 
 	subscript, usenpcatspot, begin
 		who := (NPC at spot(x,y))
+		suspendMovement
 		if (NPC is walking (who) == false) then (
-			suspend movement
 			if (read NPC (who,NPCstat:when activated) <> NPCwhenactivated:donotfaceplayer) then (
 				switch(hero direction(me)) do, (
 					case (up) do (set NPC direction (who, down))
@@ -316,7 +327,6 @@ script, movement keypress, begin
 			)
 		)
 		use npc (who)
-		specwaitmode(1)
-		if (game:mode <> mode:battle) then (resume movement)
+		resumeMovement
 	end
 end

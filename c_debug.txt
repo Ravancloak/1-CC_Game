@@ -47,3 +47,251 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 42.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse1.bmp twice! Probably a mistake
 167.9  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_43816
 168.1  Channel connection received (after 126ms)
+1978.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse1.bmp twice! Probably a mistake
+1978.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse1.bmp twice! Probably a mistake
+1979.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse2.bmp twice! Probably a mistake
+1979.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse2.bmp twice! Probably a mistake
+1979.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse3.bmp twice! Probably a mistake
+1979.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse3.bmp twice! Probably a mistake
+1980.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse4.bmp twice! Probably a mistake
+1980.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse4.bmp twice! Probably a mistake
+1980.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+1980.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+1981.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+1981.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+1983.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilebackdrops\keifhouse.bmp twice! Probably a mistake
+1983.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilebackdrops\keifhouse.bmp twice! Probably a mistake
+2010.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.477924.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.127837.tmp"
+2011.0  hspeak version '3Uf'
+2011.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2027.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.60335.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.183665.tmp"
+2027.2  hspeak version '3Uf'
+2027.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2053.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.198792.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.38806.tmp"
+2053.7  hspeak version '3Uf'
+2053.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2068.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.172248.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.216489.tmp"
+2068.1  hspeak version '3Uf'
+2068.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2307.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse1.bmp twice! Probably a mistake
+2307.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse1.bmp twice! Probably a mistake
+2308.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse2.bmp twice! Probably a mistake
+2308.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse2.bmp twice! Probably a mistake
+2308.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse3.bmp twice! Probably a mistake
+2308.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse3.bmp twice! Probably a mistake
+2308.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse4.bmp twice! Probably a mistake
+2308.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse4.bmp twice! Probably a mistake
+2309.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+2309.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+3006.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilebackdrops\keifhouse.bmp twice! Probably a mistake
+3006.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilebackdrops\keifhouse.bmp twice! Probably a mistake
+3103.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.399215.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.517233.tmp"
+3103.2  hspeak version '3Uf'
+3103.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+3105.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.148728.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.616204.tmp"
+3105.0  hspeak version '3Uf'
+3105.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+3115.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.951899.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.728069.tmp"
+3115.5  hspeak version '3Uf'
+3115.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+3117.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.505546.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.496962.tmp"
+3117.6  hspeak version '3Uf'
+3117.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+3147.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.498319.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.247362.tmp"
+3147.0  hspeak version '3Uf'
+3147.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+3308.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.103306.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.11684.tmp"
+3308.8  hspeak version '3Uf'
+3308.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+3317.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.159294.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.683062.tmp"
+3317.4  hspeak version '3Uf'
+3317.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+3324.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.155638.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.700447.tmp"
+3324.7  hspeak version '3Uf'
+3324.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+3331.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.84273.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.523513.tmp"
+3331.5  hspeak version '3Uf'
+3331.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+3445.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+3445.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+3446.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+3446.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+3446.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse4.bmp twice! Probably a mistake
+3446.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse4.bmp twice! Probably a mistake
+3447.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse3.bmp twice! Probably a mistake
+3447.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse3.bmp twice! Probably a mistake
+3448.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse4.bmp twice! Probably a mistake
+3448.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse4.bmp twice! Probably a mistake
+3448.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+3448.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+3478.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\clouds.bmp twice! Probably a mistake
+3478.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\clouds.bmp twice! Probably a mistake
+3563.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.786220.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.663375.tmp"
+3563.4  hspeak version '3Uf'
+3563.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+3615.3  Saving - been editing for 51m05s
+3666.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.674189.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.958919.tmp"
+3666.7  hspeak version '3Uf'
+3666.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4146.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.595406.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.223061.tmp"
+4146.6  hspeak version '3Uf'
+4146.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4218.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.131339.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.577393.tmp"
+4218.9  hspeak version '3Uf'
+4218.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4239.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.292887.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.867369.tmp"
+4239.4  hspeak version '3Uf'
+4239.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4245.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.284934.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.952220.tmp"
+4245.9  hspeak version '3Uf'
+4245.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4267.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.470288.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.879342.tmp"
+4267.8  hspeak version '3Uf'
+4267.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4284.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.864950.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.948063.tmp"
+4284.0  hspeak version '3Uf'
+4284.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4308.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.525637.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.515100.tmp"
+4308.7  hspeak version '3Uf'
+4308.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4324.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.480314.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.845440.tmp"
+4325.0  hspeak version '3Uf'
+4325.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4343.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.215161.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.994450.tmp"
+4343.5  hspeak version '3Uf'
+4343.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4365.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.715115.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.218359.tmp"
+4365.8  hspeak version '3Uf'
+4365.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4410.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.118999.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.568697.tmp"
+4410.6  hspeak version '3Uf'
+4410.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4454.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.59082.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.579742.tmp"
+4454.8  hspeak version '3Uf'
+4454.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4474.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.987969.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.143488.tmp"
+4474.2  hspeak version '3Uf'
+4474.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4484.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.313092.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.579272.tmp"
+4484.3  hspeak version '3Uf'
+4484.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5448.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.662082.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.138917.tmp"
+5448.7  hspeak version '3Uf'
+5448.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5470.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.639281.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.249276.tmp"
+5471.0  hspeak version '3Uf'
+5471.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5488.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.595910.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.995622.tmp"
+5488.9  hspeak version '3Uf'
+5488.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5554.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+5554.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+5556.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+5556.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+5558.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\Mushroom Man.bmp twice! Probably a mistake
+5558.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\Mushroom Man.bmp twice! Probably a mistake
+5558.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+5558.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+5558.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\rat king.bmp twice! Probably a mistake
+5558.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\rat king.bmp twice! Probably a mistake
+5559.0  C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\rat king.bmp contains 12 colors
+5563.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\rat king.bmp twice! Probably a mistake
+5563.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\rat king.bmp twice! Probably a mistake
+5564.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+5564.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+5564.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\Mushroom Man.bmp twice! Probably a mistake
+5564.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\Mushroom Man.bmp twice! Probably a mistake
+5564.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+5564.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+5564.9  C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\doll dancer.bmp contains 9 colors
+5567.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+5567.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+5568.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\Mushroom Man.bmp twice! Probably a mistake
+5568.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\Mushroom Man.bmp twice! Probably a mistake
+5568.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+5568.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+5569.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\Mushroom Man.bmp twice! Probably a mistake
+5569.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\Mushroom Man.bmp twice! Probably a mistake
+5569.3  C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle sprites\Mushroom Man.bmp contains 9 colors
+5585.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilebackdrops\keifhouse.bmp twice! Probably a mistake
+5585.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilebackdrops\keifhouse.bmp twice! Probably a mistake
+5586.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilebackdrops\clouds.bmp twice! Probably a mistake
+5586.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilebackdrops\clouds.bmp twice! Probably a mistake
+5586.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+5586.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+5590.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5590.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5590.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+5590.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+5590.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+5590.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+5591.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back4.bmp twice! Probably a mistake
+5591.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back4.bmp twice! Probably a mistake
+5591.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+5591.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+5591.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\hit.bmp twice! Probably a mistake
+5591.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\hit.bmp twice! Probably a mistake
+5591.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+5591.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+5596.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+5596.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+5598.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5598.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5599.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+5599.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+5599.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5599.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5603.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5603.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5609.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5609.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5609.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+5609.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+5612.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+5612.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+5612.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+5612.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+5616.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+5616.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+5617.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+5617.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+5618.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back4.bmp twice! Probably a mistake
+5618.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back4.bmp twice! Probably a mistake
+5618.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+5618.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+5618.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\hit.bmp twice! Probably a mistake
+5618.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\hit.bmp twice! Probably a mistake
+5621.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\hit.bmp twice! Probably a mistake
+5621.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\hit.bmp twice! Probably a mistake
+5622.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\nana.bmp twice! Probably a mistake
+5622.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\nana.bmp twice! Probably a mistake
+5625.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\nana.bmp twice! Probably a mistake
+5625.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\nana.bmp twice! Probably a mistake
+5626.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\hit.bmp twice! Probably a mistake
+5626.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\hit.bmp twice! Probably a mistake
+5626.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+5626.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+5626.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back4.bmp twice! Probably a mistake
+5626.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back4.bmp twice! Probably a mistake
+5626.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+5626.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+5627.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+5627.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+5627.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5627.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5627.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+5627.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+5629.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5629.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+5630.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+5630.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+5634.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battle glitch.bmp twice! Probably a mistake
+5634.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battle glitch.bmp twice! Probably a mistake
+5635.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battle heroes.bmp twice! Probably a mistake
+5635.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battle heroes.bmp twice! Probably a mistake
+5635.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battleback1.bmp twice! Probably a mistake
+5635.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battleback1.bmp twice! Probably a mistake
+5635.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\blankback.bmp twice! Probably a mistake
+5635.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\blankback.bmp twice! Probably a mistake
+5636.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\game over screen.bmp twice! Probably a mistake
+5636.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\game over screen.bmp twice! Probably a mistake

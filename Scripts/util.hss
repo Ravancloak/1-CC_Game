@@ -1,5 +1,6 @@
 plotscript, doorscript, begin
 	variable (x, y, who, door)
+	suspendmovement
 	x := hero x (me)
 	y := hero y (me)
 	door := door at spot (x,y)
@@ -9,17 +10,42 @@ plotscript, doorscript, begin
 		case (right) do (x += 1)
 		case (left) do	(x -= 1)
 	)
-	specwait (2)
+	wait (2)
 	if (npc at spot (x, y)) then (
 		who := npc at spot (x, y)
 		set NPC frame (who, npc frame (who)+1)
 	)
-	specwait (6)
+	wait (6)
+	screenfadeout
 	use door (door, false)
+	screenfadein
+	resumemovement
 end
 
 define constant, begin
 	255, wildpal:palsize
+end
+
+script, screenfadeout, ticks=30, begin
+	variable (sli,i)
+	sli := load backdrop sprite (0)
+	setSliceLookup (sli, sli:fade)
+	dissolveSprite (sli, dissolve:fade, 60, 0, true)
+	for (i,0,ticks) do (
+		specwait
+	)
+end 
+
+script, screenfadein, ticks=30, begin
+	variable (sli,i)
+	sli := Lookupslice(sli:fade)
+	dissolveSprite (sli, dissolve:fade, 60, 0)
+	if (ticks<10) then (ticks:=10)
+	for (i,0,ticks--10) do (
+		specwait
+	)
+	wait (10)
+	free slice (sli)
 end
 
 script, wildpal, rand, begin
@@ -73,18 +99,6 @@ script,fademusicout,time,begin
 	set music volume(original_volume)
 end
 
-script, suspendmovement, begin
-	game:mode := mode:suspend player
-end
-
-script, resumemovement, begin
-	game:mode := mode:resume player
-end
-
-script, movementallowed, begin
-	if (game:mode == mode:resume player) then (return (true)) else (return (false))
-end
-
 script, activatableNPC, who, begin
 	if (read NPC (who,NPCstat:activation) == NPCactivation:use) then (return (true))
 end
@@ -129,17 +143,29 @@ script, resetControls, begin
 	board:Y	:= key:rightShift
 end
 
-script, specwaitForAnyKey, begin
-	while (true) do (specwaitmode, if (anyKeyCheck<>false) then (break))
+script, suspendMovement, begin
+	game:mode := mode:suspend player
 end
-script, specwaitForNewKey, begin
-	while (true) do (specwaitmode, if (newKeyCheck<>false) then (break))
+
+script, resumeMovement, begin
+	game:mode := mode:resume player
+end
+
+script, movementAllowed, begin
+	if (game:mode == mode:resume player) then (return (true)) else (return (false))
+end
+
+script, waitForAnyKey, begin
+	while (anyKeyCheck==false) do (specwait)
+end
+script, waitForNewKey, begin
+	while (newKeyCheck==false) do (specwait)
 end
 script, anyKeyCheck, begin
-	if (keypressA ||keypressB||keypressX||keypressY) then (return (true))
+	if (keypressA||keypressB||keypressX||keypressY|| keypress(key:up)|| keypress(key:down)|| keypress(key:left)|| keypress(key:right)) then (return (true))
 end
 script, newKeyCheck, begin
-	if (newkeypressA||newkeypressB||newkeypressX||newkeypressY) then (return (true))
+	if (newkeypressA||newkeypressB||newkeypressX||newkeypressY|| newkeypress(key:up)|| newkeypress(key:down)|| newkeypress(key:left)|| newkeypress(key:right)) then (return (true))
 end
 
 script, keypressA, begin
