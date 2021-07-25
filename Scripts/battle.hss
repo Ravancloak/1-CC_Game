@@ -1,0 +1,394 @@
+define constant, begin
+	#arrays
+	108,	array:battleinfo
+	109,	array:turn
+	110,	array:stats
+
+	#battle array names
+	0,		battle:targetHP
+	1,		battle:targetPP
+
+	#names
+	1,		battle:formation
+	2,		battle:herocount
+	3,		battle:enemycount
+	4,		battle:heroKoBit
+	5,		battle:enemyKoBit
+end
+
+plotscript, testbattle, begin
+	BattleInit (1)
+end
+
+plotscript, BattleInit, formation, begin
+	variable (i, sli, counter)
+	
+	#disolve and then hide hero sprites
+	for (i, 0, 3) do (
+		if (hero by slot (i)<>-1) then (
+			sli := get hero sprite by slot (i)
+			dissolve sprite (sli, dissolve:puff, 45)
+		)
+	)
+	specwaitmode (20)
+
+	load slice collection (0)
+
+	#load arrays
+	sli := initArray(7, array:battleinfo)
+
+	set parent (sli, lookupslice(sli:battle col))
+	setElement(get array(array:battleinfo), battle:formation, formation)
+
+	sli := create container
+	set parent (sli, lookupslice(sli:battle col))
+	set slice lookup (sli, array:turn)
+
+	sli := create container
+	set parent (sli, lookupslice(sli:battle col))
+	set slice lookup (sli, array:stats)
+
+	#checks for hero amount
+	for (i, 0, 3) do (
+		if (hero by slot (i)<>-1) then (battleAddHero(i), counter += 1) else (
+			sli := create container, set parent (sli, lookupslice(array:stats))
+		)
+	)
+	setElement(get array(array:battleinfo), battle:herocount, counter)
+
+	#change position of grid if number of heroes is odd
+	if (counter == 1 || counter == 3) then (
+		oddGrid (lookupSlice(sli:hero grid))
+	)
+	setupSprites(lookupSlice(sli:hero grid))
+	counter := 0
+
+
+	#checks for enemy amount
+	for (i, 0, 3) do (
+		if (formation slot enemy (formation, i)<>-1) then (battleAddEnemy(i, formation), counter += 1) else (
+			sli := create container, set parent (sli, lookupslice(array:stats))
+		)
+	)
+	setElement(get array(array:battleinfo), battle:enemycount, counter)
+
+	#change position of grid if number of enemies is odd
+	if (counter == 1 || counter == 3) then (
+			oddGrid (lookupSlice(sli:enemy grid))
+	)
+	setupSprites(lookupSlice(sli:enemy grid))
+
+	battleupdate()
+
+	set sprite visible (lookupslice (sli:hideheroes), true)
+	set sprite visible (lookupslice (sli:enemygrid), true)
+
+	loadbattleback(formation)
+	specwaitmode (20)
+	for (i, 0, 3) do (
+		if (hero by slot (i)<>-1) then (
+			set hero picture (i, 0)
+		)
+	)
+	specwaitmode (20)
+
+	showsprites 
+
+	specwaitmode (50)
+
+	battle:turn := 0
+	initBattleMenu
+	
+
+	subscript, setupSprites, gridslice, begin
+		switch (counter) do (
+			case (1) do (
+				sli := create container (0, 0)
+				set parent (sli, gridslice)
+				slice to back (sli)
+			)
+			case (2) do (
+				clone slice (first child (gridslice))
+				sli := create container (0, 0)
+				set parent (sli, gridslice)
+				slice to back (sli)
+			)
+			case (3) do (
+				cloneslice (firstchild (gridslice))
+				cloneslice (firstchild (gridslice))
+			)
+			case (4) do (
+				cloneslice (firstchild (gridslice))
+				cloneslice (firstchild (gridslice))
+				cloneslice (firstchild (gridslice))
+			)
+		)
+		if (gridslice == lookupSlice(sli:hero grid)) then (
+			for (i, 0, counter--1) do (
+				setmeter (hero by slot (i), stat:HP)
+				setmeter (hero by slot (i), stat:PP)
+			)
+		)
+	end
+
+	subscript, showSprites, begin
+		for (i, 0, counter--1) do (
+			if (counter < 3) then (
+				sli := first child (slicechild (lookupSlice(sli:enemy grid), i+1))
+			) else (
+				sli := first child (slicechild (lookupSlice(sli:enemy grid), i))
+			)
+			setspritesetnumber (sli, formation slot enemy (formation, i))
+			dissolve sprite (sli, dissolve:puff, 20, 0, true)
+			if (readStat(i+4, stat:row)==1) then (set slice y(slice parent (sli), -25))
+		)
+	end
+
+	subscript, oddGrid, gridslice, begin
+		set slice width (gridslice, 300)
+		set grid columns (gridslice, 3)
+	end
+end
+
+script, initTurnArray, begin
+	variable (sli, i)
+	clear(lookupslice(array:turn))
+end
+
+script, battleAddHero, who, begin
+	variable (i , sli)
+	sli := initArray(0)
+	set parent (sli, lookupslice(array:stats))
+	for (i, stat:HP, stat:Hits) do (
+		append (sli, get hero stat (who, i, current stat))
+	)
+	for (i, stat:HP, stat:PP) do (
+		append (sli, get hero stat (who, i, current stat))
+	)
+	for (i, stat:HP, stat:PP) do (
+		append (sli, get hero stat (who, i, current stat))
+	)
+end
+
+script, battleAddEnemy, who, formation, begin
+	variable (i, sli)
+	sli := initArray(0)
+	set parent (sli, lookupslice(array:stats))
+	for (i, stat:HP, stat:Hits) do (
+		append (sli, get enemy stat (formation slot enemy (formation, who), i))
+	)
+	for (i, stat:HP, stat:PP) do (
+		append (sli, get enemy stat (formation slot enemy (formation, who), i))
+	)
+		for (i, stat:HP, stat:PP) do (
+		append (sli, get enemy stat (formation slot enemy (formation, who), i))
+	)
+end
+
+script, battleUpdate, begin
+	variable (var, var2, sli, counter, i)
+
+	#check for all characters dead or all enemies dead
+	counter := getElement(get array(array:battleinfo), battle:herocount)
+	var2 := 0
+	while (counter > 0) do (
+		var2 += counter
+		counter -= 1
+	)
+	var := getElement(get array(array:battleinfo), battle:heroKoBit)
+	if (var == var2) then (battleEnd(0))
+
+	counter := getElement(get array(array:battleinfo), battle:enemycount)
+	var2 := 0
+	while (counter > 0) do (
+		var2 += counter
+		counter -= 1
+	)
+	var := getElement(get array(array:battleinfo), battle:enemyKoBit)
+	if (var == var2) then (battleEnd(1))
+
+
+	#exit script so animating stuff don't get messy
+	if (game:mode == mode:resume player) then (exit script)
+
+	#handle turns
+
+	#animate shit
+	if (lookupslice(sli:battleback)) then (battleAnimate)
+	
+
+	setTimer (timer:battle, 1, 1, @battleUpdate)
+	#setTimerArgs(timer:battle)
+end
+
+script, battleAnimate, begin
+
+	variable (var, sli, counter, i)
+
+	sinedist
+
+	#sli := (first child (first child (lookupslice(sli:battle col))))
+	#var := get slice extra (sli, 0)
+	#if (var >= 4) then (
+	#	put slice (sli, random (-50, 50), random (-50, 50))
+	#	var := 0
+	#) else (var += 1)
+	#set slice extra (sli, 0, var)
+	#var := 0
+
+	counter := getElement(get array(array:battleinfo), battle:enemycount)
+	
+	for (i, 0, counter--1) do (
+		if (first child (sliceChild (lookupSlice (sli:enemygrid), i))<>0) then (
+			sli := first child (slice child (lookupSlice (sli:enemygrid), i))
+			var := getSliceExtra (sli, 0)
+			if (var >= 32) then (
+				setSpriteFrame (sli, 1)
+				var := 0
+			) else if (var == 16) then (
+				setSpriteFrame (sli, 0)
+				var += 1
+			) else (var += 1)
+			setSliceExtra (sli, 0, var)
+			var := 0
+			sli := firstChild (first child (slice child (lookupSlice (sli:enemygrid), i)))
+			var := getSliceExtra (sli, 0)
+			if (var >= 12) then (
+				setSpriteSetNumber(sli, 4)
+				var := 0
+			) else if (var == 6) then (
+				setSpriteSetNumber(sli, 5)
+				var += 1
+			) else (var += 1)
+			setSliceExtra (sli, 0, var)
+			var := 0
+		)
+	)
+
+	if (lookupslice (sli:selected text)) then (
+		sli := lookupslice (sli:selected text)
+		var := get slice extra (sli, 0)
+		if (var >= 2) then (
+			if (get text color (sli)==ui:menuitem) then (
+				set text color(sli, ui:text)
+			) else (set text color(sli, ui:menuitem))
+			var := 0
+		) else (var += 1)
+		set slice extra (sli, 0, var)
+		var := 0
+	)
+end
+
+script, battleEnd, condition=1, begin
+	variable (i, formation, sli)
+
+	if (condition == 1) then (
+		#get formation for rewards etc
+		formation := getElement(get array(array:battleinfo), battle:formation)
+
+		set sprite visible (lookupslice (sli:hide heroes), false)
+		set sprite visible (lookupslice (sli:enemygrid), false)
+
+		freebattleback
+		specwaitmode (20)
+
+		#show and reverse dissolve hero sprites
+		for (i, 0, 3) do (
+			if (hero by slot (i)<>-1) then (
+				reset hero picture (i)
+			)
+		)
+		for (i, 0, 3) do (
+			if (hero by slot (i)<>-1) then (
+				sli := get hero sprite by slot (i)
+				dissolve sprite (sli, dissolve:puff, 45, 20, true)
+			)
+		)
+		specwaitmode (20)
+
+		stop timer (timer:battle)
+		free slice (lookupslice(array:battleinfo))
+		free slice (lookupslice(sli:battlecol))
+
+		
+		specwaitmode (30)
+
+		show no value
+		game:mode := mode:resume player
+	)else (
+		sli := loadBackdropSprite (8)
+		dissolve sprite (sli, dissolve:puff, 80,0, true)
+		specwaitmode (80)
+		specwaitforNewKey
+		reset game
+	)
+end
+
+script, battleportrait, who, which, begin
+	variable (sli, counter, childnum)
+	#counter := getElement(get array(array:battleinfo), battle:herocount)
+	#switch (counter) do (
+	#	case (1, 2) do (childnum := who + 1)
+	#	case (3, 4) do (childnum := who)
+	#)
+	#go to slice child container "who" of the hero grid
+	#sli := slice child (lookupslice (sli:herogrid), childnum)
+	#go to rectangle child (2nd of grid)
+	#sli :=  slice child (sli, 1)
+	#go to attack sprite child of rectangle
+	#sli := slice child (sli, 0)
+	#set sprite set number (sli, who*10+which+1)
+end
+
+script, setmeter, who, stat, begin
+	variable (sli, counter, var, ones, tens, hundreds, thousands)
+
+	var := readstat (who, stat)
+	thousands := modulus(var/1000,10)
+	hundreds := modulus(var/100,10)
+	tens := modulus(var/10,10)
+	ones := modulus(var/1,10)
+
+
+	#find the right slice to change
+	counter := getElement(get array(array:battleinfo), battle:herocount)
+	if (counter == 1 || counter == 2 ) then (who += 1)
+		
+	#go to slice child container "who" of the hero grid
+	sli := slice child (lookupslice (sli:herogrid), who)
+	#go to grid child of container
+	sli := first child (sli)
+	#go to hp or pp rectangle slice
+	sli := slice child (sli, stat)
+	#go to grid that has sprites
+	sli := last child (sli)
+
+
+	if (thousands == 0 && hundreds == 0 && tens == 0) then (
+		var:=10
+	) else if (thousands == 0 && hundreds == 0) then (
+		var:=100
+	) else if (thousands == 0) then (
+		var := 1000
+	) else (var := 1001)
+
+	sli := slice child (sli, 3)
+	set slice y (sli, ones * -8 -- 8)
+	sli := parent slice (sli)
+
+	if (var > 10) then (
+		sli := slice child (sli, 2)
+		set slice y (sli, tens * -8 -- 8)
+		sli := parent slice (sli)
+	)
+	if (var > 100) then (
+		sli := slice child (sli, 1)
+		set slice y (sli, hundreds * -8 -- 8)
+		sli := parent slice (sli)
+	)
+	if (var > 1000) then (
+		sli := slice child (sli, 0)
+		set slice y (sli, thousands * -8 -- 8)
+		sli := parent slice (sli)
+	)
+end

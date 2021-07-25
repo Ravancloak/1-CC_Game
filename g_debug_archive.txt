@@ -1,0 +1,1575 @@
+7128.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7128.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7128.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7128.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7129.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7130.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7131.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7132.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.2  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.3  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.4  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.5  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.6  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.7  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.8  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7133.9  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.0  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicex: invalid slice handle 0
+7134.1  ! Scripterr(5): battleupdate -> readstat -> getelement: slicechild: invalid slice handle 0
+too much debug() output, not printing any more messages
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  06-11-2021 14:39:00
+ 0.1  OHRRPGCE wip 20210417.12272 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\0_CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\0_CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_26582'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.1  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.2  Setting graphics scaling to x2 change_windowsize=-1
+ 0.2  Received message from Custom: V OHRRPGCE,4,12272,OHRRPGCE wip 20210417
+ 0.2  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\0_CC_game\HP_game.rpg
+ 0.2  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.2   ----Loading C:\OHRRPGCE\0_ohrgames\0_CC_game\HP_game.rpg----
+ 0.2  curdir: C:\OHRRPGCE\0_ohrgames\0_CC_game
+ 0.2  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210611143900.962.tmp\
+ 0.2  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.2  savedir: C:\OHRRPGCE\0_ohrgames\0_CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.5  plotscr.hsd version: 3U 
+ 1.0  lock_resolution()
+ 1.0  set_resolution 420*240
+ 1.0  recenter_window_hint()
+ 1.0  get_screen_size: true screen size 1600x900
+ 1.0  Desktop resolution: 1600*860
+ 1.0  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+17.9  msg: M ohrrpgce.gen
+17.9  msg: M general.reld
+35.3  msg: M ohrrpgce.til
+37.3  msg: M ohrrpgce.til
+37.8  msg: M ohrrpgce.til
+40.0  msg: M ohrrpgce.til
+40.7  msg: M ohrrpgce.til
+42.0  msg: M ohrrpgce.til
+42.5  msg: M ohrrpgce.til
+42.9  msg: M ohrrpgce.til
+43.4  msg: M ohrrpgce.til
+43.8  msg: M ohrrpgce.til
+44.2  msg: M ohrrpgce.til
+44.6  msg: M ohrrpgce.til
+45.1  msg: M ohrrpgce.til
+45.6  msg: M ohrrpgce.til
+46.1  msg: M ohrrpgce.til
+46.8  msg: M ohrrpgce.til
+47.3  msg: M ohrrpgce.til
+47.6  msg: M ohrrpgce.til
+48.2  msg: M ohrrpgce.til
+48.6  msg: M ohrrpgce.til
+49.1  msg: M ohrrpgce.til
+50.4  msg: M ohrrpgce.til
+50.8  msg: M ohrrpgce.til
+51.3  msg: M ohrrpgce.til
+51.9  msg: M ohrrpgce.til
+52.6  msg: M ohrrpgce.til
+53.4  msg: M ohrrpgce.til
+54.0  msg: M ohrrpgce.til
+54.9  msg: M ohrrpgce.til
+56.4  msg: M ohrrpgce.til
+56.4  msg: M defpass.bin
+56.4  did not reload defpass.bin
+57.8  msg: M ohrrpgce.gen
+58.3  msg: M ohrrpgce.gen
+58.3  msg: M general.reld
+63.0  msg: M ohrrpgce.map
+63.0  msg: M ohrrpgce.t00
+63.0  msg: M ohrrpgce.p00
+63.0  msg: M ohrrpgce.e00
+63.0  msg: M ohrrpgce.z00
+63.0  msg: M ohrrpgce.l00
+63.0  msg: M ohrrpgce.n00
+63.0  msg: M ohrrpgce.dox
+63.0  msg: M ohrrpgce.d00
+63.0  msg: M ohrrpgce.mn
+63.0  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+63.0  did not reload ohrrpgce.d00
+121.5  msg: M ohrrpgce.map
+121.5  msg: M ohrrpgce.t00
+121.5  msg: M ohrrpgce.p00
+121.5  msg: M ohrrpgce.e00
+121.5  msg: M ohrrpgce.z00
+121.5  msg: M ohrrpgce.l00
+121.5  msg: M ohrrpgce.n00
+121.5  msg: M ohrrpgce.dox
+121.5  msg: M ohrrpgce.d00
+121.5  msg: M ohrrpgce.mn
+121.5  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+121.5  did not reload ohrrpgce.d00
+121.9  msg: M ohrrpgce.map
+121.9  msg: M ohrrpgce.t00
+121.9  msg: M ohrrpgce.p00
+121.9  msg: M ohrrpgce.e00
+121.9  msg: M ohrrpgce.z00
+121.9  msg: M ohrrpgce.l00
+121.9  msg: M ohrrpgce.n00
+121.9  msg: M ohrrpgce.dox
+121.9  msg: M ohrrpgce.d00
+121.9  msg: M ohrrpgce.mn
+121.9  did not reload ohrrpgce.d00
+122.3  msg: M ohrrpgce.gen
+122.3  msg: M general.reld
+129.4  msg: M ohrrpgce.til
+129.9  msg: M ohrrpgce.til
+130.3  msg: M ohrrpgce.til
+130.3  msg: M defpass.bin
+130.3  did not reload defpass.bin
+131.2  msg: M ohrrpgce.gen
+131.9  msg: M ohrrpgce.gen
+131.9  msg: M general.reld
+136.9  msg: M ohrrpgce.map
+136.9  msg: M ohrrpgce.t00
+136.9  msg: M ohrrpgce.p00
+136.9  msg: M ohrrpgce.e00
+136.9  msg: M ohrrpgce.z00
+136.9  msg: M ohrrpgce.l00
+136.9  msg: M ohrrpgce.n00
+136.9  msg: M ohrrpgce.dox
+136.9  msg: M ohrrpgce.d00
+136.9  msg: M ohrrpgce.mn
+136.9  did not reload ohrrpgce.d00
+164.2  msg: M ohrrpgce.map
+164.2  msg: M ohrrpgce.t00
+164.2  msg: M ohrrpgce.p00
+164.2  msg: M ohrrpgce.e00
+164.2  msg: M ohrrpgce.z00
+164.2  msg: M ohrrpgce.l00
+164.2  msg: M ohrrpgce.n00
+164.2  msg: M ohrrpgce.dox
+164.2  msg: M ohrrpgce.d00
+164.2  msg: M ohrrpgce.mn
+164.2  did not reload ohrrpgce.d00
+164.7  msg: M ohrrpgce.gen
+164.7  msg: M general.reld
+176.9  msg: M defpal0.bin
+176.9  did not reload defpal0.bin
+176.9  msg: M heroes.rgfx
+176.9  msg: M ohrrpgce.pal
+176.9  msg: PAL 6
+183.2  msg: M defpal0.bin
+183.2  did not reload defpal0.bin
+183.2  msg: M heroes.rgfx
+183.3  msg: M ohrrpgce.pal
+183.3  msg: PAL 7
+188.3  msg: M defpal0.bin
+188.3  msg: M heroes.rgfx
+188.3  msg: M ohrrpgce.pal
+188.3  did not reload defpal0.bin
+188.3  msg: PAL 14
+189.5  msg: M ohrrpgce.gen
+213.4  msg: M defpal1.bin
+213.4  msg: M enemies.rgfx
+213.4  msg: M ohrrpgce.pal
+213.4  msg: PAL 7
+213.4  did not reload defpal1.bin
+213.4  did not reload enemies.rgfx
+219.6  msg: M defpal1.bin
+219.6  did not reload defpal1.bin
+219.6  msg: M enemies.rgfx
+219.6  msg: M ohrrpgce.pal
+219.6  msg: PAL 11
+219.6  did not reload enemies.rgfx
+228.6  msg: M defpal1.bin
+228.6  msg: M enemies.rgfx
+228.6  msg: M ohrrpgce.pal
+228.6  msg: PAL 11
+228.6  did not reload defpal1.bin
+228.6  did not reload enemies.rgfx
+293.2  msg: M defpal1.bin
+293.2  msg: M enemies.rgfx
+293.2  msg: M ohrrpgce.pal
+293.2  did not reload defpal1.bin
+293.2  did not reload enemies.rgfx
+293.2  msg: PAL 0
+299.7  msg: M defpal1.bin
+299.7  msg: M enemies.rgfx
+299.7  msg: M ohrrpgce.pal
+299.7  msg: PAL 0
+299.7  did not reload defpal1.bin
+299.7  did not reload enemies.rgfx
+300.8  msg: M ohrrpgce.gen
+303.5  msg: M ohrrpgce.gen
+316.3  msg: M defpal3.bin
+316.3  msg: M enemies.rgfx
+316.3  msg: M ohrrpgce.pal
+316.3  did not reload defpal3.bin
+316.3  did not reload enemies.rgfx
+316.3  msg: PAL 15
+321.0  msg: M ohrrpgce.gen
+324.9  msg: M ohrrpgce.gen
+326.7  msg: M ohrrpgce.gen
+372.6  msg: M defpal7.bin
+372.6  msg: M boxborders.rgfx
+372.6  msg: M ohrrpgce.pal
+372.6  did not reload defpal7.bin
+372.7  msg: PAL 16
+373.6  msg: M ohrrpgce.gen
+375.0  msg: M ohrrpgce.gen
+375.0  msg: M general.reld
+390.8  msg: M backdrops.rgfx
+395.7  msg: M backdrops.rgfx
+405.1  msg: M backdrops.rgfx
+440.2  msg: M backdrops.rgfx
+447.9  msg: M backdrops.rgfx
+451.4  msg: M backdrops.rgfx
+458.7  msg: M backdrops.rgfx
+467.3  msg: M backdrops.rgfx
+470.7  msg: M backdrops.rgfx
+482.2  msg: M backdrops.rgfx
+489.9  msg: M backdrops.rgfx
+500.5  msg: M backdrops.rgfx
+513.5  msg: M backdrops.rgfx
+517.1  msg: M ohrrpgce.gen
+518.6  msg: M ohrrpgce.gen
+518.6  msg: M general.reld
+542.9  msg: M defpal7.bin
+542.9  did not reload defpal7.bin
+542.9  msg: M boxborders.rgfx
+542.9  msg: M ohrrpgce.pal
+542.9  msg: PAL 5
+543.6  msg: M ohrrpgce.gen
+547.8  msg: M ohrrpgce.gen
+547.8  msg: M general.reld
+577.9  msg: M defpal0.bin
+577.9  msg: M heroes.rgfx
+577.9  msg: M ohrrpgce.pal
+577.9  msg: PAL 7
+577.9  did not reload defpal0.bin
+609.8  msg: M ohrrpgce.gen
+610.4  msg: M ohrrpgce.gen
+610.4  msg: M general.reld
+614.4  msg: M ohrrpgce.map
+614.4  msg: M ohrrpgce.t00
+614.4  msg: M ohrrpgce.p00
+614.4  msg: M ohrrpgce.e00
+614.4  msg: M ohrrpgce.z00
+614.4  msg: M ohrrpgce.l00
+614.4  msg: M ohrrpgce.n00
+614.4  msg: M ohrrpgce.dox
+614.4  msg: M ohrrpgce.d00
+614.4  msg: M ohrrpgce.mn
+614.4  did not reload ohrrpgce.d00
+626.2  msg: M ohrrpgce.map
+626.2  msg: M ohrrpgce.t00
+626.2  msg: M ohrrpgce.p00
+626.2  msg: M ohrrpgce.e00
+626.2  msg: M ohrrpgce.z00
+626.2  msg: M ohrrpgce.l00
+626.2  msg: M ohrrpgce.n00
+626.2  msg: M ohrrpgce.dox
+626.2  msg: M ohrrpgce.d00
+626.2  msg: M ohrrpgce.mn
+626.2  did not reload ohrrpgce.d00
+647.4  msg: M ohrrpgce.map
+647.4  msg: M ohrrpgce.t00
+647.4  msg: M ohrrpgce.p00
+647.4  msg: M ohrrpgce.e00
+647.4  msg: M ohrrpgce.z00
+647.4  msg: M ohrrpgce.l00
+647.4  msg: M ohrrpgce.n00
+647.4  msg: M ohrrpgce.dox
+647.4  msg: M ohrrpgce.d00
+647.4  msg: M ohrrpgce.mn
+647.4  did not reload ohrrpgce.d00
+648.0  msg: M ohrrpgce.gen
+648.0  msg: M general.reld
+660.6  msg: M ohrrpgce.pal
+660.6  msg: PAL 7
+660.7  msg: M ohrrpgce.pal
+660.7  msg: PAL 8
+660.9  msg: M ohrrpgce.pal
+660.9  msg: PAL 9
+661.0  msg: M ohrrpgce.pal
+661.0  msg: PAL 10
+661.3  msg: M ohrrpgce.pal
+661.3  msg: PAL 11
+661.5  msg: M ohrrpgce.pal
+661.5  msg: PAL 12
+662.0  msg: M ohrrpgce.pal
+662.0  msg: PAL 13
+662.5  msg: M ohrrpgce.pal
+662.5  msg: PAL 14
+663.6  msg: M ohrrpgce.pal
+663.6  msg: PAL 15
+664.2  msg: M ohrrpgce.pal
+664.2  msg: PAL 16
+665.5  msg: M defpal1.bin
+665.5  msg: M enemies.rgfx
+665.5  msg: M ohrrpgce.pal
+665.5  msg: PAL 17
+665.5  did not reload defpal1.bin
+665.5  did not reload enemies.rgfx
+685.5  msg: M defpal1.bin
+685.5  msg: M enemies.rgfx
+685.5  msg: M ohrrpgce.pal
+685.5  msg: PAL 17
+685.5  did not reload defpal1.bin
+685.5  did not reload enemies.rgfx
+685.9  msg: M ohrrpgce.gen
+686.7  msg: M ohrrpgce.gen
+686.7  msg: M general.reld
+714.1  msg: M defpal1.bin
+714.1  msg: M enemies.rgfx
+714.1  msg: M ohrrpgce.pal
+714.1  msg: PAL 17
+714.1  did not reload defpal1.bin
+714.1  did not reload enemies.rgfx
+714.6  msg: M ohrrpgce.gen
+715.0  msg: M ohrrpgce.gen
+715.0  msg: M general.reld
+715.4  msg: M ohrrpgce.gen
+735.1  msg: M ohrrpgce.gen
+736.2  msg: M ohrrpgce.gen
+738.0  msg: M ohrrpgce.gen
+738.8  msg: M ohrrpgce.gen
+738.8  msg: M general.reld
+745.1  ! Scripterr(5): battleupdate -> getelement: slicechild: invalid slice handle 0
+745.1  unlock_resolution(420,240)
+746.0  set_resolution 420*240
+746.0  lock_resolution()
+746.0  ! Scripterr(5): battleupdate -> getelement: slicex: invalid slice handle 0
+746.0  unlock_resolution(420,240)
+746.5  set_resolution 420*240
+746.5  lock_resolution()
+746.5  ! Scripterr(5): battleupdate -> getelement: slicechild: invalid slice handle 0
+746.5  unlock_resolution(420,240)
+747.0  set_resolution 420*240
+747.0  lock_resolution()
+747.0  ! Scripterr(5): battleupdate -> getelement: slicex: invalid slice handle 0
+747.0  unlock_resolution(420,240)
+747.1  set_resolution 420*240
+747.1  lock_resolution()
+1304.2  Cleaning up and terminating 0
+1304.2  Closing music backend...
+1304.3  ...done
+1304.3  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210611143900.962.tmp\
+1304.4  Closing gfx backend & allmodex...
+1304.4  ...done
+1304.4  End.

@@ -1,0 +1,40 @@
+plotscript, defnewgame, begin
+	suspend player
+	resume movement
+	resetControls
+	add hero (hero:Jenkins)
+	add hero (hero:GMoney)
+	#add hero (hero:Daisy)
+	get item (0)
+	mainloop
+end
+
+plotscript, defloadgame, begin
+	suspend player
+	resume movement
+	mainloop
+end
+
+plotscript, defkeypress, begin
+	if (keyIsPressed(key:r)&&keyIsPressed(key:shift)) then (resetGame)
+	if (newkeypress (key:1)) then (wildpal(10))
+	if (newkeypress (key:2)) then (reset palette, update palette)
+	if (topmenu) then (exit script)
+	switch (game:mode) do (
+		case (mode:battle) do (battleKeypress)
+		case (mode:resume player) do (movementKeypress)
+	)
+end
+
+plotscript, defautorun, begin
+	switch (current map) do (
+		case (map:TEST MAP) do (mapauto0)
+		case (1) do ()
+	)
+end
+
+script, mapauto0, begin
+	variable (sli)
+	sli := load backdrop sprite (9)
+	set parent (sli, lookupslice(sl:maplayer3))
+end

@@ -1,0 +1,51 @@
+# HamsterSpeak constant definitions for HP_game.rpg
+
+define constant, begin
+0,hero:Keifer
+1,hero:Jenkins
+2,hero:GMoney
+3,hero:Daisy
+0,stat:HP
+1,stat:PP
+2,stat:Atk
+3,stat:Aim
+4,stat:Def
+5,stat:Dodge
+6,stat:Psi
+7,stat:Will
+8,stat:Speed
+9,stat:Row
+10,stat:Psi~
+11,stat:Hits
+0,element:Norm
+1,element:Fire
+2,element:Ice
+3,element:Lit
+4,element:Poison
+5,element:Par
+6,element:Sleep
+7,element:Cure
+8,element:Death
+9,element:Other
+10,element:Other 2
+11,element:Other 3
+12,element:Other 4
+13,element:Other 5
+14,element:Other 6
+15,element:Other 7
+1,slot:Weapon
+2,slot:Head
+3,slot:Body
+4,slot:Arms
+5,slot:Legs
+0,map:TEST MAP
+0,enemy:Blank
+1,enemy:Rat King
+2,enemy:Doll Dancer
+3,enemy:Mushroom Man
+1,sli:battle col
+2,sli:enemy grid
+3,sli:hero grid
+4,sli:action menu
+5,sli:hide heroes
+end

@@ -1,0 +1,1484 @@
+34988.8  hspeak version '3Uf'
+34988.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+34996.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.614877.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.513949.tmp"
+34996.3  hspeak version '3Uf'
+34996.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35006.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.243000.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.419311.tmp"
+35006.7  hspeak version '3Uf'
+35006.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35016.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.106347.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.260414.tmp"
+35016.1  hspeak version '3Uf'
+35016.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35025.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.8731.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.786653.tmp"
+35025.9  hspeak version '3Uf'
+35025.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35050.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.301824.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.872092.tmp"
+35050.4  hspeak version '3Uf'
+35050.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35060.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.770139.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.375872.tmp"
+35060.4  hspeak version '3Uf'
+35060.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35071.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.738531.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.830796.tmp"
+35071.5  hspeak version '3Uf'
+35071.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35080.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.579400.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.394055.tmp"
+35080.9  hspeak version '3Uf'
+35080.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35086.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.129981.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.104388.tmp"
+35086.9  hspeak version '3Uf'
+35086.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35098.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.2742.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.5302.tmp"
+35098.7  hspeak version '3Uf'
+35098.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35105.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.217813.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.244661.tmp"
+35105.7  hspeak version '3Uf'
+35105.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35124.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.885154.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.642964.tmp"
+35124.2  hspeak version '3Uf'
+35124.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35132.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.248634.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.958988.tmp"
+35132.2  hspeak version '3Uf'
+35132.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35144.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.967486.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.637758.tmp"
+35144.6  hspeak version '3Uf'
+35144.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35151.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.773703.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.208399.tmp"
+35151.3  hspeak version '3Uf'
+35151.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35163.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.534500.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.798524.tmp"
+35163.6  hspeak version '3Uf'
+35163.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35172.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.836492.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.522192.tmp"
+35173.0  hspeak version '3Uf'
+35173.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35183.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.507465.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.426748.tmp"
+35183.8  hspeak version '3Uf'
+35183.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35193.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.192304.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.944345.tmp"
+35193.3  hspeak version '3Uf'
+35193.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35204.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.690285.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.873241.tmp"
+35204.4  hspeak version '3Uf'
+35204.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35211.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.8453.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.112086.tmp"
+35212.0  hspeak version '3Uf'
+35212.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35557.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+35557.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+35558.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35558.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35584.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.531240.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.883705.tmp"
+35584.4  hspeak version '3Uf'
+35584.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35602.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.962730.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.841724.tmp"
+35602.7  hspeak version '3Uf'
+35602.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35627.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.851432.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.553137.tmp"
+35627.3  hspeak version '3Uf'
+35627.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35652.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.899346.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.483419.tmp"
+35652.2  hspeak version '3Uf'
+35652.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35658.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.538892.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.678700.tmp"
+35658.3  hspeak version '3Uf'
+35658.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35672.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.961843.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.363974.tmp"
+35672.8  hspeak version '3Uf'
+35672.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35702.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.230830.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.890832.tmp"
+35702.8  hspeak version '3Uf'
+35702.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35717.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.376208.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.543550.tmp"
+35717.3  hspeak version '3Uf'
+35717.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35737.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.528945.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.669955.tmp"
+35737.5  hspeak version '3Uf'
+35737.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35756.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.521506.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.152627.tmp"
+35756.6  hspeak version '3Uf'
+35756.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35773.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.241788.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.931996.tmp"
+35773.9  hspeak version '3Uf'
+35773.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35781.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.779427.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.897311.tmp"
+35781.6  hspeak version '3Uf'
+35781.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35867.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35867.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35868.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+35868.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+35870.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+35870.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\backing.bmp twice! Probably a mistake
+35870.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35871.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35871.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+35871.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+35871.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+35871.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+35872.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+35872.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+35873.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+35873.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+35874.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+35874.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+35874.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35874.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35882.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.973124.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.478581.tmp"
+35882.1  hspeak version '3Uf'
+35882.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35919.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.298418.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.442689.tmp"
+35919.8  hspeak version '3Uf'
+35919.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35935.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.871527.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.400336.tmp"
+35935.1  hspeak version '3Uf'
+35935.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+35953.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35953.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35953.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+35953.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+35953.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+35953.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+35954.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\masterpal.bmp twice! Probably a mistake
+35954.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\masterpal.bmp twice! Probably a mistake
+35956.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battle glitch.bmp twice! Probably a mistake
+35956.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battle glitch.bmp twice! Probably a mistake
+35956.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battle heroes.bmp twice! Probably a mistake
+35956.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battle heroes.bmp twice! Probably a mistake
+35956.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battleback1.bmp twice! Probably a mistake
+35956.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battleback1.bmp twice! Probably a mistake
+35957.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\blankback.bmp twice! Probably a mistake
+35957.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\blankback.bmp twice! Probably a mistake
+35959.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\blankback.bmp twice! Probably a mistake
+35959.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\blankback.bmp twice! Probably a mistake
+35960.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battleback1.bmp twice! Probably a mistake
+35960.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battleback1.bmp twice! Probably a mistake
+35961.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battle heroes.bmp twice! Probably a mistake
+35961.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battle heroes.bmp twice! Probably a mistake
+35961.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battle glitch.bmp twice! Probably a mistake
+35961.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battle glitch.bmp twice! Probably a mistake
+35962.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\masterpal.bmp twice! Probably a mistake
+35962.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\masterpal.bmp twice! Probably a mistake
+35963.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+35963.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+35964.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+35964.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+35964.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35964.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35971.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35971.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+35975.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.851366.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.876629.tmp"
+35975.4  hspeak version '3Uf'
+35975.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36020.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.701195.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.423631.tmp"
+36021.0  hspeak version '3Uf'
+36021.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36043.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.447462.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.149021.tmp"
+36043.7  hspeak version '3Uf'
+36043.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36052.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.404942.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.320818.tmp"
+36052.2  hspeak version '3Uf'
+36052.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36099.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.577577.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.407267.tmp"
+36099.1  hspeak version '3Uf'
+36099.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36113.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.443824.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.192555.tmp"
+36113.6  hspeak version '3Uf'
+36113.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36125.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.861469.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.967331.tmp"
+36126.0  hspeak version '3Uf'
+36126.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36135.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+36135.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+36135.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+36135.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+36147.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.759314.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.543779.tmp"
+36147.4  hspeak version '3Uf'
+36147.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36157.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.74769.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.461654.tmp"
+36157.3  hspeak version '3Uf'
+36157.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36168.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.223991.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.788800.tmp"
+36168.3  hspeak version '3Uf'
+36168.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36177.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.584810.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.945853.tmp"
+36177.6  hspeak version '3Uf'
+36177.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36244.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.803999.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.828478.tmp"
+36244.6  hspeak version '3Uf'
+36244.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36258.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.39041.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.86148.tmp"
+36258.3  hspeak version '3Uf'
+36258.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36274.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.307011.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.371233.tmp"
+36274.3  hspeak version '3Uf'
+36274.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36311.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.153106.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.717776.tmp"
+36311.8  hspeak version '3Uf'
+36311.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36326.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.448525.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.984865.tmp"
+36327.0  hspeak version '3Uf'
+36327.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36339.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.947796.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.967531.tmp"
+36339.5  hspeak version '3Uf'
+36339.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36350.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.753580.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.152304.tmp"
+36350.4  hspeak version '3Uf'
+36350.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36396.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.829151.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.119717.tmp"
+36396.2  hspeak version '3Uf'
+36396.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36422.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.392382.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.451494.tmp"
+36422.3  hspeak version '3Uf'
+36422.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36431.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.477542.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.839629.tmp"
+36431.1  hspeak version '3Uf'
+36431.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36449.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.606596.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.683028.tmp"
+36449.2  hspeak version '3Uf'
+36449.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36460.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.252608.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.468888.tmp"
+36460.3  hspeak version '3Uf'
+36460.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36473.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.870250.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.7321.tmp"
+36473.0  hspeak version '3Uf'
+36473.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36479.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.614914.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.661893.tmp"
+36479.9  hspeak version '3Uf'
+36479.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36488.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.504939.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.23960.tmp"
+36488.9  hspeak version '3Uf'
+36488.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36495.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.679609.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.516482.tmp"
+36495.3  hspeak version '3Uf'
+36495.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36523.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.610797.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.760004.tmp"
+36523.9  hspeak version '3Uf'
+36523.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36537.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.585279.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.969113.tmp"
+36537.8  hspeak version '3Uf'
+36537.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36553.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.905800.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.709780.tmp"
+36553.2  hspeak version '3Uf'
+36553.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36580.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+36580.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back1.bmp twice! Probably a mistake
+36581.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+36581.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back2.bmp twice! Probably a mistake
+36581.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+36581.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battlebacks\Back3.bmp twice! Probably a mistake
+36603.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.643549.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.471002.tmp"
+36603.7  hspeak version '3Uf'
+36603.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+36619.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.769688.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.751016.tmp"
+36619.9  hspeak version '3Uf'
+36619.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+37638.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\masterpal.bmp twice! Probably a mistake
+37638.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\masterpal.bmp twice! Probably a mistake
+37640.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+37640.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+37641.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+37641.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+37641.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\rat king.bmp twice! Probably a mistake
+37641.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\rat king.bmp twice! Probably a mistake
+37642.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+37642.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+37642.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+37643.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+37643.8  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp contains 5 colors
+37693.6  getinputtext: not enabled
+37693.7  getinputtext: not enabled
+38572.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+38572.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+38573.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+38573.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+38574.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\rat king.bmp twice! Probably a mistake
+38574.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\rat king.bmp twice! Probably a mistake
+38574.5  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\rat king.bmp contains 12 colors
+38576.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\rat king.bmp twice! Probably a mistake
+38576.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\rat king.bmp twice! Probably a mistake
+38577.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+38577.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\placeholder.bmp twice! Probably a mistake
+38577.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+38577.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+38577.9  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp contains 9 colors
+40510.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+40510.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp twice! Probably a mistake
+40511.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\Mushroom Man.bmp twice! Probably a mistake
+40511.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\Mushroom Man.bmp twice! Probably a mistake
+40512.2  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\Mushroom Man.bmp contains 9 colors
+40580.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.653412.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.369197.tmp"
+40580.5  hspeak version '3Uf'
+40580.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+41257.4  Saving - been editing for 3h37m18s
+41257.6  Cleaning up and terminating 0
+41257.6  Closing music backend...
+41257.7  ...done
+41258.6  Closing gfx backend & allmodex...
+41258.6  ...done
+41258.6  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.4   ----Starting OHRRPGCE Custom----
+ 0.4  05-25-2021 22:45:06
+ 0.4  OHRRPGCE wip 20210417.12272 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.4  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 0.5  orig_dir: C:\OHRRPGCE
+ 0.5  curdir: C:\OHRRPGCE
+ 0.5  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.5  documents_dir: C:\Users\Dell\Documents
+ 0.5  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.5  Initialising gfx_sdl2...
+ 0.5  setvideomode zoom=2 w*h = 640,400
+ 0.5  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.5  disable_native_text_input=0
+ 0.5  unlock_resolution(320,200)
+ 0.5  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 0.7  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.7  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+10.6  check_ok_to_open...
+10.6  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+10.6  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+10.6  prev_session.info_file_exists = YES
+10.6  prev_session.pid = 10028 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+10.6  prev_session.running = YES
+10.6  prev_session.partial_rpg = NO
+10.6  prev_session.fresh_danger_tmp = NO
+10.6  prev_session.sourcerpg = 
+10.6  prev_session.sourcerpg_old_mtime = 0
+10.6  prev_session.sourcerpg_current_mtime = 0
+10.6  prev_session.session_start_time = 2021 May 25 22:45:07
+10.6  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+10.6   ----Loading a game----
+10.6  05-25-2021 22:45:16
+10.6  curdir: C:\OHRRPGCE\0_ohrgames\0_CC_game
+10.6  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+10.6  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+10.6  Editing game C:\OHRRPGCE\0_ohrgames\0_CC_game\HP_game.rpg ( )
+10.6  Full game data upgrade...
+10.6  Last edited by: [[OHRRPGCE wip 20210417.12272 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+10.6  archinym creation info: OHRRPGCE wip 20210417
+10.6  rpgfix:Adjusting record count for 16-color Palettes lump, 15 -> 16 (diff 1)
+22.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\masterpal.bmp twice! Probably a mistake
+22.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\masterpal.bmp twice! Probably a mistake
+39.1  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp contains 9 colors
+46.1  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\Mushroom Man.bmp contains 9 colors
+274.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.773043.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.361388.tmp"
+274.9  hspeak version '3Uf'
+274.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+276.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.353903.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.85970.tmp"
+276.7  hspeak version '3Uf'
+276.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+282.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.858469.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.259547.tmp"
+283.0  hspeak version '3Uf'
+283.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+286.1  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_10659
+286.2  Channel connection received (after 68ms)
+364.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.232994.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.381378.tmp"
+364.6  hspeak version '3Uf'
+364.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+393.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.262634.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.434896.tmp"
+393.7  hspeak version '3Uf'
+393.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+467.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.173112.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.177368.tmp"
+467.8  hspeak version '3Uf'
+467.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+485.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.485516.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.584117.tmp"
+485.3  hspeak version '3Uf'
+485.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+510.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.26516.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.445058.tmp"
+510.2  hspeak version '3Uf'
+510.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+523.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.75501.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.158164.tmp"
+523.9  hspeak version '3Uf'
+523.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+537.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.195758.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.777990.tmp"
+537.4  hspeak version '3Uf'
+537.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+547.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.473321.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.34519.tmp"
+547.4  hspeak version '3Uf'
+547.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+561.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.632811.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.423671.tmp"
+561.2  hspeak version '3Uf'
+561.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+571.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.661281.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.236064.tmp"
+571.2  hspeak version '3Uf'
+571.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+581.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.477954.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.207144.tmp"
+581.5  hspeak version '3Uf'
+581.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+593.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.555911.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.42433.tmp"
+593.7  hspeak version '3Uf'
+593.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+617.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.41772.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.862041.tmp"
+617.9  hspeak version '3Uf'
+617.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+633.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.248270.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.469593.tmp"
+633.9  hspeak version '3Uf'
+633.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+644.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.222572.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.717002.tmp"
+644.7  hspeak version '3Uf'
+644.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+657.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.948847.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.106486.tmp"
+657.3  hspeak version '3Uf'
+657.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+727.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.423589.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.245538.tmp"
+727.7  hspeak version '3Uf'
+727.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+737.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.466057.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.744159.tmp"
+737.8  hspeak version '3Uf'
+737.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+755.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.103321.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.100421.tmp"
+755.2  hspeak version '3Uf'
+755.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+777.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.434509.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.747881.tmp"
+777.1  hspeak version '3Uf'
+777.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+788.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.562164.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.275703.tmp"
+788.7  hspeak version '3Uf'
+788.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+802.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.565906.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.523543.tmp"
+802.9  hspeak version '3Uf'
+802.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+816.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.761736.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.619710.tmp"
+816.7  hspeak version '3Uf'
+816.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+829.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.637536.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.22285.tmp"
+829.1  hspeak version '3Uf'
+829.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+843.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.277074.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.996468.tmp"
+843.7  hspeak version '3Uf'
+843.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+863.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.945115.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.464277.tmp"
+863.8  hspeak version '3Uf'
+863.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+874.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.945319.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.701796.tmp"
+874.0  hspeak version '3Uf'
+874.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+896.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.436681.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.201220.tmp"
+896.7  hspeak version '3Uf'
+896.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1375.6  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+1376.9  Saving - been editing for 12m06s
+1377.0  Cleaning up and terminating 0
+1377.0  Closing music backend...
+1377.1  ...done
+1378.4  Closing gfx backend & allmodex...
+1378.4  ...done
+1378.4  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.7   ----Starting OHRRPGCE Custom----
+ 0.7  06-07-2021 20:29:47
+ 0.7  OHRRPGCE wip 20210417.12272 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.7  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 0.7  orig_dir: C:\OHRRPGCE
+ 0.7  curdir: C:\OHRRPGCE
+ 0.7  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.7  documents_dir: C:\Users\Dell\Documents
+ 0.7  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.7  Initialising gfx_sdl2...
+ 0.8  setvideomode zoom=2 w*h = 640,400
+ 0.8  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.8  disable_native_text_input=0
+ 0.8  unlock_resolution(320,200)
+ 0.8  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 0.9  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.9  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+141.3  check_ok_to_open...
+141.3  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+141.3  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+141.3  prev_session.info_file_exists = YES
+141.3  prev_session.pid = 6752 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+141.3  prev_session.running = YES
+141.3  prev_session.partial_rpg = NO
+141.3  prev_session.fresh_danger_tmp = NO
+141.3  prev_session.sourcerpg = 
+141.3  prev_session.sourcerpg_old_mtime = 0
+141.3  prev_session.sourcerpg_current_mtime = 0
+141.3  prev_session.session_start_time = 2021 Jun 07 20:29:47
+141.3  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+141.3   ----Loading a game----
+141.3  06-07-2021 20:32:08
+141.3  curdir: C:\OHRRPGCE\0_ohrgames\0_CC_game
+141.3  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+141.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+141.3  Editing game C:\OHRRPGCE\0_ohrgames\0_CC_game\HP_game.rpg ( )
+141.5  Full game data upgrade...
+141.5  Last edited by: [[OHRRPGCE wip 20210417.12272 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+141.5  archinym creation info: OHRRPGCE wip 20210417
+216.7  getinputtext: not enabled
+216.8  getinputtext: not enabled
+216.8  getinputtext: not enabled
+263.2  getinputtext: not enabled
+263.3  getinputtext: not enabled
+263.3  getinputtext: not enabled
+263.4  getinputtext: not enabled
+263.9  getinputtext: not enabled
+263.9  getinputtext: not enabled
+264.0  getinputtext: not enabled
+264.1  getinputtext: not enabled
+266.3  getinputtext: not enabled
+266.3  getinputtext: not enabled
+266.4  getinputtext: not enabled
+266.4  getinputtext: not enabled
+430.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\rectangle 20x200.bmp twice! Probably a mistake
+430.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\rectangle 20x200.bmp twice! Probably a mistake
+431.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\002.bmp twice! Probably a mistake
+431.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\002.bmp twice! Probably a mistake
+431.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\rectangle 20x200.bmp twice! Probably a mistake
+431.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\rectangle 20x200.bmp twice! Probably a mistake
+433.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\002.bmp twice! Probably a mistake
+433.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\002.bmp twice! Probably a mistake
+435.7  spriteedit_import16: palette is identical
+465.6  getinputtext: not enabled
+465.6  getinputtext: not enabled
+465.7  getinputtext: not enabled
+465.7  getinputtext: not enabled
+465.8  getinputtext: not enabled
+466.5  getinputtext: not enabled
+466.6  getinputtext: not enabled
+466.6  getinputtext: not enabled
+466.7  getinputtext: not enabled
+467.3  getinputtext: not enabled
+467.3  getinputtext: not enabled
+467.4  getinputtext: not enabled
+467.5  getinputtext: not enabled
+467.5  getinputtext: not enabled
+467.6  getinputtext: not enabled
+542.7  getinputtext: not enabled
+542.8  getinputtext: not enabled
+542.8  getinputtext: not enabled
+546.5  getinputtext: not enabled
+546.5  getinputtext: not enabled
+546.6  getinputtext: not enabled
+546.6  getinputtext: not enabled
+546.7  getinputtext: not enabled
+546.7  getinputtext: not enabled
+546.8  getinputtext: not enabled
+546.9  getinputtext: not enabled
+546.9  getinputtext: not enabled
+547.0  getinputtext: not enabled
+547.0  getinputtext: not enabled
+563.0  getinputtext: not enabled
+563.1  getinputtext: not enabled
+699.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\002.bmp twice! Probably a mistake
+699.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\002.bmp twice! Probably a mistake
+700.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\003.bmp twice! Probably a mistake
+700.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\003.bmp twice! Probably a mistake
+728.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\003.bmp twice! Probably a mistake
+728.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle animations\003.bmp twice! Probably a mistake
+731.4  spriteedit_import16: palette is identical
+740.7  getinputtext: not enabled
+740.7  getinputtext: not enabled
+740.8  getinputtext: not enabled
+741.7  getinputtext: not enabled
+741.7  getinputtext: not enabled
+741.8  getinputtext: not enabled
+741.8  getinputtext: not enabled
+741.9  getinputtext: not enabled
+741.9  getinputtext: not enabled
+742.0  getinputtext: not enabled
+742.0  getinputtext: not enabled
+742.1  getinputtext: not enabled
+742.2  getinputtext: not enabled
+742.2  getinputtext: not enabled
+742.3  getinputtext: not enabled
+745.5  getinputtext: not enabled
+745.6  getinputtext: not enabled
+745.6  getinputtext: not enabled
+888.3  getinputtext: not enabled
+888.4  getinputtext: not enabled
+888.4  getinputtext: not enabled
+888.5  getinputtext: not enabled
+888.5  getinputtext: not enabled
+888.6  getinputtext: not enabled
+888.7  getinputtext: not enabled
+888.7  getinputtext: not enabled
+888.8  getinputtext: not enabled
+895.2  getinputtext: not enabled
+895.3  getinputtext: not enabled
+895.3  getinputtext: not enabled
+895.4  getinputtext: not enabled
+902.8  getinputtext: not enabled
+902.8  getinputtext: not enabled
+926.0  getinputtext: not enabled
+926.1  getinputtext: not enabled
+926.1  getinputtext: not enabled
+937.9  getinputtext: not enabled
+938.0  getinputtext: not enabled
+938.0  getinputtext: not enabled
+938.1  getinputtext: not enabled
+938.2  getinputtext: not enabled
+938.2  getinputtext: not enabled
+1433.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.545995.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.638389.tmp"
+1433.9  hspeak version '3Uf'
+1433.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1446.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.352905.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.764246.tmp"
+1446.5  hspeak version '3Uf'
+1446.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1458.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.990634.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.595804.tmp"
+1458.9  hspeak version '3Uf'
+1458.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1470.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.945090.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.295334.tmp"
+1470.6  hspeak version '3Uf'
+1470.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1485.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.664208.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.808601.tmp"
+1485.3  hspeak version '3Uf'
+1485.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1492.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.765285.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.284021.tmp"
+1492.4  hspeak version '3Uf'
+1492.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1523.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.898957.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.841070.tmp"
+1523.3  hspeak version '3Uf'
+1523.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1527.8  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_84750
+1528.3  Channel connection received (after 430ms)
+1552.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.82873.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.87413.tmp"
+1552.6  hspeak version '3Uf'
+1552.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4112.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.867030.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.938975.tmp"
+4113.4  hspeak version '3Uf'
+4113.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4139.6  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+4141.0  Saving - been editing for 15m00s
+4141.2  Cleaning up and terminating 0
+4141.2  Closing music backend...
+4141.3  ...done
+4142.0  Closing gfx backend & allmodex...
+4142.0  ...done
+4142.0  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 1.2   ----Starting OHRRPGCE Custom----
+ 1.2  06-08-2021 08:38:48
+ 1.2  OHRRPGCE wip 20210417.12272 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 1.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 1.2  orig_dir: C:\OHRRPGCE
+ 1.2  curdir: C:\OHRRPGCE
+ 1.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 1.2  documents_dir: C:\Users\Dell\Documents
+ 1.2  prefer_gfx_backend: gfx backend sdl isn't available
+ 1.2  Initialising gfx_sdl2...
+ 1.3  setvideomode zoom=2 w*h = 640,400
+ 1.4  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 1.4  disable_native_text_input=0
+ 1.4  unlock_resolution(320,200)
+ 1.4  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 1.5  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 1.5  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+151.8  check_ok_to_open...
+151.8  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+151.8  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+151.8  prev_session.info_file_exists = YES
+151.8  prev_session.pid = 8744 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+151.8  prev_session.running = YES
+151.8  prev_session.partial_rpg = NO
+151.8  prev_session.fresh_danger_tmp = NO
+151.8  prev_session.sourcerpg = 
+151.8  prev_session.sourcerpg_old_mtime = 0
+151.8  prev_session.sourcerpg_current_mtime = 0
+151.8  prev_session.session_start_time = 2021 Jun 08 08:38:48
+151.8  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+151.8   ----Loading a game----
+151.8  06-08-2021 08:41:19
+151.8  curdir: C:\OHRRPGCE\0_ohrgames\0_CC_game
+151.8  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+151.8  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+151.8  Editing game C:\OHRRPGCE\0_ohrgames\0_CC_game\HP_game.rpg ( )
+152.0  Full game data upgrade...
+152.0  Last edited by: [[OHRRPGCE wip 20210417.12272 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+152.0  archinym creation info: OHRRPGCE wip 20210417
+160.6  C:\OHRRPGCE\0_ohrgames\0_CC_game\HP_game0002.png contains 7 colors
+170.7  spriteedit_import16: palette is identical
+377.4  spriteedit_import16: palette is identical
+380.2  spriteedit_import16: palette is identical
+383.0  spriteedit_import16: palette is identical
+390.4  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_67690
+390.8  Channel connection received (after 255ms)
+821.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.110203.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.542118.tmp"
+822.0  hspeak version '3Uf'
+822.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1641.1  getinputtext: not enabled
+1641.2  getinputtext: not enabled
+1641.2  getinputtext: not enabled
+1641.3  getinputtext: not enabled
+1641.3  getinputtext: not enabled
+1641.4  getinputtext: not enabled
+1641.4  getinputtext: not enabled
+1643.6  getinputtext: not enabled
+1643.6  getinputtext: not enabled
+1643.7  getinputtext: not enabled
+1643.7  getinputtext: not enabled
+1643.8  getinputtext: not enabled
+1643.9  getinputtext: not enabled
+1643.9  getinputtext: not enabled
+1644.0  getinputtext: not enabled
+1669.0  getinputtext: not enabled
+1669.0  getinputtext: not enabled
+1669.1  getinputtext: not enabled
+1669.2  getinputtext: not enabled
+1670.0  getinputtext: not enabled
+1670.0  getinputtext: not enabled
+1670.1  getinputtext: not enabled
+1674.2  getinputtext: not enabled
+1674.2  getinputtext: not enabled
+1674.3  getinputtext: not enabled
+1674.3  getinputtext: not enabled
+1674.4  getinputtext: not enabled
+1674.4  getinputtext: not enabled
+1674.5  getinputtext: not enabled
+1676.4  getinputtext: not enabled
+1676.5  getinputtext: not enabled
+1676.5  getinputtext: not enabled
+1676.6  getinputtext: not enabled
+1716.4  getinputtext: not enabled
+1716.5  getinputtext: not enabled
+1753.5  getinputtext: not enabled
+1753.6  getinputtext: not enabled
+1753.6  getinputtext: not enabled
+1753.7  getinputtext: not enabled
+1753.8  getinputtext: not enabled
+1753.8  getinputtext: not enabled
+1753.9  getinputtext: not enabled
+1763.2  getinputtext: not enabled
+1763.3  getinputtext: not enabled
+1763.3  getinputtext: not enabled
+1763.4  getinputtext: not enabled
+1763.4  getinputtext: not enabled
+1763.5  getinputtext: not enabled
+1763.5  getinputtext: not enabled
+1764.2  getinputtext: not enabled
+1764.2  getinputtext: not enabled
+1764.3  getinputtext: not enabled
+1845.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.443945.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.289335.tmp"
+1845.1  hspeak version '3Uf'
+1845.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1886.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.380907.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.508890.tmp"
+1887.0  hspeak version '3Uf'
+1887.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1949.2  getinputtext: not enabled
+1949.3  getinputtext: not enabled
+1949.3  getinputtext: not enabled
+1949.4  getinputtext: not enabled
+1949.5  getinputtext: not enabled
+1949.5  getinputtext: not enabled
+1949.6  getinputtext: not enabled
+1949.6  getinputtext: not enabled
+1949.7  getinputtext: not enabled
+1952.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.928093.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.930720.tmp"
+1952.6  hspeak version '3Uf'
+1952.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1996.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.504873.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.38325.tmp"
+1996.9  hspeak version '3Uf'
+1996.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4033.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.938820.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.514400.tmp"
+4033.3  hspeak version '3Uf'
+4033.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4042.7  getinputtext: not enabled
+4042.7  getinputtext: not enabled
+4042.8  getinputtext: not enabled
+4042.8  getinputtext: not enabled
+4042.9  getinputtext: not enabled
+4043.0  getinputtext: not enabled
+4043.0  getinputtext: not enabled
+4043.1  getinputtext: not enabled
+4043.1  getinputtext: not enabled
+4043.2  getinputtext: not enabled
+4043.2  getinputtext: not enabled
+4043.7  getinputtext: not enabled
+4043.7  getinputtext: not enabled
+4043.8  getinputtext: not enabled
+4043.8  getinputtext: not enabled
+4043.9  getinputtext: not enabled
+4043.9  getinputtext: not enabled
+4044.0  getinputtext: not enabled
+4044.1  getinputtext: not enabled
+4044.1  getinputtext: not enabled
+4044.2  getinputtext: not enabled
+4044.2  getinputtext: not enabled
+4044.3  getinputtext: not enabled
+4044.3  getinputtext: not enabled
+4044.4  getinputtext: not enabled
+4044.4  getinputtext: not enabled
+4044.5  getinputtext: not enabled
+4044.6  getinputtext: not enabled
+4044.6  getinputtext: not enabled
+4044.7  getinputtext: not enabled
+4044.7  getinputtext: not enabled
+4044.8  getinputtext: not enabled
+4044.8  getinputtext: not enabled
+4044.9  getinputtext: not enabled
+4044.9  getinputtext: not enabled
+4045.0  getinputtext: not enabled
+4045.0  getinputtext: not enabled
+4045.1  getinputtext: not enabled
+4045.2  getinputtext: not enabled
+4045.2  getinputtext: not enabled
+4045.3  getinputtext: not enabled
+4045.3  getinputtext: not enabled
+4045.4  getinputtext: not enabled
+4045.4  getinputtext: not enabled
+4045.5  getinputtext: not enabled
+4045.5  getinputtext: not enabled
+4045.6  getinputtext: not enabled
+4045.7  getinputtext: not enabled
+4045.7  getinputtext: not enabled
+4045.8  getinputtext: not enabled
+4045.8  getinputtext: not enabled
+4045.9  getinputtext: not enabled
+4045.9  getinputtext: not enabled
+4046.0  getinputtext: not enabled
+4046.0  getinputtext: not enabled
+4046.1  getinputtext: not enabled
+4046.1  getinputtext: not enabled
+4046.2  getinputtext: not enabled
+4046.3  getinputtext: not enabled
+4046.3  getinputtext: not enabled
+4046.4  getinputtext: not enabled
+4046.4  getinputtext: not enabled
+4046.5  getinputtext: not enabled
+4046.5  getinputtext: not enabled
+4046.6  getinputtext: not enabled
+4046.6  getinputtext: not enabled
+4046.7  getinputtext: not enabled
+4046.8  getinputtext: not enabled
+4046.8  getinputtext: not enabled
+4046.9  getinputtext: not enabled
+4046.9  getinputtext: not enabled
+4047.0  getinputtext: not enabled
+4047.0  getinputtext: not enabled
+4047.1  getinputtext: not enabled
+4047.1  getinputtext: not enabled
+4047.2  getinputtext: not enabled
+4047.2  getinputtext: not enabled
+4047.3  getinputtext: not enabled
+4047.4  getinputtext: not enabled
+4047.4  getinputtext: not enabled
+4047.5  getinputtext: not enabled
+4047.5  getinputtext: not enabled
+4047.6  getinputtext: not enabled
+4047.6  getinputtext: not enabled
+4047.7  getinputtext: not enabled
+4047.7  getinputtext: not enabled
+4047.8  getinputtext: not enabled
+4047.9  getinputtext: not enabled
+4047.9  getinputtext: not enabled
+4048.0  getinputtext: not enabled
+4048.0  getinputtext: not enabled
+4048.1  getinputtext: not enabled
+4048.1  getinputtext: not enabled
+4048.2  getinputtext: not enabled
+4048.2  getinputtext: not enabled
+4049.2  getinputtext: not enabled
+4049.2  getinputtext: not enabled
+4049.3  getinputtext: not enabled
+4049.3  getinputtext: not enabled
+4049.4  getinputtext: not enabled
+4049.4  getinputtext: not enabled
+4050.5  getinputtext: not enabled
+4050.6  getinputtext: not enabled
+4050.7  getinputtext: not enabled
+4050.7  getinputtext: not enabled
+4050.8  getinputtext: not enabled
+4050.8  getinputtext: not enabled
+4595.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.555602.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.92574.tmp"
+4595.6  hspeak version '3Uf'
+4595.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" -j "Scripts\0main.hss"
+4606.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.792787.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.857304.tmp"
+4606.6  hspeak version '3Uf'
+4606.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" -j "Scripts\0main.hss"
+4632.0  ! User cancelled.
+
+No scripts were imported.
+4634.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.942885.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.86452.tmp"
+4634.3  hspeak version '3Uf'
+4634.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" -j "Scripts\0main.hss"
+4643.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.949803.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.766446.tmp"
+4643.3  hspeak version '3Uf'
+4643.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" -j "Scripts\0main.hss"
+4670.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.927923.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.702921.tmp"
+4670.8  hspeak version '3Uf'
+4670.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" -j "Scripts\0main.hss"
+4703.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.7658.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.306314.tmp"
+4703.1  hspeak version '3Uf'
+4703.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" -j "Scripts\0main.hss"
+4714.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.241215.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.717920.tmp"
+4714.8  hspeak version '3Uf'
+4714.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" -j "Scripts\0main.hss"
+5401.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.459816.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.602926.tmp"
+5401.9  hspeak version '3Uf'
+5401.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5434.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.159207.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.712954.tmp"
+5434.0  hspeak version '3Uf'
+5434.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5442.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.756593.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.445122.tmp"
+5442.6  hspeak version '3Uf'
+5442.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5519.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.740927.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.352216.tmp"
+5519.3  hspeak version '3Uf'
+5519.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5552.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.350246.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.589606.tmp"
+5552.0  hspeak version '3Uf'
+5552.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5594.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.664826.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.37090.tmp"
+5594.8  hspeak version '3Uf'
+5594.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5609.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.990915.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.418323.tmp"
+5609.0  hspeak version '3Uf'
+5609.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5618.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.802685.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.541233.tmp"
+5618.6  hspeak version '3Uf'
+5618.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5694.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.444731.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.795937.tmp"
+5694.2  hspeak version '3Uf'
+5694.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5717.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.229872.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.711258.tmp"
+5717.3  hspeak version '3Uf'
+5717.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5819.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.515963.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.736114.tmp"
+5819.6  hspeak version '3Uf'
+5819.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5894.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.692086.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.438545.tmp"
+5894.9  hspeak version '3Uf'
+5894.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5971.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.917986.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.395851.tmp"
+5971.3  hspeak version '3Uf'
+5971.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6057.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.515045.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.370783.tmp"
+6057.9  hspeak version '3Uf'
+6057.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6090.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.9594.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.417933.tmp"
+6090.9  hspeak version '3Uf'
+6090.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6119.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.453993.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.987856.tmp"
+6119.5  hspeak version '3Uf'
+6119.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6322.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.846343.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.350730.tmp"
+6322.5  hspeak version '3Uf'
+6322.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6338.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.816460.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.347220.tmp"
+6338.3  hspeak version '3Uf'
+6338.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6377.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.219093.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.452305.tmp"
+6377.3  hspeak version '3Uf'
+6377.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6383.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.295238.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.962894.tmp"
+6383.3  hspeak version '3Uf'
+6383.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6437.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.129541.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.85922.tmp"
+6437.3  hspeak version '3Uf'
+6437.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6443.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.119927.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.159615.tmp"
+6443.1  hspeak version '3Uf'
+6443.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6512.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.199307.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.855915.tmp"
+6512.2  hspeak version '3Uf'
+6512.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6541.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.723684.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.141318.tmp"
+6541.3  hspeak version '3Uf'
+6541.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6561.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.806085.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.881632.tmp"
+6561.1  hspeak version '3Uf'
+6561.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+9622.9  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+9624.6  Saving - been editing for 24m56s
+9624.7  Cleaning up and terminating 0
+9624.7  Closing music backend...
+9624.7  ...done
+9625.6  Closing gfx backend & allmodex...
+9625.7  ...done
+9625.7  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.8   ----Starting OHRRPGCE Custom----
+ 0.8  06-09-2021 13:18:38
+ 0.8  OHRRPGCE wip 20210417.12272 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.8  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 0.8  orig_dir: C:\OHRRPGCE
+ 0.8  curdir: C:\OHRRPGCE
+ 0.8  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.8  documents_dir: C:\Users\Dell\Documents
+ 0.8  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.8  Initialising gfx_sdl2...
+ 0.9  setvideomode zoom=2 w*h = 640,400
+ 0.9  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.9  disable_native_text_input=0
+ 0.9  unlock_resolution(320,200)
+ 0.9  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 1.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 1.2  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+11.0  check_ok_to_open...
+11.0  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+11.0  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+11.0  prev_session.info_file_exists = YES
+11.0  prev_session.pid = 9212 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+11.0  prev_session.running = YES
+11.0  prev_session.partial_rpg = NO
+11.0  prev_session.fresh_danger_tmp = NO
+11.0  prev_session.sourcerpg = 
+11.0  prev_session.sourcerpg_old_mtime = 0
+11.0  prev_session.sourcerpg_current_mtime = 0
+11.0  prev_session.session_start_time = 2021 Jun 09 13:18:39
+11.0  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+11.1   ----Loading a game----
+11.1  06-09-2021 13:18:49
+11.1  curdir: C:\OHRRPGCE\0_ohrgames\0_CC_game
+11.1  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+11.1  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+11.1  Editing game C:\OHRRPGCE\0_ohrgames\0_CC_game\HP_game.rpg ( )
+11.4  Full game data upgrade...
+11.4  Last edited by: [[OHRRPGCE wip 20210417.12272 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+11.4  archinym creation info: OHRRPGCE wip 20210417
+579.9  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\ui\dam_nums.bmp contains 3 colors
+1121.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.728841.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.473053.tmp"
+1121.8  hspeak version '3Uf'
+1121.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1153.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.422091.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.280498.tmp"
+1153.9  hspeak version '3Uf'
+1153.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1169.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.886956.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.717670.tmp"
+1169.8  hspeak version '3Uf'
+1169.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1197.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.674796.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.183856.tmp"
+1197.7  hspeak version '3Uf'
+1197.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1205.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.581465.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.961811.tmp"
+1205.4  hspeak version '3Uf'
+1205.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1299.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.143807.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.70903.tmp"
+1299.7  hspeak version '3Uf'
+1299.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+1302.1  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_32626
+1302.7  Channel connection received (after 254ms)
+4054.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.99661.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.16148.tmp"
+4054.6  hspeak version '3Uf'
+4054.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4056.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.837843.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.115551.tmp"
+4056.9  hspeak version '3Uf'
+4056.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4071.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.337035.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.488953.tmp"
+4071.5  hspeak version '3Uf'
+4071.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4104.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.308648.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.251490.tmp"
+4104.8  hspeak version '3Uf'
+4104.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4185.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.830431.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.64110.tmp"
+4185.2  hspeak version '3Uf'
+4185.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "C:\OHRRPGCE\0_ohrgames\0 Dream Adventure\hss\HP_game.hsi" "C:\OHRRPGCE\0_ohrgames\0 Dream Adventure\hss\0Main.hss"
+4201.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.953031.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.127240.tmp"
+4201.2  hspeak version '3Uf'
+4201.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4243.7  ! loadrecord: record -1 is off the end of C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\\lookup1.bin
+4243.7  !  read 0 instead of 40
+4246.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.631050.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.305123.tmp"
+4246.9  hspeak version '3Uf'
+4246.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4279.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.677954.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.560206.tmp"
+4279.4  hspeak version '3Uf'
+4279.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4474.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.30170.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.980094.tmp"
+4475.0  hspeak version '3Uf'
+4475.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4543.2  getinputtext: not enabled
+4543.2  getinputtext: not enabled
+4543.3  getinputtext: not enabled
+4543.3  getinputtext: not enabled
+4543.4  getinputtext: not enabled
+4543.5  getinputtext: not enabled
+4543.5  getinputtext: not enabled
+4543.6  getinputtext: not enabled
+4543.6  getinputtext: not enabled
+4543.7  getinputtext: not enabled
+4543.7  getinputtext: not enabled
+4543.8  getinputtext: not enabled
+4543.8  getinputtext: not enabled
+4543.9  getinputtext: not enabled
+4752.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.800259.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.962651.tmp"
+4752.1  hspeak version '3Uf'
+4752.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4839.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.745682.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.460552.tmp"
+4839.9  hspeak version '3Uf'
+4839.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4894.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.808491.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.936084.tmp"
+4894.6  hspeak version '3Uf'
+4894.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+4919.0  getinputtext: not enabled
+4919.1  getinputtext: not enabled
+5081.1  Saving - been editing for 15m49s
+5187.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.496732.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.39177.tmp"
+5187.4  hspeak version '3Uf'
+5187.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5230.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.606703.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.303040.tmp"
+5230.0  hspeak version '3Uf'
+5230.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5239.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.172955.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.124733.tmp"
+5239.9  hspeak version '3Uf'
+5239.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5251.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.335508.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.778578.tmp"
+5251.4  hspeak version '3Uf'
+5251.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5301.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.240927.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.518768.tmp"
+5301.9  hspeak version '3Uf'
+5301.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5328.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.21158.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.429428.tmp"
+5328.9  hspeak version '3Uf'
+5328.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5565.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.135680.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.62908.tmp"
+5565.6  hspeak version '3Uf'
+5565.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5595.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.75193.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.186166.tmp"
+5595.7  hspeak version '3Uf'
+5595.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5617.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.926233.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.825863.tmp"
+5617.5  hspeak version '3Uf'
+5617.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5696.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.741075.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.35388.tmp"
+5696.8  hspeak version '3Uf'
+5696.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5721.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.100158.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.944092.tmp"
+5721.4  hspeak version '3Uf'
+5721.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5734.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.613215.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.888275.tmp"
+5734.5  hspeak version '3Uf'
+5734.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5747.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.62822.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.683430.tmp"
+5747.0  hspeak version '3Uf'
+5747.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5787.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.625115.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.603369.tmp"
+5787.2  hspeak version '3Uf'
+5787.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5802.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.272881.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.601474.tmp"
+5802.3  hspeak version '3Uf'
+5802.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5815.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.218018.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.636733.tmp"
+5816.0  hspeak version '3Uf'
+5816.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5840.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.206133.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.532307.tmp"
+5840.1  hspeak version '3Uf'
+5840.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+5872.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.966131.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.495138.tmp"
+5872.5  hspeak version '3Uf'
+5872.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6725.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.368461.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.750554.tmp"
+6725.9  hspeak version '3Uf'
+6725.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6814.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.629425.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.708670.tmp"
+6815.0  hspeak version '3Uf'
+6815.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6825.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.909724.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.830419.tmp"
+6825.8  hspeak version '3Uf'
+6825.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6963.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.823099.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.534249.tmp"
+6963.7  hspeak version '3Uf'
+6963.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6973.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.140950.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.994175.tmp"
+6974.0  hspeak version '3Uf'
+6974.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+6976.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.669511.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.72916.tmp"
+6976.2  hspeak version '3Uf'
+6976.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7035.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.862957.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.174005.tmp"
+7035.4  hspeak version '3Uf'
+7035.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7047.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.30147.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.42873.tmp"
+7047.6  hspeak version '3Uf'
+7047.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7080.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.823709.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.938712.tmp"
+7080.9  hspeak version '3Uf'
+7080.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7094.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.332033.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.260363.tmp"
+7095.0  hspeak version '3Uf'
+7095.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7128.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.106709.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.758768.tmp"
+7128.8  hspeak version '3Uf'
+7128.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7566.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\masterpal.bmp twice! Probably a mistake
+7566.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\masterpal.bmp twice! Probably a mistake
+7567.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battle glitch.bmp twice! Probably a mistake
+7567.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battle glitch.bmp twice! Probably a mistake
+7568.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battle heroes.bmp twice! Probably a mistake
+7568.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battle heroes.bmp twice! Probably a mistake
+7568.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battleback1.bmp twice! Probably a mistake
+7568.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\battleback1.bmp twice! Probably a mistake
+7569.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\blankback.bmp twice! Probably a mistake
+7569.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\blankback.bmp twice! Probably a mistake
+7569.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\game over screen.bmp twice! Probably a mistake
+7569.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\game over screen.bmp twice! Probably a mistake
+7569.9  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\game over screen.bmp twice! Probably a mistake
+7570.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\backdrops\game over screen.bmp twice! Probably a mistake
+7576.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.373943.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.91455.tmp"
+7576.6  hspeak version '3Uf'
+7576.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7587.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.903362.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.499818.tmp"
+7587.2  hspeak version '3Uf'
+7587.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7602.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.481141.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.254020.tmp"
+7602.1  hspeak version '3Uf'
+7602.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7611.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.364997.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.787741.tmp"
+7611.2  hspeak version '3Uf'
+7611.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7621.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.513097.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.423455.tmp"
+7621.8  hspeak version '3Uf'
+7621.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7636.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.866469.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.283883.tmp"
+7636.8  hspeak version '3Uf'
+7636.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7654.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.955476.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.631726.tmp"
+7654.3  hspeak version '3Uf'
+7654.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7670.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.729614.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.90506.tmp"
+7670.9  hspeak version '3Uf'
+7670.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7698.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.950986.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.347085.tmp"
+7698.5  hspeak version '3Uf'
+7698.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+7747.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.545505.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.22675.tmp"
+7747.4  hspeak version '3Uf'
+7747.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+8016.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.715875.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.780905.tmp"
+8016.1  hspeak version '3Uf'
+8016.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+8026.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.187243.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.429312.tmp"
+8026.8  hspeak version '3Uf'
+8026.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+8038.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.471964.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.294789.tmp"
+8038.2  hspeak version '3Uf'
+8038.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+8156.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.161419.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.505093.tmp"
+8156.6  hspeak version '3Uf'
+8156.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+8342.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.165133.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.448615.tmp"
+8342.8  hspeak version '3Uf'
+8342.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+8447.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.114931.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.957946.tmp"
+8447.6  hspeak version '3Uf'
+8447.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+8745.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.225378.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.153116.tmp"
+8745.3  hspeak version '3Uf'
+8745.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+8772.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.523005.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.513292.tmp"
+8772.2  hspeak version '3Uf'
+8772.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+9563.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.822590.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.106764.tmp"
+9563.5  hspeak version '3Uf'
+9563.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+9584.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.266179.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.205785.tmp"
+9584.4  hspeak version '3Uf'
+9584.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+9635.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.177453.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.104493.tmp"
+9636.0  hspeak version '3Uf'
+9636.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+9746.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.550468.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.310292.tmp"
+9746.5  hspeak version '3Uf'
+9746.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+9767.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.471413.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.313022.tmp"
+9767.5  hspeak version '3Uf'
+9767.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+9784.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.537618.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.602520.tmp"
+9784.1  hspeak version '3Uf'
+9784.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+10113.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.956263.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.955632.tmp"
+10113.1  hspeak version '3Uf'
+10113.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+10135.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.829996.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.600876.tmp"
+10135.1  hspeak version '3Uf'
+10135.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+10150.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.152879.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.48666.tmp"
+10150.7  hspeak version '3Uf'
+10150.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+10311.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.463400.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.129354.tmp"
+10312.0  hspeak version '3Uf'
+10312.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+10359.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.355865.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.914474.tmp"
+10359.7  hspeak version '3Uf'
+10359.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+10403.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.294671.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.669274.tmp"
+10403.4  hspeak version '3Uf'
+10403.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+10430.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.127339.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.361927.tmp"
+10430.4  hspeak version '3Uf'
+10430.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+10449.4  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.744014.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.691071.tmp"
+10449.4  hspeak version '3Uf'
+10449.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+10616.8  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+10617.8  Saving - been editing for 28m52s
+10617.9  Cleaning up and terminating 0
+10617.9  Closing music backend...
+10617.9  ...done
+10618.6  Closing gfx backend & allmodex...
+10618.7  ...done
+10618.7  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.5   ----Starting OHRRPGCE Custom----
+ 0.5  06-11-2021 14:03:42
+ 0.5  OHRRPGCE wip 20210417.12272 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.5  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 0.5  orig_dir: C:\OHRRPGCE
+ 0.5  curdir: C:\OHRRPGCE
+ 0.5  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.5  documents_dir: C:\Users\Dell\Documents
+ 0.5  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.5  Initialising gfx_sdl2...
+ 0.8  setvideomode zoom=2 w*h = 640,400
+ 0.9  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.9  disable_native_text_input=0
+ 0.9  unlock_resolution(320,200)
+ 0.9  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 1.0  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 1.0  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+14.5  check_ok_to_open...
+14.5  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+14.5  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+14.5  prev_session.info_file_exists = YES
+14.5  prev_session.pid = 5356 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+14.5  prev_session.running = YES
+14.5  prev_session.partial_rpg = NO
+14.5  prev_session.fresh_danger_tmp = NO
+14.5  prev_session.sourcerpg = 
+14.5  prev_session.sourcerpg_old_mtime = 0
+14.5  prev_session.sourcerpg_current_mtime = 0
+14.5  prev_session.session_start_time = 2021 Jun 11 14:03:43
+14.5  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+14.6   ----Loading a game----
+14.6  06-11-2021 14:03:56
+14.6  curdir: C:\OHRRPGCE\0_ohrgames\0_CC_game
+14.6  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+14.6  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+14.6  Editing game C:\OHRRPGCE\0_ohrgames\0_CC_game\HP_game.rpg ( )
+14.7  Full game data upgrade...
+14.7  Last edited by: [[OHRRPGCE wip 20210417.12272 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+14.7  archinym creation info: OHRRPGCE wip 20210417
+41.9  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.216638.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.511641.tmp"
+41.9  hspeak version '3Uf'
+42.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+50.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.890350.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.585576.tmp"
+50.5  hspeak version '3Uf'
+50.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+96.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.78349.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.643987.tmp"
+96.1  hspeak version '3Uf'
+96.1  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+99.0  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_28699
+99.1  Channel connection received (after 152ms)
+135.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.851390.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.136057.tmp"
+135.9  hspeak version '3Uf'
+135.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+430.8  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+459.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\masterpal.bmp twice! Probably a mistake
+459.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\masterpal.bmp twice! Probably a mistake
+949.3  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_19472
+949.5  Channel connection received (after 105ms)
+1167.1  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+2070.1  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\walkabouts\Kiefer.bmp contains 10 colors
+2078.5  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\walkabouts\G-MONEY.bmp contains 10 colors
+2086.2  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\walkabouts\jenkins.bmp contains 8 colors
+2092.3  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\walkabouts\G-MONEY.bmp contains 10 colors
+2118.4  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_26582
+2118.6  Channel connection received (after 101ms)
+2293.2  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\rat king.bmp contains 12 colors
+2298.0  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\Mushroom Man.bmp contains 9 colors
+2300.3  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp contains 9 colors
+2305.5  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\Mushroom Man.bmp contains 9 colors
+2321.0  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\ui\dam_nums.bmp contains 3 colors
+2325.5  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\ui\font-sheet.bmp contains 2 colors
+2347.0  spriteedit_import16: palette is identical
+2489.2  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\ui\dam_nums.bmp contains 3 colors
+2693.2  C:\OHRRPGCE\0_ohrgames\0_CC_game\Art\battle sprites\doll dancer.bmp contains 9 colors
+3425.0  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+3426.2  Saving - been editing for 33m13s
+3426.3  Cleaning up and terminating 0
+3426.3  Closing music backend...
+3426.4  ...done
+3427.3  Closing gfx backend & allmodex...
+3427.4  ...done
+3427.4  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Custom----
+ 0.1  06-27-2021 12:28:53
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 0.1  orig_dir: C:\OHRRPGCE
+ 0.1  curdir: C:\OHRRPGCE
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  documents_dir: C:\Users\Dell\Documents
+ 0.1  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  unlock_resolution(320,200)
+ 0.2  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 0.3  Joystick 0 GUID 03000000c82d000006500000000000 instance_id 0
+ 0.3   Opened as gamecontroller 8BitDo M30 Gamepad
+ 0.3  Opened joystick 0 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
+ 0.3  JOYSTICKSTATE.UPDATE_KEYBITS(0) took 10ms
+46.9  check_ok_to_open...
+46.9  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+46.9  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+46.9  prev_session.info_file_exists = YES
+46.9  prev_session.pid = 8184 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+46.9  prev_session.running = YES
+46.9  prev_session.partial_rpg = NO
+46.9  prev_session.fresh_danger_tmp = NO
+46.9  prev_session.sourcerpg = 
+46.9  prev_session.sourcerpg_old_mtime = 0
+46.9  prev_session.sourcerpg_current_mtime = 0
+46.9  prev_session.session_start_time = 2021 Jun 27 12:28:53
+46.9  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+46.9   ----Loading a game----
+46.9  06-27-2021 12:29:40
+46.9  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+46.9  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+46.9  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+46.9  Editing game C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg ( )
+47.0  Full game data upgrade...
+47.0  Last edited by: [[OHRRPGCE wip 20210417.12272 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+47.0  archinym creation info: OHRRPGCE wip 20210417
+64.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+64.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+87.3  C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\walkabouts\Kiefer.bmp contains 10 colors
+102.3  C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\walkabouts\jenkins.bmp contains 8 colors
+106.4  C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\walkabouts\G-MONEY.bmp contains 11 colors
+132.5  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_17322
+132.7  Channel connection received (after 109ms)
+538.1  C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\walkabouts\Kiefer.bmp contains 11 colors
+673.1  C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\walkabouts\Kiefer.bmp contains 11 colors
+677.3  C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\walkabouts\Kiefer.bmp contains 11 colors
+688.2  C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\walkabouts\Kiefer.bmp contains 11 colors
+799.4  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+800.7  Saving - been editing for 6m37s
+800.8  Cleaning up and terminating 0
+800.8  Closing music backend...
+800.8  ...done
+801.6  Closing gfx backend & allmodex...
+801.7  ...done
+801.7  End.

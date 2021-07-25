@@ -1,0 +1,64 @@
+include, message.hss
+include, util.hss
+include, default.hss
+include, keypress.hss
+include, array.hss
+include, battle.hss
+include, attacks.hss
+include, thirdparty.hss
+include, anidistortions.hss
+include, menu.hss
+include, everytick.hss
+
+define constant, begin
+	#game modes
+	0, mode:suspend player
+	1, mode:resume player
+	2, mode:battle
+	3, mode:textbox
+	4, mode:keyboard
+	5, mode:specwait
+	6, mode:menu
+
+	#timers
+	0, timer:map
+	1, timer:battle
+	2, timer:battleani
+
+	#lookups
+	200, sli:hero0cont
+	201, sli:hero1cont
+	202, sli:hero2cont
+	203, sli:hero3cont
+	204, sli:selected text
+	205, sli:battleback
+	206, sli:battleanimation
+end
+
+globalVariable, begin
+	0, game:mode
+	1, original_volume
+	2, battle:turn
+	3, battle:bkey
+	4, menu:selected
+	5, game:tick
+
+	#remap variables
+	50, board:a
+	51, board:b
+	52, board:X
+	53, board:Y
+	54, board:up
+	55, board:down
+	56, board:left
+	57, board:right
+	58, cont:a
+	59, cont:b
+	60, cont:X
+	61, cont:Y
+	62, cont:up
+	63, cont:down
+	64, cont:left
+	65, cont:right
+end
+

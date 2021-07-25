@@ -1,0 +1,322 @@
+script, battleKeypress, begin
+	variable ()
+
+	if (battle:bkey == bkey:action) then (battlemenu)
+	if (battle:bkey  == bkey:targatk) then (seltargetatk)
+end
+
+script, seltargetatk, begin
+	variable (sli, var, var2, sel, ext)
+
+	var := getElement(get array(array:battleinfo), battle:enemycount)
+	if (var < 3) then (ext := 1)
+	var2:= getElement(get array(array:battleinfo), battle:herocount)
+	sli := lookupslice (sli:enemygrid)
+	sel := getSliceExtra (sli, 0)
+
+	#if (Keypress(key:Esc)) then (exitSelect, battleEnd(), exit script)
+
+	if (keypressA()) then (
+		addattack (attack:normal, battle:turn, sel+4)
+		exitSelect()
+		if (battle:turn < var2--1) then (
+			battle:turn += 1
+			initBattleMenu()
+		) else (turns())
+		exitScript()
+	)elseif (keypressB()) then (
+		exitSelect()
+		initBattleMenu()
+		exitScript()
+	) elseif (keypress(key:left)) then (
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
+
+		if (sel > 0 + ext) then (sel -= 1)
+		setSliceExtra (lookupslice (sli:enemygrid), 0, sel) 
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
+
+	) else if(keypress(key:right)) then ( 
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
+		if (sel < var2--1) then (sel += 1)
+		setSliceExtra (lookupslice (sli:enemygrid), 0, sel) 
+
+		sli := slice child (lookupslice (sli:enemygrid), sel)
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
+
+	)
+
+	subscript, exitSelect, begin
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
+
+		setSliceExtra (lookupslice (sli:enemygrid), 0, 0)
+	end
+end
+
+script, initTargatk, begin
+	variable (sli, var, sel, ext, who)
+
+	var := getElement(get array(array:battleinfo), battle:enemycount)
+	if (var < 3) then (ext := 1)
+	sli := lookupslice (sli:enemygrid)
+	set slice extra (sli, 0, sel)
+
+	sel := ext
+	setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
+
+	game:mode := mode:battle
+	battle:bkey := bkey:targatk
+end
+
+script, battlemenu, begin
+	variable (sli, var, sel)
+
+	sli := lookupslice (sli:actionmenu)
+	sel := getSliceExtra (sli, 0)
+
+	#if (Keypress(key:Esc)) then (exitBattleMenu, battleEnd(), exit script)
+	
+	
+	if (keypressA()) then (
+		switch (sel) do (
+			case (0) do (
+				exitBattleMenu
+				initTargatk
+				exit script
+			)
+			case (3) do (exitBattleMenu, battleEnd(), exit script)
+		)
+	) elseif (keypressB()) then (
+		if (battle:turn>0) then (
+			exitBattleMenu()
+			battle:turn -= 1
+			initBattleMenu()
+			exitScript()
+		)
+	) elseif (keypress(key:up)) then (
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		setSliceLookup(sli, 0)
+		setTextColor(sli, ui:menuitem)
+
+		if (sel >0) then (sel -= 1) else (sel := (child count(lookupslice (sli:actionmenu)))--1)
+
+		setSliceExtra (lookupslice (sli:actionmenu), 0, sel)
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		setSliceLookup(sli, sli:selected text)
+
+	) else if(keypress(key:down)) then (
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		setSliceLookup(sli, 0)
+		setTextColor(sli, ui:menuitem)
+
+		if (sel <(child count(lookupslice (sli:actionmenu)))--1) then (sel += 1) else (sel := 0)
+		
+		setSliceExtra(lookupslice (sli:actionmenu), 0, sel)
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		setSliceLookup(sli, sli:selected text)
+	)
+	show value (sel)
+	subscript, exitBattleMenu, begin
+		#hide slice and resume battle shit
+		sli := lookupslice (sli:actionmenu)
+		set slice height (sli, 8)
+		free slice children (sli)
+		set slice visible (sli, false)
+		game:mode := mode:specwait
+		specwaitmode (3)
+	end
+end
+
+script, initBattleMenu, begin
+	variable (sli, var, sel, who )
+
+	#position and show slice
+	var := getElement(get array(array:battleinfo), battle:herocount)
+	sli := lookupslice (sli:actionmenu)
+
+	switch (var) do (
+		case (1, 3) do(
+			put slice (sli, battle:turn*100+64, sliceY(sli))		
+		)
+		case (2,4) do(
+			put slice (sli, battle:turn*100+14, sliceY(sli))
+		)
+	)
+
+	who := hero by slot (battle:turn)
+
+	switch (who) do (
+		case (hero:Keifer) do (
+			#create text for menu
+			$2="stab"
+			addText()
+			$2="skill"
+			addText()
+			$2="item"
+			addText()
+			$2="run"
+			addText()
+		)
+		case (hero:Jenkins) do (
+			#create text for menu
+			$2="splash"
+			addText()
+			$2="skill"
+			addText()
+			$2="item"
+			addText()
+			$2="run"
+			addText()
+		)
+		case (hero:GMoney) do (
+			#create text for menu
+			$2="punch"
+			addText()
+			$2="skill"
+			addText()
+			$2="item"
+			addText()
+			$2="run"
+			addText()
+		)
+		case (hero:Daisy) do (
+			#create text for menu
+			$2="slap"
+			addText()
+			$2="skill"
+			addText()
+			$2="item"
+			addText()
+			$2="run"
+			addText()
+		)
+	)
+	
+
+	sli := lookupslice (sli:actionmenu)
+	set slice visible (sli, true)
+	set slice extra (sli, 0, sel)
+
+	#set text to flash
+	sli := slice child (sli, sel)
+	set slice lookup(sli, sli:selected text)
+
+	specwaitmode(8)
+	game:mode := mode:battle
+	battle:bkey := bkey:action
+
+	subscript, addText, begin
+		sli := create text
+		set slice text (sli, 2)
+		set outline(sli, true)
+		set text color(sli, ui:menuitem)
+		set parent (sli, lookupslice (sli:actionmenu))
+		set slice y (sli, slice child index (sli)*10)
+		sli := lookupslice (sli:actionmenu)
+		set slice height (sli, slice height(sli)+10)
+	end
+end
+
+
+
+script, movement keypress, begin
+	variable (x,y, who, cur map, var)
+
+	#checks to see if player should stop for npc event
+	cur map := current map
+	if (npc at spot (hero x, hero y)) then (exit script)
+
+	if(hero is walking(0)==false && hero is walking(1)==false && hero is walking(2)==false && hero is walking(3)==false) then (
+		if (check tag(14)==on) then (set hero speed (me,2)) else (set hero speed(me, 1))
+				#b button, dashing
+		if (keyIsPressedB) then (
+			set hero speed(me, 2)
+		)
+	)
+
+	#a button,  use stuff
+	if (newkeypressA && hero is walking(me) == false) then (
+		x := hero X + dirX(hero direction)
+		y := hero Y + dirY(hero direction)
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				usenpcatspot
+				exit script
+			)
+		)	
+	)
+	
+	if (newkeypressX) then (open menu (0), exitscript)
+	#arrow keys, move character
+
+	if (hero is walking(me) == false) then (
+	if (keypress(up key)) then (
+		x := heroX(me)
+		y := heroY(me)--1
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				set hero direction (me, up)
+				usenpcatspot
+				exit script
+			)
+		)
+	)
+	if (keypress(down key)) then (
+		x := heroX(me)
+		y := heroY(me)+1
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				set hero direction (me, down)
+				usenpcatspot
+				exit script
+			)
+		)
+	)
+	if (keypress(left key)) then (
+		x := heroX(me)--1
+		y := heroY(me)
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				set hero direction (me, left)
+				usenpcatspot
+				exit script
+			)
+		)
+	)
+	if (keypress(right key)) then (
+		x := heroX(me)+1
+		y := heroY(me)
+		if (NPC at spot (x,y)) then (
+			if (activatableNPC(NPC at spot (x,y))) then (
+				set hero direction (me, right)
+				usenpcatspot
+				exit script
+			)
+		)
+	)
+	)
+
+	if (hero is walking(me) == false) then (
+		if (key is pressed(up key)) then (walk hero(me, up, 1), exit script)
+		if (key is pressed(left key)) then (walk hero(me, left, 1), exit script)
+		if (key is pressed(down key)) then (walk hero(me, down, 1), exit script)
+		if (key is pressed(right key)) then (walk hero(me, right, 1), exit script)
+	)
+
+	subscript, usenpcatspot, begin
+		who := (NPC at spot(x,y))
+		if (NPC is walking (who) == false) then (
+			suspend movement
+			if (read NPC (who,NPCstat:when activated) <> NPCwhenactivated:donotfaceplayer) then (
+				switch(hero direction(me)) do, (
+					case (up) do (set NPC direction (who, down))
+					case (down) do (set NPC direction (who, up))
+					case (left) do (set NPC direction (who, right))
+					case (right) do (set NPC direction (who, left))
+				)
+			)
+		)
+		use npc (who)
+		specwaitmode(1)
+		if (game:mode <> mode:battle) then (resume movement)
+	end
+end

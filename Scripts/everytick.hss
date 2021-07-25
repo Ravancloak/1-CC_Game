@@ -1,0 +1,80 @@
+script, mainloop, begin
+	while (true) do (
+		specwait
+	)
+end
+
+script, specwait, time=1, begin
+	variable (i)
+	for (i,1,time) do (
+		mapUpdate()
+		game:tick += 1
+		wait()
+	)
+end
+
+script, mapUpdate, begin,
+	variable (grass layer, sli, i)
+	switch (current map) do (
+		case (map:TEST MAP) do ()
+		case (1) do ()
+	)
+
+	subscript, grassSprite, begin
+	end
+
+	subscript, movelayer, begin
+		switch (current map) do (
+			
+		)
+
+		if (heroIsWalking(me)==true && heroDirection(me)<>left && heroDirection(me)<>right) then (
+			moveSliceBelow (sli, lookupSlice(sl:walkabout layer))
+		) else (
+			moveSliceAbove (sli, lookupSlice(sl:walkabout layer))
+		)
+	end
+end
+
+script, animation, which, target, damage, sli=0, sli2=0, i=0, speed=0, max=0, begin
+	#setup to animate
+	if (i == 0) then (
+		if (target < 4) then (
+			sli := slice child(lookupslice(sli:herogrid), target)
+		) else (
+			sli := sliceChild(lookupslice(sli:enemygrid), target--4)
+		)
+		setupanimation (which, target)
+		switch (which) do (
+			case (attack:normal) do (max := 4)
+		)
+	#end animation
+	) elseif (i > max) then (
+		endanimation(which, sli, damage, target)
+		exit script
+	) else (
+		animating(which, sli, i)
+	)
+
+	i += 1
+	setTimer(timer:battleani, speed, 1, @animation)
+	set timer args (timer:battleani, which, target, damage, sli, sli2, i, speed, max)
+end
+
+
+
+script, scroll map layer, begin
+	variable (sli, x, y)
+	sli := lookup slice(sl:map layer 0)
+	y:=0
+	x:=-860
+
+
+	while (true) do(
+	    x += 1
+	    if (x==0) then (x:=-860)
+	    put slice (sli, x, y)
+	    specwait(1)
+	    exit script
+	)
+end

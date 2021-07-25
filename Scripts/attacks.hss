@@ -1,0 +1,232 @@
+define constant, begin
+	1, attack:normal
+
+	#extra stats
+	12,		stat:curHP
+	13,		stat:curPP
+	14,		stat:targetHP
+	15,		stat:targetPP
+
+	#values for who's attacking
+	0, turnarray:hero1
+	1, turnarray:hero2
+	2, turnarray:hero3
+	3, turnarray:hero4
+	4, turnarray:enemy0
+	5, turnarray:enemy1
+	6, turnarray:enemy2
+	7, turnarray:enemy3
+
+	0, battle:normalDamage
+	1, battle:pureDamage
+
+
+	0,		bkey:action
+	1,		bkey:targatk
+	2,		bkey:skill
+	3,		bkey:targskl
+	4,		bkey:item	
+end
+
+script, addattack, which, who, target, begin
+	variable (speed, sli)
+
+	speed := readstat(who,stat:Speed)
+
+	sli := initArray()
+	setParent (sli, lookupslice(array:turn))
+	setSortOrder (sli, 8000--speed + random(0,speed/20))
+
+	append (sli, which)
+	append (sli, who)
+	append (sli, target)
+end
+
+script, readStat, who, stat, begin
+	return (getElement (slicechild(lookupslice(array:stats), who), stat))
+end
+
+script, writestat, who, stat, amount, begin
+	setElement (slicechild(lookupslice(array:stats), who), stat, amount)
+end
+
+script, turns, begin
+	variable (which, who, target, mod1, mod2, targstat, extdam, sli, type, healing, damage, i, var)
+	sli := lookupslice(array:turn)
+	sortChildren (sli)
+	game:mode := mode:specwait
+
+	while (firstChild (lookupslice(array:turn))) do (
+		sli := firstChild (lookupslice(array:turn))
+		which		:= getElement(sli, 0)
+		who			:= getElement(sli, 1)
+		target		:= getElement(sli, 2)
+
+		switch (which) do (
+			case (attack:normal) do (
+				mod1 := readStat (who, stat:Atk)
+				mod2 := readStat (target, stat:Def)
+				targstat := stat:targetHP
+				type := battle:normalDamage
+				extdam := 0
+				healing := 1
+			)
+		)
+
+		damage	:= returndamage (mod1, mod2, extdam, type, healing)
+		if (healing == 1 && readStat(target, stat:row)==1) then (
+			damage := damage -- damage/3
+		)
+		writeStat (target, targstat, readStat(target, targstat) -- damage)
+		if (readStat(target, targstat)<0) then(writeStat (target, targstat, 0))
+
+		animation(which, target, damage)
+
+		specwaitmode (10)
+		if (readstat (target,stat:curHP)<0) then (
+			if (target < 4) then (
+				var := 0
+				var := getElement(get array(array:battleinfo), battle:heroKoBit)
+				setElement(get array(array:battleinfo), battle:heroKoBit, var + target)
+			) else (
+				var := 0
+				var := getElement(get array(array:battleinfo), battle:enemyKoBit)
+				setElement(get array(array:battleinfo), battle:enemyKoBit, var + target--4)
+			)
+		)
+
+		freeSlice (firstChild (lookupslice(array:turn)))
+	)
+	initTurnArray()
+	battle:turn := 0
+	specwait (10)
+	initBattleMenu
+end
+
+
+
+
+script, setupanimation, which, sli, begin
+	switch (which) do (
+		case (attack:normal) do (
+		)
+	)
+	return (sli)
+end
+
+script, animating, which, sli, i,  begin
+	variable(sli2)
+	switch (which) do (
+		case (attack:normal) do (
+			switch (i) do (
+				case (1) do (
+					sli2 := loadSliceCollection(2)
+					set parent (sli2, sli)
+					specwait (10)
+					free slice (sli2)
+				)
+				case (2) do (
+					sli2 := loadSliceCollection(3)
+					set parent (sli2, sli)
+					specwait (10)
+					free slice (sli2)
+				)
+				case (3) do (
+					sli2 := loadSliceCollection(4)
+					set parent (sli2, sli)
+					specwait (10)
+					free slice (sli2)
+				)
+			)
+			
+		)
+	)
+end
+
+script, endanimation, which, sli, damage, target, begin
+	variable (i)
+	switch (which) do (
+		case (attack:normal) do (
+		)
+	)
+	for (i, 0, 4) do (
+		if (i, mod, 2) then (
+			set slice x (sli, 6--i)
+		) else (
+			set slice x (sli, -6+i)
+		)
+		specwaitmode (6)
+	)
+
+	variable(sli2, ones, tens, hundreds)
+
+	hundreds := modulus(damage/100,10)
+	tens := modulus(damage/10,10)
+	ones := modulus(damage/1,10)
+
+	if (target < 4) then (
+		sli2 := slice child(lookupslice(sli:herogrid), target)
+	) else (
+		sli2 := slice child(lookupslice(sli:enemygrid), target--4)
+	)
+
+	sli:= createGrid(72, 24, 0, 3)
+	set parent (sli, sli2)
+	center slice (sli)
+
+	if (hundreds <> 0) then(
+		sli2 := load border sprite(1)
+		set parent (sli2, sli)
+		set sprite frame (sli2, hundreds+1)
+		sli2 := load border sprite(1)
+		set parent (sli2, sli)
+		set sprite frame (sli2, tens+1)
+		sli2 := load border sprite(1)
+		set parent (sli2, sli)
+		set sprite frame (sli2, ones+1)
+	) else if (tens <> 0)then (
+		sli2 := load border sprite(1)
+		set parent (sli2, sli)
+		set sprite frame (sli2, tens+1)
+		sli2 := load border sprite(1)
+		set parent (sli2, sli)
+		set sprite frame (sli2, ones+1)
+	) else(
+		sli2 := load border sprite(1)
+		set parent (sli2, sli)
+		set sprite frame (sli2, ones+1)
+	)
+	for (i, 0, 14) do (
+		set slice y (sli, slicey(sli)--1)
+		specwait (2)
+	)
+	sli2 := firstChild(sli)
+	while (sli2) do (
+		dissolve sprite (sli2, dissolve:puff, 20)
+		sli2 := nextSibling(sli2)
+	)
+	for (i, 0, 9) do (
+		set slice y (sli, slicey(sli)--1)
+		specwait (2)
+	)
+	free slice (sli)
+end
+
+script, returndamage, mod1, mod2, extdam, type, healing, begin
+	variable (var)
+
+	extdam := extdam+100
+
+	switch (type) do (
+		case (battle:normalDamage) do (var := mod1 -- mod2/2)
+		case (battle:pureDamage) do (var := mod1)
+	)
+	#var := var + multdiv (var, extdam, 100)
+
+	if (var < 0) then (var := 0)
+
+	var := var * healing
+
+	return (var)
+end
+
