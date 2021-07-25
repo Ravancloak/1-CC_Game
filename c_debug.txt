@@ -206,3 +206,6 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 3133.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.286001.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.923400.tmp"
 3133.2  hspeak version '3Uf'
 3133.2  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+3854.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.394795.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.765826.tmp"
+3854.3  hspeak version '3Uf'
+3854.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
