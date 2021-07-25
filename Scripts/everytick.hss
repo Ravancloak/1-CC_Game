@@ -6,7 +6,7 @@ end
 
 script, specwait, time=1, begin
 	variable (i)
-	for (i,1,time) do (
+	for (i,1,time) do ( 
 
 		if (lookupslice(sli:battleback)) then (battleAnimate)
 
