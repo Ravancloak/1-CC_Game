@@ -28,8 +28,12 @@ script, mapUpdate, begin,
 
 	subscript, scrollLayer0, speedx, speedy, begin
 		sli := lookupslice(sl:maplayer0)
-		if (game:tick,mod,speedx==1 && speedx<>0) then (setSlicex(sli, slicex(sli)+1))
-		if (game:tick,mod,speedy==1 && speedy<>0) then (setSlicey(sli, slicey(sli)+1))
+		if (speedx<>0) then (
+			if (game:tick,mod,speedx==1) then (setSlicex(sli, slicex(sli)+1))
+		)
+		if (speedy<>0) then (
+			if (game:tick,mod,speedy==1) then (setSlicey(sli, slicey(sli)+1))
+		)
 	end
 
 	subscript, movelayer, begin
