@@ -25,7 +25,8 @@ define constant, begin
 	1,		bkey:targatk
 	2,		bkey:skill
 	3,		bkey:targskl
-	4,		bkey:item	
+	4,		bkey:item
+	5,		bkey:run
 end
 
 script, addattack, which, who, target, begin
@@ -40,6 +41,14 @@ script, addattack, which, who, target, begin
 	append (sli, which)
 	append (sli, who)
 	append (sli, target)
+end
+
+script, removeattack, begin
+	variable (sli)
+
+	sli := lookupslice(array:turn)
+	sli := last child (sli)
+	free slice (sli)
 end
 
 script, readStat, who, stat, begin

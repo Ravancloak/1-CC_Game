@@ -255,7 +255,9 @@ script, battleportrait, who, which, begin
 	#sli := slice child (sli, 0)
 	#set sprite set number (sli, who*10+which+1)
 end
-
+script, herocount, begin
+	return (getElement(get array(array:battleinfo), battle:herocount))
+end
 script, setmeter, who, stat, begin
 	variable (sli, counter, var, ones, tens, hundreds, thousands)
 
@@ -267,7 +269,7 @@ script, setmeter, who, stat, begin
 
 
 	#find the right slice to change
-	counter := getElement(get array(array:battleinfo), battle:herocount)
+	counter := herocount
 	if (counter == 1 || counter == 2 ) then (who += 1)
 		
 	#go to slice child container "who" of the hero grid

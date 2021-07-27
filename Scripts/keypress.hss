@@ -1,8 +1,11 @@
 script, keypressBattle, begin
 	variable ()
 
-	if (battle:bkey == bkey:action) then (keybattlemenu)
-	if (battle:bkey  == bkey:targatk) then (keyseltargetatk)
+	if (battle:bkey == bkey:action) then (
+		keybattlemenu
+	)else if (battle:bkey  == bkey:targatk) then (
+		keyseltargetatk
+	)
 end
 
 script, keybattlemenu, begin
@@ -15,14 +18,23 @@ script, keybattlemenu, begin
 		switch (sel) do (
 			case (0) do (
 				suspendMovement
-				exit script
+				battle:bkey := bkey:targatk
 			)
 			case (3) do (
-				battle:win := 1
 				suspendMovement
-				exit script
+				battle:bkey := bkey:run
+				battle:win := 1
 			)
 		)
+		exitscript
+	)
+
+	if (keypressB&&battle:turn>0) then (
+		suspendMovement
+		battle:turn -= 1
+		show value (battle:turn)
+		removeattack
+		exit script
 	)
 
 	if (keypress(key:up)) then (
@@ -49,7 +61,6 @@ script, keybattlemenu, begin
 		setSliceLookup(sli, sli:selected text)
 		exit script
 	)
-	show value (sel)
 end
 
 script, keyseltargetatk, begin
@@ -62,8 +73,17 @@ script, keyseltargetatk, begin
 	sel := getSliceExtra (sli, 0)
 
 	if (keypressA) then (
-		addattack (attack:normal, battle:turn, sel+4)
 		suspendMovement
+		addattack (attack:normal, battle:turn, sel+4)
+		battle:turn+=1
+		show value (battle:turn)
+		exit script
+	)
+	if (keypressB&&battle:turn>0) then (
+		suspendMovement
+		battle:turn -= 1
+		show value (battle:turn)
+		removeattack
 		exit script
 	)
 

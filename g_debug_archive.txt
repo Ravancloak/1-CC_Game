@@ -1,43 +1,3 @@
-
-  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
-
-8354.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6793,mod,0
-8354.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6794,mod,0
-8354.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6795,mod,0
-8354.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6796,mod,0
-8354.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6797,mod,0
-8354.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6798,mod,0
-8354.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6799,mod,0
-8354.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6800,mod,0
-8354.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6801,mod,0
-8354.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6802,mod,0
-8354.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6803,mod,0
-8354.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6804,mod,0
-8354.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6805,mod,0
-8354.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6806,mod,0
-8354.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6807,mod,0
-8354.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6808,mod,0
-8354.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6809,mod,0
-8354.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6810,mod,0
-8354.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6811,mod,0
-8354.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6812,mod,0
-8354.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6813,mod,0
-8354.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6814,mod,0
-8354.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6815,mod,0
-8354.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6816,mod,0
-8354.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6817,mod,0
-8354.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6818,mod,0
-8354.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6819,mod,0
-8354.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6820,mod,0
-8354.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6821,mod,0
-8354.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6822,mod,0
-8354.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6823,mod,0
-8354.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6824,mod,0
-8354.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6825,mod,0
-8354.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6826,mod,0
-8354.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6827,mod,0
-8354.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6828,mod,0
-8354.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6829,mod,0
 8354.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6830,mod,0
 8354.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6831,mod,0
 8354.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6832,mod,0
@@ -1102,3 +1062,108 @@
 8372.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7891,mod,0
 8372.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7892,mod,0
 too much debug() output, not printing any more messages
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-25-2021 14:24:54
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_62768'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210725142454.763.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.5  plotscr.hsd version: 3U 
+ 1.0  lock_resolution()
+ 1.0  set_resolution 420*240
+ 1.0  recenter_window_hint()
+ 1.0  get_screen_size: true screen size 1600x900
+ 1.0  Desktop resolution: 1600*860
+ 1.0  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+14.3  msg: M ohrrpgce.gen
+14.3  msg: M general.reld
+64.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 0,mod,0
+64.8  unlock_resolution(420,240)
+65.5  set_resolution 420*240
+65.5  lock_resolution()
+66.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 1,mod,0
+66.0  unlock_resolution(420,240)
+133.6  msg: M ohrrpgce.hsp
+133.6  msg: M plotscr.lst
+133.6  msg: M plotscr.lst
+133.6  msg: M lookup1.bin
+133.8  plotscr.hsd version: 3U 
+133.9  not reloading script scrolllayer0 because it's in use: refcount=1
+133.9  unlock_resolution(420,240)
+135.7  set_resolution 420*240
+135.7  lock_resolution()
+136.3  plotscr.hsd version: 3U 
+147.8  msg: M ohrrpgce.gen
+147.8  msg: M general.reld
+172.9  msg: M backdrops.rgfx
+174.4  msg: M ohrrpgce.gen
+174.9  msg: M ohrrpgce.gen
+174.9  msg: M general.reld
+212.3  msg: M ohrrpgce.map
+212.3  msg: M ohrrpgce.t00
+212.3  msg: M ohrrpgce.p00
+212.3  msg: M ohrrpgce.e00
+212.3  msg: M ohrrpgce.z00
+212.3  msg: M ohrrpgce.l00
+212.3  msg: M ohrrpgce.n00
+212.3  msg: M ohrrpgce.dox
+212.3  msg: M ohrrpgce.d00
+212.3  msg: M ohrrpgce.mn
+212.3  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+213.2  msg: M ohrrpgce.map
+213.2  msg: M ohrrpgce.t00
+213.2  msg: M ohrrpgce.p00
+213.2  msg: M ohrrpgce.e00
+213.2  msg: M ohrrpgce.z00
+213.2  msg: M ohrrpgce.l00
+213.2  msg: M ohrrpgce.n00
+213.2  msg: M ohrrpgce.dox
+213.2  msg: M ohrrpgce.d00
+213.2  msg: M ohrrpgce.mn
+214.1  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+214.4  RELOADMAP_FOEMAP foemap.dirty=0 foemap.changed=-1 foemap.mode=1
+215.4  RELOADMAP_ZONEMAP zonemap.dirty=0 zonemap.changed=-1 zonemap.mode=1
+215.4  did not reload ohrrpgce.d00
+1029.0  msg: M ohrrpgce.gen
+1029.0  msg: M general.reld
+1029.0  msg: M ohrrpgce.gen
+1030.1  msg: P 
+1031.1  msg: M ohrrpgce.gen
+1031.1  msg: M general.reld
+1031.1  msg: Q 
+1031.1  Cleaning up and terminating 0
+1031.1  Closing music backend...
+1031.2  ...done
+1031.2  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210725142454.763.tmp\
+1031.3  Closing gfx backend & allmodex...
+1031.3  ...done
+1031.3  End.

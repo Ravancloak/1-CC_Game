@@ -1,15 +1,16 @@
 plotscript, battle, formation, begin
-	variable (i, var)
+	variable (i, var, counter)
 	initBattle(1)
 	battle:win := 2
 	while (battle:win==2) do (
-		var := 1
 		#break
 
-		for (i, 0, 3) do (
+		counter := herocount
+		battle:turn := 0
+		while (battle:turn<counter) do (
 			if (battle:win<>2) then (break(2))
 			if (heroBySlot(i)==-1) then (break)
-			battleMenu(i)
+			battleMenu(battle:turn)
 			specwait
 		)
 		turns
@@ -29,10 +30,10 @@ script, BattleMenu,which, begin
 
 	switch (var) do (
 		case (1, 3) do(
-			put slice (sli, battle:turn*100+64, sliceY(sli))		
+			put slice (sli, battle:turn*100+108, sliceY(sli))		
 		)
 		case (2,4) do(
-			put slice (sli, battle:turn*100+14, sliceY(sli))
+			put slice (sli, battle:turn*100+58, sliceY(sli))
 		)
 	)
 
@@ -42,40 +43,40 @@ script, BattleMenu,which, begin
 		case (hero:Keifer) do (
 			#create text for menu
 			$2="stab"
-			addText()
+			addText(battlemenu:attack)
 			$2="skill"
-			addText()
+			addText(battlemenu:skill)
 			$2="item"
-			addText()
+			addText(battlemenu:item)
 			$2="run"
-			addText()
+			addText(battlemenu:run)
 		)
 		case (hero:Jenkins) do (
 			#create text for menu
 			$2="splash"
-			addText()
+			addText(battlemenu:attack)
 			$2="skill"
-			addText()
+			addText(battlemenu:skill)
 			$2="item"
-			addText()
+			addText(battlemenu:item)
 		)
 		case (hero:GMoney) do (
 			#create text for menu
 			$2="punch"
-			addText()
+			addText(battlemenu:attack)
 			$2="skill"
-			addText()
+			addText(battlemenu:skill)
 			$2="item"
-			addText()
+			addText(battlemenu:item)
 		)
 		case (hero:Daisy) do (
 			#create text for menu
 			$2="slap"
-			addText()
+			addText(battlemenu:attack)
 			$2="skill"
-			addText()
+			addText(battlemenu:skill)
 			$2="item"
-			addText()
+			addText(battlemenu:item)
 		)
 	)
 
@@ -94,32 +95,41 @@ script, BattleMenu,which, begin
 		specwait
 	)
 
-	sli := lookupslice (sli:actionmenu)
-	sel := getSliceExtra (sli, 0)
 	exitBattleMenu
 
-	if (battle:win<>2) then (exit script)
-
-	specwait(10)
-	battle:bkey := bkey:targatk
-	switch (sel) do (
-		case (0) do (
-			initTargatk
+	switch (battle:bkey) do (
+		case (bkey:targatk) do (
+			opentarget
+		)
+		case (bkey:run) do (
+			exit script
 		)
 	)
 
-	game:mode := mode:battle
-	while (game:mode == mode:battle) do (
-		specwait
-	)
-
-	sli := lookupslice (sli:enemygrid)
-	sel := getSliceExtra (sli, 0)
-	exitSelect()
-
 	specwait(20)
 
-	subscript, addText, begin
+	subscript, opentarget, begin
+
+		sli := lookupslice (sli:actionmenu)
+		sel := getSliceExtra (sli, 0)
+
+		switch (sel) do (
+			case (0) do (
+				initTargatk
+			)
+		)
+
+		game:mode := mode:battle
+		while (game:mode == mode:battle) do (
+			specwait
+		)
+
+		sli := lookupslice (sli:enemygrid)
+		sel := getSliceExtra (sli, 0)
+		exitSelect()
+	end
+
+	subscript, addText, extra, begin
 		sli := create text
 		set slice text (sli, 2)
 		set outline(sli, true)
@@ -136,7 +146,7 @@ script, BattleMenu,which, begin
 		set slice height (sli, 8)
 		free slice children (sli)
 		set slice visible (sli, false)
-		specwait (3)
+		specwait (10)
 	end
 	subscript, exitSelect, begin
 		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)

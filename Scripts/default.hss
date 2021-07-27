@@ -35,6 +35,6 @@ end
 
 script, mapauto0, begin
 	variable (sli)
-	sli := load backdrop sprite (9)
-	set parent (sli, lookupslice(sl:maplayer2))
+	#sli := load backdrop sprite (9)
+	#set parent (sli, lookupslice(sl:maplayer2))
 end
