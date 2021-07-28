@@ -1,0 +1,116 @@
+# Pixel-Walker v2.0
+# by Kiefer Nemeth
+
+# util.hss
+
+# Utility functions
+
+script, maximum, x, y, begin
+    if(x >= y) then(exitReturning(x))
+    if(y > x) then(exitReturning(y))
+end
+
+script, minimum, x, y, begin
+    if(x <= y) then(exitReturning(x))
+    if(y < x) then(exitReturning(y))
+end
+
+script, generateTracker, x, y, dur, begin
+    variable(r)
+    r := createRect(1,1)
+    setParent(r, lookupSlice(sl:maproot))
+    putSlice(r, x, y)
+    setSliceLookup(r, sli:tracker)
+    setSliceExtra(r, extra0, dur)
+    
+    setRectFgCol(r, 108)
+end
+
+script, updateTrackers, begin
+    variable(tree, sl, dur, i)
+    
+    tree := lookupSlice(sl:maproot)
+    sl := firstChild(tree)
+    while(sl) do(
+        if(getSliceLookup(sl) == sli:tracker) then(
+            dur := getSliceExtra(sl, extra0)
+            setSliceExtra(sl, extra0, dur -- 1)
+            if(getSliceExtra(sl, extra0) <= 0) then(
+                if(i > 0) then(i -= 1)
+                freeSlice(sl)
+            )
+        )
+        i += 1
+        sl := sliceChild(tree, i)
+    )
+end
+
+script, createHeroObjects, begin
+    createObject(getHeroSlice(me), player:width, player:height, default:animspeed, player:weight, default:movespeed, player:framecount, player:idleSet, player:idleFrames)
+    writeObject(getHeroSlice(me), obj:originSet, getHeroPicture(me))
+end
+
+script, setHeroTrueFrame, who, frame, begin
+    setHeroFrame(who, frame,mod,2)
+    switch(frame) do(
+        case(0,1) setHeroDirection(who, up)
+        case(2,3) setHeroDirection(who, right)
+        case(4,5) setHeroDirection(who, down)
+        case(6,7) setHeroDirection(who, left)
+    )
+end
+
+script, setNPCTrueFrame, who, frame, begin
+    setNPCFrame(who, frame,mod,2)
+    switch(frame) do(
+        case(0,1) setNPCDirection(who, up)
+        case(2,3) setNPCDirection(who, right)
+        case(4,5) setNPCDirection(who, down)
+        case(6,7) setNPCDirection(who, left)
+    )
+end
+
+script, update npc or hero from slice, sl, begin
+    variable (who)
+    
+    who := hero rank from slice(sl)
+    if (who > -1) then (put hero(who, slice x(sl), slice y(sl)))
+    who := npc reference from slice(sl)
+    if (who <> 0) then (put npc(who, slice x(sl), slice y(sl)))
+end
+
+script, npcIDFromSlice, sl, begin
+    exitReturning(getNPCID(npcReferenceFromSlice(sl)))
+end
+
+script, getDirTowardsObject, obj1, obj2, begin
+    # Returns the direction ob1 must move in to reach obj2
+    variable(x, y, mid1, mid2)
+    
+    mid1 := sliceX(obj1) + (sliceWidth(obj1) / 2)
+    mid2 := sliceX(obj2) + (sliceWidth(obj2) / 2)
+    
+    if(mid2 > mid1 && mid2--mid1 > (sliceWidth(obj2) / 2)) then(x := 1)
+    else if(mid2 < mid1 && mid1--mid2 > (sliceWidth(obj2) / 2)) then(x := -1)
+    else(x := 0)
+    
+    mid1 := sliceY(obj1) + (sliceHeight(obj1) / 2)
+    mid2 := sliceY(obj2) + (sliceHeight(obj2) / 2)
+    
+    if(mid2 > mid1 && mid2--mid1 > (sliceHeight(obj2) / 2)) then(y := 1)
+    else if(mid2 < mid1 && mid1--mid2 > (sliceHeight(obj2) / 2)) then(y := -1)
+    else(y := 0)
+    
+    exitReturning(getDirectionFromInput(obj1, x, y))
+end
+
+script, stopShowingDebugString, begin
+    hideString(str:debug)
+end
+
+plotscript, addHeroWithAttributes, who, idleSet=-1, idleFrames=0, begin
+    variable(slot)
+    slot := addHero(who)
+    createObject(getHeroSliceBySlot(slot), player:width, player:height, default:animspeed, player:weight, default:movespeed, player:framecount, idleSet, idleFrames)
+    writeObject(getHeroSliceBySlot(slot), obj:originSet, getHeroPicture(slot))
+end

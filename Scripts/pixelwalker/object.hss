@@ -1,0 +1,367 @@
+# Pixel-Walker v2.0
+# by Kiefer Nemeth
+
+# object.hss
+
+# Define a general game object structure
+
+# a list of sli: lookup codes for looking up obj attributes
+defineConstant(100,sli:spr)
+defineConstant(101,sli:talk)
+defineConstant(102,sli:animTick)
+defineConstant(103,sli:vel)
+defineConstant(104,sli:weight)
+defineConstant(105,sli:spd)
+defineConstant(106,sli:animSpd)
+defineConstant(107,sli:dir)
+defineConstant(108,sli:originSet)
+defineConstant(109,sli:frameCount)
+defineConstant(110,sli:idleSet)
+defineConstant(111,sli:idleFrames)
+defineConstant(112,sli:npc)
+defineConstant(113,sli:xv)
+defineConstant(114,sli:yv)
+defineConstant(115,sli:ai)
+
+script, createObject, hitbox, w, h, animSpd, weight, spd, frames, idleSet=-1, idleFrames=0, begin
+    # Restructure hero/npc slice to include new attributes for 8-dir movement
+    # hitbox is the hero/npc slice
+    
+    variable(sl, pic, who)
+    
+    # Adjust hitbox size
+    setSliceWidth(hitbox, w)
+    setSliceHeight(hitbox, h)
+    # Put hitbox in correct position according to hero/npc position
+    who := heroRankFromSlice(hitbox)
+    if (who > -1 && who < 4) then (putSlice(hitbox, heroPixelX(who), heroPixelY(who)))
+    who := npcReferenceFromSlice(hitbox)
+    if (who <> 0) then (putSlice(hitbox, npcPixelX(who), npcPixelY(who)))
+    
+    # Talkbox
+    # An invisible collider in "front" of the Object. 
+    # When the Talkbox from ObjA collides with the hitbox of ObjB, ObjA can interact with ObjB 
+    sl := createRect(talkbox:width, talkbox:height)
+    setParent(sl, hitbox)
+    setSliceLookup(sl, sli:talk)
+    #setSliceVisible(sl, true)
+    setSliceVisible(sl, false)
+    # set aligns
+    setHorizAlign(sl, edge:center)
+    setvertAlign(sl, edge:center)
+    setHorizAnchor(sl, edge:center)
+    setVertAnchor(sl, edge:center)
+    
+    # Get the sprite component and save the set number for animation cycling
+    sl := lookupSlice(sl:walkaboutSpriteComponent, hitbox)
+    pic := getSpriteSetNumber(sl)
+    
+    sl := createContainer(0,0)
+    setParent(sl, hitbox)
+    setSliceLookup(sl, sli:ai)
+    
+    # Single-value Attributes
+    createAttribute(sli:animSpd, animSpd)   # rate at which frames change
+    createAttribute(sli:weight, weight)     # weight for object pushing
+    createAttribute(sli:spd, spd)           # movement speed
+    createAttribute(sli:vel, 0)             # current velocity
+    createAttribute(sli:animTick, 0)        # current animation tick
+    createAttribute(sli:dir, 4)             # direction (0-7, starting at 'up' and moving clockwise)
+    createAttribute(sli:originSet, pic)     # original spriteset
+    createAttribute(sli:frameCount, frames) # frame count for walking
+    createAttribute(sli:idleSet, idleSet)   # spriteset; -1 if none
+    createAttribute(sli:idleFrames, idleFrames)# number of frames in the idle animation
+    createAttribute(sli:xv, 0)              # X Velocity
+    createAttribute(sli:yv, 0)              # Y Velocity
+    
+    return(hitbox)
+    
+    subscript, createAttribute, code, val, begin
+        # Create a new container slice with a lookup code and value
+        variable(s)
+        s := createContainer(0,0)
+        setParent(s, hitbox)
+        setSliceLookup(s, code)
+        setSliceExtra(s, extra0, val)
+        
+        return(s)
+    end
+end
+
+# get/set constants
+defineConstant(0,obj:picture)
+defineConstant(1,obj:animTick)
+defineConstant(2,obj:velocity)
+defineConstant(3,obj:weight)
+defineConstant(4,obj:spd)
+defineConstant(5,obj:animSpd)
+defineConstant(6,obj:dir)
+defineConstant(7,obj:originSet)
+defineConstant(8,obj:frameCount)
+defineConstant(9,obj:idleSet)
+defineConstant(10,obj:idleFrames)
+defineConstant(11,obj:width)
+defineConstant(12,obj:height)
+defineConstant(13,obj:xv)
+defineConstant(14,obj:yv)
+
+# read methods
+defineConstant(100,obj:sprite)
+defineConstant(101,obj:objInTalkbox)
+defineConstant(102,obj:animFrame)
+
+# write methods
+defineConstant(100,obj:positionTalkbox)
+
+script, readObject, this, method, arg1=0, arg2=0, arg3=0, begin
+    # A list of game object read methods
+    # ARGS:
+    #   this: Object's hitbox slice
+    #   method: constant for which subscript to call
+    #   arg1...: arguments
+    
+    variable(i, r)
+    
+    switch(method) do, begin
+        case(obj:picture) r := getPicture()
+        case(obj:animTick) r := getAnimTick()
+        case(obj:velocity) r := getVelocity()
+        case(obj:weight) r := getWeight()
+        case(obj:spd) r := getSpeed()
+        case(obj:animSpd) r := getAnimSpeed()
+        case(obj:dir) r := getDirection()
+        case(obj:originSet) r := getOriginalSet()
+        case(obj:frameCount) r := getFrameCount()
+        case(obj:idleSet) r := getIdleSet()
+        case(obj:idleFrames) r := getIdleFrames()
+        case(obj:width) r := getWidth()
+        case(obj:height) r := getHeight()
+        case(obj:xv) r := getXVelocity()
+        case(obj:yv) r := getYVelocity()
+        case(obj:sprite) r := getSprite()
+        case(obj:animFrame) r := getAnimFrame()
+        case(obj:objInTalkbox) r := getObjInTalkbox()
+    end
+    
+    return(r)
+    
+    # Get Single-Value Attributes
+    subscript, getPicture, begin
+        i := lookupSlice(sl:walkaboutSpriteComponent, this)
+        exitReturning(getSpriteSetNumber(i))
+    end
+    subscript, getAnimSpeed, begin
+        i := lookupSlice(sli:animSpd, this)
+        exitReturning(getSliceExtra(i, extra0))
+    end
+    subscript, getAnimTick, begin
+        i := lookupSlice(sli:animTick, this)
+        exitReturning(getSliceExtra(i, extra0))
+    end
+    subscript, getVelocity, begin
+        i := lookupSlice(sli:vel, this)
+        exitReturning(getSliceExtra(i, extra0))
+    end
+    subscript, getWeight, begin
+        i := lookupSlice(sli:weight, this)
+        exitReturning(getSliceExtra(i, extra0))
+    end
+    subscript, getSpeed, begin
+        i := lookupSlice(sli:spd, this)
+        exitReturning(getSliceExtra(i, extra0))
+    end
+    subscript, getDirection, begin
+        i := lookupSlice(sli:dir, this)
+        exitReturning(getSliceExtra(i, extra0))
+    end
+    subscript, getOriginalSet, begin
+        i := lookupSlice(sli:originSet, this)
+        exitReturning(getSliceExtra(i, extra0))
+    end
+    subscript, getFrameCount, begin
+        i := lookupSlice(sli:frameCount, this)
+        exitReturning(getSliceExtra(i, extra0))
+    end
+    subscript, getIdleFrames, begin
+        i := lookupSlice(sli:idleFrames, this)
+        exitReturning(getSliceExtra(i, extra0))
+    end
+    subscript, getIdleSet, begin
+        i := lookupSlice(sli:idleSet, this)
+        exitReturning(getSliceExtra(i, extra0))
+    end
+    subscript, getWidth, begin
+        exitReturning(sliceWidth(this))
+    end
+    subscript, getHeight, begin
+        exitReturning(sliceHeight(this))
+    end
+    subscript, getXVelocity, begin
+        i := lookupSlice(sli:xv, this)
+        exitReturning(getSliceExtra(i, extra0))
+    end
+    subscript, getYVelocity, begin
+        i := lookupSlice(sli:yv, this)
+        exitReturning(getSliceExtra(i, extra0))
+    end
+    
+    # Operative Methods
+    subscript, getSprite, begin
+        exitReturning(lookupSlice(sl:walkaboutSpriteComponent, this))
+    end
+    subscript, getAnimFrame, begin
+        i := lookupSlice(sli:spr, this)
+        exitReturning(getSpriteFrame(i))
+    end
+    subscript, getObjInTalkbox, begin
+        # Uses find colliding slice to return obj in talkbox
+        # Requires 2 args
+        variable(talk, tree, r, i, npcs)
+        talk := lookupSlice(sli:talk, this)
+        tree := lookupSlice(sl:walkaboutlayer)
+        
+        i := 0
+        r := findCollidingSlice(tree, talk, i)
+        while(r) do(
+            if(npcReferenceFromSlice(r)) then(
+                exitReturning(r)
+            )
+            i += 1
+            r := findCollidingSlice(tree, talk, i)
+        )
+        
+        exitReturning(false)
+    end
+end
+
+script, writeObject, this, method, arg1=0, arg2=0, arg3=0, begin
+    # A list of game object write methods
+    
+    variable(i, r)
+    
+    switch(method) do, begin
+        case(obj:picture) r := setPicture()
+        case(obj:animTick) r := setAnimTick()
+        case(obj:velocity) r := setVelocity()
+        case(obj:weight) r := setWeight()
+        case(obj:spd) r := setSpeed()
+        case(obj:animSpd) r := setAnimSpeed()
+        case(obj:dir) r := setDirection()
+        case(obj:originSet) r := setOriginalSet()
+        case(obj:frameCount) r := setFrameCount()
+        case(obj:idleSet) r := setIdleSet()
+        case(obj:idleFrames) r := setIdleFrames()
+        case(obj:width) r := setWidth()
+        case(obj:height) r := setHeight()
+        case(obj:xv) r := setXVelocity()
+        case(obj:yv) r := setYVelocity()
+        case(obj:positionTalkbox) r := positionTalkbox()
+    end
+    
+    return(r)
+    
+    # Set Single-Value Attributes
+    subscript, setPicture, begin
+        # Requires 1 arg
+        i := lookupSlice(sl:walkaboutSpriteComponent, this)
+        exitReturning(setSpriteSetNumber(i, arg1))
+    end
+    subscript, setAnimTick, begin
+        # Requires 1 arg
+        i := lookupSlice(sli:animTick, this)
+        exitReturning(setSliceExtra(i, extra0, arg1))
+    end
+    subscript, setVelocity, begin
+        # Requires 1 arg
+        i := lookupSlice(sli:vel, this)
+        exitReturning(setSliceExtra(i, extra0, arg1))
+    end
+    subscript, setWeight, begin
+        # Requires 1 arg
+        i := lookupSlice(sli:weight, this)
+        exitReturning(setSliceExtra(i, extra0, arg1))
+    end
+    subscript, setSpeed, begin
+        # Requires 1 arg
+        i := lookupSlice(sli:spd, this)
+        exitReturning(setSliceExtra(i, extra0, arg1))
+    end
+    subscript, setAnimSpeed, begin
+        # Requires 1 arg
+        i := lookupSlice(sli:animSpd, this)
+        exitReturning(setSliceExtra(i, extra0, arg1))
+    end
+    subscript, setDirection, begin
+        # Requires 1 arg
+        i := lookupSlice(sli:dir, this)
+        exitReturning(setSliceExtra(i, extra0, arg1))
+    end
+    subscript, setOriginalSet, begin
+        # Requires 1 arg
+        i := lookupSlice(sli:originSet, this)
+        exitReturning(setSliceExtra(i, extra0, arg1))
+    end
+    subscript, setFrameCount, begin
+        # Requires 1 arg
+        i := lookupSlice(sli:frameCount, this)
+        exitReturning(setSliceExtra(i, extra0, arg1))
+    end
+    subscript, setIdleFrames, begin
+        # Requires 1 arg
+        i := lookupSlice(sli:idleFrames, this)
+        exitReturning(setSliceExtra(i, extra0, arg1))
+    end
+    subscript, setIdleSet, begin
+        # Requires 1 arg
+        i := lookupSlice(sli:idleSet, this)
+        exitReturning(setSliceExtra(i, extra0, arg1))
+    end
+    subscript, setWidth, begin
+        # Requires 1 arg
+        exitReturning(setSliceWidth(this, arg1))
+    end
+    subscript, setHeight, begin
+        # Requires 1 arg
+        exitReturning(setSliceHeight(this, arg1))
+    end
+    subscript, setXVelocity, begin
+        # Requires 1 arg
+        i := lookupSlice(sli:xv, this)
+        exitReturning(setSliceExtra(i, extra0, arg1))
+    end
+    subscript, setYVelocity, begin
+        # Requires 1 arg
+        i := lookupSlice(sli:yv, this)
+        exitReturning(setSliceExtra(i, extra0, arg1))
+    end
+    
+    # Operative Methods
+    subscript, positionTalkBox, begin
+        variable(talk, h, v, hEdge, vEdge, normal)
+        
+        talk := lookupSlice(sli:talk, this)
+        
+        h := getHorizFromDirection(readObject(this, obj:dir))
+        v := getVertFromDirection(readObject(this, obj:dir))
+        
+        centerSlice(talk)
+        
+        if(h && v) then(
+            # Diagonal, normalize size
+            normal := (talkbox:width + talkbox:height) / 2
+            setSliceSize(talk, normal, normal)
+        ) else if(h) then(
+            # Horizontal, invert width/height
+            setSliceSize(talk, talkbox:height, talkbox:width)
+        ) else(
+            # Vertical, normal width/height
+            setSliceSize(talk, talkbox:width, talkbox:height)
+        )
+        
+        if(h < 0) then(setHorizAlign(talk, edge:left), setHorizAnchor(talk, edge:right))
+        else if(h > 0) then(setHorizAlign(talk, edge:right), setHorizAnchor(talk, edge:left))
+        
+        if(v < 0) then(setVertAlign(talk, edge:top), setVertAnchor(talk, edge:bottom))
+        else if(v > 0) then(setVertAlign(talk, edge:bottom), setVertAnchor(talk, edge:top))
+    end
+end

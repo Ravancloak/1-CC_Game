@@ -1,0 +1,430 @@
+# Pixel-Walker v2.0
+# by Kiefer Nemeth
+
+# npc.hss
+
+# Operations on and using NPCs
+
+# NOTE: 
+# Each Object gets an additional slice child: the AI Slice. 
+# This slice acts as a queue: child slices are commands and will be operated on in sequence. 
+# The AI Slice itself has distance left stored in slice extra 0, and wait time in slice extra 1, direction is in slice extra 2
+
+script, defineNPCProperties, map, begin
+    # Here you must define properties specific to the Pixel-Walker scripts that cannot utilize NPC data from the editor directly.
+    # This script is called from the Pixel-Walker map autorun script.
+    
+    # NPC Properties:
+    # - hitboxWidth
+    # - hitboxHeight
+    # - direction
+    # - speed
+    # - weight
+    # - animSpeed
+    # - frameCount
+    # - idle
+    # - idleSpriteSet
+    
+    # Note that each map has a different set of NPC definitions
+    # The switch statement below will take the argument 'map', which is the value returned from 'currentMap()' in the map autorun script
+    switch(map) do, begin
+        case(0) do(
+            # Map 0 NPCs
+            props(
+            0,      #id
+            18,     #width
+            18,     #height
+            -1,     #direction (set to -1 for map definition)
+            4,      #speed
+            8,      #weight
+            3,      #animation speed
+            2,      #frame count
+            )
+            props( 
+            3,      #id
+            18,     #width
+            18,     #height
+            -1,     #direction (set to -1 for map definition)
+            3,      #speed
+            15,     #weight
+            2,      #animation speed
+            1,      #frame count
+            )
+            props( 
+            4,      #id
+            42,     #width
+            42,     #height
+            -1,     #direction (set to -1 for map definition)
+            1,      #speed
+            15,     #weight
+            2,      #animation speed
+            1,      #frame count
+            )      
+            props( 
+            5,      #id
+            42,     #width
+            42,     #height
+            -1,     #direction (set to -1 for map definition)
+            1,      #speed
+            15,     #weight
+            2,      #animation speed
+            1,      #frame count
+            )
+        )
+        case(1) do(
+            # Map 1 NPCs
+            props(
+            0,      #id
+            18,     #width
+            18,     #height
+            -1,     #direction (set to -1 for map definition)
+            1,      #speed
+            5,      #weight
+            4,      #animation speed
+            2,      #frame count
+            )
+            props(
+            3,      #id
+            18,     #width
+            18,     #height
+            -1,     #direction (set to -1 for map definition)
+            4,      #speed
+            8,      #weight
+            2,      #animation speed
+            2,      #frame count
+            11,     #idle set
+            2       #idle frame count
+            )
+            props(
+            4,      #id
+            22,     #width
+            28,     #height
+            -1,     #direction (set to -1 for map definition)
+            3,      #speed
+            15,      #weight
+            2,      #animation speed
+            6,      #frame count
+            )
+            props(
+            5,      #id
+            12,     #width
+            12,     #height
+            -1,     #direction (set to -1 for map definition)
+            5,      #speed
+            1,      #weight
+            1,      #animation speed
+            2,      #frame count
+            24,     #idle set
+            2,      #idle frame count
+            )
+            props(
+            8,      #id
+            10,     #width
+            6,     #height
+            -1,     #direction (set to -1 for map definition)
+            0,      #speed
+            0,      #weight
+            0,      #animation speed
+            0,      #frame count
+            )
+        )
+        # add a case() block for each map
+    end
+    
+    subscript, props, id, w, h, dir, spd, wt, animSpd, frames, idleSet=-1, idleFrames=0, begin
+        # Loops through the npcs and sets the properties of each one with the given id
+        variable(obj, copies, copy)
+        
+        copies := npcCopyCount(id)
+        for(copy, 0, copies--1) do(
+            obj := getNPCSlice(NPCreference(id, copy))
+            # Write Properties
+            writeObject(obj, obj:width, w), writeObject(obj, obj:height, h)
+            if(dir <> -1) then(writeObject(obj, obj:dir, dir))
+            writeObject(obj, obj:spd, spd)
+            writeObject(obj, obj:weight, wt)
+            writeObject(obj, obj:animSpd, animSpd)
+            writeObject(obj, obj:frameCount, frames)
+            writeObject(obj, obj:idleSet, idleSet)
+            writeObject(obj, obj:idleFrames, idleFrames)
+        )
+    end
+end
+
+script, createNPCObjects, begin
+    # Loop through NPCs currently on the map, create an Object at their location, then destroy the NPC
+    
+    variable(ref, obj, aiSlice)
+    ref := nextNPCReference() # the first NPC
+    while(ref) do(
+        obj := createObject(getNPCSlice(ref), default:width, default:height, default:animspeed, default:weight, getNPCSpeed(ref), 1)
+        writeObject(obj, obj:dir, NPCDirection(ref)*2) # Adjust initial direction
+        
+        ref := nextNPCReference(ref)
+    )
+end
+
+script, moveNPCs, begin
+    # Loop through NPCs and determine if and how to move NPCs
+    
+    if(npcObjectsAreSuspended) then(exitScript)
+    
+    variable(npc)
+    
+    npc := nextNPCReference()
+    while(npc) do, begin
+        # If movement allowed, apply NPC's ai
+        npcMoveBehavior(getNPCSlice(npc))
+        npc := nextNPCReference(npc)
+    end
+end
+
+script, npcMoveBehavior, obj, begin
+    # Processes NPC's move type, then performs specific operations
+    # Change direction, set velocity, etc.
+    
+    variable(id, ai, aiSlice, horiz, vert, dir, dist, w)
+    
+    aiSlice := lookupSlice(sli:ai, obj)
+    
+    id := getNPCID(npcReferenceFromSlice(obj))
+    ai := readNPC(id, NPCstat:movetype)
+    
+    switch(ai) do, begin
+        case(NPCmovetype:standstill) do(
+            # Do Nothing
+        )
+        case(NPCmovetype:wander) do(
+            # WANDER
+            if(childCount(aiSlice) == 0) then(
+                dir := random(0,7)
+                dist := random(0, 20)
+                w := random(15, 45)
+
+                appendInstruction(obj, dir, dist, w)
+            )
+        )
+        case(NPCmovetype:pace) do(
+            # PACE
+            # Check for wall within 1 step in the direction already facing.
+            # If there is a wall within 1 step, turn 180 degrees
+            dir := readObject(obj, obj:dir)
+            dist := readObject(obj, obj:spd)
+            
+            horiz := getHorizFromDirection(dir)
+            vert := getVertFromDirection(dir)
+            # Check for future wall collision
+            if(
+                checkWallCollisionX(sliceX(obj), sliceY(obj), sliceWidth(obj), sliceHeight(obj), horiz, vert, default:friction) <> horiz
+            ||  checkWallCollisionY(sliceX(obj), sliceY(obj), sliceWidth(obj), sliceHeight(obj), horiz, vert, default:friction) <> vert
+            ) then(
+                # A wall will be hit! Turn around!
+                clearInstructions(obj)
+                appendInstruction(obj, ((dir+4),mod,8), 1, 0)
+            ) else if(childCount(aiSlice) == 0) then(
+                appendInstruction(obj, readObject(obj, obj:dir), 1, 0)
+            )
+        )
+        case(NPCmovetype:rightturns) do(
+            # RIGHT TURNS
+            # Check for wall within 1 step in the direction already facing.
+            # If there is a wall within 1 step, turn +45 degrees
+            dir := readObject(obj, obj:dir)
+            dist := readObject(obj, obj:spd)
+            
+            horiz := getHorizFromDirection(dir)
+            vert := getVertFromDirection(dir)
+            
+            # Check for future wall collision
+            if(
+                checkWallCollisionX(sliceX(obj), sliceY(obj), sliceWidth(obj), sliceHeight(obj), horiz, vert, default:friction) <> horiz
+            ||  checkWallCollisionY(sliceX(obj), sliceY(obj), sliceWidth(obj), sliceHeight(obj), horiz, vert, default:friction) <> vert
+            ) then(
+                # A wall will be hit! Turn Right!
+                clearInstructions(obj)
+                appendInstruction(obj, ((dir+1),mod,8), 1, 0)
+            ) else if(childCount(aiSlice) == 0) then(
+                appendInstruction(obj, readObject(obj, obj:dir), 1, 0)
+            )
+        )
+        case(NPCmovetype:leftturns) do(
+            # LEFT TURNS
+            # Check for wall within 1 step in the direction already facing.
+            # If there is a wall within 1 step, turn -45 degrees
+            dir := readObject(obj, obj:dir)
+            dist := readObject(obj, obj:spd)
+            
+            horiz := getHorizFromDirection(dir)
+            vert := getVertFromDirection(dir)
+            # Check for future wall collision
+            if(
+                checkWallCollisionX(sliceX(obj), sliceY(obj), sliceWidth(obj), sliceHeight(obj), horiz, vert, default:friction) <> horiz
+            ||  checkWallCollisionY(sliceX(obj), sliceY(obj), sliceWidth(obj), sliceHeight(obj), horiz, vert, default:friction) <> vert
+            ) then(
+                # A wall will be hit! Turn Left!
+                clearInstructions(obj)
+                if(dir == 0) then(
+                    appendInstruction(obj, 7, 1, 0)
+                ) else(
+                    appendInstruction(obj, (dir--1), 1, 0)
+                )
+                
+            ) else if(childCount(aiSlice) == 0) then(
+                appendInstruction(obj, readObject(obj, obj:dir), 1, 0)
+            )
+        )
+        case(NPCmovetype:randomturns) do(
+            # RANDOM TURNS
+            # Check for wall within 1 step in the direction already facing.
+            # If there is a wall within 1 step, turn in a random diretion
+            dir := readObject(obj, obj:dir)
+            dist := readObject(obj, obj:spd)
+            
+            horiz := getHorizFromDirection(dir)
+            vert := getVertFromDirection(dir)
+            # Check for future wall collision
+            if(
+                checkWallCollisionX(sliceX(obj), sliceY(obj), sliceWidth(obj), sliceHeight(obj), horiz, vert, default:friction) <> horiz
+            ||  checkWallCollisionY(sliceX(obj), sliceY(obj), sliceWidth(obj), sliceHeight(obj), horiz, vert, default:friction) <> vert
+            ) then(
+                # A wall will be hit! Turn Randomly!
+                dir := random(0,7)
+                clearInstructions(obj)
+                appendInstruction(obj, dir, 1, 0)
+            ) else if(childCount(aiSlice) == 0) then(
+                appendInstruction(obj, readObject(obj, obj:dir), 1, 0)
+            )
+        )
+        case(NPCmovetype:chaseyoudirect) do(
+            # CHASE YOU DIRECT
+            if(childCount(aiSlice) == 0) then(
+                appendInstruction(obj, getDirTowardsObject(obj, player), 1, 0)
+            )
+        )
+        case(NPCmovetype:avoidyoudirect) do(
+            # AVOID YOU DIRECT
+            if(childCount(aiSlice) == 0) then(
+                appendInstruction(obj, (getDirTowardsObject(obj, player)+4),mod,8, 1, 0)
+            )
+        )
+        case(NPCmovetype:chaseyou) do(
+            # CHASE YOU MEANDERING
+            if(childCount(aiSlice) == 0) then(
+                if(random(0,3) == 0) then(
+                    # 25% to move in random direction
+                    appendInstruction(obj, random(0,7), random(2,4), 0)
+                ) else(
+                    appendInstruction(obj, getDirTowardsObject(obj, player), 1, 0)
+                )
+            )
+        )
+        case(NPCmovetype:avoidyou) do(
+            # AVOID YOU MEANDERING
+            if(childCount(aiSlice) == 0) then(
+                if(random(0,3) == 0) then(
+                    # 25% to move in random direction
+                    appendInstruction(obj, random(0,7), random(2,4), 0)
+                ) else(
+                    appendInstruction(obj, (getDirTowardsObject(obj, player)+4),mod,8, 1, 0)
+                )
+            )
+        )
+        case(else) do(
+            # Do nothing
+        )
+    end
+    
+    # Check if there is remaining distance to move from prev instruction
+    if(getSliceExtra(aiSlice, extra0) > 0) then(
+        # Reduce distance left to move
+        setSliceExtra(aiSlice, extra0, getSliceExtra(aiSlice, extra0)--1)
+        
+        # Set distance and direction to move
+        dir := getSliceExtra(aiSlice, extra2)
+        dist := readObject(obj, obj:spd)
+    ) else(
+        dir := readObject(obj, obj:dir)
+        dist := 0 # not moving
+        
+        if(getSliceExtra(aiSlice, extra1) > 0) then(
+            # tick down wait timer
+            setSliceExtra(aiSlice, extra1, getSliceExtra(aiSlice, extra1)--1)
+        ) else if(instructionCount(obj)) then(
+            # Give new instruction from queue
+            setSliceExtra(aiSlice, extra0, instructionDist(obj, 0)) # set dist remaining
+            setSliceExtra(aiSlice, extra1, instructionWait(obj, 0)) # set wait
+            setSliceExtra(aiSlice, extra2, instructionDir(obj, 0)) # set dir
+
+            dir := instructionDir(obj, 0)
+            dist := readObject(obj, obj:spd)
+            
+            removeInstruction(obj) # removes top instruction
+        )
+    )
+    
+    moveObject(obj, dist, getHorizFromDirection(dir), getVertFromDirection(dir))
+end
+
+# ========================
+# NPC AI Slice
+# ========================
+
+script, appendInstruction, obj, dir, dist, w, priority=-1, begin
+    # Append a child slice to the AI Slice with a movement instruction
+    # - dir: direction to move
+    # - dist: distance to move in "steps" (step = 1 * spd)
+    # - w: wait time, starts when movement ends
+    # - priority: where to place in queue; placed at end if = -1
+    
+    variable(aiSlice, i)
+    
+    aiSlice := lookupSlice(sli:ai, obj)
+    i := createContainer(0,0)
+    setParent(i, aiSlice)
+    
+    if(priority == 0) then(
+        sliceToBack(i)
+    )
+    
+    setSliceExtra(i, extra0, dir)
+    setSliceExtra(i, extra1, dist)
+    setSliceExtra(i, extra2, w)
+end
+
+script, removeInstruction, obj, i=0, begin
+    freeSlice(sliceChild(lookupSlice(sli:ai, obj), i))
+end
+
+script, instructionCount, obj, begin
+    return(childCount(lookupSlice(sli:ai, obj)))
+end
+
+script, clearInstructions, obj, begin
+    variable(aiSlice)
+    
+    aiSlice := lookupSlice(sli:ai, obj)
+    setSliceExtra(aiSlice, extra0, 0)
+    setSliceExtra(aiSlice, extra1, 0)
+    setSliceExtra(aiSlice, extra2, 0)
+    
+    freeSliceChildren(lookupSlice(sli:ai, obj))
+end
+
+script, instructionDir, obj, i, begin
+    return(getSliceExtra(sliceChild(lookupSlice(sli:ai, obj), i), extra0))
+end
+
+script, instructionDist, obj, i, begin
+    return(getSliceExtra(sliceChild(lookupSlice(sli:ai, obj), i), extra1))
+end
+
+script, instructionWait, obj, i, begin
+    return(getSliceExtra(sliceChild(lookupSlice(sli:ai, obj), i), extra2))
+end
+
+# Individual NPC scripts
+
+plotscript, oneTime, arg, ref, begin
+    showTextbox(5)
+    destroyNPC(ref)
+end

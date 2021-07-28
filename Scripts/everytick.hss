@@ -9,7 +9,10 @@ script, specwait, time=1, begin
 	for (i,1,time) do (
 
 		if (lookupslice(sli:battleback)) then (battleAnimate)
-
+		if (movementAllowed) then (
+			updatePixelMove
+		)
+		
 		mapUpdate()
 		game:tick += 1
 		wait()
@@ -46,6 +49,8 @@ script, mapUpdate, begin,
 		)
 	end
 end
+
+
 
 script, battleAnimate, begin
 
@@ -120,3 +125,4 @@ script, scroll map layer, begin
 	    exit script
 	)
 end
+

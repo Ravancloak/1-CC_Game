@@ -1,630 +1,3 @@
-8354.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6830,mod,0
-8354.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6831,mod,0
-8354.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6832,mod,0
-8354.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6833,mod,0
-8354.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6834,mod,0
-8354.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6835,mod,0
-8354.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6836,mod,0
-8354.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6837,mod,0
-8354.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6838,mod,0
-8354.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6839,mod,0
-8354.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6840,mod,0
-8354.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6841,mod,0
-8355.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6842,mod,0
-8355.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6843,mod,0
-8355.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6844,mod,0
-8355.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6845,mod,0
-8355.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6846,mod,0
-8355.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6847,mod,0
-8355.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6848,mod,0
-8355.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6849,mod,0
-8355.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6850,mod,0
-8355.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6851,mod,0
-8355.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6852,mod,0
-8355.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6853,mod,0
-8355.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6854,mod,0
-8355.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6855,mod,0
-8355.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6856,mod,0
-8355.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6857,mod,0
-8355.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6858,mod,0
-8355.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6859,mod,0
-8355.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6860,mod,0
-8355.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6861,mod,0
-8355.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6862,mod,0
-8355.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6863,mod,0
-8355.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6864,mod,0
-8355.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6865,mod,0
-8355.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6866,mod,0
-8355.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6867,mod,0
-8355.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6868,mod,0
-8355.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6869,mod,0
-8355.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6870,mod,0
-8355.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6871,mod,0
-8355.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6872,mod,0
-8355.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6873,mod,0
-8355.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6874,mod,0
-8355.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6875,mod,0
-8355.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6876,mod,0
-8355.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6877,mod,0
-8355.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6878,mod,0
-8355.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6879,mod,0
-8355.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6880,mod,0
-8355.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6881,mod,0
-8355.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6882,mod,0
-8355.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6883,mod,0
-8355.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6884,mod,0
-8355.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6885,mod,0
-8355.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6886,mod,0
-8355.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6887,mod,0
-8355.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6888,mod,0
-8355.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6889,mod,0
-8355.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6890,mod,0
-8355.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6891,mod,0
-8355.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6892,mod,0
-8355.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6893,mod,0
-8355.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6894,mod,0
-8355.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6895,mod,0
-8355.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6896,mod,0
-8355.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6897,mod,0
-8356.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6898,mod,0
-8356.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6899,mod,0
-8356.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6900,mod,0
-8356.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6901,mod,0
-8356.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6902,mod,0
-8356.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6903,mod,0
-8356.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6904,mod,0
-8356.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6905,mod,0
-8356.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6906,mod,0
-8356.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6907,mod,0
-8356.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6908,mod,0
-8356.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6909,mod,0
-8356.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6910,mod,0
-8356.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6911,mod,0
-8356.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6912,mod,0
-8356.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6913,mod,0
-8356.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6914,mod,0
-8356.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6915,mod,0
-8356.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6916,mod,0
-8356.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6917,mod,0
-8356.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6918,mod,0
-8356.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6919,mod,0
-8356.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6920,mod,0
-8356.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6921,mod,0
-8356.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6922,mod,0
-8356.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6923,mod,0
-8356.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6924,mod,0
-8356.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6925,mod,0
-8356.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6926,mod,0
-8356.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6927,mod,0
-8356.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6928,mod,0
-8356.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6929,mod,0
-8356.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6930,mod,0
-8356.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6931,mod,0
-8356.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6932,mod,0
-8356.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6933,mod,0
-8356.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6934,mod,0
-8356.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6935,mod,0
-8356.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6936,mod,0
-8356.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6937,mod,0
-8356.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6938,mod,0
-8356.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6939,mod,0
-8356.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6940,mod,0
-8356.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6941,mod,0
-8356.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6942,mod,0
-8356.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6943,mod,0
-8356.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6944,mod,0
-8356.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6945,mod,0
-8356.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6946,mod,0
-8356.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6947,mod,0
-8356.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6948,mod,0
-8356.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6949,mod,0
-8356.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6950,mod,0
-8356.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6951,mod,0
-8356.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6952,mod,0
-8356.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6953,mod,0
-8356.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6954,mod,0
-8356.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6955,mod,0
-8356.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6956,mod,0
-8356.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6957,mod,0
-8357.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6958,mod,0
-8357.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6959,mod,0
-8357.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6960,mod,0
-8357.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6961,mod,0
-8357.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6962,mod,0
-8357.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6963,mod,0
-8357.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6964,mod,0
-8357.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6965,mod,0
-8357.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6966,mod,0
-8357.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6967,mod,0
-8357.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6968,mod,0
-8357.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6969,mod,0
-8357.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6970,mod,0
-8357.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6971,mod,0
-8357.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6972,mod,0
-8357.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6973,mod,0
-8357.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6974,mod,0
-8357.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6975,mod,0
-8357.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6976,mod,0
-8357.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6977,mod,0
-8357.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6978,mod,0
-8357.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6979,mod,0
-8357.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6980,mod,0
-8357.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6981,mod,0
-8357.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6982,mod,0
-8357.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6983,mod,0
-8357.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6984,mod,0
-8357.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6985,mod,0
-8357.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6986,mod,0
-8357.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6987,mod,0
-8357.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6988,mod,0
-8357.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6989,mod,0
-8357.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6990,mod,0
-8357.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6991,mod,0
-8357.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6992,mod,0
-8357.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6993,mod,0
-8357.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6994,mod,0
-8357.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6995,mod,0
-8357.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6996,mod,0
-8357.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6997,mod,0
-8357.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6998,mod,0
-8357.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 6999,mod,0
-8357.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7000,mod,0
-8357.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7001,mod,0
-8357.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7002,mod,0
-8357.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7003,mod,0
-8357.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7004,mod,0
-8357.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7005,mod,0
-8357.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7006,mod,0
-8357.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7007,mod,0
-8357.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7008,mod,0
-8357.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7009,mod,0
-8357.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7010,mod,0
-8357.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7011,mod,0
-8357.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7012,mod,0
-8357.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7013,mod,0
-8357.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7014,mod,0
-8357.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7015,mod,0
-8357.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7016,mod,0
-8357.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7017,mod,0
-8358.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7018,mod,0
-8358.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7019,mod,0
-8358.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7020,mod,0
-8358.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7021,mod,0
-8358.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7022,mod,0
-8358.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7023,mod,0
-8358.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7024,mod,0
-8358.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7025,mod,0
-8358.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7026,mod,0
-8358.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7027,mod,0
-8358.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7028,mod,0
-8358.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7029,mod,0
-8358.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7030,mod,0
-8358.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7031,mod,0
-8358.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7032,mod,0
-8358.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7033,mod,0
-8358.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7034,mod,0
-8358.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7035,mod,0
-8358.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7036,mod,0
-8358.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7037,mod,0
-8358.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7038,mod,0
-8358.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7039,mod,0
-8358.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7040,mod,0
-8358.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7041,mod,0
-8358.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7042,mod,0
-8358.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7043,mod,0
-8358.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7044,mod,0
-8358.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7045,mod,0
-8358.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7046,mod,0
-8358.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7047,mod,0
-8358.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7048,mod,0
-8358.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7049,mod,0
-8358.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7050,mod,0
-8358.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7051,mod,0
-8358.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7052,mod,0
-8358.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7053,mod,0
-8358.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7054,mod,0
-8358.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7055,mod,0
-8358.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7056,mod,0
-8358.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7057,mod,0
-8358.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7058,mod,0
-8358.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7059,mod,0
-8358.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7060,mod,0
-8358.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7061,mod,0
-8358.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7062,mod,0
-8358.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7063,mod,0
-8358.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7064,mod,0
-8358.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7065,mod,0
-8358.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7066,mod,0
-8358.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7067,mod,0
-8358.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7068,mod,0
-8358.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7069,mod,0
-8358.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7070,mod,0
-8358.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7071,mod,0
-8358.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7072,mod,0
-8358.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7073,mod,0
-8358.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7074,mod,0
-8358.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7075,mod,0
-8358.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7076,mod,0
-8358.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7077,mod,0
-8359.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7078,mod,0
-8359.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7079,mod,0
-8359.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7080,mod,0
-8359.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7081,mod,0
-8359.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7082,mod,0
-8359.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7083,mod,0
-8359.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7084,mod,0
-8359.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7085,mod,0
-8359.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7086,mod,0
-8359.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7087,mod,0
-8359.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7088,mod,0
-8359.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7089,mod,0
-8359.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7090,mod,0
-8359.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7091,mod,0
-8359.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7092,mod,0
-8359.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7093,mod,0
-8359.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7094,mod,0
-8359.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7095,mod,0
-8359.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7096,mod,0
-8359.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7097,mod,0
-8359.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7098,mod,0
-8359.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7099,mod,0
-8359.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7100,mod,0
-8359.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7101,mod,0
-8359.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7102,mod,0
-8359.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7103,mod,0
-8359.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7104,mod,0
-8359.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7105,mod,0
-8359.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7106,mod,0
-8359.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7107,mod,0
-8359.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7108,mod,0
-8359.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7109,mod,0
-8359.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7110,mod,0
-8359.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7111,mod,0
-8359.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7112,mod,0
-8359.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7113,mod,0
-8359.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7114,mod,0
-8359.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7115,mod,0
-8359.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7116,mod,0
-8359.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7117,mod,0
-8359.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7118,mod,0
-8359.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7119,mod,0
-8359.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7120,mod,0
-8359.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7121,mod,0
-8359.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7122,mod,0
-8359.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7123,mod,0
-8359.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7124,mod,0
-8359.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7125,mod,0
-8359.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7126,mod,0
-8359.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7127,mod,0
-8359.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7128,mod,0
-8359.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7129,mod,0
-8359.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7130,mod,0
-8359.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7131,mod,0
-8359.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7132,mod,0
-8359.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7133,mod,0
-8359.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7134,mod,0
-8359.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7135,mod,0
-8359.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7136,mod,0
-8359.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7137,mod,0
-8360.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7138,mod,0
-8360.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7139,mod,0
-8360.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7140,mod,0
-8360.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7141,mod,0
-8360.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7142,mod,0
-8360.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7143,mod,0
-8360.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7144,mod,0
-8360.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7145,mod,0
-8360.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7146,mod,0
-8360.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7147,mod,0
-8360.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7148,mod,0
-8360.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7149,mod,0
-8360.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7150,mod,0
-8360.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7151,mod,0
-8360.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7152,mod,0
-8360.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7153,mod,0
-8360.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7154,mod,0
-8360.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7155,mod,0
-8360.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7156,mod,0
-8360.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7157,mod,0
-8360.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7158,mod,0
-8360.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7159,mod,0
-8360.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7160,mod,0
-8360.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7161,mod,0
-8360.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7162,mod,0
-8360.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7163,mod,0
-8360.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7164,mod,0
-8360.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7165,mod,0
-8360.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7166,mod,0
-8360.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7167,mod,0
-8360.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7168,mod,0
-8360.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7169,mod,0
-8360.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7170,mod,0
-8360.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7171,mod,0
-8360.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7172,mod,0
-8360.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7173,mod,0
-8360.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7174,mod,0
-8360.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7175,mod,0
-8360.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7176,mod,0
-8360.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7177,mod,0
-8360.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7178,mod,0
-8360.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7179,mod,0
-8360.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7180,mod,0
-8360.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7181,mod,0
-8360.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7182,mod,0
-8360.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7183,mod,0
-8360.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7184,mod,0
-8360.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7185,mod,0
-8360.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7186,mod,0
-8360.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7187,mod,0
-8360.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7188,mod,0
-8360.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7189,mod,0
-8360.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7190,mod,0
-8360.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7191,mod,0
-8360.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7192,mod,0
-8360.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7193,mod,0
-8360.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7194,mod,0
-8360.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7195,mod,0
-8360.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7196,mod,0
-8360.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7197,mod,0
-8361.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7198,mod,0
-8361.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7199,mod,0
-8361.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7200,mod,0
-8361.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7201,mod,0
-8361.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7202,mod,0
-8361.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7203,mod,0
-8361.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7204,mod,0
-8361.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7205,mod,0
-8361.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7206,mod,0
-8361.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7207,mod,0
-8361.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7208,mod,0
-8361.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7209,mod,0
-8361.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7210,mod,0
-8361.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7211,mod,0
-8361.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7212,mod,0
-8361.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7213,mod,0
-8361.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7214,mod,0
-8361.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7215,mod,0
-8361.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7216,mod,0
-8361.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7217,mod,0
-8361.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7218,mod,0
-8361.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7219,mod,0
-8361.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7220,mod,0
-8361.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7221,mod,0
-8361.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7222,mod,0
-8361.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7223,mod,0
-8361.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7224,mod,0
-8361.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7225,mod,0
-8361.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7226,mod,0
-8361.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7227,mod,0
-8361.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7228,mod,0
-8361.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7229,mod,0
-8361.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7230,mod,0
-8361.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7231,mod,0
-8361.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7232,mod,0
-8361.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7233,mod,0
-8361.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7234,mod,0
-8361.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7235,mod,0
-8361.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7236,mod,0
-8361.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7237,mod,0
-8361.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7238,mod,0
-8361.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7239,mod,0
-8361.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7240,mod,0
-8361.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7241,mod,0
-8361.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7242,mod,0
-8361.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7243,mod,0
-8361.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7244,mod,0
-8361.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7245,mod,0
-8361.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7246,mod,0
-8361.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7247,mod,0
-8361.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7248,mod,0
-8361.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7249,mod,0
-8361.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7250,mod,0
-8361.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7251,mod,0
-8361.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7252,mod,0
-8361.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7253,mod,0
-8361.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7254,mod,0
-8361.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7255,mod,0
-8361.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7256,mod,0
-8361.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7257,mod,0
-8362.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7258,mod,0
-8362.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7259,mod,0
-8362.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7260,mod,0
-8362.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7261,mod,0
-8362.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7262,mod,0
-8362.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7263,mod,0
-8362.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7264,mod,0
-8362.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7265,mod,0
-8362.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7266,mod,0
-8362.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7267,mod,0
-8362.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7268,mod,0
-8362.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7269,mod,0
-8362.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7270,mod,0
-8362.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7271,mod,0
-8362.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7272,mod,0
-8362.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7273,mod,0
-8362.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7274,mod,0
-8362.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7275,mod,0
-8362.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7276,mod,0
-8362.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7277,mod,0
-8362.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7278,mod,0
-8362.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7279,mod,0
-8362.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7280,mod,0
-8362.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7281,mod,0
-8362.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7282,mod,0
-8362.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7283,mod,0
-8362.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7284,mod,0
-8362.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7285,mod,0
-8362.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7286,mod,0
-8362.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7287,mod,0
-8362.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7288,mod,0
-8362.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7289,mod,0
-8362.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7290,mod,0
-8362.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7291,mod,0
-8362.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7292,mod,0
-8362.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7293,mod,0
-8362.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7294,mod,0
-8362.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7295,mod,0
-8362.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7296,mod,0
-8362.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7297,mod,0
-8362.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7298,mod,0
-8362.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7299,mod,0
-8362.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7300,mod,0
-8362.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7301,mod,0
-8362.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7302,mod,0
-8362.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7303,mod,0
-8362.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7304,mod,0
-8362.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7305,mod,0
-8362.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7306,mod,0
-8362.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7307,mod,0
-8362.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7308,mod,0
-8362.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7309,mod,0
-8362.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7310,mod,0
-8362.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7311,mod,0
-8362.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7312,mod,0
-8362.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7313,mod,0
-8362.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7314,mod,0
-8362.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7315,mod,0
-8362.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7316,mod,0
-8362.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7317,mod,0
-8363.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7318,mod,0
-8363.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7319,mod,0
-8363.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7320,mod,0
-8363.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7321,mod,0
-8363.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7322,mod,0
-8363.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7323,mod,0
-8363.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7324,mod,0
-8363.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7325,mod,0
-8363.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7326,mod,0
-8363.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7327,mod,0
-8363.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7328,mod,0
-8363.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7329,mod,0
-8363.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7330,mod,0
-8363.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7331,mod,0
-8363.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7332,mod,0
-8363.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7333,mod,0
-8363.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7334,mod,0
-8363.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7335,mod,0
-8363.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7336,mod,0
-8363.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7337,mod,0
-8363.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7338,mod,0
-8363.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7339,mod,0
-8363.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7340,mod,0
-8363.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7341,mod,0
-8363.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7342,mod,0
-8363.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7343,mod,0
-8363.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7344,mod,0
-8363.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7345,mod,0
-8363.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7346,mod,0
-8363.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7347,mod,0
-8363.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7348,mod,0
-8363.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7349,mod,0
-8363.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7350,mod,0
-8363.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7351,mod,0
-8363.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7352,mod,0
-8363.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7353,mod,0
-8363.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7354,mod,0
-8363.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7355,mod,0
-8363.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7356,mod,0
-8363.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7357,mod,0
-8363.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7358,mod,0
-8363.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7359,mod,0
-8363.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7360,mod,0
-8363.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7361,mod,0
-8363.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7362,mod,0
-8363.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7363,mod,0
-8363.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7364,mod,0
-8363.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7365,mod,0
-8363.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7366,mod,0
-8363.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7367,mod,0
-8363.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7368,mod,0
-8363.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7369,mod,0
-8363.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7370,mod,0
-8363.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7371,mod,0
-8363.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7372,mod,0
-8363.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7373,mod,0
-8363.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7374,mod,0
-8363.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7375,mod,0
-8363.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7376,mod,0
-8363.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7377,mod,0
-8364.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7378,mod,0
-8364.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7379,mod,0
-8364.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7380,mod,0
-8364.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7381,mod,0
-8364.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7382,mod,0
-8364.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7383,mod,0
-8364.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7384,mod,0
-8364.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7385,mod,0
-8364.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7386,mod,0
-8364.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7387,mod,0
-8364.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7388,mod,0
-8364.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7389,mod,0
-8364.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7390,mod,0
-8364.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7391,mod,0
-8364.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7392,mod,0
-8364.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7393,mod,0
-8364.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7394,mod,0
-8364.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7395,mod,0
-8364.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7396,mod,0
-8364.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7397,mod,0
-8364.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7398,mod,0
-8364.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7399,mod,0
-8364.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7400,mod,0
-8364.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7401,mod,0
-8364.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7402,mod,0
-8364.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7403,mod,0
-8364.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7404,mod,0
-8364.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7405,mod,0
-8364.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7406,mod,0
-8364.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7407,mod,0
-8364.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7408,mod,0
-8364.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7409,mod,0
-8364.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7410,mod,0
-8364.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7411,mod,0
-8364.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7412,mod,0
-8364.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7413,mod,0
-8364.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7414,mod,0
-8364.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7415,mod,0
-8364.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7416,mod,0
-8364.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7417,mod,0
-8364.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7418,mod,0
-8364.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7419,mod,0
-8364.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7420,mod,0
-8364.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7421,mod,0
-8364.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7422,mod,0
-8364.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7423,mod,0
-8364.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7424,mod,0
-8364.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7425,mod,0
-8364.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7426,mod,0
-8364.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7427,mod,0
-8364.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7428,mod,0
-8364.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7429,mod,0
-8364.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7430,mod,0
-8364.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7431,mod,0
-8364.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7432,mod,0
-8364.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7433,mod,0
-8364.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7434,mod,0
-8364.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7435,mod,0
-8364.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7436,mod,0
-8364.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7437,mod,0
-8365.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7438,mod,0
-8365.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7439,mod,0
-8365.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7440,mod,0
-8365.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7441,mod,0
-8365.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7442,mod,0
-8365.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7443,mod,0
-8365.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7444,mod,0
-8365.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7445,mod,0
-8365.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7446,mod,0
-8365.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7447,mod,0
-8365.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7448,mod,0
-8365.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7449,mod,0
-8365.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7450,mod,0
-8365.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7451,mod,0
-8365.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7452,mod,0
-8365.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7453,mod,0
-8365.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7454,mod,0
-8365.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7455,mod,0
-8365.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7456,mod,0
 8365.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7457,mod,0
 8365.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7458,mod,0
 8365.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7459,mod,0
@@ -1167,3 +540,1528 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 1031.3  Closing gfx backend & allmodex...
 1031.3  ...done
 1031.3  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-26-2021 20:17:39
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_89411'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.2  Setting graphics scaling to x2 change_windowsize=-1
+ 0.2  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.2  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.2  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.2   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.2  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.2  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210726201739.331.tmp\
+ 0.2  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.2  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 420*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 0.9  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 0.9   Opened as gamecontroller Xbox 360 Controller
+ 0.9  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+20.4  msg: M ohrrpgce.gen
+20.4  msg: M general.reld
+22.9  msg: M ohrrpgce.hsp
+22.9  msg: M plotscr.lst
+22.9  msg: M plotscr.lst
+22.9  msg: M lookup1.bin
+23.0  plotscr.hsd version: 3U 
+27.0  msg: M ohrrpgce.gen
+27.0  msg: M general.reld
+30.7  msg: M ohrrpgce.map
+30.7  msg: M ohrrpgce.t00
+30.7  msg: M ohrrpgce.p00
+30.7  msg: M ohrrpgce.e00
+30.7  msg: M ohrrpgce.z00
+30.7  msg: M ohrrpgce.l00
+30.7  msg: M ohrrpgce.n00
+30.7  msg: M ohrrpgce.dox
+30.7  msg: M ohrrpgce.d00
+30.7  msg: M ohrrpgce.mn
+30.7  did not reload ohrrpgce.d00
+35.3  msg: M ohrrpgce.map
+35.3  msg: M ohrrpgce.t00
+35.3  msg: M ohrrpgce.p00
+35.3  msg: M ohrrpgce.e00
+35.3  msg: M ohrrpgce.z00
+35.4  msg: M ohrrpgce.l00
+35.4  msg: M ohrrpgce.n00
+35.4  msg: M ohrrpgce.dox
+35.4  msg: M ohrrpgce.d00
+35.4  did not reload ohrrpgce.d00
+35.4  msg: M ohrrpgce.mn
+43.3  msg: M ohrrpgce.map
+43.3  msg: M ohrrpgce.t00
+43.3  msg: M ohrrpgce.p00
+43.3  msg: M ohrrpgce.e00
+43.3  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+43.3  msg: M ohrrpgce.z00
+43.3  msg: M ohrrpgce.l00
+43.3  msg: M ohrrpgce.n00
+43.3  msg: M ohrrpgce.dox
+43.3  msg: M ohrrpgce.d00
+43.3  msg: M ohrrpgce.mn
+43.4  did not reload ohrrpgce.d00
+43.8  msg: M ohrrpgce.map
+43.8  msg: M ohrrpgce.t00
+43.8  msg: M ohrrpgce.p00
+43.8  msg: M ohrrpgce.e00
+43.8  msg: M ohrrpgce.z00
+43.8  msg: M ohrrpgce.l00
+43.8  msg: M ohrrpgce.n00
+43.8  msg: M ohrrpgce.dox
+43.8  msg: M ohrrpgce.d00
+43.8  msg: M ohrrpgce.mn
+43.9  did not reload ohrrpgce.d00
+47.9  msg: M ohrrpgce.gen
+47.9  msg: M general.reld
+48.9  msg: M ohrrpgce.gen
+56.2  msg: M ohrrpgce.til
+57.6  msg: M ohrrpgce.til
+57.6  msg: M defpass.bin
+57.6  did not reload defpass.bin
+58.4  msg: M ohrrpgce.gen
+59.1  msg: M ohrrpgce.gen
+59.1  msg: M general.reld
+63.6  msg: M ohrrpgce.map
+63.6  msg: M ohrrpgce.t00
+63.6  msg: M ohrrpgce.p00
+63.6  msg: M ohrrpgce.e00
+63.6  msg: M ohrrpgce.z00
+63.6  msg: M ohrrpgce.l00
+63.6  msg: M ohrrpgce.n00
+63.6  msg: M ohrrpgce.dox
+63.6  msg: M ohrrpgce.d00
+63.6  msg: M ohrrpgce.mn
+63.6  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+63.6  did not reload ohrrpgce.d00
+63.9  msg: M ohrrpgce.map
+63.9  msg: M ohrrpgce.t00
+63.9  msg: M ohrrpgce.p00
+63.9  msg: M ohrrpgce.e00
+64.0  msg: M ohrrpgce.z00
+64.0  msg: M ohrrpgce.l00
+64.0  msg: M ohrrpgce.n00
+64.0  msg: M ohrrpgce.dox
+64.0  msg: M ohrrpgce.d00
+64.0  msg: M ohrrpgce.mn
+64.0  did not reload ohrrpgce.d00
+142.2  msg: M ohrrpgce.gen
+142.2  msg: M general.reld
+211.9  msg: M ohrrpgce.map
+211.9  msg: M ohrrpgce.t00
+211.9  msg: M ohrrpgce.p00
+211.9  msg: M ohrrpgce.e00
+211.9  msg: M ohrrpgce.z00
+211.9  msg: M ohrrpgce.l00
+211.9  msg: M ohrrpgce.n00
+211.9  msg: M ohrrpgce.dox
+211.9  msg: M ohrrpgce.d00
+211.9  did not reload ohrrpgce.d00
+212.5  msg: M ohrrpgce.mn
+212.5  msg: M ohrrpgce.gen
+212.5  msg: M general.reld
+218.0  msg: M ohrrpgce.til
+219.3  msg: M ohrrpgce.til
+220.3  msg: M ohrrpgce.gen
+221.0  msg: M ohrrpgce.gen
+221.0  msg: M general.reld
+221.6  msg: M ohrrpgce.gen
+722.3  msg: M ohrrpgce.hsp
+722.3  msg: M plotscr.lst
+722.3  msg: M plotscr.lst
+722.4  plotscr.hsd version: 3U 
+732.7  ! Scripterr(5): defkeypress -> keypressbattle -> keyseltargetatk -> addattack -> readstat -> getelement: slicex: invalid slice handle 0
+732.7  unlock_resolution(420,240)
+733.6  set_resolution 420*240
+733.6  lock_resolution()
+740.0  ! Scripterr(5): battle -> turns -> readstat -> getelement: slicex: invalid slice handle 0
+740.0  unlock_resolution(420,240)
+747.4  set_resolution 420*240
+747.4  lock_resolution()
+768.1  msg: M lookup1.bin
+768.1  msg: M ohrrpgce.hsp
+768.1  msg: M plotscr.lst
+768.1  msg: M plotscr.lst
+768.2  plotscr.hsd version: 3U 
+866.6  msg: M lookup1.bin
+866.6  msg: M ohrrpgce.hsp
+866.7  plotscr.hsd version: 3U 
+866.8  msg: M plotscr.lst
+866.8  msg: M plotscr.lst
+914.5  msg: M lookup1.bin
+914.5  msg: M ohrrpgce.hsp
+914.5  msg: M plotscr.lst
+914.5  msg: M plotscr.lst
+914.6  plotscr.hsd version: 3U 
+1684.7  msg: M lookup1.bin
+1684.7  msg: M ohrrpgce.hsp
+1684.7  msg: M plotscr.lst
+1684.7  msg: M plotscr.lst
+1684.9  plotscr.hsd version: 3U 
+1694.1  ! Scripterr(5): defkeypress -> keypressbattle -> keyseltargetatk -> addattack -> readstat -> getelement: slicex: invalid slice handle 0
+1694.1  unlock_resolution(420,240)
+1694.9  set_resolution 420*240
+1694.9  lock_resolution()
+1701.3  ! Scripterr(5): battle -> turns -> readstat -> getelement: slicex: invalid slice handle 0
+1701.3  unlock_resolution(420,240)
+1703.5  set_resolution 420*240
+1703.5  lock_resolution()
+1789.8  msg: M lookup1.bin
+1789.8  msg: M ohrrpgce.hsp
+1789.8  msg: M plotscr.lst
+1789.8  msg: M plotscr.lst
+1790.0  plotscr.hsd version: 3U 
+1825.1  msg: M lookup1.bin
+1825.1  msg: M ohrrpgce.hsp
+1825.1  msg: M plotscr.lst
+1825.1  msg: M plotscr.lst
+1825.2  plotscr.hsd version: 3U 
+1827.3  ! Scripterr(5): defkeypress -> keypressbattle -> keyseltargetatk -> addattack -> readstat -> getelement: slicex: invalid slice handle 0
+1827.3  unlock_resolution(420,240)
+1829.1  set_resolution 420*240
+1829.1  lock_resolution()
+2029.9  msg: M lookup1.bin
+2029.9  msg: M ohrrpgce.hsp
+2029.9  msg: M plotscr.lst
+2029.9  msg: M plotscr.lst
+2030.0  plotscr.hsd version: 3U 
+2063.8  msg: M lookup1.bin
+2063.8  msg: M ohrrpgce.hsp
+2063.8  msg: M plotscr.lst
+2063.8  msg: M plotscr.lst
+2063.9  plotscr.hsd version: 3U 
+2096.1  msg: M lookup1.bin
+2096.1  msg: M ohrrpgce.hsp
+2096.1  msg: M plotscr.lst
+2096.1  msg: M plotscr.lst
+2096.2  plotscr.hsd version: 3U 
+2200.0  msg: M lookup1.bin
+2200.0  msg: M ohrrpgce.hsp
+2200.0  msg: M plotscr.lst
+2200.0  msg: M plotscr.lst
+2200.1  plotscr.hsd version: 3U 
+2232.8  msg: M lookup1.bin
+2232.8  msg: M ohrrpgce.hsp
+2232.8  msg: M plotscr.lst
+2232.8  msg: M plotscr.lst
+2232.9  plotscr.hsd version: 3U 
+2233.0  not reloading script battlemenu because it's in use: refcount=1
+2233.0  unlock_resolution(420,240)
+2233.8  set_resolution 420*240
+2233.8  lock_resolution()
+2234.2  plotscr.hsd version: 3U 
+2345.8  msg: M lookup1.bin
+2345.8  msg: M ohrrpgce.hsp
+2345.8  msg: M plotscr.lst
+2345.8  msg: M plotscr.lst
+2345.9  plotscr.hsd version: 3U 
+2345.9  not reloading script battlemenu because it's in use: refcount=1
+2345.9  unlock_resolution(420,240)
+2347.2  set_resolution 420*240
+2347.2  lock_resolution()
+2347.8  plotscr.hsd version: 3U 
+2361.1  msg: M lookup1.bin
+2361.1  msg: M ohrrpgce.hsp
+2361.2  plotscr.hsd version: 3U 
+2361.2  msg: M plotscr.lst
+2361.2  msg: M plotscr.lst
+2361.2  msg: M lookup1.bin
+2363.2  ! Scripterr(5): defkeypress -> keypressbattle -> keyseltargetatk -> addattack -> readstat -> getelement: slicex: invalid slice handle 0
+2363.2  unlock_resolution(420,240)
+2363.9  set_resolution 420*240
+2363.9  lock_resolution()
+2382.3  ! Scripterr(5): battle -> turns -> readstat -> getelement: slicex: invalid slice handle 0
+2382.3  unlock_resolution(420,240)
+2399.3  msg: M ohrrpgce.hsp
+2399.3  msg: M plotscr.lst
+2399.3  msg: M plotscr.lst
+2399.3  msg: M lookup1.bin
+2399.4  plotscr.hsd version: 3U 
+2400.3  set_resolution 420*240
+2400.3  lock_resolution()
+2406.4  ! Scripterr(5): defkeypress -> keypressbattle -> keyseltargetatk -> addattack -> readstat -> getelement: slicex: invalid slice handle 0
+2406.4  unlock_resolution(420,240)
+2407.3  set_resolution 420*240
+2407.3  lock_resolution()
+2413.7  ! Scripterr(5): battle -> turns -> readstat -> getelement: slicex: invalid slice handle 0
+2413.7  unlock_resolution(420,240)
+2414.5  set_resolution 420*240
+2414.5  lock_resolution()
+2432.3  ! Scripterr(5): defkeypress -> keypressbattle -> keyseltargetatk -> addattack -> readstat -> getelement: slicex: invalid slice handle 0
+2432.3  unlock_resolution(420,240)
+2433.1  set_resolution 420*240
+2433.1  lock_resolution()
+2451.4  ! Scripterr(5): battle -> turns -> readstat -> getelement: slicex: invalid slice handle 0
+2451.4  unlock_resolution(420,240)
+2537.8  msg: M ohrrpgce.hsp
+2537.8  msg: M plotscr.lst
+2537.8  msg: M plotscr.lst
+2537.8  msg: M lookup1.bin
+2537.9  plotscr.hsd version: 3U 
+2538.6  set_resolution 420*240
+2538.6  lock_resolution()
+2544.3  ! Scripterr(5): defkeypress -> keypressbattle -> keyseltargetatk -> addattack -> readstat -> getelement: slicex: invalid slice handle 0
+2544.3  unlock_resolution(420,240)
+2545.3  set_resolution 420*240
+2545.3  lock_resolution()
+2551.7  ! Scripterr(5): battle -> turns -> readstat -> getelement: slicex: invalid slice handle 0
+2551.7  unlock_resolution(420,240)
+2552.4  set_resolution 420*240
+2552.4  lock_resolution()
+2559.1  ! Scripterr(5): defkeypress -> keypressbattle -> keyseltargetatk -> addattack -> readstat -> getelement: slicex: invalid slice handle 0
+2559.1  unlock_resolution(420,240)
+2560.0  set_resolution 420*240
+2560.0  lock_resolution()
+2566.4  ! Scripterr(5): battle -> turns -> readstat -> getelement: slicex: invalid slice handle 0
+2566.4  unlock_resolution(420,240)
+2575.4  set_resolution 420*240
+2575.4  lock_resolution()
+2587.1  ! Scripterr(5): defkeypress -> keypressbattle -> keyseltargetatk -> addattack -> readstat -> getelement: slicex: invalid slice handle 0
+2587.1  unlock_resolution(420,240)
+2588.0  set_resolution 420*240
+2588.0  lock_resolution()
+2594.3  ! Scripterr(5): battle -> turns -> readstat -> getelement: slicex: invalid slice handle 0
+2594.3  unlock_resolution(420,240)
+2595.0  set_resolution 420*240
+2595.0  lock_resolution()
+2627.5  msg: M ohrrpgce.hsp
+2627.5  msg: M plotscr.lst
+2627.5  msg: M plotscr.lst
+2627.5  msg: M lookup1.bin
+2627.6  plotscr.hsd version: 3U 
+2683.6  msg: M ohrrpgce.hsp
+2683.6  msg: M plotscr.lst
+2683.6  msg: M plotscr.lst
+2683.6  msg: M lookup1.bin
+2683.7  plotscr.hsd version: 3U 
+2688.8  ! Scripterr(5): defkeypress -> keypressbattle -> keyseltargetatk -> addattack -> readstat -> getelement: slicex: invalid slice handle 0
+2688.9  unlock_resolution(420,240)
+2689.5  set_resolution 420*240
+2689.5  lock_resolution()
+2719.6  msg: M ohrrpgce.hsp
+2719.6  msg: M plotscr.lst
+2719.6  msg: M plotscr.lst
+2719.6  msg: M lookup1.bin
+2719.8  plotscr.hsd version: 3U 
+2749.2  msg: M ohrrpgce.hsp
+2749.2  msg: M plotscr.lst
+2749.2  msg: M plotscr.lst
+2749.2  msg: M lookup1.bin
+2749.3  plotscr.hsd version: 3U 
+2803.6  msg: M ohrrpgce.hsp
+2803.6  msg: M plotscr.lst
+2803.6  msg: M plotscr.lst
+2803.6  msg: M lookup1.bin
+2803.7  plotscr.hsd version: 3U 
+2803.7  not reloading script battle because it's in use: refcount=1
+2803.8  unlock_resolution(420,240)
+2804.8  set_resolution 420*240
+2804.8  lock_resolution()
+2805.5  plotscr.hsd version: 3U 
+2862.2  msg: M ohrrpgce.hsp
+2862.2  msg: M plotscr.lst
+2862.2  msg: M plotscr.lst
+2862.2  msg: M lookup1.bin
+2862.3  plotscr.hsd version: 3U 
+2896.0  msg: M ohrrpgce.hsp
+2896.0  msg: M plotscr.lst
+2896.0  msg: M plotscr.lst
+2896.0  msg: M lookup1.bin
+2896.1  plotscr.hsd version: 3U 
+2935.8  msg: M ohrrpgce.hsp
+2935.8  msg: M plotscr.lst
+2935.8  msg: M plotscr.lst
+2935.8  msg: M lookup1.bin
+2935.9  plotscr.hsd version: 3U 
+2965.4  msg: M ohrrpgce.hsp
+2965.4  msg: M plotscr.lst
+2965.4  msg: M plotscr.lst
+2965.4  msg: M lookup1.bin
+2965.5  plotscr.hsd version: 3U 
+3067.9  msg: M ohrrpgce.hsp
+3067.9  msg: M plotscr.lst
+3067.9  msg: M plotscr.lst
+3067.9  msg: M lookup1.bin
+3068.0  plotscr.hsd version: 3U 
+3069.6  ! Scripterr(5): defkeypress -> keypressbattle -> keyseltargetatk -> addattack -> readstat -> getelement: slicex: invalid slice handle 0
+3069.6  unlock_resolution(420,240)
+3082.7  set_resolution 420*240
+3082.7  lock_resolution()
+3089.1  ! Scripterr(5): battle -> turns -> readstat -> getelement: slicex: invalid slice handle 0
+3089.1  unlock_resolution(420,240)
+3157.7  msg: M ohrrpgce.hsp
+3157.7  msg: M plotscr.lst
+3157.7  msg: M plotscr.lst
+3157.7  msg: M lookup1.bin
+3157.8  plotscr.hsd version: 3U 
+3159.0  set_resolution 420*240
+3159.1  lock_resolution()
+3211.2  msg: M ohrrpgce.hsp
+3211.2  msg: M plotscr.lst
+3211.2  msg: M plotscr.lst
+3211.2  msg: M lookup1.bin
+3211.3  plotscr.hsd version: 3U 
+3211.3  not reloading script battlemenu because it's in use: refcount=1
+3211.3  unlock_resolution(420,240)
+3212.0  set_resolution 420*240
+3212.0  lock_resolution()
+3212.5  plotscr.hsd version: 3U 
+3263.2  msg: M ohrrpgce.hsp
+3263.2  msg: M plotscr.lst
+3263.2  msg: M plotscr.lst
+3263.2  msg: M lookup1.bin
+3263.3  plotscr.hsd version: 3U 
+3263.3  not reloading script battlemenu because it's in use: refcount=1
+3263.3  unlock_resolution(420,240)
+3266.8  set_resolution 420*240
+3266.8  lock_resolution()
+3267.5  plotscr.hsd version: 3U 
+3328.0  msg: M ohrrpgce.hsp
+3328.0  msg: M plotscr.lst
+3328.0  msg: M plotscr.lst
+3328.0  msg: M lookup1.bin
+3328.1  plotscr.hsd version: 3U 
+3372.9  msg: M ohrrpgce.hsp
+3372.9  msg: M plotscr.lst
+3372.9  msg: M plotscr.lst
+3372.9  msg: M lookup1.bin
+3373.0  plotscr.hsd version: 3U 
+3389.4  msg: M ohrrpgce.hsp
+3389.4  msg: M plotscr.lst
+3389.4  msg: M plotscr.lst
+3389.4  msg: M lookup1.bin
+3389.5  plotscr.hsd version: 3U 
+3389.6  not reloading script battlemenu because it's in use: refcount=1
+3389.6  unlock_resolution(420,240)
+3390.2  set_resolution 420*240
+3390.2  lock_resolution()
+3390.6  plotscr.hsd version: 3U 
+3482.4  msg: M ohrrpgce.gen
+3482.4  msg: M general.reld
+3484.6  msg: M slicetree_0_0.reld
+3484.6  did not reload slicetree_0_0.reld
+3489.8  msg: M slicetree_0_1.reld
+3489.8  did not reload slicetree_0_1.reld
+3490.4  msg: M slicetree_0_2.reld
+3490.4  did not reload slicetree_0_2.reld
+3490.8  msg: M slicetree_0_3.reld
+3490.8  did not reload slicetree_0_3.reld
+3491.0  msg: M slicetree_0_4.reld
+3491.0  did not reload slicetree_0_4.reld
+3491.2  msg: M slicetree_0_5.reld
+3491.2  did not reload slicetree_0_5.reld
+3492.2  msg: M slicetree_0_5.reld
+3492.2  did not reload slicetree_0_5.reld
+3492.4  msg: M slicetree_0_4.reld
+3492.4  did not reload slicetree_0_4.reld
+3492.8  msg: M slicetree_0_3.reld
+3492.8  did not reload slicetree_0_3.reld
+3493.0  msg: M slicetree_0_4.reld
+3493.0  did not reload slicetree_0_4.reld
+3494.7  msg: M slicetree_0_5.reld
+3494.7  did not reload slicetree_0_5.reld
+3494.9  msg: M slicetree_0_4.reld
+3494.9  did not reload slicetree_0_4.reld
+3495.2  msg: M slicetree_0_3.reld
+3495.2  did not reload slicetree_0_3.reld
+3495.5  msg: M slicetree_0_2.reld
+3495.5  did not reload slicetree_0_2.reld
+3495.7  msg: M slicetree_0_1.reld
+3495.7  did not reload slicetree_0_1.reld
+3496.1  msg: M slicetree_0_0.reld
+3496.1  did not reload slicetree_0_0.reld
+3501.7  msg: M slicetree_0_0.reld
+3501.7  did not reload slicetree_0_0.reld
+3513.1  msg: M slicetree_0_1.reld
+3513.1  did not reload slicetree_0_1.reld
+3513.7  msg: M slicetree_0_0.reld
+3513.7  did not reload slicetree_0_0.reld
+3514.0  msg: M slicetree_0_1.reld
+3514.0  did not reload slicetree_0_1.reld
+3514.5  msg: M slicetree_0_2.reld
+3514.5  did not reload slicetree_0_2.reld
+3514.7  msg: M slicetree_0_1.reld
+3514.7  did not reload slicetree_0_1.reld
+3515.3  msg: M slicetree_0_0.reld
+3515.3  did not reload slicetree_0_0.reld
+3522.9  msg: M slicetree_0_1.reld
+3522.9  did not reload slicetree_0_1.reld
+3579.0  msg: M slicetree_0_0.reld
+3579.0  did not reload slicetree_0_0.reld
+3579.0  msg: M ohrrpgce.gen
+3579.0  msg: M general.reld
+3586.0  msg: M slicetree_0_0.reld
+3586.0  msg: M ohrrpgce.gen
+3586.0  msg: M general.reld
+3586.0  did not reload slicetree_0_0.reld
+3608.1  msg: M ohrrpgce.hsp
+3608.1  msg: M plotscr.lst
+3608.1  msg: M plotscr.lst
+3608.1  msg: M lookup1.bin
+3608.2  plotscr.hsd version: 3U 
+3625.6  msg: M ohrrpgce.gen
+3625.6  msg: M general.reld
+3639.9  msg: M slicetree_0_0.reld
+3639.9  did not reload slicetree_0_0.reld
+3639.9  msg: M ohrrpgce.gen
+3639.9  msg: M general.reld
+3642.9  msg: M ohrrpgce.hsp
+3642.9  msg: M plotscr.lst
+3642.9  msg: M plotscr.lst
+3642.9  msg: M lookup1.bin
+3643.0  plotscr.hsd version: 3U 
+3740.3  msg: M ohrrpgce.gen
+3740.3  msg: M general.reld
+3811.0  msg: M slicetree_0_0.reld
+3811.0  msg: M ohrrpgce.gen
+3811.0  msg: M general.reld
+3811.0  did not reload slicetree_0_0.reld
+3814.0  msg: M ohrrpgce.hsp
+3814.0  msg: M plotscr.lst
+3814.0  msg: M plotscr.lst
+3814.0  msg: M lookup1.bin
+3814.1  plotscr.hsd version: 3U 
+3814.1  not reloading script battlemenu because it's in use: refcount=1
+3814.1  unlock_resolution(420,240)
+3814.9  set_resolution 420*240
+3814.9  lock_resolution()
+3815.4  plotscr.hsd version: 3U 
+3848.8  msg: M ohrrpgce.hsp
+3848.8  msg: M plotscr.lst
+3848.8  msg: M plotscr.lst
+3848.8  msg: M lookup1.bin
+3848.9  plotscr.hsd version: 3U 
+3848.9  not reloading script battlemenu because it's in use: refcount=1
+3848.9  unlock_resolution(420,240)
+3849.6  set_resolution 420*240
+3849.6  lock_resolution()
+3850.0  plotscr.hsd version: 3U 
+3873.9  msg: M ohrrpgce.hsp
+3873.9  msg: M plotscr.lst
+3873.9  msg: M plotscr.lst
+3873.9  msg: M lookup1.bin
+3874.0  plotscr.hsd version: 3U 
+3874.0  not reloading script battlemenu because it's in use: refcount=1
+3874.1  unlock_resolution(420,240)
+3875.0  set_resolution 420*240
+3875.0  lock_resolution()
+3875.5  plotscr.hsd version: 3U 
+3890.7  msg: M ohrrpgce.hsp
+3890.7  msg: M plotscr.lst
+3890.7  msg: M plotscr.lst
+3890.7  msg: M lookup1.bin
+3890.8  plotscr.hsd version: 3U 
+3890.8  not reloading script battlemenu because it's in use: refcount=1
+3890.8  unlock_resolution(420,240)
+3891.6  set_resolution 420*240
+3891.6  lock_resolution()
+3892.0  plotscr.hsd version: 3U 
+3927.6  Cleaning up and terminating 0
+3927.6  Closing music backend...
+3927.6  ...done
+3927.6  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210726201739.331.tmp\
+3927.7  Closing gfx backend & allmodex...
+3927.8  ...done
+3927.8  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.2   ----Starting OHRRPGCE Game----
+ 0.2  07-27-2021 14:34:39
+ 0.2  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.2  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.2  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.2  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_59780'
+ 0.2  Spawned from Custom
+ 0.2  Initialising gfx_sdl2...
+ 0.3  setvideomode zoom=2 w*h = 640,400
+ 0.3  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.3  disable_native_text_input=0
+ 0.4  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.4  Setting default window settings...
+ 0.4  set_resolution 320*200
+ 0.4  Setting graphics scaling to x2 change_windowsize=-1
+ 0.4  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.4  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.4  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.4   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.4  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.4  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727143439.569.tmp\
+ 0.4  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.4  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.4  Name: 
+ 1.0  plotscr.hsd version: 3U 
+ 1.5  lock_resolution()
+ 1.5  set_resolution 420*240
+ 1.5  recenter_window_hint()
+ 1.5  get_screen_size: true screen size 1600x900
+ 1.5  Desktop resolution: 1600*860
+ 1.5  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.5  Setting graphics scaling to x2 change_windowsize=-1
+ 1.5  Preserving fullscreen/windowed state
+ 1.5  genRungameFullscreenIndependent: 0
+ 1.5  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.5   Opened as gamecontroller Xbox 360 Controller
+ 1.5  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 2.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior: getsliceextra: invalid slice handle 0
+ 2.8  unlock_resolution(420,240)
+ 3.5  set_resolution 420*240
+ 3.5  lock_resolution()
+ 3.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 3.5  unlock_resolution(420,240)
+ 3.8  set_resolution 420*240
+ 3.8  lock_resolution()
+ 3.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior: getsliceextra: invalid slice handle 0
+ 3.8  unlock_resolution(420,240)
+ 4.3  set_resolution 420*240
+ 4.3  lock_resolution()
+ 4.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> instructioncount: childcount: invalid slice handle 0
+ 4.3  unlock_resolution(420,240)
+ 4.4  set_resolution 420*240
+ 4.4  lock_resolution()
+ 4.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> setdirection: setsliceextra: invalid slice handle 0
+ 4.4  unlock_resolution(420,240)
+ 4.5  set_resolution 420*240
+ 4.5  lock_resolution()
+ 4.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 4.5  unlock_resolution(420,240)
+ 4.6  set_resolution 420*240
+ 4.6  lock_resolution()
+ 4.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 4.6  unlock_resolution(420,240)
+ 5.0  set_resolution 420*240
+ 5.0  lock_resolution()
+ 5.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> centerslice -> realignslice: sethorizalign: invalid slice handle 0
+ 5.0  unlock_resolution(420,240)
+ 5.5  set_resolution 420*240
+ 5.5  lock_resolution()
+ 5.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> centerslice -> realignslice: setvertalign: invalid slice handle 0
+ 5.6  unlock_resolution(420,240)
+ 5.6  set_resolution 420*240
+ 5.6  lock_resolution()
+ 5.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> centerslice -> realignslice: sethorizanchor: invalid slice handle 0
+ 5.6  unlock_resolution(420,240)
+ 5.7  set_resolution 420*240
+ 5.7  lock_resolution()
+ 5.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> centerslice -> realignslice: setvertanchor: invalid slice handle 0
+ 5.7  unlock_resolution(420,240)
+ 5.8  set_resolution 420*240
+ 5.8  lock_resolution()
+ 5.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> setslicesize: setslicewidth: invalid slice handle 0
+ 5.8  unlock_resolution(420,240)
+ 5.9  set_resolution 420*240
+ 5.9  lock_resolution()
+ 5.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> setslicesize: setsliceheight: invalid slice handle 0
+ 5.9  unlock_resolution(420,240)
+ 6.0  set_resolution 420*240
+ 6.0  lock_resolution()
+ 6.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox: setvertalign: invalid slice handle 0
+ 6.0  unlock_resolution(420,240)
+ 6.1  set_resolution 420*240
+ 6.1  lock_resolution()
+ 6.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox: setvertanchor: invalid slice handle 0
+ 6.1  unlock_resolution(420,240)
+ 6.2  set_resolution 420*240
+ 6.2  lock_resolution()
+ 6.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> readobject -> getxvelocity: getsliceextra: invalid slice handle 0
+ 6.2  unlock_resolution(420,240)
+ 6.3  set_resolution 420*240
+ 6.3  lock_resolution()
+ 6.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> readobject -> getyvelocity: getsliceextra: invalid slice handle 0
+ 6.3  unlock_resolution(420,240)
+ 6.4  set_resolution 420*240
+ 6.4  lock_resolution()
+ 6.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> objectcollisions -> pushobject -> readobject -> getweight: getsliceextra: invalid slice handle 0
+ 6.4  unlock_resolution(420,240)
+ 6.4  set_resolution 420*240
+ 6.4  lock_resolution()
+ 6.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> objectcollisions -> pushobject -> readobject -> getweight: getsliceextra: invalid slice handle 0
+ 6.4  unlock_resolution(420,240)
+ 6.5  set_resolution 420*240
+ 6.5  lock_resolution()
+ 6.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> objectcollisions -> pushobject -> objectcollisions -> pushobject -> readobject -> getweight: getsliceextra: invalid slice handle 0
+ 6.5  unlock_resolution(420,240)
+ 6.6  set_resolution 420*240
+ 6.6  lock_resolution()
+ 6.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> objectcollisions -> pushobject -> objectcollisions -> pushobject -> readobject -> getweight: getsliceextra: invalid slice handle 0
+ 6.6  unlock_resolution(420,240)
+ 6.7  set_resolution 420*240
+ 6.7  lock_resolution()
+ 6.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> setxvelocity: setsliceextra: invalid slice handle 0
+ 6.7  unlock_resolution(420,240)
+ 6.8  set_resolution 420*240
+ 6.8  lock_resolution()
+ 6.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> setyvelocity: setsliceextra: invalid slice handle 0
+ 6.8  unlock_resolution(420,240)
+ 6.9  set_resolution 420*240
+ 6.9  lock_resolution()
+ 6.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+ 6.9  unlock_resolution(420,240)
+ 7.0  set_resolution 420*240
+ 7.0  lock_resolution()
+ 7.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior: getsliceextra: invalid slice handle 0
+ 7.0  unlock_resolution(420,240)
+ 7.1  set_resolution 420*240
+ 7.1  lock_resolution()
+ 7.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 7.1  unlock_resolution(420,240)
+ 7.2  set_resolution 420*240
+ 7.2  lock_resolution()
+ 7.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior: getsliceextra: invalid slice handle 0
+ 7.2  unlock_resolution(420,240)
+ 7.2  set_resolution 420*240
+ 7.3  lock_resolution()
+ 7.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> instructioncount: childcount: invalid slice handle 0
+ 7.3  unlock_resolution(420,240)
+ 7.3  set_resolution 420*240
+ 7.3  lock_resolution()
+ 7.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> setdirection: setsliceextra: invalid slice handle 0
+ 7.3  unlock_resolution(420,240)
+ 7.4  set_resolution 420*240
+ 7.4  lock_resolution()
+ 7.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 7.4  unlock_resolution(420,240)
+ 7.5  set_resolution 420*240
+ 7.5  lock_resolution()
+ 7.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 7.5  unlock_resolution(420,240)
+ 7.6  set_resolution 420*240
+ 7.6  lock_resolution()
+ 7.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> centerslice -> realignslice: sethorizalign: invalid slice handle 0
+ 7.6  unlock_resolution(420,240)
+ 7.7  set_resolution 420*240
+ 7.7  lock_resolution()
+ 7.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> centerslice -> realignslice: setvertalign: invalid slice handle 0
+ 7.7  unlock_resolution(420,240)
+ 7.8  set_resolution 420*240
+ 7.8  lock_resolution()
+ 7.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> centerslice -> realignslice: sethorizanchor: invalid slice handle 0
+ 7.8  unlock_resolution(420,240)
+ 7.9  set_resolution 420*240
+ 7.9  lock_resolution()
+ 7.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> centerslice -> realignslice: setvertanchor: invalid slice handle 0
+ 7.9  unlock_resolution(420,240)
+ 8.0  set_resolution 420*240
+ 8.0  lock_resolution()
+ 8.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> setslicesize: setslicewidth: invalid slice handle 0
+ 8.0  unlock_resolution(420,240)
+ 8.1  set_resolution 420*240
+ 8.1  lock_resolution()
+ 8.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> setslicesize: setsliceheight: invalid slice handle 0
+ 8.1  unlock_resolution(420,240)
+ 8.1  set_resolution 420*240
+ 8.1  lock_resolution()
+ 8.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox: setvertalign: invalid slice handle 0
+ 8.2  unlock_resolution(420,240)
+ 8.2  set_resolution 420*240
+ 8.2  lock_resolution()
+ 8.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox: setvertanchor: invalid slice handle 0
+ 8.2  unlock_resolution(420,240)
+ 8.3  set_resolution 420*240
+ 8.3  lock_resolution()
+ 8.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> readobject -> getxvelocity: getsliceextra: invalid slice handle 0
+ 8.3  unlock_resolution(420,240)
+ 8.4  set_resolution 420*240
+ 8.4  lock_resolution()
+ 8.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> readobject -> getyvelocity: getsliceextra: invalid slice handle 0
+ 8.4  unlock_resolution(420,240)
+ 8.5  set_resolution 420*240
+ 8.5  lock_resolution()
+ 8.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> objectcollisions -> pushobject -> readobject -> getweight: getsliceextra: invalid slice handle 0
+ 8.5  unlock_resolution(420,240)
+ 8.6  set_resolution 420*240
+ 8.6  lock_resolution()
+ 8.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> objectcollisions -> pushobject -> readobject -> getweight: getsliceextra: invalid slice handle 0
+ 8.6  unlock_resolution(420,240)
+ 8.7  set_resolution 420*240
+ 8.7  lock_resolution()
+ 8.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> objectcollisions -> pushobject -> objectcollisions -> pushobject -> readobject -> getweight: getsliceextra: invalid slice handle 0
+ 8.7  unlock_resolution(420,240)
+ 8.8  set_resolution 420*240
+ 8.8  lock_resolution()
+ 8.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> objectcollisions -> pushobject -> objectcollisions -> pushobject -> readobject -> getweight: getsliceextra: invalid slice handle 0
+ 8.8  unlock_resolution(420,240)
+ 8.9  set_resolution 420*240
+ 8.9  lock_resolution()
+ 8.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> setxvelocity: setsliceextra: invalid slice handle 0
+ 8.9  unlock_resolution(420,240)
+11.0  scripterr: User opted to quit
+11.0  Cleaning up and terminating 1
+11.0  Closing music backend...
+11.1  ...done
+11.1  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727143439.569.tmp\
+11.3  Closing gfx backend & allmodex...
+11.3  ...done
+11.3  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-27-2021 14:35:28
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_39149'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727143528.230.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.5  plotscr.hsd version: 3U 
+ 1.0  lock_resolution()
+ 1.0  set_resolution 420*240
+ 1.0  recenter_window_hint()
+ 1.0  get_screen_size: true screen size 1600x900
+ 1.0  Desktop resolution: 1600*860
+ 1.0  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+ 1.0  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.0   Opened as gamecontroller Xbox 360 Controller
+ 1.0  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 2.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior: getsliceextra: invalid slice handle 0
+ 2.1  unlock_resolution(420,240)
+ 4.0  set_resolution 420*240
+ 4.0  lock_resolution()
+54.2  msg: M ohrrpgce.gen
+54.2  msg: M general.reld
+243.8  Cleaning up and terminating 0
+243.8  Closing music backend...
+243.9  ...done
+243.9  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727143528.230.tmp\
+244.0  Closing gfx backend & allmodex...
+244.0  ...done
+244.0  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-27-2021 14:40:08
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_4618'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727144008.234.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.5  plotscr.hsd version: 3U 
+ 1.0  lock_resolution()
+ 1.0  set_resolution 420*240
+ 1.0  recenter_window_hint()
+ 1.0  get_screen_size: true screen size 1600x900
+ 1.0  Desktop resolution: 1600*860
+ 1.0  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+ 1.0  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.0   Opened as gamecontroller Xbox 360 Controller
+ 1.0  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 2.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior: getsliceextra: invalid slice handle 0
+ 2.4  unlock_resolution(420,240)
+ 3.2  set_resolution 420*240
+ 3.2  lock_resolution()
+ 3.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 3.2  unlock_resolution(420,240)
+ 4.3  set_resolution 420*240
+ 4.3  lock_resolution()
+133.9  msg: M ohrrpgce.gen
+133.9  msg: M general.reld
+136.4  msg: M ohrrpgce.hsp
+136.4  msg: M plotscr.lst
+136.4  msg: M plotscr.lst
+136.4  msg: M lookup1.bin
+136.7  plotscr.hsd version: 3U 
+320.1  msg: M ohrrpgce.hsp
+320.1  msg: M plotscr.lst
+320.1  msg: M plotscr.lst
+320.1  msg: M lookup1.bin
+320.3  plotscr.hsd version: 3U 
+374.5  msg: M ohrrpgce.hsp
+374.5  msg: M plotscr.lst
+374.5  msg: M plotscr.lst
+374.5  msg: M lookup1.bin
+374.6  plotscr.hsd version: 3U 
+423.9  msg: M ohrrpgce.gen
+423.9  msg: M general.reld
+432.3  msg: M ohrrpgce.map
+432.3  msg: M ohrrpgce.t00
+432.3  msg: M ohrrpgce.p00
+432.3  msg: M ohrrpgce.e00
+432.3  msg: M ohrrpgce.z00
+432.3  msg: M ohrrpgce.l00
+432.3  msg: M ohrrpgce.n00
+432.3  msg: M ohrrpgce.dox
+432.3  msg: M ohrrpgce.d00
+432.3  msg: M ohrrpgce.mn
+432.3  did not reload ohrrpgce.d00
+433.2  msg: M ohrrpgce.map
+433.2  msg: M ohrrpgce.t00
+433.2  msg: M ohrrpgce.p00
+433.2  msg: M ohrrpgce.e00
+433.2  msg: M ohrrpgce.z00
+433.2  msg: M ohrrpgce.l00
+433.2  msg: M ohrrpgce.n00
+433.2  msg: M ohrrpgce.dox
+433.2  msg: M ohrrpgce.d00
+433.2  did not reload ohrrpgce.d00
+433.2  msg: M ohrrpgce.mn
+433.8  msg: M ohrrpgce.gen
+433.8  msg: M general.reld
+436.5  msg: M ohrrpgce.hsp
+436.5  msg: M plotscr.lst
+436.5  msg: M plotscr.lst
+436.5  msg: M lookup1.bin
+436.6  plotscr.hsd version: 3U 
+437.6  Cleaning up and terminating 0
+437.6  Closing music backend...
+437.7  ...done
+437.7  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727144008.234.tmp\
+437.9  Closing gfx backend & allmodex...
+437.9  ...done
+437.9  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-27-2021 14:47:28
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_59978'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727144728.140.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.5  plotscr.hsd version: 3U 
+ 1.0  lock_resolution()
+ 1.0  set_resolution 420*240
+ 1.0  recenter_window_hint()
+ 1.0  get_screen_size: true screen size 1600x900
+ 1.0  Desktop resolution: 1600*860
+ 1.0  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+ 1.0  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.0   Opened as gamecontroller Xbox 360 Controller
+ 1.0  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 2.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior: getsliceextra: invalid slice handle 0
+ 2.7  unlock_resolution(420,240)
+ 6.9  set_resolution 420*240
+ 6.9  lock_resolution()
+ 6.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 6.9  unlock_resolution(420,240)
+ 7.3  set_resolution 420*240
+ 7.3  lock_resolution()
+ 7.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior: getsliceextra: invalid slice handle 0
+ 7.3  unlock_resolution(420,240)
+ 7.8  set_resolution 420*240
+ 7.8  lock_resolution()
+ 7.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> instructioncount: childcount: invalid slice handle 0
+ 7.8  unlock_resolution(420,240)
+ 8.3  set_resolution 420*240
+ 8.3  lock_resolution()
+ 8.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> setdirection: setsliceextra: invalid slice handle 0
+ 8.3  unlock_resolution(420,240)
+ 8.7  set_resolution 420*240
+ 8.7  lock_resolution()
+ 8.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 8.7  unlock_resolution(420,240)
+ 9.1  set_resolution 420*240
+ 9.1  lock_resolution()
+ 9.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 9.1  unlock_resolution(420,240)
+ 9.4  set_resolution 420*240
+ 9.5  lock_resolution()
+ 9.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> centerslice -> realignslice: sethorizalign: invalid slice handle 0
+ 9.5  unlock_resolution(420,240)
+ 9.7  set_resolution 420*240
+ 9.7  lock_resolution()
+ 9.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> centerslice -> realignslice: setvertalign: invalid slice handle 0
+ 9.7  unlock_resolution(420,240)
+10.0  set_resolution 420*240
+10.0  lock_resolution()
+10.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> centerslice -> realignslice: sethorizanchor: invalid slice handle 0
+10.0  unlock_resolution(420,240)
+10.3  set_resolution 420*240
+10.3  lock_resolution()
+10.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> centerslice -> realignslice: setvertanchor: invalid slice handle 0
+10.3  unlock_resolution(420,240)
+10.6  set_resolution 420*240
+10.6  lock_resolution()
+10.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> setslicesize: setslicewidth: invalid slice handle 0
+10.6  unlock_resolution(420,240)
+10.9  set_resolution 420*240
+10.9  lock_resolution()
+10.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox -> setslicesize: setsliceheight: invalid slice handle 0
+10.9  unlock_resolution(420,240)
+11.2  set_resolution 420*240
+11.2  lock_resolution()
+11.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox: setvertalign: invalid slice handle 0
+11.3  unlock_resolution(420,240)
+11.6  set_resolution 420*240
+11.6  lock_resolution()
+11.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> movenpcs -> npcmovebehavior -> moveobject -> writeobject -> positiontalkbox: setvertanchor: invalid slice handle 0
+11.6  unlock_resolution(420,240)
+13.4  set_resolution 420*240
+13.4  lock_resolution()
+56.6  msg: M ohrrpgce.gen
+56.6  msg: M general.reld
+59.3  msg: M ohrrpgce.hsp
+59.3  msg: M plotscr.lst
+59.3  msg: M plotscr.lst
+59.3  msg: M lookup1.bin
+59.5  plotscr.hsd version: 3U 
+111.8  msg: M ohrrpgce.hsp
+111.8  msg: M plotscr.lst
+111.8  msg: M plotscr.lst
+111.8  msg: M lookup1.bin
+112.0  plotscr.hsd version: 3U 
+179.0  msg: M ohrrpgce.hsp
+179.0  msg: M plotscr.lst
+179.0  msg: M plotscr.lst
+179.0  msg: M lookup1.bin
+179.2  plotscr.hsd version: 3U 
+214.4  msg: M ohrrpgce.hsp
+214.4  msg: M plotscr.lst
+214.4  msg: M plotscr.lst
+214.4  msg: M lookup1.bin
+214.6  plotscr.hsd version: 3U 
+297.1  msg: M ohrrpgce.hsp
+297.1  msg: M plotscr.lst
+297.1  msg: M plotscr.lst
+297.1  msg: M lookup1.bin
+297.3  plotscr.hsd version: 3U 
+581.0  msg: M ohrrpgce.hsp
+581.0  msg: M plotscr.lst
+581.0  msg: M plotscr.lst
+581.0  msg: M lookup1.bin
+581.2  plotscr.hsd version: 3U 
+594.9  msg: M ohrrpgce.hsp
+594.9  msg: M plotscr.lst
+594.9  msg: M plotscr.lst
+594.9  msg: M lookup1.bin
+595.0  plotscr.hsd version: 3U 
+645.1  msg: M ohrrpgce.hsp
+645.1  msg: M plotscr.lst
+645.1  msg: M plotscr.lst
+645.1  msg: M lookup1.bin
+645.3  plotscr.hsd version: 3U 
+665.6  msg: M ohrrpgce.hsp
+665.6  msg: M plotscr.lst
+665.6  msg: M plotscr.lst
+665.6  msg: M lookup1.bin
+665.8  plotscr.hsd version: 3U 
+1066.7  msg: M ohrrpgce.hsp
+1066.7  msg: M plotscr.lst
+1066.7  msg: M plotscr.lst
+1066.7  msg: M lookup1.bin
+1066.9  plotscr.hsd version: 3U 
+1137.1  msg: M ohrrpgce.hsp
+1137.1  msg: M plotscr.lst
+1137.1  msg: M plotscr.lst
+1137.1  msg: M lookup1.bin
+1137.2  plotscr.hsd version: 3U 
+1160.9  msg: M ohrrpgce.hsp
+1160.9  msg: M plotscr.lst
+1160.9  msg: M plotscr.lst
+1160.9  msg: M lookup1.bin
+1161.1  plotscr.hsd version: 3U 
+1170.5  msg: M ohrrpgce.hsp
+1170.5  msg: M plotscr.lst
+1170.5  msg: M plotscr.lst
+1170.5  msg: M lookup1.bin
+1170.7  plotscr.hsd version: 3U 
+1181.3  msg: M ohrrpgce.hsp
+1181.3  msg: M plotscr.lst
+1181.3  msg: M plotscr.lst
+1181.3  msg: M lookup1.bin
+1181.4  plotscr.hsd version: 3U 
+1286.5  msg: M ohrrpgce.hsp
+1286.6  msg: M plotscr.lst
+1286.6  msg: M plotscr.lst
+1286.6  msg: M lookup1.bin
+1286.7  plotscr.hsd version: 3U 
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-27-2021 15:09:28
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_87423'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.2  Setting graphics scaling to x2 change_windowsize=-1
+ 0.2  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.2  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.2  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727150928.488.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 420*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 1.0  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.0   Opened as gamecontroller Xbox 360 Controller
+ 1.0  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 3.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 3.5  unlock_resolution(420,240)
+ 4.4  set_resolution 420*240
+ 4.4  lock_resolution()
+ 4.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 4.4  unlock_resolution(420,240)
+ 4.9  set_resolution 420*240
+ 4.9  lock_resolution()
+ 4.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+ 4.9  unlock_resolution(420,240)
+ 5.3  set_resolution 420*240
+ 5.3  lock_resolution()
+ 5.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+ 5.3  unlock_resolution(420,240)
+ 5.9  set_resolution 420*240
+ 5.9  lock_resolution()
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-27-2021 15:09:52
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_70088'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727150952.353.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.5  plotscr.hsd version: 3U 
+ 1.0  lock_resolution()
+ 1.0  set_resolution 420*240
+ 1.0  recenter_window_hint()
+ 1.0  get_screen_size: true screen size 1600x900
+ 1.0  Desktop resolution: 1600*860
+ 1.0  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+ 1.0  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.0   Opened as gamecontroller Xbox 360 Controller
+ 1.0  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 3.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 3.8  unlock_resolution(420,240)
+ 4.6  set_resolution 420*240
+ 4.6  lock_resolution()
+ 4.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 4.6  unlock_resolution(420,240)
+ 6.8  set_resolution 420*240
+ 6.8  lock_resolution()
+ 6.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+ 6.8  unlock_resolution(420,240)
+ 7.4  set_resolution 420*240
+ 7.4  lock_resolution()
+ 7.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+ 7.4  unlock_resolution(420,240)
+ 7.7  set_resolution 420*240
+ 7.7  lock_resolution()
+ 8.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 8.3  unlock_resolution(420,240)
+ 8.8  set_resolution 420*240
+ 8.8  lock_resolution()
+ 8.8  ! Scripterr(4): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject: setheroframe: invalid hero caterpillar party rank 53
+ 8.8  unlock_resolution(420,240)
+11.5  set_resolution 420*240
+11.5  lock_resolution()
+11.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+11.5  unlock_resolution(420,240)
+17.9  set_resolution 420*240
+17.9  lock_resolution()
+17.9  ! Scripterr(4): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject: setheroframe: invalid hero caterpillar party rank 52
+17.9  unlock_resolution(420,240)
+18.6  set_resolution 420*240
+18.6  lock_resolution()
+18.6  ! Scripterr(4): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject: setheroframe: invalid hero caterpillar party rank 33
+18.6  unlock_resolution(420,240)
+19.9  set_resolution 420*240
+19.9  lock_resolution()
+19.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+19.9  unlock_resolution(420,240)
+20.6  set_resolution 420*240
+20.6  lock_resolution()
+20.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+20.6  unlock_resolution(420,240)
+21.1  set_resolution 420*240
+21.1  lock_resolution()
+21.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+21.2  unlock_resolution(420,240)
+21.7  set_resolution 420*240
+21.7  lock_resolution()
+21.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+21.7  unlock_resolution(420,240)
+22.1  set_resolution 420*240
+22.1  lock_resolution()
+22.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+22.1  unlock_resolution(420,240)
+22.4  set_resolution 420*240
+22.4  lock_resolution()
+22.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+22.4  unlock_resolution(420,240)
+22.7  set_resolution 420*240
+22.7  lock_resolution()
+22.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+22.8  unlock_resolution(420,240)
+23.0  set_resolution 420*240
+23.0  lock_resolution()
+23.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+23.0  unlock_resolution(420,240)
+23.3  set_resolution 420*240
+23.3  lock_resolution()
+23.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+23.3  unlock_resolution(420,240)
+23.6  set_resolution 420*240
+23.6  lock_resolution()
+23.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+23.6  unlock_resolution(420,240)
+23.9  set_resolution 420*240
+23.9  lock_resolution()
+24.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+24.0  unlock_resolution(420,240)
+24.2  set_resolution 420*240
+24.2  lock_resolution()
+24.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+24.2  unlock_resolution(420,240)
+24.6  set_resolution 420*240
+24.6  lock_resolution()
+24.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+24.6  unlock_resolution(420,240)
+114.3  msg: M ohrrpgce.gen
+114.3  msg: M general.reld
+117.4  set_resolution 420*240
+117.4  lock_resolution()
+250.7  Cleaning up and terminating 0
+250.7  Closing music backend...
+250.8  ...done
+250.8  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727150952.353.tmp\
+250.9  Closing gfx backend & allmodex...
+251.0  ...done
+251.0  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-27-2021 15:14:08
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_29124'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727151408.789.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.5  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 420*240
+ 1.0  recenter_window_hint()
+ 1.0  get_screen_size: true screen size 1600x900
+ 1.0  Desktop resolution: 1600*860
+ 1.0  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+ 1.0  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.0   Opened as gamecontroller Xbox 360 Controller
+ 1.0  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 2.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 2.4  unlock_resolution(420,240)
+ 3.9  set_resolution 420*240
+ 3.9  lock_resolution()
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-27-2021 15:15:22
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_23579'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727151522.854.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.5  plotscr.hsd version: 3U 
+ 1.0  lock_resolution()
+ 1.0  set_resolution 420*240
+ 1.0  recenter_window_hint()
+ 1.0  get_screen_size: true screen size 1600x900
+ 1.0  Desktop resolution: 1600*860
+ 1.0  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+ 1.0  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.0   Opened as gamecontroller Xbox 360 Controller
+ 1.0  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 2.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 2.2  unlock_resolution(420,240)
+ 3.3  set_resolution 420*240
+ 3.3  lock_resolution()
+ 3.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 3.3  unlock_resolution(420,240)
+ 3.7  set_resolution 420*240
+ 3.7  lock_resolution()
+ 3.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+ 3.7  unlock_resolution(420,240)
+ 4.1  set_resolution 420*240
+ 4.1  lock_resolution()
+ 4.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> writeobject -> setvelocity: setsliceextra: invalid slice handle 0
+ 4.1  unlock_resolution(420,240)
+ 4.5  set_resolution 420*240
+ 4.5  lock_resolution()
+ 5.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 5.0  unlock_resolution(420,240)
+ 5.6  set_resolution 420*240
+ 5.6  lock_resolution()
+ 5.7  ! Scripterr(4): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject: setheroframe: invalid hero caterpillar party rank 55
+ 5.7  unlock_resolution(420,240)
+ 6.0  set_resolution 420*240
+ 6.0  lock_resolution()
+ 6.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject -> readobject -> getdirection: getsliceextra: invalid slice handle 0
+ 6.0  unlock_resolution(420,240)
+ 6.3  set_resolution 420*240
+ 6.3  lock_resolution()
+ 6.3  ! Scripterr(4): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject: setheroframe: invalid hero caterpillar party rank 54
+ 6.3  unlock_resolution(420,240)
+ 6.6  set_resolution 420*240
+ 6.6  lock_resolution()
+ 6.6  ! Scripterr(4): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject: setheroframe: invalid hero caterpillar party rank 33
+ 6.6  unlock_resolution(420,240)
+ 7.3  set_resolution 420*240
+ 7.3  lock_resolution()
+51.9  msg: M ohrrpgce.gen
+51.9  msg: M general.reld
+54.3  msg: M ohrrpgce.hsp
+54.3  msg: M plotscr.lst
+54.3  msg: M plotscr.lst
+54.3  msg: M lookup1.bin
+54.5  plotscr.hsd version: 3U 
+145.6  msg: M ohrrpgce.hsp
+145.6  msg: M plotscr.lst
+145.6  msg: M plotscr.lst
+145.6  msg: M lookup1.bin
+145.8  plotscr.hsd version: 3U 
+182.0  msg: M ohrrpgce.hsp
+182.0  msg: M plotscr.lst
+182.0  msg: M plotscr.lst
+182.0  msg: M lookup1.bin
+182.1  plotscr.hsd version: 3U 
+250.1  msg: M ohrrpgce.hsp
+250.1  msg: M plotscr.lst
+250.1  msg: M plotscr.lst
+250.1  msg: M lookup1.bin
+250.3  plotscr.hsd version: 3U 
+274.2  msg: M ohrrpgce.hsp
+274.2  msg: M plotscr.lst
+274.2  msg: M plotscr.lst
+274.2  msg: M lookup1.bin
+274.3  plotscr.hsd version: 3U 
+290.0  msg: M ohrrpgce.hsp
+290.0  msg: M plotscr.lst
+290.0  msg: M plotscr.lst
+290.0  msg: M lookup1.bin
+290.2  plotscr.hsd version: 3U 
+353.2  msg: M ohrrpgce.hsp
+353.4  plotscr.hsd version: 3U 
+353.5  msg: M plotscr.lst
+353.5  msg: M plotscr.lst
+353.5  msg: M lookup1.bin
+365.3  msg: M ohrrpgce.hsp
+365.3  msg: M plotscr.lst
+365.3  msg: M plotscr.lst
+365.3  msg: M lookup1.bin
+365.5  plotscr.hsd version: 3U 
+881.7  msg: M ohrrpgce.hsp
+881.7  msg: M plotscr.lst
+881.7  msg: M plotscr.lst
+881.7  msg: M lookup1.bin
+881.8  plotscr.hsd version: 3U 
+881.9  not reloading script specwait because it's in use: refcount=1
+881.9  unlock_resolution(420,240)
+882.8  set_resolution 420*240
+882.8  lock_resolution()
+883.3  plotscr.hsd version: 3U 
+2719.3  Cleaning up and terminating 0
+2719.3  Closing music backend...
+2719.4  ...done
+2719.4  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727151522.854.tmp\
+2719.5  Closing gfx backend & allmodex...
+2719.6  ...done
+2719.6  End.

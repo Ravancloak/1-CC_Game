@@ -106,7 +106,7 @@ script, keyseltargetatk, begin
 	)
 end
 
-script, keypressMovement, begin
+script, oldkeypressMovement, begin
 	variable (x,y, who, cur map, var)
 	if (movementAllowed==false) then (exitScript)
 	#checks to see if player should stop for npc event
@@ -218,4 +218,19 @@ script, keypressMovement, begin
 		use npc (who)
 		resumeMovement
 	end
+end
+
+plotscript, keypressMovement, begin
+	if(newKeypressX) then(
+		open menu(0)
+	)
+	
+	if(keyIsPressed(key:up))	then(wantUp := true)
+	if(keyIsPressed(key:down))  then(wantDown := true)
+	if(keyIsPressed(key:left))  then(wantLeft := true)
+	if(keyIsPressed(key:right)) then(wantRight := true)
+	
+	if(keypressA) then(wantUse := true)
+
+	
 end

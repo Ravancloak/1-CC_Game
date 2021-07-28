@@ -1,0 +1,486 @@
+# Pixel-Walker v2.0
+# by Kiefer Nemeth
+
+# physics.hss
+
+# Define various physics-based functions to be performed on Objects
+
+plotscript, moveObject, obj, spd, horiz=0, vert=0, begin
+    # Move an Object using moveSliceWithWallchecking()
+    variable(x, y, diag, xd, yd, accel, dir, hero, collisions, sl)
+    
+    # Get direction from input, set direction on sprite
+    dir := getDirectionFromInput(obj, horiz, vert)
+    writeObject(obj, obj:dir, dir)
+    writeObject(obj, obj:positionTalkbox)
+    
+    xd := readObject(obj, obj:xv)
+    yd := readObject(obj, obj:yv)
+    
+    # Horizontal acceleration
+    x := acceleration(horiz, xd)
+    x := clampSpeed(x, spd)
+    
+    # Horizontal acceleration
+    y := acceleration(vert, yd)
+    y := clampSpeed(y, spd)
+    
+    # Clamp diagonal speed
+    if(horiz <> 0 && vert <> 0) then(
+        diag := (3*spd) / 4
+        if(diag < 1) then(diag := 1)
+        x := clampSpeed(x, diag)
+        y := clampSpeed(y, diag)
+    )
+    
+    if((obj == player && heroWallsAreSuspended == false) && (obj <> player && npcWallsAreSuspended == false)) then(
+        # Check if moving into a wall, zero-out vel if so
+        if(checkWallCollisionX(sliceX(obj), sliceY(obj), sliceWidth(obj), sliceHeight(obj), horiz, 0, default:friction) == 0) then(
+            x := 0
+        ) 
+        if(checkWallCollisionY(sliceX(obj), sliceY(obj), sliceWidth(obj), sliceHeight(obj), 0, vert, default:friction) == 0) then(
+            y := 0
+        )
+    )
+    
+    if(obstructionIsSuspended == false) then(
+        collisions := createContainer(0,0)
+        setSliceLookup(collisions, sli:collisions)
+        if(npcReferenceFromSlice(obj) == 0 || readNPC(npcReferenceFromSlice(obj), NPCStat:activation) <> NPCactivation:stepon)
+        then(
+            objectCollisions(obj)
+        )
+        freeSlice(collisions)
+    )
+    
+    
+    # DEBUG DOTS
+    if(debug) then(
+        generateTracker(sliceX(obj) + (sliceWidth(obj)/2), sliceY(obj) + (sliceHeight(obj)/2), 60)
+    )
+    
+    # Caterpillar stuff: only on party leader
+    if(obj == player) then(
+        if(x <> 0 || y <> 0) then(
+            # At a new position, update last position
+            appendCaterpillarLocation(sliceX(obj), sliceY(obj), readObject(obj, obj:dir))
+            sl := firstChild(caterpillarTimer)
+            while(sl) do(
+                setSliceExtra(sl, extra2, getSliceExtra(sl, extra2)--1) # Decrement Timer
+                sl := nextSibling(sl)
+            )
+        )
+    )
+    
+    writeObject(obj, obj:xv, x)
+    writeObject(obj, obj:yv, y)
+    writeObject(obj, obj:velocity, abs(x) + abs(y))
+    # Move without walls if walls are suspended
+    if(heroWallsAreSuspended && obj == player) then(
+        putSlice(obj, sliceX(obj)+x, sliceY(obj)+y)
+    ) else if(npcWallsAreSuspended) then(
+        putSlice(obj, sliceX(obj)+x, sliceY(obj)+y)
+    ) else(
+        moveSliceWithWallchecking(obj, x, y, default:friction)
+    )
+    
+    updateNPCOrHeroFromSlice(obj)
+    
+    subscript, objectCollisions, sl, begin  
+        variable(col, npc, collisions, prev)
+        
+        collisions := lookupSlice(sli:collisions)
+        # Pushable NPCs
+        npc := nextNPCReference()
+        while(npc) do(
+            if(getNPCSlice(npc) <> sl && readNPC(npc, NPCstat:activation) <> NPCactivation:stepon) then(
+                col := collision(sl, getNPCSlice(npc))
+                if(col && previousCollision(getNPCSlice(npc)) == false) then(
+                    # add to previous collisions
+                    prev := createContainer(0,0)
+                    setSliceExtra(prev, extra0, getNPCSlice(npc))
+                    setParent(prev, collisions)
+                    # Check for touch npc
+                    if(npcReferenceFromSlice(obj) == 0 && readNPC(npc, NPCstat:activation) == NPCactivation:touch) then(
+                        useNPC(npc)
+                    )
+                    # Pushing
+                    pushObject(sl, getNPCslice(npc))
+                )
+            )
+            npc := nextNPCReference(npc)
+        )
+
+        # Pushable Party Leader
+        col := collision(sl, player)
+        if(col) then(
+            if(npcReferenceFromSlice(obj) <> 0 
+            && readNPC(npcReferenceFromSlice(obj), NPCstat:activation) == NPCactivation:touch
+            ) then(
+                useNPC(npcReferenceFromSlice(obj))
+            )
+            pushObject(sl, player)
+        )
+        #for(hero, 0, 3) do(
+        #    if(heroBySlot(hero) == -1 || getHeroSlice(hero) == sl) then(continue)
+        #    col := collision(sl, getHeroSlice(hero))
+        #)
+    end
+    
+    subscript, pushObject, sl1, sl2, begin
+        # Triggers if moving Object moves into another Object
+        variable(w1, w2, force, newSpd)
+        
+        if(sl1 == sl2) then(
+            exitScript
+        )
+        
+        w1 := readObject(sl1, obj:weight)
+        w2 := readObject(sl2, obj:weight)
+        
+        if(w2 > w1 || readNPC(npcReferenceFromSlice(sl2), NPCstat:pushability) == NPCpush:off) then(
+            # Pushability is off or sl is too heavy, obj stops moving
+            x := 0
+            y := 0
+        ) else if(readNPC(npcReferenceFromSlice(sl2), NPCstat:pushability) == NPCpush:vertical) then(
+            # Pushability is vertical
+            y := 0
+        ) else if(readNPC(npcReferenceFromSlice(sl2), NPCstat:pushability) == NPCpush:horizontal) then(
+            # Pushability is horizontal
+            x := 0
+        ) else if(readNPC(npcReferenceFromSlice(sl2), NPCstat:pushability) == NPCpush:uponly) then(
+            # Pushability is Up Only
+            if(y > 0) then(y := 0)
+            x := 0
+        ) else if(readNPC(npcReferenceFromSlice(sl2), NPCstat:pushability) == NPCpush:rightonly) then(
+            # Pushability is Right Only
+            if(x < 0) then(x := 0)
+            y := 0
+        ) else if(readNPC(npcReferenceFromSlice(sl2), NPCstat:pushability) == NPCpush:downonly) then(
+            # Pushability is Down Only
+            if(y < 0) then(y := 0)
+            x := 0
+        ) else if(readNPC(npcReferenceFromSlice(sl2), NPCstat:pushability) == NPCpush:leftonly) then(
+            # Pushability is Left Only
+            if(x > 0) then(x := 0)
+            y := 0
+        ) else(
+            # Pushability is full
+            force := (w2*100) / w1
+            newSpd := spd -- (spd*force/100)
+            x := clampSpeed(x, maximum(newSpd, 1)) # If newSpd is < 1, make it 1
+            y := clampSpeed(y, maximum(newSpd, 1))
+        )
+        
+        x := checkWallCollisionX(sliceX(sl2), sliceY(sl2), sliceWidth(sl2), sliceHeight(sl2), x, y, default:friction)
+        y := checkWallCollisionY(sliceX(sl2), sliceY(sl2), sliceWidth(sl2), sliceHeight(sl2), x, y, default:friction)
+        
+        objectCollisions(sl2)
+        
+        moveSliceWithWallchecking(sl2, x, y, default:friction)
+        updateNPCOrHeroFromSlice(sl2)
+    end
+    
+    subscript, collision, sl1, sl2, begin
+        # check for a collision between sl and the position obj will be in 
+        if(sliceX(sl2) < sliceX(sl1) + x + sliceWidth(sl1)
+        && sliceX(sl2) + sliceWidth(sl2) > sliceX(sl1) + x
+        && sliceY(sl2) < sliceY(sl1) + y + sliceHeight(sl1)
+        && sliceY(sl2) + sliceHeight(sl2) > sliceY(sl1) + y)
+        then(
+            # collision detected
+            exitReturning(true)
+        )
+        return(false)
+    end
+    
+    subscript, previousCollision, col, begin
+        variable(sl, collisions)
+        
+        collisions := lookupSlice(sli:collisions)
+        sl := firstChild(collisions)
+        while(sl) do(
+            if(getSliceExtra(sl, extra0) == col) then(
+                exitReturning(true)
+            )
+            sl := nextSibling(sl)
+        )
+        return(false)
+    end
+end
+
+plotscript, walkObject, obj, d, dist, w, begin
+    # Only usable on NPCs
+    clearInstructions(obj)
+    appendInstruction(obj, d, dist, w)
+end
+
+script, collisionX, sl1, sl2, begin
+    # Check for a collision on x axis, then return the difference (overlap)
+    # difference based on slice centers
+    variable(x1, x2)
+    if(sliceX(sl2) < sliceX(sl1) + sliceWidth(sl1)
+    && sliceX(sl2) + sliceWidth(sl2) > sliceX(sl1)) 
+    then(
+        x1 := sliceX(sl1) + (sliceWidth(sl1) / 2)
+        x2 := sliceX(sl2) + (sliceWidth(sl2) / 2)
+        exitReturning(abs(x1 -- x2))
+    ) else(
+        exitReturning(false)
+    )
+end
+
+script, collisionY, sl1, sl2, begin
+    # Check for a collision on y axis, then return the difference (overlap)
+    variable(y1, y2)
+    if(sliceY(sl2) < sliceY(sl1) + sliceHeight(sl1)
+    && sliceY(sl2) + sliceHeight(sl2) > sliceY(sl1))
+    then(
+        y1 := sliceY(sl1) + (sliceHeight(sl1) / 2)
+        y2 := sliceY(sl2) + (sliceHeight(sl2) / 2)
+        exitReturning(abs(y1 -- y2))
+    ) else(
+        exitReturning(false)
+    )
+end
+
+script, acceleration, axis, current, begin
+    # axis is either -1, 0, or 1
+    variable(v)
+    if(axis == 0) then(
+        # decelerate
+        v := current / 2
+    ) else(
+        # current velocity + (+/-accel)
+        # default:accel is the amount of pixels to increase every tick while accelerating up to max velocity
+        v := current + (axis * default:accel)
+    )
+    exitReturning(v)
+end
+
+script, clampSpeed, spd, max, begin
+    # Clamps spd to the positive & negative max
+    if(spd > max) then(
+        exitReturning(max)
+    ) else if(spd < 0--max) then(
+        exitReturning(0--max)
+    ) else(
+        exitReturning(spd)
+    )
+end
+
+script, applyFriction, vel, begin
+    variable(mult, friction)
+    mult := vel * 10000
+    friction := (mult / default:friction) / 10000
+    exitReturning(vel -- friction)
+end
+
+script, getDirectionFromInput, obj, horiz, vert, begin
+    variable(dir)
+    
+    if(horiz == -1) then(
+        if(vert == -1) then(dir := 7)
+        if(vert == 0) then(dir := 6)
+        if(vert == 1) then(dir := 5)
+    )
+    else if(horiz == 0) then(
+        if(vert == -1) then(dir := 0)
+        if(vert == 0) then(dir := readObject(obj, obj:dir))
+        if(vert == 1) then(dir := 4)
+    )
+    else if(horiz == 1) then(
+        if(vert == -1) then(dir := 1)
+        if(vert == 0) then(dir := 2)
+        if(vert == 1) then(dir := 3)
+    )
+    
+    return(dir)
+end
+
+script, getHorizFromDirection, dir, begin
+    if(dir == 0 || dir == 4) then(
+        exitReturning(0)
+    ) else if(dir < 4) then(
+        exitReturning(1)
+    ) else(
+        exitReturning(-1)
+    )
+end
+
+script, getVertFromDirection, dir, begin
+    if(dir == 2 || dir == 6) then(
+        exitReturning(0)
+    ) else if(dir < 6 && dir > 2) then(
+        exitReturning(1)
+    ) else(
+        exitReturning(-1)
+    )
+end
+
+# NPC Activation
+
+script, activateTalkbox, obj, depth, begin
+    # Checks for any NPCs colliding with the given object's talkbox
+    
+    variable(c, npc, vert, horiz)
+    
+    c := readObject(obj, obj:objInTalkbox, depth)
+    if(c) then(
+        # c is a valid NPC slice
+        npc := npcReferenceFromSlice(c)
+        if(readNPC(npc, NPCstat:activation) == NPCactivation:use) then(
+            if(readNPC(npc, NPCstat:whenactivated) == NPCwhenactivated:faceplayer) then(
+                facePlayer(npc, true)
+            ) else if(readNPC(npc, NPCstat:whenactivated) == NPCwhenactivated:changeDirection) then(
+                facePlayer(npc, false)
+            )
+            useNPC(npc)
+            exitReturning(true)
+        )
+    )
+    
+    return(false)
+end
+
+script, facePlayer, npc, temp, begin
+    # Alters the npc sprite to face the direction of the player. Lasts one frame.
+    variable(horiz, vert)
+    
+    if(sliceX(player) < npcPixelX(npc)) then(
+        horiz := -1
+    ) else if(sliceX(player) > npcPixelX(npc)) then(
+        horiz := 1
+    )
+
+    if(sliceY(player) < npcPixelY(npc)) then(
+        vert := -1
+    ) else if(sliceY(player) > npcPixelY(npc)) then(
+        vert := 1
+    )
+    
+    clearInstructions(getNPCSlice(npc))
+    setNPCTrueFrame(npc, getDirectionFromInput(getNPCSlice(npc), horiz, vert))
+    if(temp == false) then(
+        writeObject(getNPCSlice(npc), obj:dir, getDirectionFromInput(getNPCSlice(npc), horiz, vert))
+    )
+end
+
+script, steponNPC, begin
+    # Searches through the walkabout layer for a colliding NPC with player
+    variable(tree, sl, i, npc)
+    
+    tree := lookupSlice(sl:walkaboutLayer)
+    sl := findCollidingSlice(tree, player, 0)
+    i := 0
+    while(sl) do(
+        npc := npcIDFromSlice(sl)
+        # stepon npcs
+        if(npc <> -1 
+        && readNPC(npc, NPCstat:activation) == NPCactivation:stepon
+        && getObjectOverlap(player, sl, default:steponthreshold))
+        then(
+            exitReturning(sl)
+        )
+        i += 1
+        sl := findCollidingSlice(tree, player, i)
+    )
+    
+    return(false)
+end
+
+script, getObjectOverlap, sl1, sl2, threshold, begin
+    # Checks the amount of pixel overlap between the two slices
+    # If the overlap is greater than the given threshold, return true
+    # threshold is a percentage, applied to sl2's size
+    variable(x, y, average, pX, pY)
+    
+    x := collisionX(sl1, sl2)
+    y := collisionY(sl1, sl2)
+    
+    # X-axis / Width
+    pX := (x*100) / (sliceWidth(sl2) / 2) # overlap percentage
+    # Y-axis / Height
+    pY := (y*100) / (sliceHeight(sl2) / 2) # overlap percentage
+    
+    pX := 100 -- pX
+    pY := 100 -- pY
+    
+    average := (pX + pY) / 2
+    
+    if(pX >= threshold && pY >= threshold) then(
+        exitReturning(true)
+    )
+    
+    return(false)
+end
+
+script, appendCaterpillarLocation, x, y, direction, begin
+    variable(sl, sl2)
+    
+    sl := createContainer(0,0)
+    setParent(sl, caterpillarTimer)
+    
+    putSlice(sl, x, y)
+    setSliceExtra(sl, extra0, direction)
+    setSliceExtra(sl, extra1, 0) # Hero 0
+    setSliceExtra(sl, extra2, 3) # Duration
+end
+
+script, getCaterpillarTimerX, index, begin
+    variable(sl)
+    
+    sl := sliceChild(caterpillarTimer, index)
+    exitReturning(sliceX(sl))
+end
+
+script, getCaterpillarTimerY, index, begin
+    variable(sl)
+    
+    sl := sliceChild(caterpillarTimer, index)
+    exitReturning(sliceY(sl))
+end
+
+script, getCaterpillarDirection, index, begin
+    variable(sl)
+    
+    sl := sliceChild(caterpillarTimer, index)
+    exitReturning(getSliceExtra(sl, extra0))
+end
+
+script, getCaterpillarHero, index, begin
+    variable(sl)
+    
+    sl := sliceChild(caterpillarTimer, index)
+    exitReturning(getSliceExtra(sl, extra1))
+end
+
+script, getCaterpillarDuration, index, begin
+    variable(sl)
+    
+    sl := sliceChild(caterpillarTimer, index)
+    exitReturning(getSliceExtra(sl, extra2))
+end
+
+script, incrementCaterpillarHero, index, begin
+    variable(sl)
+    
+    # Get timer slice of caterpillar index slice
+    sl := sliceChild(caterpillarTimer, index)
+    setSliceExtra(sl, extra1, getSliceExtra(sl, extra1)+1)
+end
+
+script, decrementCaterpillarTimer, index, begin
+    variable(sl)
+    
+    # Get timer slice of caterpillar index slice
+    sl := sliceChild(caterpillarTimer, index)
+    setSliceExtra(sl, extra2, getSliceExtra(sl, extra2)--1)
+end
+
+script, setCaterpillarDuration, index, val, begin
+    variable(sl)
+    
+    sl := sliceChild(caterpillarTimer, index)
+    exitReturning(setSliceExtra(sl, extra2, val))
+end

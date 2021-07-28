@@ -2,16 +2,20 @@ plotscript, defnewgame, begin
 	suspend player
 	resume movement
 	resetControls
+	initialize
 	add hero (hero:Jenkins)
 	add hero (hero:GMoney)
 	#add hero (hero:Daisy)
 	get item (0)
+
 	mainloop
 end
 
 plotscript, defloadgame, begin
 	suspend player
 	resume movement
+
+	initialize
 	mainloop
 end
 

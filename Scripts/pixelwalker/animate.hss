@@ -1,0 +1,72 @@
+# Pixel-Walker v2.0
+# by Kiefer Nemeth
+
+# animate.hss
+
+# Various functions for animating Objects
+
+script, animateObject, obj, begin
+    # Evaluate Object velocity, status, etc. and apply spriteset/frame adjustments
+    
+    variable(pic, tick, dir, firstSet, frameCount)
+    
+    dir := readObject(obj, obj:dir)
+    if(heroRankFromSlice(obj) > -1) then(
+        setHeroTrueFrame(heroRankFromSlice(obj), dir)
+    ) else(
+        setNPCTrueFrame(npcIDFromSlice(obj), dir)
+    )
+    
+    # Determine idling
+    if(readObject(obj, obj:idleSet) == -1) then(
+        # Object has no idle
+        if(readObject(obj, obj:velocity) == 0) then(
+            # Cancel because not moving and not idling
+            writeObject(obj, obj:animTick, readObject(obj, obj:animSpd))
+            writeObject(obj, obj:picture, readObject(obj, obj:originSet))
+            exitReturning(false)
+        )
+        # First set of the rotation is origin set
+        firstSet := readObject(obj, obj:originSet)
+        frameCount := readObject(obj, obj:frameCount)
+    ) else if(readObject(obj, obj:velocity) == 0) then(
+        # Object has an idle and isn't moving: idle animation
+        firstSet := readObject(obj, obj:idleSet)
+        frameCount := readObject(obj, obj:idleFrames)
+    ) else(
+        # Object has an idle and is moving: moving animation
+        firstSet := readObject(obj, obj:originSet)
+        frameCount := readObject(obj, obj:frameCount)
+    )
+    
+    # ANIMATION TICK
+    # once this obj-specific timer reaches 0, update the 'frame', which is a new spriteset
+    tick := readObject(obj, obj:animTick)
+    if(tick <= 0) then(
+        # Change frames, reset animTick
+        writeObject(obj, obj:animTick, readObject(obj, obj:animSpd))
+        
+        pic := readObject(obj, obj:picture)
+        if(pic >= frameCount + firstSet -- 1) then(
+            writeObject(obj, obj:picture, firstSet) # reset to original spriteset
+        ) else(
+            writeObject(obj, obj:picture, pic + 1) # increment spriteset
+        )
+    ) else(
+        # Haven't reached animation speed yet
+        writeObject(obj, obj:animTick, tick--1)
+    )
+end
+
+script, animateObjects, begin
+    # each-frame function:
+    # Loops through all NPCs and heroes and processes animation dependent on velocity, etc.
+    
+    variable(sl)
+    
+    sl := firstChild(lookupSlice(sl:walkaboutlayer))
+    while(sl) do(
+        animateObject(sl)
+        sl := nextSibling(sl)
+    )
+end
