@@ -146,6 +146,8 @@ script, endanimation, which, sli, damage, target, begin
 		set parent (sli2, sli)
 		set sprite frame (sli2, ones+1)
 	) else(
+		sli2 := create container
+		set parent (sli2, sli)
 		sli2 := load border sprite(1)
 		set parent (sli2, sli)
 		set sprite frame (sli2, ones+1)
@@ -156,7 +158,7 @@ script, endanimation, which, sli, damage, target, begin
 	)
 	sli2 := firstChild(sli)
 	while (sli2) do (
-		dissolve sprite (sli2, dissolve:puff, 20)
+		if (slice is sprite (sli2)) then (dissolve sprite (sli2, dissolve:puff, 20))
 		sli2 := nextSibling(sli2)
 	)
 	for (i, 0, 9) do (

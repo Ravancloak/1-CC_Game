@@ -30,10 +30,10 @@ script, BattleMenu,which, begin
 
 	switch (var) do (
 		case (1, 3) do(
-			put slice (sli, battle:turn*100+108, sliceY(sli))		
+			put slice (sli, battle:turn*86+40, sliceY(sli))		
 		)
 		case (2,4) do(
-			put slice (sli, battle:turn*100+58, sliceY(sli))
+			put slice (sli, battle:turn*65+20, sliceY(sli))
 		)
 	)
 

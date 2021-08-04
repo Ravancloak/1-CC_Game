@@ -10,7 +10,6 @@ include, thirdparty.hss
 include, anidistortions.hss
 include, menu.hss
 include, everytick.hss
-include, pixelwalker\pixelmove.hss
 
 define constant, begin
 	#game modes
@@ -42,12 +41,14 @@ end
 
 globalVariable, begin
 	0, game:mode
-	1, original_volume
 	2, battle:turn
 	3, battle:bkey
 	4, menu:selected
 	5, game:tick
 	6, battle:win
+	7, menu:lastsettings
+	8, var:musicVol
+	9, var:soundVol
 
 	#remap variables
 	50, board:a

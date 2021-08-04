@@ -1,288 +1,3 @@
-8365.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7457,mod,0
-8365.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7458,mod,0
-8365.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7459,mod,0
-8365.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7460,mod,0
-8365.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7461,mod,0
-8365.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7462,mod,0
-8365.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7463,mod,0
-8365.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7464,mod,0
-8365.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7465,mod,0
-8365.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7466,mod,0
-8365.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7467,mod,0
-8365.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7468,mod,0
-8365.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7469,mod,0
-8365.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7470,mod,0
-8365.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7471,mod,0
-8365.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7472,mod,0
-8365.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7473,mod,0
-8365.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7474,mod,0
-8365.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7475,mod,0
-8365.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7476,mod,0
-8365.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7477,mod,0
-8365.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7478,mod,0
-8365.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7479,mod,0
-8365.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7480,mod,0
-8365.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7481,mod,0
-8365.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7482,mod,0
-8365.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7483,mod,0
-8365.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7484,mod,0
-8365.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7485,mod,0
-8365.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7486,mod,0
-8365.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7487,mod,0
-8365.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7488,mod,0
-8365.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7489,mod,0
-8365.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7490,mod,0
-8365.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7491,mod,0
-8365.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7492,mod,0
-8365.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7493,mod,0
-8365.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7494,mod,0
-8365.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7495,mod,0
-8365.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7496,mod,0
-8365.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7497,mod,0
-8366.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7498,mod,0
-8366.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7499,mod,0
-8366.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7500,mod,0
-8366.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7501,mod,0
-8366.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7502,mod,0
-8366.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7503,mod,0
-8366.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7504,mod,0
-8366.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7505,mod,0
-8366.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7506,mod,0
-8366.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7507,mod,0
-8366.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7508,mod,0
-8366.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7509,mod,0
-8366.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7510,mod,0
-8366.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7511,mod,0
-8366.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7512,mod,0
-8366.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7513,mod,0
-8366.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7514,mod,0
-8366.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7515,mod,0
-8366.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7516,mod,0
-8366.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7517,mod,0
-8366.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7518,mod,0
-8366.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7519,mod,0
-8366.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7520,mod,0
-8366.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7521,mod,0
-8366.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7522,mod,0
-8366.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7523,mod,0
-8366.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7524,mod,0
-8366.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7525,mod,0
-8366.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7526,mod,0
-8366.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7527,mod,0
-8366.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7528,mod,0
-8366.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7529,mod,0
-8366.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7530,mod,0
-8366.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7531,mod,0
-8366.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7532,mod,0
-8366.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7533,mod,0
-8366.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7534,mod,0
-8366.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7535,mod,0
-8366.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7536,mod,0
-8366.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7537,mod,0
-8366.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7538,mod,0
-8366.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7539,mod,0
-8366.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7540,mod,0
-8366.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7541,mod,0
-8366.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7542,mod,0
-8366.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7543,mod,0
-8366.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7544,mod,0
-8366.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7545,mod,0
-8366.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7546,mod,0
-8366.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7547,mod,0
-8366.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7548,mod,0
-8366.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7549,mod,0
-8366.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7550,mod,0
-8366.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7551,mod,0
-8366.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7552,mod,0
-8366.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7553,mod,0
-8366.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7554,mod,0
-8366.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7555,mod,0
-8366.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7556,mod,0
-8366.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7557,mod,0
-8367.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7558,mod,0
-8367.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7559,mod,0
-8367.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7560,mod,0
-8367.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7561,mod,0
-8367.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7562,mod,0
-8367.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7563,mod,0
-8367.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7564,mod,0
-8367.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7565,mod,0
-8367.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7566,mod,0
-8367.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7567,mod,0
-8367.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7568,mod,0
-8367.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7569,mod,0
-8367.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7570,mod,0
-8367.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7571,mod,0
-8367.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7572,mod,0
-8367.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7573,mod,0
-8367.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7574,mod,0
-8367.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7575,mod,0
-8367.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7576,mod,0
-8367.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7577,mod,0
-8367.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7578,mod,0
-8367.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7579,mod,0
-8367.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7580,mod,0
-8367.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7581,mod,0
-8367.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7582,mod,0
-8367.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7583,mod,0
-8367.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7584,mod,0
-8367.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7585,mod,0
-8367.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7586,mod,0
-8367.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7587,mod,0
-8367.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7588,mod,0
-8367.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7589,mod,0
-8367.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7590,mod,0
-8367.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7591,mod,0
-8367.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7592,mod,0
-8367.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7593,mod,0
-8367.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7594,mod,0
-8367.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7595,mod,0
-8367.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7596,mod,0
-8367.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7597,mod,0
-8367.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7598,mod,0
-8367.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7599,mod,0
-8367.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7600,mod,0
-8367.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7601,mod,0
-8367.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7602,mod,0
-8367.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7603,mod,0
-8367.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7604,mod,0
-8367.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7605,mod,0
-8367.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7606,mod,0
-8367.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7607,mod,0
-8367.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7608,mod,0
-8367.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7609,mod,0
-8367.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7610,mod,0
-8367.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7611,mod,0
-8367.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7612,mod,0
-8367.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7613,mod,0
-8367.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7614,mod,0
-8367.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7615,mod,0
-8367.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7616,mod,0
-8367.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7617,mod,0
-8368.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7618,mod,0
-8368.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7619,mod,0
-8368.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7620,mod,0
-8368.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7621,mod,0
-8368.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7622,mod,0
-8368.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7623,mod,0
-8368.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7624,mod,0
-8368.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7625,mod,0
-8368.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7626,mod,0
-8368.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7627,mod,0
-8368.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7628,mod,0
-8368.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7629,mod,0
-8368.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7630,mod,0
-8368.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7631,mod,0
-8368.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7632,mod,0
-8368.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7633,mod,0
-8368.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7634,mod,0
-8368.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7635,mod,0
-8368.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7636,mod,0
-8368.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7637,mod,0
-8368.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7638,mod,0
-8368.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7639,mod,0
-8368.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7640,mod,0
-8368.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7641,mod,0
-8368.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7642,mod,0
-8368.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7643,mod,0
-8368.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7644,mod,0
-8368.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7645,mod,0
-8368.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7646,mod,0
-8368.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7647,mod,0
-8368.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7648,mod,0
-8368.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7649,mod,0
-8368.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7650,mod,0
-8368.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7651,mod,0
-8368.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7652,mod,0
-8368.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7653,mod,0
-8368.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7654,mod,0
-8368.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7655,mod,0
-8368.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7656,mod,0
-8368.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7657,mod,0
-8368.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7658,mod,0
-8368.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7659,mod,0
-8368.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7660,mod,0
-8368.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7661,mod,0
-8368.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7662,mod,0
-8368.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7663,mod,0
-8368.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7664,mod,0
-8368.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7665,mod,0
-8368.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7666,mod,0
-8368.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7667,mod,0
-8368.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7668,mod,0
-8368.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7669,mod,0
-8368.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7670,mod,0
-8368.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7671,mod,0
-8368.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7672,mod,0
-8368.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7673,mod,0
-8368.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7674,mod,0
-8368.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7675,mod,0
-8368.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7676,mod,0
-8368.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7677,mod,0
-8369.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7678,mod,0
-8369.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7679,mod,0
-8369.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7680,mod,0
-8369.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7681,mod,0
-8369.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7682,mod,0
-8369.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7683,mod,0
-8369.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7684,mod,0
-8369.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7685,mod,0
-8369.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7686,mod,0
-8369.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7687,mod,0
-8369.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7688,mod,0
-8369.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7689,mod,0
-8369.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7690,mod,0
-8369.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7691,mod,0
-8369.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7692,mod,0
-8369.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7693,mod,0
-8369.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7694,mod,0
-8369.2  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7695,mod,0
-8369.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7696,mod,0
-8369.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7697,mod,0
-8369.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7698,mod,0
-8369.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7699,mod,0
-8369.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7700,mod,0
-8369.3  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7701,mod,0
-8369.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7702,mod,0
-8369.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7703,mod,0
-8369.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7704,mod,0
-8369.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7705,mod,0
-8369.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7706,mod,0
-8369.4  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7707,mod,0
-8369.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7708,mod,0
-8369.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7709,mod,0
-8369.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7710,mod,0
-8369.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7711,mod,0
-8369.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7712,mod,0
-8369.5  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7713,mod,0
-8369.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7714,mod,0
-8369.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7715,mod,0
-8369.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7716,mod,0
-8369.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7717,mod,0
-8369.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7718,mod,0
-8369.6  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7719,mod,0
-8369.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7720,mod,0
-8369.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7721,mod,0
-8369.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7722,mod,0
-8369.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7723,mod,0
-8369.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7724,mod,0
-8369.7  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7725,mod,0
-8369.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7726,mod,0
-8369.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7727,mod,0
-8369.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7728,mod,0
-8369.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7729,mod,0
-8369.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7730,mod,0
-8369.8  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7731,mod,0
-8369.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7732,mod,0
-8369.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7733,mod,0
-8369.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7734,mod,0
-8369.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7735,mod,0
-8369.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7736,mod,0
-8369.9  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7737,mod,0
-8370.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7738,mod,0
-8370.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7739,mod,0
-8370.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7740,mod,0
-8370.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7741,mod,0
 8370.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7742,mod,0
 8370.0  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7743,mod,0
 8370.1  ! Scripterr(5): defnewgame -> mainloop -> specwait -> mapupdate -> scrolllayer0: division by zero: 7744,mod,0
@@ -2065,3 +1780,1028 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 2719.5  Closing gfx backend & allmodex...
 2719.6  ...done
 2719.6  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  07-27-2021 19:40:26
+ 0.1  OHRRPGCE wip 20210611.12284 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_82189'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12284,OHRRPGCE wip 20210611
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727194026.869.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 420*240
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 1.0  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.0   Opened as gamecontroller Xbox 360 Controller
+ 1.0  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 2.9  ! Scripterr(4): defnewgame -> mainloop -> specwait -> updatepixelmove -> animateobjects -> animateobject: setheroframe: invalid hero caterpillar party rank 33
+ 2.9  unlock_resolution(420,240)
+ 4.3  set_resolution 420*240
+ 4.3  lock_resolution()
+47.4  msg: M ohrrpgce.gen
+47.4  msg: M general.reld
+49.9  msg: M ohrrpgce.hsp
+49.9  msg: M plotscr.lst
+49.9  msg: M plotscr.lst
+49.9  msg: M lookup1.bin
+50.1  plotscr.hsd version: 3U 
+106.6  msg: M ohrrpgce.hsp
+106.6  msg: M plotscr.lst
+106.6  msg: M plotscr.lst
+106.6  msg: M lookup1.bin
+106.8  plotscr.hsd version: 3U 
+139.5  msg: M ohrrpgce.hsp
+139.5  msg: M plotscr.lst
+139.5  msg: M plotscr.lst
+139.5  msg: M lookup1.bin
+139.7  plotscr.hsd version: 3U 
+154.1  msg: M ohrrpgce.hsp
+154.1  msg: M plotscr.lst
+154.1  msg: M plotscr.lst
+154.1  msg: M lookup1.bin
+154.3  plotscr.hsd version: 3U 
+180.3  msg: M ohrrpgce.hsp
+180.3  msg: M plotscr.lst
+180.3  msg: M plotscr.lst
+180.3  msg: M lookup1.bin
+180.4  plotscr.hsd version: 3U 
+194.3  msg: M ohrrpgce.hsp
+194.3  msg: M plotscr.lst
+194.3  msg: M plotscr.lst
+194.3  msg: M lookup1.bin
+194.4  plotscr.hsd version: 3U 
+212.4  msg: M ohrrpgce.hsp
+212.4  msg: M plotscr.lst
+212.4  msg: M plotscr.lst
+212.4  msg: M lookup1.bin
+212.6  plotscr.hsd version: 3U 
+229.4  msg: M ohrrpgce.hsp
+229.4  msg: M plotscr.lst
+229.4  msg: M plotscr.lst
+229.4  msg: M lookup1.bin
+229.6  plotscr.hsd version: 3U 
+250.7  msg: M ohrrpgce.hsp
+250.7  msg: M plotscr.lst
+250.7  msg: M plotscr.lst
+250.7  msg: M lookup1.bin
+250.8  plotscr.hsd version: 3U 
+261.3  msg: M ohrrpgce.hsp
+261.3  msg: M plotscr.lst
+261.3  msg: M plotscr.lst
+261.3  msg: M lookup1.bin
+261.4  plotscr.hsd version: 3U 
+271.3  msg: M ohrrpgce.hsp
+271.3  msg: M plotscr.lst
+271.3  msg: M plotscr.lst
+271.3  msg: M lookup1.bin
+271.5  plotscr.hsd version: 3U 
+286.6  msg: M ohrrpgce.hsp
+286.6  msg: M plotscr.lst
+286.6  msg: M plotscr.lst
+286.6  msg: M lookup1.bin
+286.8  plotscr.hsd version: 3U 
+359.2  msg: M ohrrpgce.hsp
+359.2  msg: M plotscr.lst
+359.2  msg: M plotscr.lst
+359.2  msg: M lookup1.bin
+359.4  plotscr.hsd version: 3U 
+1139.1  msg: M ohrrpgce.hsp
+1139.1  msg: M plotscr.lst
+1139.1  msg: M plotscr.lst
+1139.1  msg: M lookup1.bin
+1139.2  plotscr.hsd version: 3U 
+1172.7  msg: M ohrrpgce.gen
+1172.7  msg: M general.reld
+1174.8  msg: M ohrrpgce.gen
+1190.4  msg: M browse.txt
+1190.4  msg: M browse.txt
+1190.4  msg: M general.reld
+1190.4  msg: M ohrrpgce.gen
+1190.4  msg: M general.reld
+1190.8  msg: M ohrrpgce.gen
+1196.7  msg: M ohrrpgce.gen
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.6  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.stt
+1278.7  msg: M ohrrpgce.gen
+1278.7  msg: M general.reld
+1288.7  msg: M ohrrpgce.hsp
+1288.7  msg: M plotscr.lst
+1288.7  msg: M plotscr.lst
+1288.7  msg: M lookup1.bin
+1288.8  plotscr.hsd version: 3U 
+1716.7  msg: M ohrrpgce.hsp
+1716.7  msg: M plotscr.lst
+1716.7  msg: M plotscr.lst
+1716.7  msg: M lookup1.bin
+1716.9  plotscr.hsd version: 3U 
+1726.4  msg: M ohrrpgce.hsp
+1726.4  msg: M plotscr.lst
+1726.4  msg: M plotscr.lst
+1726.4  msg: M lookup1.bin
+1726.6  plotscr.hsd version: 3U 
+1734.7  msg: M ohrrpgce.hsp
+1734.7  msg: M plotscr.lst
+1734.7  msg: M plotscr.lst
+1734.7  msg: M lookup1.bin
+1734.8  plotscr.hsd version: 3U 
+1754.9  msg: M ohrrpgce.hsp
+1755.0  plotscr.hsd version: 3U 
+1755.0  msg: M plotscr.lst
+1755.0  msg: M plotscr.lst
+1755.0  msg: M lookup1.bin
+1843.7  msg: M ohrrpgce.hsp
+1843.7  msg: M plotscr.lst
+1843.7  msg: M plotscr.lst
+1843.7  msg: M lookup1.bin
+1843.8  plotscr.hsd version: 3U 
+1938.5  msg: M ohrrpgce.hsp
+1938.5  msg: M plotscr.lst
+1938.5  msg: M plotscr.lst
+1938.5  msg: M lookup1.bin
+1938.7  plotscr.hsd version: 3U 
+1955.8  msg: M ohrrpgce.hsp
+1955.8  msg: M plotscr.lst
+1955.8  msg: M plotscr.lst
+1955.8  msg: M lookup1.bin
+1955.9  plotscr.hsd version: 3U 
+2053.8  msg: M ohrrpgce.hsp
+2053.8  msg: M plotscr.lst
+2053.8  msg: M plotscr.lst
+2053.8  msg: M lookup1.bin
+2053.9  plotscr.hsd version: 3U 
+2072.8  msg: M ohrrpgce.hsp
+2072.8  msg: M plotscr.lst
+2072.8  msg: M plotscr.lst
+2072.8  msg: M lookup1.bin
+2072.9  plotscr.hsd version: 3U 
+2110.4  msg: M ohrrpgce.hsp
+2110.4  msg: M plotscr.lst
+2110.4  msg: M plotscr.lst
+2110.4  msg: M lookup1.bin
+2110.5  plotscr.hsd version: 3U 
+2488.9  msg: M ohrrpgce.hsp
+2488.9  msg: M plotscr.lst
+2488.9  msg: M plotscr.lst
+2488.9  msg: M lookup1.bin
+2489.0  plotscr.hsd version: 3U 
+2541.6  msg: M ohrrpgce.hsp
+2541.6  msg: M plotscr.lst
+2541.6  msg: M plotscr.lst
+2541.6  msg: M lookup1.bin
+2541.7  plotscr.hsd version: 3U 
+2659.4  msg: M ohrrpgce.hsp
+2659.4  msg: M plotscr.lst
+2659.4  msg: M plotscr.lst
+2659.4  msg: M lookup1.bin
+2659.5  plotscr.hsd version: 3U 
+2694.0  msg: M ohrrpgce.gen
+2694.0  msg: M general.reld
+2699.1  msg: M ohrrpgce.til
+2702.1  msg: M ohrrpgce.til
+2703.6  msg: M ohrrpgce.til
+2704.0  msg: M ohrrpgce.til
+2704.6  msg: M ohrrpgce.til
+2705.1  msg: M ohrrpgce.til
+2705.9  msg: M ohrrpgce.til
+2706.5  msg: M ohrrpgce.til
+2707.2  msg: M ohrrpgce.til
+2707.6  msg: M ohrrpgce.til
+2708.0  msg: M ohrrpgce.til
+2708.6  msg: M ohrrpgce.til
+2708.9  msg: M ohrrpgce.til
+2709.4  msg: M ohrrpgce.til
+2709.9  msg: M ohrrpgce.til
+2742.9  msg: M ohrrpgce.til
+2743.3  msg: M ohrrpgce.til
+2744.0  msg: M ohrrpgce.til
+2744.4  msg: M ohrrpgce.til
+2747.8  msg: M ohrrpgce.til
+2748.2  msg: M ohrrpgce.til
+2749.7  msg: M ohrrpgce.til
+2750.5  msg: M ohrrpgce.til
+2751.9  msg: M ohrrpgce.til
+2752.1  msg: M ohrrpgce.til
+2755.8  msg: M ohrrpgce.til
+2756.2  msg: M ohrrpgce.til
+2756.8  msg: M ohrrpgce.til
+2757.3  msg: M ohrrpgce.til
+2757.9  msg: M ohrrpgce.til
+2758.4  msg: M ohrrpgce.til
+2758.8  msg: M ohrrpgce.til
+2758.8  msg: M defpass.bin
+2758.8  did not reload defpass.bin
+2759.5  msg: M ohrrpgce.gen
+2760.1  msg: M ohrrpgce.gen
+2760.1  msg: M general.reld
+2764.6  msg: M ohrrpgce.map
+2764.6  msg: M ohrrpgce.t00
+2764.6  msg: M ohrrpgce.p00
+2764.6  msg: M ohrrpgce.e00
+2764.6  msg: M ohrrpgce.z00
+2764.6  msg: M ohrrpgce.l00
+2764.6  msg: M ohrrpgce.n00
+2764.6  msg: M ohrrpgce.dox
+2764.6  msg: M ohrrpgce.d00
+2764.6  msg: M ohrrpgce.mn
+2764.6  did not reload ohrrpgce.d00
+2785.5  msg: M ohrrpgce.map
+2785.5  msg: M ohrrpgce.t00
+2785.5  msg: M ohrrpgce.p00
+2785.5  msg: M ohrrpgce.e00
+2785.5  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+2785.5  reload_MAP_lump: layers changed
+2785.6  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+2785.6  msg: M ohrrpgce.z00
+2785.6  msg: M ohrrpgce.l00
+2785.6  msg: M ohrrpgce.n00
+2785.6  msg: M ohrrpgce.dox
+2785.6  msg: M ohrrpgce.d00
+2785.6  msg: M ohrrpgce.mn
+2785.6  did not reload ohrrpgce.d00
+2787.3  msg: M ohrrpgce.map
+2787.3  msg: M ohrrpgce.t00
+2787.3  msg: M ohrrpgce.p00
+2787.3  msg: M ohrrpgce.e00
+2787.3  msg: M ohrrpgce.z00
+2787.3  msg: M ohrrpgce.l00
+2787.3  msg: M ohrrpgce.n00
+2787.3  msg: M ohrrpgce.dox
+2787.3  msg: M ohrrpgce.d00
+2787.3  msg: M ohrrpgce.mn
+2787.3  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+2787.3  did not reload ohrrpgce.d00
+2794.4  msg: M ohrrpgce.map
+2794.4  msg: M ohrrpgce.t00
+2794.4  msg: M ohrrpgce.p00
+2794.4  msg: M ohrrpgce.e00
+2794.4  msg: M ohrrpgce.z00
+2794.4  msg: M ohrrpgce.l00
+2794.4  msg: M ohrrpgce.n00
+2794.4  msg: M ohrrpgce.dox
+2794.4  msg: M ohrrpgce.d00
+2794.4  msg: M ohrrpgce.mn
+2794.4  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+2794.4  reload_MAP_lump: layers changed
+2794.4  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+2794.4  did not reload ohrrpgce.d00
+2813.0  msg: M ohrrpgce.map
+2813.0  msg: M ohrrpgce.t00
+2813.0  msg: M ohrrpgce.p00
+2813.0  msg: M ohrrpgce.e00
+2813.0  msg: M ohrrpgce.z00
+2813.0  msg: M ohrrpgce.l00
+2813.0  msg: M ohrrpgce.n00
+2813.0  msg: M ohrrpgce.dox
+2813.0  msg: M ohrrpgce.d00
+2813.0  msg: M ohrrpgce.mn
+2813.0  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+2813.0  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+2813.0  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+2813.0  did not reload ohrrpgce.d00
+2813.4  msg: M ohrrpgce.map
+2813.4  msg: M ohrrpgce.t00
+2813.4  msg: M ohrrpgce.p00
+2813.4  msg: M ohrrpgce.e00
+2813.4  msg: M ohrrpgce.z00
+2813.4  msg: M ohrrpgce.l00
+2813.4  msg: M ohrrpgce.n00
+2813.4  msg: M ohrrpgce.dox
+2813.4  msg: M ohrrpgce.d00
+2813.4  msg: M ohrrpgce.mn
+2813.4  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+2813.4  did not reload ohrrpgce.d00
+2813.9  msg: M ohrrpgce.gen
+2813.9  msg: M general.reld
+2814.3  msg: M ohrrpgce.gen
+2817.5  msg: M ohrrpgce.hsp
+2817.5  msg: M plotscr.lst
+2817.5  msg: M plotscr.lst
+2817.5  msg: M lookup1.bin
+2817.6  plotscr.hsd version: 3U 
+3024.2  msg: M ohrrpgce.hsp
+3024.2  msg: M plotscr.lst
+3024.2  msg: M plotscr.lst
+3024.2  msg: M lookup1.bin
+3024.4  plotscr.hsd version: 3U 
+3582.4  msg: M ohrrpgce.hsp
+3582.4  msg: M plotscr.lst
+3582.4  msg: M plotscr.lst
+3582.4  msg: M lookup1.bin
+3582.6  plotscr.hsd version: 3U 
+3587.4  msg: M ohrrpgce.hsp
+3587.4  msg: M plotscr.lst
+3587.4  msg: M plotscr.lst
+3587.4  msg: M lookup1.bin
+3587.5  plotscr.hsd version: 3U 
+3603.1  msg: M ohrrpgce.hsp
+3603.1  msg: M plotscr.lst
+3603.1  msg: M plotscr.lst
+3603.1  msg: M lookup1.bin
+3603.3  plotscr.hsd version: 3U 
+3617.9  msg: M ohrrpgce.hsp
+3618.1  plotscr.hsd version: 3U 
+3618.1  msg: M plotscr.lst
+3618.1  msg: M plotscr.lst
+3618.1  msg: M lookup1.bin
+3636.6  msg: M ohrrpgce.hsp
+3636.6  msg: M plotscr.lst
+3636.6  msg: M plotscr.lst
+3636.6  msg: M lookup1.bin
+3636.7  plotscr.hsd version: 3U 
+3715.8  msg: M ohrrpgce.hsp
+3715.8  msg: M plotscr.lst
+3715.8  msg: M plotscr.lst
+3715.8  msg: M lookup1.bin
+3715.9  plotscr.hsd version: 3U 
+3734.2  msg: M ohrrpgce.hsp
+3734.2  msg: M plotscr.lst
+3734.2  msg: M plotscr.lst
+3734.3  plotscr.hsd version: 3U 
+3734.3  msg: M lookup1.bin
+3750.4  msg: M ohrrpgce.hsp
+3750.4  msg: M plotscr.lst
+3750.4  msg: M plotscr.lst
+3750.4  msg: M lookup1.bin
+3750.5  plotscr.hsd version: 3U 
+3763.6  msg: M ohrrpgce.hsp
+3763.6  msg: M plotscr.lst
+3763.6  msg: M plotscr.lst
+3763.6  msg: M lookup1.bin
+3763.7  plotscr.hsd version: 3U 
+3955.5  Cleaning up and terminating 0
+3955.5  Closing music backend...
+3955.5  ...done
+3955.5  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210727194026.869.tmp\
+3955.7  Closing gfx backend & allmodex...
+3955.7  ...done
+3955.7  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.2   ----Starting OHRRPGCE Game----
+ 0.2  08-04-2021 14:37:58
+ 0.2  OHRRPGCE wip 20210803.12314 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.2  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.2  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.2  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_74473'
+ 0.2  Spawned from Custom
+ 0.2  Initialising gfx_sdl2...
+ 0.3  setvideomode zoom=2 w*h = 640,400
+ 0.3  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.3  disable_native_text_input=0
+ 0.5  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.5  Setting default window settings...
+ 0.5  set_resolution 320*200
+ 0.5  Setting graphics scaling to x2 change_windowsize=-1
+ 0.5  Received message from Custom: V OHRRPGCE,4,12314,OHRRPGCE wip 20210803
+ 0.5  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.5  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.5   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.5  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.5  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210804143758.279.tmp\
+ 0.5  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.5  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.5  Name: 
+ 0.8  plotscr.hsd version: 3U 
+ 1.3  lock_resolution()
+ 1.3  set_resolution 300*200
+ 1.3  recenter_window_hint()
+ 1.3  get_screen_size: true screen size 1600x900
+ 1.3  Desktop resolution: 1600*860
+ 1.3  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.3  Setting graphics scaling to x2 change_windowsize=-1
+ 1.3  Preserving fullscreen/windowed state
+ 1.3  genRungameFullscreenIndependent: 0
+10.1  msg: M ohrrpgce.gen
+10.1  msg: M general.reld
+1156.6  msg: M ohrrpgce.hsp
+1156.6  msg: M plotscr.lst
+1156.6  msg: M plotscr.lst
+1156.6  msg: M lookup1.bin
+1156.8  plotscr.hsd version: 3U 
+1166.9  msg: M ohrrpgce.gen
+1166.9  msg: M general.reld
+1168.4  msg: M ohrrpgce.gen
+1168.4  msg: M general.reld
+1169.0  msg: P 
+1169.5  msg: M ohrrpgce.gen
+1169.5  msg: M general.reld
+1197.8  msg: M ohrrpgce.hsp
+1197.8  msg: M plotscr.lst
+1197.8  msg: M plotscr.lst
+1197.8  msg: M lookup1.bin
+1197.9  plotscr.hsd version: 3U 
+1335.8  msg: M ohrrpgce.hsp
+1335.8  msg: M plotscr.lst
+1335.8  msg: M plotscr.lst
+1335.8  msg: M lookup1.bin
+1335.9  plotscr.hsd version: 3U 
+1348.8  msg: M ohrrpgce.hsp
+1348.8  msg: M plotscr.lst
+1348.8  msg: M plotscr.lst
+1348.8  msg: M lookup1.bin
+1349.0  plotscr.hsd version: 3U 
+1361.7  msg: M ohrrpgce.gen
+1361.7  msg: M general.reld
+1396.9  msg: M ohrrpgce.hsp
+1396.9  msg: M plotscr.lst
+1396.9  msg: M plotscr.lst
+1396.9  msg: M lookup1.bin
+1397.1  plotscr.hsd version: 3U 
+1413.5  msg: M ohrrpgce.hsp
+1413.5  msg: M plotscr.lst
+1413.5  msg: M plotscr.lst
+1413.5  msg: M lookup1.bin
+1413.8  plotscr.hsd version: 3U 
+1437.1  msg: M ohrrpgce.hsp
+1437.1  msg: M plotscr.lst
+1437.1  msg: M plotscr.lst
+1437.1  msg: M lookup1.bin
+1437.3  plotscr.hsd version: 3U 
+1503.4  msg: M ohrrpgce.gen
+1503.4  msg: M general.reld
+1507.0  msg: M menus.bin
+1507.0  msg: M menuitem.bin
+1507.0  did not reload menus.bin
+1507.0  did not reload menuitem.bin
+1566.6  msg: M menus.bin
+1566.6  msg: M menuitem.bin
+1566.6  msg: M ohrrpgce.gen
+1566.6  msg: M general.reld
+1566.6  did not reload menus.bin
+1566.6  did not reload menuitem.bin
+1582.5  msg: M menus.bin
+1582.5  msg: M menuitem.bin
+1582.5  did not reload menus.bin
+1582.5  did not reload menuitem.bin
+1583.1  msg: M menus.bin
+1583.1  msg: M menuitem.bin
+1583.1  did not reload menus.bin
+1583.1  did not reload menuitem.bin
+1584.0  msg: M menus.bin
+1584.0  msg: M menuitem.bin
+1584.0  did not reload menus.bin
+1584.0  did not reload menuitem.bin
+1627.8  msg: M menus.bin
+1627.8  msg: M menuitem.bin
+1627.8  msg: M ohrrpgce.gen
+1627.8  msg: M general.reld
+1627.8  did not reload menus.bin
+1627.8  did not reload menuitem.bin
+1634.0  msg: M menus.bin
+1634.0  msg: M menuitem.bin
+1634.0  did not reload menus.bin
+1634.0  did not reload menuitem.bin
+1650.7  msg: M menus.bin
+1650.7  msg: M menuitem.bin
+1650.7  msg: M ohrrpgce.gen
+1650.7  msg: M general.reld
+1650.7  did not reload menus.bin
+1650.7  did not reload menuitem.bin
+1656.8  msg: M menus.bin
+1656.8  msg: M menuitem.bin
+1656.8  did not reload menus.bin
+1656.8  did not reload menuitem.bin
+1666.6  msg: M menus.bin
+1666.6  msg: M menuitem.bin
+1666.6  msg: M ohrrpgce.gen
+1666.6  msg: M general.reld
+1666.6  did not reload menus.bin
+1666.6  did not reload menuitem.bin
+1676.9  msg: M menus.bin
+1676.9  msg: M menuitem.bin
+1676.9  did not reload menus.bin
+1676.9  did not reload menuitem.bin
+1685.4  msg: M menus.bin
+1685.4  msg: M menuitem.bin
+1685.4  msg: M ohrrpgce.gen
+1685.4  msg: M general.reld
+1685.4  did not reload menus.bin
+1685.4  did not reload menuitem.bin
+1691.1  msg: M menus.bin
+1691.1  msg: M menuitem.bin
+1691.1  did not reload menus.bin
+1691.1  did not reload menuitem.bin
+1700.2  msg: M menus.bin
+1700.2  msg: M menuitem.bin
+1700.2  msg: M ohrrpgce.gen
+1700.2  msg: M general.reld
+1700.2  did not reload menus.bin
+1700.2  did not reload menuitem.bin
+1705.1  msg: M menus.bin
+1705.1  msg: M menuitem.bin
+1705.1  did not reload menus.bin
+1705.1  did not reload menuitem.bin
+1714.3  msg: M menus.bin
+1714.3  msg: M menuitem.bin
+1714.3  msg: M ohrrpgce.gen
+1714.3  msg: M general.reld
+1714.3  did not reload menus.bin
+1714.3  did not reload menuitem.bin
+1728.4  msg: M menus.bin
+1728.4  msg: M menuitem.bin
+1728.4  did not reload menus.bin
+1728.4  did not reload menuitem.bin
+1737.9  msg: M menus.bin
+1737.9  msg: M menuitem.bin
+1737.9  msg: M ohrrpgce.gen
+1737.9  msg: M general.reld
+1737.9  did not reload menus.bin
+1737.9  did not reload menuitem.bin
+2063.2  msg: M menus.bin
+2063.2  msg: M menuitem.bin
+2063.2  did not reload menus.bin
+2063.2  did not reload menuitem.bin
+2152.5  msg: M menus.bin
+2152.5  msg: M menuitem.bin
+2152.5  msg: M ohrrpgce.gen
+2152.5  msg: M general.reld
+2152.5  did not reload menus.bin
+2152.5  did not reload menuitem.bin
+2155.7  msg: M ohrrpgce.hsp
+2155.7  msg: M plotscr.lst
+2155.7  msg: M plotscr.lst
+2155.7  msg: M lookup1.bin
+2155.9  plotscr.hsd version: 3U 
+2158.4  ! Scripterr(5): defkeypress -> menukeypress -> getmenuonclosescript: readmenuint: Invalid menu handle 0
+2158.4  ! Scripterr(6): defkeypress -> menukeypress: run script by id failed loading 0
+2158.4  unlock_resolution(300,200)
+2159.9  set_resolution 300*200
+2159.9  lock_resolution()
+2160.8  ! Scripterr(5): defkeypress -> menukeypress -> getmenuonclosescript: readmenuint: Invalid menu handle 0
+2160.8  ! Scripterr(6): defkeypress -> menukeypress: run script by id failed loading 0
+2160.8  unlock_resolution(300,200)
+2163.5  set_resolution 300*200
+2163.5  lock_resolution()
+2228.6  msg: M ohrrpgce.hsp
+2228.6  msg: M plotscr.lst
+2228.6  msg: M plotscr.lst
+2228.6  msg: M lookup1.bin
+2228.8  plotscr.hsd version: 3U 
+2231.0  ! Scripterr(5): defkeypress -> menukeypress -> getmenuonclosescript: readmenuint: Invalid menu handle 0
+2231.0  ! Scripterr(6): defkeypress -> menukeypress: run script by id failed loading 0
+2231.0  unlock_resolution(300,200)
+2233.2  set_resolution 300*200
+2233.2  lock_resolution()
+2233.9  ! Scripterr(5): defkeypress -> menukeypress -> getmenuonclosescript: readmenuint: Invalid menu handle 0
+2233.9  ! Scripterr(6): defkeypress -> menukeypress: run script by id failed loading 0
+2233.9  unlock_resolution(300,200)
+2234.3  set_resolution 300*200
+2234.3  lock_resolution()
+2234.8  ! Scripterr(5): defkeypress -> menukeypress -> getmenuonclosescript: readmenuint: Invalid menu handle 0
+2234.8  ! Scripterr(6): defkeypress -> menukeypress: run script by id failed loading 0
+2234.8  unlock_resolution(300,200)
+2238.4  set_resolution 300*200
+2238.4  lock_resolution()
+2279.7  msg: M ohrrpgce.hsp
+2279.7  msg: M plotscr.lst
+2279.7  msg: M plotscr.lst
+2279.7  msg: M lookup1.bin
+2279.9  plotscr.hsd version: 3U 
+2372.6  msg: M ohrrpgce.hsp
+2372.6  msg: M plotscr.lst
+2372.6  msg: M plotscr.lst
+2372.6  msg: M lookup1.bin
+2372.7  plotscr.hsd version: 3U 
+2415.9  msg: M ohrrpgce.hsp
+2415.9  msg: M plotscr.lst
+2415.9  msg: M plotscr.lst
+2415.9  msg: M lookup1.bin
+2416.1  plotscr.hsd version: 3U 
+2462.1  msg: M ohrrpgce.gen
+2462.1  msg: M general.reld
+2467.2  msg: M menus.bin
+2467.2  msg: M menuitem.bin
+2467.2  did not reload menus.bin
+2467.2  did not reload menuitem.bin
+2479.5  msg: M menus.bin
+2479.5  msg: M menuitem.bin
+2479.5  did not reload menus.bin
+2479.5  did not reload menuitem.bin
+2480.2  msg: M menus.bin
+2480.2  msg: M menuitem.bin
+2480.2  did not reload menus.bin
+2480.2  did not reload menuitem.bin
+2480.6  msg: M menus.bin
+2480.6  msg: M menuitem.bin
+2480.6  did not reload menus.bin
+2480.6  did not reload menuitem.bin
+2481.1  msg: M menus.bin
+2481.1  msg: M menuitem.bin
+2481.1  did not reload menus.bin
+2481.1  did not reload menuitem.bin
+2500.2  msg: M menus.bin
+2500.2  msg: M menuitem.bin
+2500.2  msg: M ohrrpgce.gen
+2500.2  msg: M general.reld
+2500.2  did not reload menus.bin
+2500.2  did not reload menuitem.bin
+2507.2  msg: M menus.bin
+2507.2  msg: M menuitem.bin
+2507.2  did not reload menus.bin
+2507.2  did not reload menuitem.bin
+2512.6  msg: M menus.bin
+2512.6  msg: M menuitem.bin
+2512.6  msg: M ohrrpgce.gen
+2512.6  msg: M general.reld
+2512.6  did not reload menus.bin
+2512.6  did not reload menuitem.bin
+2516.3  msg: M menus.bin
+2516.3  msg: M menuitem.bin
+2516.3  did not reload menus.bin
+2516.3  did not reload menuitem.bin
+2519.8  msg: M menus.bin
+2519.8  msg: M menuitem.bin
+2519.8  msg: M ohrrpgce.gen
+2519.8  msg: M general.reld
+2519.8  did not reload menus.bin
+2519.8  did not reload menuitem.bin
+2544.0  msg: M general.reld
+2544.0  msg: M uicolors.bin
+2550.0  msg: M general.reld
+2550.0  msg: M uicolors.bin
+2551.1  msg: M ohrrpgce.gen
+2568.1  msg: M defpal7.bin
+2568.1  msg: M boxborders.rgfx
+2568.1  msg: M ohrrpgce.pal
+2568.1  msg: PAL 5
+2568.1  did not reload defpal7.bin
+2572.3  msg: M defpal7.bin
+2572.3  msg: M boxborders.rgfx
+2572.3  msg: M ohrrpgce.pal
+2572.3  msg: PAL 5
+2572.3  did not reload defpal7.bin
+2573.4  msg: M boxborders.rgfx
+2573.9  msg: M boxborders.rgfx
+2575.5  msg: M boxborders.rgfx
+2577.5  msg: M defpal7.bin
+2577.5  msg: M boxborders.rgfx
+2577.5  msg: M ohrrpgce.pal
+2577.5  msg: PAL 5
+2577.6  did not reload defpal7.bin
+2579.4  msg: M boxborders.rgfx
+2582.0  msg: M defpal7.bin
+2582.0  msg: M boxborders.rgfx
+2582.0  msg: M ohrrpgce.pal
+2582.1  msg: PAL 5
+2582.1  did not reload defpal7.bin
+2583.9  msg: M boxborders.rgfx
+2584.7  msg: M boxborders.rgfx
+2587.0  msg: M defpal7.bin
+2587.0  msg: M boxborders.rgfx
+2587.0  msg: M ohrrpgce.pal
+2587.0  msg: PAL 5
+2587.0  did not reload defpal7.bin
+2587.5  msg: M boxborders.rgfx
+2589.4  msg: M defpal7.bin
+2589.4  msg: M boxborders.rgfx
+2589.4  msg: M ohrrpgce.pal
+2589.4  msg: PAL 5
+2589.4  did not reload defpal7.bin
+2590.9  msg: M boxborders.rgfx
+2591.7  msg: M boxborders.rgfx
+2595.4  msg: M boxborders.rgfx
+2599.5  msg: M defpal7.bin
+2599.5  msg: M boxborders.rgfx
+2599.5  msg: M ohrrpgce.pal
+2599.5  did not reload defpal7.bin
+2599.5  msg: PAL 5
+2601.3  msg: M boxborders.rgfx
+2603.7  msg: M defpal7.bin
+2603.7  msg: M boxborders.rgfx
+2603.7  msg: M ohrrpgce.pal
+2603.7  msg: PAL 5
+2603.7  did not reload defpal7.bin
+2608.3  msg: M boxborders.rgfx
+2611.0  msg: M defpal7.bin
+2611.0  msg: M boxborders.rgfx
+2611.0  msg: M ohrrpgce.pal
+2611.0  msg: PAL 5
+2611.0  did not reload defpal7.bin
+2612.4  msg: M boxborders.rgfx
+2612.9  msg: M boxborders.rgfx
+2628.9  msg: M defpal7.bin
+2628.9  msg: M boxborders.rgfx
+2628.9  msg: M ohrrpgce.pal
+2628.9  msg: PAL 5
+2628.9  did not reload defpal7.bin
+2633.2  msg: M defpal7.bin
+2633.2  msg: M boxborders.rgfx
+2633.2  msg: M ohrrpgce.pal
+2633.2  msg: PAL 5
+2633.2  did not reload defpal7.bin
+2641.1  msg: M defpal7.bin
+2641.1  msg: M boxborders.rgfx
+2641.1  msg: M ohrrpgce.pal
+2641.1  msg: PAL 5
+2641.1  did not reload defpal7.bin
+2644.8  msg: M defpal7.bin
+2644.8  msg: M boxborders.rgfx
+2644.8  msg: M ohrrpgce.pal
+2644.8  msg: PAL 5
+2644.8  did not reload defpal7.bin
+2649.5  msg: M defpal7.bin
+2649.5  msg: M boxborders.rgfx
+2649.5  msg: M ohrrpgce.pal
+2649.5  msg: PAL 5
+2649.5  did not reload defpal7.bin
+2655.5  msg: M defpal7.bin
+2655.5  msg: M boxborders.rgfx
+2655.5  msg: M ohrrpgce.pal
+2655.5  msg: PAL 5
+2655.5  did not reload defpal7.bin
+2662.5  msg: M defpal7.bin
+2662.5  msg: M boxborders.rgfx
+2662.5  msg: M ohrrpgce.pal
+2662.5  msg: PAL 5
+2662.5  did not reload defpal7.bin
+2667.0  msg: M defpal7.bin
+2667.0  msg: M boxborders.rgfx
+2667.0  msg: M ohrrpgce.pal
+2667.0  msg: PAL 5
+2667.0  did not reload defpal7.bin
+2672.8  msg: M defpal7.bin
+2672.8  msg: M boxborders.rgfx
+2672.8  msg: M ohrrpgce.pal
+2672.8  msg: PAL 5
+2672.8  did not reload defpal7.bin
+2679.2  msg: M defpal7.bin
+2679.2  msg: M boxborders.rgfx
+2679.2  msg: M ohrrpgce.pal
+2679.2  msg: PAL 5
+2679.2  did not reload defpal7.bin
+2684.9  msg: M defpal7.bin
+2684.9  msg: M boxborders.rgfx
+2684.9  msg: M ohrrpgce.pal
+2684.9  msg: PAL 5
+2684.9  did not reload defpal7.bin
+2693.6  msg: M defpal7.bin
+2693.6  msg: M boxborders.rgfx
+2693.6  msg: M ohrrpgce.pal
+2693.6  msg: PAL 5
+2693.6  did not reload defpal7.bin
+2698.4  msg: M defpal7.bin
+2698.4  msg: M boxborders.rgfx
+2698.4  msg: M ohrrpgce.pal
+2698.4  msg: PAL 5
+2698.4  did not reload defpal7.bin
+2701.9  msg: M defpal7.bin
+2701.9  msg: M boxborders.rgfx
+2701.9  msg: M ohrrpgce.pal
+2701.9  msg: PAL 5
+2701.9  did not reload defpal7.bin
+2705.0  msg: M defpal7.bin
+2705.0  did not reload defpal7.bin
+2705.0  msg: M boxborders.rgfx
+2705.0  msg: M ohrrpgce.pal
+2705.0  msg: PAL 5
+2711.9  msg: M defpal7.bin
+2711.9  msg: M boxborders.rgfx
+2711.9  msg: M ohrrpgce.pal
+2711.9  msg: PAL 5
+2711.9  did not reload defpal7.bin
+2722.7  msg: M defpal7.bin
+2722.7  msg: M boxborders.rgfx
+2722.7  msg: M ohrrpgce.pal
+2722.7  msg: PAL 5
+2722.7  did not reload defpal7.bin
+2723.1  msg: M ohrrpgce.gen
+2730.8  msg: M general.reld
+2730.8  msg: M uicolors.bin
+2732.5  msg: M general.reld
+2732.5  msg: M uicolors.bin
+2732.7  msg: M ohrrpgce.gen
+2771.3  msg: M ohrrpgce.gen
+2771.3  msg: M general.reld
+2773.2  msg: M ohrrpgce.gen
+2774.6  msg: M ohrrpgce.gen
+2779.2  msg: M ohrrpgce.gen
+2780.5  msg: M ohrrpgce.gen
+2780.5  msg: M general.reld
+3211.4  Cleaning up and terminating 0
+3211.4  Closing music backend...
+3211.4  ...done
+3211.4  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210804143758.279.tmp\
+3211.6  Closing gfx backend & allmodex...
+3211.6  ...done
+3211.6  End.

@@ -1,4 +1,4 @@
-script, mainloop, begin
+script, mainLoop, begin
 	while (true) do (
 		specwait
 	)
@@ -8,12 +8,9 @@ script, specwait, time=1, begin
 	variable (i)
 	for (i,1,time) do (
 
-		if (lookupslice(sli:battleback)) then (battleAnimate)
-		if (movementAllowed) then (
-			updatePixelMove
-		)
-		
+		if (lookupslice(sli:battleback)) then (battleAnimate) 
 		mapUpdate()
+		if (movementAllowed) then (walkNPCs)
 		game:tick += 1
 		wait()
 	)

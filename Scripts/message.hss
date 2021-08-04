@@ -80,8 +80,10 @@ plotscript, write, text,blank=0,choice=0,pausenpc=0(
 	)
 
 	int:= font:interval
-	msg:= create container(get screen width, get screen height)
-	put slice (msg, 8, 20)
+	msg:= create container(getScreenWidth--20, 36)
+	putSlice (msg, 0, -10)
+	realignSlice (msg, edge:center, edge:bottom, edge:center, edge:bottom)
+
         textbox text (string, text, 0, 0)
    		expand string(string)
         for(pos, 1, string length(string)) do(
@@ -89,8 +91,7 @@ plotscript, write, text,blank=0,choice=0,pausenpc=0(
 		   if(stlen > stlenmax)then(stlenmax:=stlen)
         )
 		
-	
-	
+
 	drawabox
 	
 	lx:= 0, lw:= 0, ly:= 0
@@ -386,7 +387,7 @@ subscript, add letter, x, y, adf, fsdf, duration=1, (
         cont := create container(w, h)
         set slice clipping(cont, true)
         set parent(font, cont)
-		put slice(cont, 10 + lx, 144 + ly)
+		put slice(cont, 4 + lx, 4 + ly)
 		put slice (font, 0--x, 0--y)
 		set parent(cont, msg)
 		set slice visible(cont, OFF)
@@ -396,9 +397,10 @@ subscript, add letter, x, y, adf, fsdf, duration=1, (
 
 subscript, drawabox, (
 		variable(tbox)
-		tbox:= create rect(404, 80, 0)
-		put slice(tbox, 0, 134)
+		tbox:= create rect()
+		put slice(tbox, 0, 0)
 		set parent(tbox, msg)
+		fill parent (tbox)
 		slice to back(tbox)
 	)
 

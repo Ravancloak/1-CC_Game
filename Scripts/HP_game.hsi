@@ -40,6 +40,7 @@ define constant, begin
 4,slot:Arms
 5,slot:Legs
 0,map:TEST MAP
+1,menu:Settings
 0,enemy:Blank
 1,enemy:Rat King
 2,enemy:Doll Dancer

@@ -19,6 +19,18 @@ script, dirY, dir, begin
     )
 end
 
+script, musicpercent, begin
+	variable(var)
+	var := (getMusicVolume*160/408--1)
+	return (var+1)
+end
+
+script, soundpercent, begin
+	variable(var)
+	var := (getGlobalSoundvolume*160/408--1)
+	return (var+1)
+end
+
 #various==========================================
 plotscript, doorscript, begin
 	variable (x, y, who, door)
@@ -58,13 +70,41 @@ end
 
 script,fademusicout,time,begin
 	variable(loop)
-	original_volume := get music volume
+	var:musicVol := get music volume
 	for(loop,1,time,1) do(
-		set music volume(original_volume --(original_volume/time)*loop)
+		set music volume(var:musicVol --(var:musicVol/time)*loop)
 		specwait
 	)
 	stop song
-	set music volume(original_volume)
+	set music volume(var:musicVol)
+end
+
+script, walkNPCs, begin
+	variable(who , sli, var)
+	who := next NPC reference()  # The first NPC
+
+	while (who) do (
+		
+		if (npcIsWalking(who)==false) then (
+			set NPC frame (0)
+		)
+		if (readNPC(who,NPCstat:move type)==NPCmovetype:wander) then (
+			sli := get npc sprite (who)
+			var := get slice extra (sli, 0)
+
+			#use extra as timer
+			if (var <= 0) then (
+				var := random(80,300)
+				if (random(0,2)==0) then (
+					setNPCDirection(who, random(0,3))
+				) else (walkNPC (who, random(0,3), 1))
+			) else (
+				var -= 1 
+			)
+			set slice extra (sli, 0, var)
+		)
+    	who := next NPC reference(who)
+	)
 end
 
 #animation==========================================
