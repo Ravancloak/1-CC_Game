@@ -258,11 +258,8 @@ script, keybattlemenu, begin
 end
 
 script, keyseltargetatk, begin
-	variable (sli, var, var2, sel, ext)
+	variable (sli, var, var2, sel)
 
-	var := getElement(get array(array:battleinfo), battle:enemycount)
-	if (var < 3) then (ext := 1)
-	var2:= getElement(get array(array:battleinfo), battle:herocount)
 	sli := lookupslice (sli:enemygrid)
 	sel := getSliceExtra (sli, 0)
 
@@ -280,14 +277,27 @@ script, keyseltargetatk, begin
 	if (keypress(key:left)) then (
 		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
 
-		if (sel > 0 + ext) then (sel -= 1)
+		if (sel > 0) then (if (readstat(sel+3, stat:curHP)<>0) then (sel -= 1))
+
+		if (readstat(sel+3, stat:curHP)==0 && sel > 1) then (
+			sel-=2
+		)
+		if (sel < 0) then (sel := 0)
+
 		setSliceExtra (lookupslice (sli:enemygrid), 0, sel) 
 		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
 		exit script
 	)
 	if(keypress(key:right)) then ( 
 		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
-		if (sel < var2--1) then (sel += 1)
+		
+		if (sel < enemyCount--1) then (if (readstat(sel+5, stat:curHP)<>0)then(sel += 1))
+
+		if (sel < enemyCount--2) then (
+			if (readstat(sel+5, stat:curHP)==0) then (sel+=2)
+		)
+		if (sel > enemyCount--1) then (sel := enemyCount--1)
+
 		setSliceExtra (lookupslice (sli:enemygrid), 0, sel) 
 
 		sli := slice child (lookupslice (sli:enemygrid), sel)

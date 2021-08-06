@@ -51,7 +51,7 @@ end
 
 script, battleAnimate, begin
 
-	variable (var, sli, counter, i)
+	variable (var, sli, counter, i, ext)
 
 	sinedist
 
@@ -64,11 +64,11 @@ script, battleAnimate, begin
 	#set slice extra (sli, 0, var)
 	#var := 0
 
-	counter := getElement(get array(array:battleinfo), battle:enemycount)
-	
-	for (i, 0, 3) do (
-		if (slice is sprite(first child (sliceChild (lookupSlice (sli:enemygrid), i)))) then (
-			sli := first child (slice child (lookupSlice (sli:enemygrid), i))
+	for (i, 0, enemycount--1) do (
+		
+		sli := (slice child (lookupSlice (sli:enemygrid), i))
+		if (sli <> 0) then (
+			sli := first child (sli)
 			var := getSliceExtra (sli, 0)
 			if (var >= 32) then (
 				setSpriteFrame (sli, 1)

@@ -1,41 +1,3 @@
-define constant, begin
-	1, attack:normal
-
-	#extra stats
-	12,		stat:curHP
-	13,		stat:curPP
-	14,		stat:targetHP
-	15,		stat:targetPP
-	16, 	stat:KOtag
-
-	#values for who's attacking
-	0, turnarray:hero1
-	1, turnarray:hero2
-	2, turnarray:hero3
-	3, turnarray:hero4
-	4, turnarray:enemy0
-	5, turnarray:enemy1
-	6, turnarray:enemy2
-	7, turnarray:enemy3
-
-	0, battle:normalDamage
-	1, battle:pureDamage
-
-	#battle keys
-	0,		bkey:action
-	1,		bkey:targatk
-	2,		bkey:skill
-	3,		bkey:targskl
-	4,		bkey:item
-	5,		bkey:run
-
-	#battle menu items
-	1, battlemenu:attack
-	2, battlemenu:skill
-	3, battlemenu:item
-	4, battlemenu:run
-end
-
 script, addattack, which, who, target, begin
 	variable (speed, sli)
 
@@ -58,13 +20,84 @@ script, removeattack, begin
 	free slice (sli)
 end
 
-#stats are 0-3 for heroes, 4-7 for enemies.
-script, readStat, who, stat, begin
-	return (getElement (slicechild(lookupslice(array:stats), who), stat))
+#=======================================================================
+#=======================================================================
+
+script, turns, begin
+	variable (
+		which, who, target, mod1, mod2, targstat, extdam
+		sli, type, healing, damage, i, var
+	)
+	
+	sli := lookupslice(array:turn)
+	sortChildren (sli)
+
+	while (firstChild (lookupslice(array:turn))) do (
+		sli := firstChild (lookupslice(array:turn))
+		which		:= getElement(sli, 0)
+		who			:= getElement(sli, 1)
+		target		:= getElement(sli, 2)
+
+		switch (which) do (
+			case (attack:normal) do (
+				mod1 := readStat (who, stat:Atk)
+				mod2 := readStat (target, stat:Def)
+				targstat := stat:curHP
+				type := battle:normalDamage
+				extdam := 0
+				healing := 1
+			)
+		)
+
+		damage	:= returndamage (mod1, mod2, extdam, type, healing)
+		if (healing == 1 && readStat(target, stat:row)==1) then (
+			damage := damage -- damage/3
+		)
+		writeStat (target, targstat, readStat(target, targstat) -- damage)
+		if (readStat(target, targstat)<0) then(writeStat (target, targstat, 0))
+
+		animation(which, target, damage)
+		if (readstat(target, stat:curHP)==0) then (KOTarget(target))
+		battlecheck
+
+		freeSlice (firstChild (lookupslice(array:turn)))
+	)
+	initTurnArray()
+	specwait (10)
+
+	subscript, koTarget, targ, begin
+		if (targ>3) then (
+			targ -=4
+			sli := first child (slice child (lookupslice(sli:enemygrid), targ))
+			dissolveSprite (sli, dissolve:puff, 80)
+			specwait (70)
+			set slice visible (sli, false)
+		)
+	end
 end
 
-script, writestat, who, stat, amount, begin
-	return (setElement (slicechild(lookupslice(array:stats), who), stat, amount))
+#=======================================================================
+#=======================================================================
+
+script, animation, which, target, damage, begin
+	variable (sli, sli2, speed, max, i)
+	#setup to animate
+	if (target < 4) then (
+		sli := slice child(lookupslice(sli:herogrid), target)
+	) else (
+		sli := sliceChild(lookupslice(sli:enemygrid), target--4)
+	)
+	setupanimation (which, target)
+	switch (which) do (	
+		case (attack:normal) do (max := 4)
+	)
+
+	for (i, 0, max) do (
+		animating(which, sli, i)
+	)
+
+	#end animation
+	endanimation(which, sli, damage, target)
 end
 
 script, setupanimation, which, sli, begin

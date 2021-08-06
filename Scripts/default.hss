@@ -5,7 +5,7 @@ plotscript, defnewgame, begin
 	resetControls
 	add hero (hero:Jenkins)
 	add hero (hero:GMoney)
-	add hero (hero:Daisy)
+	#add hero (hero:Daisy)
 	get item (0)
 
 	mainloop

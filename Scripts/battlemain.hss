@@ -10,7 +10,7 @@ plotscript, battle, formation, begin
 
 		sli := get array(array:battletimers)
 		#go through heroes
-		for (i, 0, counter--1) do (
+		for (i, 0, herocount--1) do (
 			battle:turn := 0
 			var := getElement(sli, i+1)
 			var -= readStat(i,stat:Speed)
@@ -23,7 +23,7 @@ plotscript, battle, formation, begin
 			setElement (sli, i+1, var)
 		)
 		#go through enemies
-		for (i, 4, 7) do (
+		for (i, 4, enemycount+3) do (
 			battle:turn := 0
 			var := getElement(sli, i+1)
 			var -= readStat(i,stat:Speed)
@@ -38,6 +38,9 @@ plotscript, battle, formation, begin
 
 	battleEnd(battle:win)
 end
+
+#=======================================================================
+#=======================================================================
 
 script, battleMenu, which, begin
 	variable (sli, var, sel, who)
@@ -154,7 +157,7 @@ script, battleMenu, which, begin
 end
 
 script, opentarget, which, begin
-	variable (sli, var, sel, who)
+	variable (sli, var, sel, who, i)
 	sli := lookupslice (sli:actionmenu)
 	sel := getSliceExtra (sli, 0)
 
@@ -179,78 +182,32 @@ script, opentarget, which, begin
 	exitSelect()
 
 	subscript, exitSelect, begin
+		#hide target marker
 		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
-
-		setSliceExtra (lookupslice (sli:enemygrid), 0, 0)
 	end
 
 	subscript, initTargatk, begin
 		variable (sli, var, sel, ext, who)
 
-		var := getElement(get array(array:battleinfo), battle:enemycount)
-		if (var < 3) then (ext := 1)
-		sli := lookupslice (sli:enemygrid)
-		set slice extra (sli, 0, sel)
+		#get enemy count then set the offset.
+		sel := 0
+		
+		#set slice extra (sli, 0, sel)
+		for (i, 0, enemycount--1) do (
+			if (readstat(sel+4+ext, stat:curHP)==0) then (sel += 1)
+			else (break)
+		)
 
-		sel := ext
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
+		#set extra and slice visible of the target marker
+		setSliceExtra (lookupslice (sli:enemygrid), 0, sel)
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel+ext))), true)
 
 		battle:bkey := bkey:targatk
 	end
 end
 
-script, turns, begin
-	variable (which, who, target, mod1, mod2, targstat, extdam, sli, type, healing, damage, i, var)
-	sli := lookupslice(array:turn)
-	sortChildren (sli)
-
-	while (firstChild (lookupslice(array:turn))) do (
-		sli := firstChild (lookupslice(array:turn))
-		which		:= getElement(sli, 0)
-		who			:= getElement(sli, 1)
-		target		:= getElement(sli, 2)
-
-		switch (which) do (
-			case (attack:normal) do (
-				mod1 := readStat (who, stat:Atk)
-				mod2 := readStat (target, stat:Def)
-				targstat := stat:curHP
-				type := battle:normalDamage
-				extdam := 0
-				healing := 1
-			)
-		)
-
-		damage	:= returndamage (mod1, mod2, extdam, type, healing)
-		if (healing == 1 && readStat(target, stat:row)==1) then (
-			damage := damage -- damage/3
-		)
-		writeStat (target, targstat, readStat(target, targstat) -- damage)
-		if (readStat(target, targstat)<0) then(writeStat (target, targstat, 0))
-
-		
-		animation(which, target, damage)
-		specwait (120)
-
-		if (readstat(target,stat:curHP)==0) then (koTarget(target))
-		battlecheck
-
-		freeSlice (firstChild (lookupslice(array:turn)))
-	)
-	initTurnArray()
-	specwait (10)
-
-	subscript, koTarget, targ, begin
-		writeStat (who, stat:KOtag, true)
-		if (targ>3) then (
-			targ -=4
-			sli := first child (slice child (lookupslice(sli:enemygrid), targ))
-			dissolveSprite (sli, dissolve:puff, 80)
-			specwait (70)
-			set slice visible (sli, false)
-		)
-	end
-end
+#=======================================================================
+#=======================================================================
 
 script, battlecheck, begin
 	variable (var, var2, sli, counter, i)
@@ -262,48 +219,52 @@ script, battlecheck, begin
 
 	counter := getElement(get array(array:battleinfo), battle:enemycount)
 	if (counter==1) then (
-		if (readStat(4, stat:KOtag)==true) then (battle:win := 1)
+		if (readStat(4, stat:curHP)==0) then (battle:win := 1)
 	)
 	if (counter==2) then (
 		if (
-			readStat(4, stat:KOtag)==true&&readStat(5, stat:KOtag)==true
+			readStat(4, stat:curHP)==0&&readStat(5, stat:curHP)==0
 		) then (battle:win := 1)
 	)
 	if (counter==3) then (
 		if (
-			readStat(4, stat:KOtag)==true&&readStat(5, stat:KOtag)==true&&
-			readStat(6, stat:KOtag)==true
+			readStat(4, stat:curHP)==0&&readStat(5, stat:curHP)==0&&
+			readStat(6, stat:curHP)==0
 		) then (battle:win := 1)
 	)
 	if (counter==4) then (
 		if (
-			readStat(4, stat:KOtag)==true&&readStat(5, stat:KOtag)==true&&
-			readStat(6, stat:KOtag)==true&&readStat(7, stat:KOtag)==true
+			readStat(4, stat:curHP)==0&&readStat(5, stat:curHP)==0&&
+			readStat(6, stat:curHP)==0&&readStat(7, stat:curHP)==0
 		) then (battle:win := 1)
 	) 
 end
 
-script, animation, which, target, damage, sli=0, sli2=0, i=0, speed=0, max=0, begin
-	#setup to animate
-	if (i == 0) then (
-		if (target < 4) then (
-			sli := slice child(lookupslice(sli:herogrid), target)
-		) else (
-			sli := sliceChild(lookupslice(sli:enemygrid), target--4)
-		)
-		setupanimation (which, target)
-		switch (which) do (
-			case (attack:normal) do (max := 4)
-		)
-	#end animation
-	) elseif (i > max) then (
-		endanimation(which, sli, damage, target)
-		exit script
-	) else (
-		animating(which, sli, i)
-	)
 
-	i += 1
-	setTimer(timer:battleani, speed, 1, @animation)
-	set timer args (timer:battleani, which, target, damage, sli, sli2, i, speed, max)
+#=======================================================================
+#=======================================================================
+
+script, initTurnArray, begin
+	variable (sli, i)
+	clear(lookupslice(array:turn))
 end
+
+script, herocount, begin
+	return (getElement(get array(array:battleinfo), battle:herocount))
+end
+
+script, enemycount, begin
+	return (getElement(get array(array:battleinfo), battle:enemycount))
+end
+
+#stats are 0-3 for heroes, 4-7 for enemies.
+script, readStat, who, stat, begin
+	return (getElement (slicechild(lookupslice(array:stats), who), stat))
+end
+
+script, writestat, who, stat, amount, begin
+	return (setElement (slicechild(lookupslice(array:stats), who), stat, amount))
+end
+
+#=======================================================================
+#=======================================================================
