@@ -31,12 +31,13 @@ define constant, begin
 	204, sli:selected text
 	205, sli:battleback
 	206, sli:battleanimation
+	
 
-	#battle menu items
-	1, battlemenu:attack
-	2, battlemenu:skill
-	3, battlemenu:item
-	4, battlemenu:run
+	#battle arrays
+	308,	array:battleinfo
+	309,	array:turn
+	310,	array:stats
+	311,	array:battletimers
 end
 
 globalVariable, begin

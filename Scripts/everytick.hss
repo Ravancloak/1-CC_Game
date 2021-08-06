@@ -66,8 +66,8 @@ script, battleAnimate, begin
 
 	counter := getElement(get array(array:battleinfo), battle:enemycount)
 	
-	for (i, 0, counter--1) do (
-		if (first child (sliceChild (lookupSlice (sli:enemygrid), i))<>0) then (
+	for (i, 0, 3) do (
+		if (slice is sprite(first child (sliceChild (lookupSlice (sli:enemygrid), i)))) then (
 			sli := first child (slice child (lookupSlice (sli:enemygrid), i))
 			var := getSliceExtra (sli, 0)
 			if (var >= 32) then (

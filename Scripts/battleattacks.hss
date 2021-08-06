@@ -6,6 +6,7 @@ define constant, begin
 	13,		stat:curPP
 	14,		stat:targetHP
 	15,		stat:targetPP
+	16, 	stat:KOtag
 
 	#values for who's attacking
 	0, turnarray:hero1
@@ -20,13 +21,19 @@ define constant, begin
 	0, battle:normalDamage
 	1, battle:pureDamage
 
-
+	#battle keys
 	0,		bkey:action
 	1,		bkey:targatk
 	2,		bkey:skill
 	3,		bkey:targskl
 	4,		bkey:item
 	5,		bkey:run
+
+	#battle menu items
+	1, battlemenu:attack
+	2, battlemenu:skill
+	3, battlemenu:item
+	4, battlemenu:run
 end
 
 script, addattack, which, who, target, begin
@@ -51,14 +58,14 @@ script, removeattack, begin
 	free slice (sli)
 end
 
+#stats are 0-3 for heroes, 4-7 for enemies.
 script, readStat, who, stat, begin
 	return (getElement (slicechild(lookupslice(array:stats), who), stat))
 end
 
 script, writestat, who, stat, amount, begin
-	setElement (slicechild(lookupslice(array:stats), who), stat, amount)
+	return (setElement (slicechild(lookupslice(array:stats), who), stat, amount))
 end
-
 
 script, setupanimation, which, sli, begin
 	switch (which) do (

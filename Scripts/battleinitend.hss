@@ -1,9 +1,4 @@
 define constant, begin
-	#arrays
-	108,	array:battleinfo
-	109,	array:turn
-	110,	array:stats
-
 	#battle array names
 	0,		battle:targetHP
 	1,		battle:targetPP
@@ -14,6 +9,16 @@ define constant, begin
 	3,		battle:enemycount
 	4,		battle:heroKoBit
 	5,		battle:enemyKoBit
+
+	1,		battle:hero0timer
+	2,		battle:hero1timer
+	3,		battle:hero2timer
+	4,		battle:hero3timer
+
+	5,		battle:enemy0timer
+	6,		battle:enemy1timer
+	7,		battle:enemy2timer
+	8,		battle:enemy3timer
 end
 
 script, initBattle, formation, begin
@@ -45,6 +50,14 @@ script, initBattle, formation, begin
 
 	set parent (sli, lookupslice(sli:battle col))
 	setElement(get array(array:battleinfo), battle:formation, formation)
+
+	#timers that decides when turns are
+	sli := initArray(0, array:battletimers)
+	set parent (sli, lookupslice(sli:battle col))
+	for (i, 0, 7) do (
+		append (sli, random(600,1000))
+
+	)
 
 	sli := create container
 	set parent (sli, lookupslice(sli:battle col))
@@ -223,6 +236,7 @@ script, battleAddHero, who, begin
 	for (i, stat:HP, stat:PP) do (
 		append (sli, get hero stat (who, i, current stat))
 	)
+	append (sli, false)
 end
 
 script, battleAddEnemy, who, formation, begin
@@ -238,6 +252,7 @@ script, battleAddEnemy, who, formation, begin
 		for (i, stat:HP, stat:PP) do (
 		append (sli, get enemy stat (formation slot enemy (formation, who), i))
 	)
+	append (sli, false)
 end
 
 script, battleportrait, who, which, begin
@@ -255,9 +270,11 @@ script, battleportrait, who, which, begin
 	#sli := slice child (sli, 0)
 	#set sprite set number (sli, who*10+which+1)
 end
+
 script, herocount, begin
 	return (getElement(get array(array:battleinfo), battle:herocount))
 end
+
 script, setmeter, who, stat, begin
 	variable (sli, counter, var, ones, tens, hundreds, thousands)
 

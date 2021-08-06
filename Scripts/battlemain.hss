@@ -1,26 +1,45 @@
 plotscript, battle, formation, begin
-	variable (i, var, counter)
+	variable (i, var, counter, sli)
 	initBattle(1)
 	battle:win := 2
 	while (battle:win==2) do (
-		#break
-
-		counter := herocount
-		battle:turn := 0
-		while (battle:turn<counter) do (
-			if (battle:win<>2) then (break(2))
-			if (heroBySlot(i)==-1) then (break)
-			battleMenu(battle:turn)
-			specwait
-		)
-		turns
-		battlecheck
-		specwait
+		battleLoopHandler
 	)
+	subscript, battleLoopHandler, begin
+		counter := herocount
+
+		sli := get array(array:battletimers)
+		#go through heroes
+		for (i, 0, counter--1) do (
+			battle:turn := 0
+			var := getElement(sli, i+1)
+			var -= readStat(i,stat:Speed)
+			if (var<0) then (
+				battle:turn := i
+				battleMenu(i)
+				turns
+				var := random(600, 1000)
+			)
+			setElement (sli, i+1, var)
+		)
+		#go through enemies
+		for (i, 4, 7) do (
+			battle:turn := 0
+			var := getElement(sli, i+1)
+			var -= readStat(i,stat:Speed)
+			if (var<0) then (
+				battle:turn := i
+				var := random(600, 1000)
+			)
+			
+			setElement (sli, i+1, var)
+		)
+	end
+
 	battleEnd(battle:win)
 end
 
-script, BattleMenu,which, begin
+script, battleMenu, which, begin
 	variable (sli, var, sel, who)
 	battle:bkey := bkey:action
 
@@ -59,6 +78,8 @@ script, BattleMenu,which, begin
 			addText(battlemenu:skill)
 			$2="item"
 			addText(battlemenu:item)
+			$2="run"
+			addText(battlemenu:run)
 		)
 		case (hero:GMoney) do (
 			#create text for menu
@@ -68,6 +89,8 @@ script, BattleMenu,which, begin
 			addText(battlemenu:skill)
 			$2="item"
 			addText(battlemenu:item)
+			$2="run"
+			addText(battlemenu:run)
 		)
 		case (hero:Daisy) do (
 			#create text for menu
@@ -77,6 +100,8 @@ script, BattleMenu,which, begin
 			addText(battlemenu:skill)
 			$2="item"
 			addText(battlemenu:item)
+			$2="run"
+			addText(battlemenu:run)
 		)
 	)
 
@@ -99,41 +124,19 @@ script, BattleMenu,which, begin
 
 	switch (battle:bkey) do (
 		case (bkey:targatk) do (
-			opentarget
+			opentarget(which)
 		)
 		case (bkey:run) do (
 			exit script
 		)
 	)
 
-	specwait(20)
-
-	subscript, opentarget, begin
-
-		sli := lookupslice (sli:actionmenu)
-		sel := getSliceExtra (sli, 0)
-
-		switch (sel) do (
-			case (0) do (
-				initTargatk
-			)
-		)
-
-		game:mode := mode:battle
-		while (game:mode == mode:battle) do (
-			specwait
-		)
-
-		sli := lookupslice (sli:enemygrid)
-		sel := getSliceExtra (sli, 0)
-		exitSelect()
-	end
-
 	subscript, addText, extra, begin
 		sli := create text
 		set slice text (sli, 2)
 		set outline(sli, true)
 		set text color(sli, ui:menuitem)
+		set slice extra (sli, 0, extra)
 		set parent (sli, lookupslice (sli:actionmenu))
 		set slice y (sli, slice child index (sli)*10)
 		sli := lookupslice (sli:actionmenu)
@@ -148,25 +151,52 @@ script, BattleMenu,which, begin
 		set slice visible (sli, false)
 		specwait (10)
 	end
+end
+
+script, opentarget, which, begin
+	variable (sli, var, sel, who)
+	sli := lookupslice (sli:actionmenu)
+	sel := getSliceExtra (sli, 0)
+
+	switch (sel) do (
+		case (0) do (
+			initTargatk
+		)
+	)
+
+	game:mode := mode:battle
+	while (game:mode == mode:battle) do (
+		specwait
+	)
+	if (battle:bkey == bkey:action) then (
+		exitSelect
+		BattleMenu(which)
+		exit script
+	)
+
+	sli := lookupslice (sli:enemygrid)
+	sel := getSliceExtra (sli, 0)
+	exitSelect()
+
 	subscript, exitSelect, begin
 		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
 
 		setSliceExtra (lookupslice (sli:enemygrid), 0, 0)
 	end
-end
 
-script, initTargatk, begin
-	variable (sli, var, sel, ext, who)
+	subscript, initTargatk, begin
+		variable (sli, var, sel, ext, who)
 
-	var := getElement(get array(array:battleinfo), battle:enemycount)
-	if (var < 3) then (ext := 1)
-	sli := lookupslice (sli:enemygrid)
-	set slice extra (sli, 0, sel)
+		var := getElement(get array(array:battleinfo), battle:enemycount)
+		if (var < 3) then (ext := 1)
+		sli := lookupslice (sli:enemygrid)
+		set slice extra (sli, 0, sel)
 
-	sel := ext
-	setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
+		sel := ext
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
 
-	battle:bkey := bkey:targatk
+		battle:bkey := bkey:targatk
+	end
 end
 
 script, turns, begin
@@ -184,7 +214,7 @@ script, turns, begin
 			case (attack:normal) do (
 				mod1 := readStat (who, stat:Atk)
 				mod2 := readStat (target, stat:Def)
-				targstat := stat:targetHP
+				targstat := stat:curHP
 				type := battle:normalDamage
 				extdam := 0
 				healing := 1
@@ -198,48 +228,59 @@ script, turns, begin
 		writeStat (target, targstat, readStat(target, targstat) -- damage)
 		if (readStat(target, targstat)<0) then(writeStat (target, targstat, 0))
 
+		
 		animation(which, target, damage)
+		specwait (120)
 
-		specwait (10)
-		if (readstat (target,stat:curHP)<0) then (
-			if (target < 4) then (
-				var := 0
-				var := getElement(get array(array:battleinfo), battle:heroKoBit)
-				setElement(get array(array:battleinfo), battle:heroKoBit, var + target)
-			) else (
-				var := 0
-				var := getElement(get array(array:battleinfo), battle:enemyKoBit)
-				setElement(get array(array:battleinfo), battle:enemyKoBit, var + target--4)
-			)
-		)
+		if (readstat(target,stat:curHP)==0) then (koTarget(target))
+		battlecheck
 
 		freeSlice (firstChild (lookupslice(array:turn)))
 	)
 	initTurnArray()
 	specwait (10)
+
+	subscript, koTarget, targ, begin
+		writeStat (who, stat:KOtag, true)
+		if (targ>3) then (
+			targ -=4
+			sli := first child (slice child (lookupslice(sli:enemygrid), targ))
+			dissolveSprite (sli, dissolve:puff, 80)
+			specwait (70)
+			set slice visible (sli, false)
+		)
+	end
 end
 
 script, battlecheck, begin
 	variable (var, var2, sli, counter, i)
 
 	#check for all characters dead or all enemies dead
-	counter := getElement(get array(array:battleinfo), battle:herocount)
+	counter := herocount
 	var2 := 0
-	while (counter > 0) do (
-		var2 += counter
-		counter -= 1
-	)
-	var := getElement(get array(array:battleinfo), battle:heroKoBit)
-	if (var == var2) then (battle:win := 0)
+	
 
 	counter := getElement(get array(array:battleinfo), battle:enemycount)
-	var2 := 0
-	while (counter > 0) do (
-		var2 += counter
-		counter -= 1
+	if (counter==1) then (
+		if (readStat(4, stat:KOtag)==true) then (battle:win := 1)
 	)
-	var := getElement(get array(array:battleinfo), battle:enemyKoBit)
-	if (var == var2) then (battle:win := 1)
+	if (counter==2) then (
+		if (
+			readStat(4, stat:KOtag)==true&&readStat(5, stat:KOtag)==true
+		) then (battle:win := 1)
+	)
+	if (counter==3) then (
+		if (
+			readStat(4, stat:KOtag)==true&&readStat(5, stat:KOtag)==true&&
+			readStat(6, stat:KOtag)==true
+		) then (battle:win := 1)
+	)
+	if (counter==4) then (
+		if (
+			readStat(4, stat:KOtag)==true&&readStat(5, stat:KOtag)==true&&
+			readStat(6, stat:KOtag)==true&&readStat(7, stat:KOtag)==true
+		) then (battle:win := 1)
+	) 
 end
 
 script, animation, which, target, damage, sli=0, sli2=0, i=0, speed=0, max=0, begin

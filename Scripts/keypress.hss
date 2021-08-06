@@ -231,14 +231,6 @@ script, keybattlemenu, begin
 		exitscript
 	)
 
-	if (keypressB&&battle:turn>0) then (
-		suspendMovement
-		battle:turn -= 1
-		show value (battle:turn)
-		removeattack
-		exit script
-	)
-
 	if (keypress(key:up)) then (
 		sli := slice child (lookupslice (sli:actionmenu), sel)
 		setSliceLookup(sli, 0)
@@ -277,15 +269,11 @@ script, keyseltargetatk, begin
 	if (keypressA) then (
 		suspendMovement
 		addattack (attack:normal, battle:turn, sel+4)
-		battle:turn+=1
-		show value (battle:turn)
 		exit script
 	)
-	if (keypressB&&battle:turn>0) then (
+	if (keypressB) then (
 		suspendMovement
-		battle:turn -= 1
-		show value (battle:turn)
-		removeattack
+		battle:bkey := bkey:action
 		exit script
 	)
 
