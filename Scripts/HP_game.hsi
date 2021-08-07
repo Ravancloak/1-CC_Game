@@ -5,7 +5,7 @@ define constant, begin
 0,hero:Keifer
 1,hero:Jenkins
 2,hero:GMoney
-3,hero:Daisy
+3,hero:Jane
 0,stat:HP
 1,stat:PP
 2,stat:Atk
@@ -40,6 +40,7 @@ define constant, begin
 4,slot:Arms
 5,slot:Legs
 0,map:TEST MAP
+1,atk:Basic
 1,menu:Settings
 0,enemy:Blank
 1,enemy:Rat King

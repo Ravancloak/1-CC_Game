@@ -26,10 +26,22 @@ define constant, begin
 
 
 	#extra stats
-	12,		stat:curHP
-	13,		stat:curPP
-	14,		stat:targetHP
-	15,		stat:targetPP
+	12,		stat:targetHP
+	13,		stat:targetPP
+	14,		stat:maxHP
+	15,		stat:maxPP
+
+	16,		stat:poison
+	17,		stat:paralyzed
+	18,		stat:confused
+	19,		stat:burnt
+	20,		stat:frozen
+	21,		stat:mute
+	22,		stat:stun
+	23,		stat:regen
+	24,		stat:invincible	#
+	25,		stat:shell		#physical shield
+	26,		stat:reflect	#psi shield
 
 	#values for who's attacking
 	0, turnarray:hero1
@@ -40,9 +52,6 @@ define constant, begin
 	5, turnarray:enemy1
 	6, turnarray:enemy2
 	7, turnarray:enemy3
-
-	0, battle:normalDamage
-	1, battle:pureDamage
 
 	#battle keys
 	0,	bkey:action
@@ -61,25 +70,25 @@ end
 
 script, initBattle, formation, begin
 	variable (i, sli, counter)
-
 	suspendMovement
-	
+
 	#disolve and then hide hero sprites
 	for (i, 0, 3) do (
 		if (hero by slot (i)<>-1) then (
 			sli := get hero sprite by slot (i)
 			dissolve sprite (sli, dissolve:puff, 45)
-			specwait(4)
+			specwait(8)
 		)
 	)
-	specwait(20)
+	specwait(5)
 	for (i, 0, 3) do (
 		if (hero by slot (i)<>-1) then (
 			sli := get hero sprite by slot (i)
 			set slice visible (sli, false)
-			specwait(4)
+			specwait(8)
 		)
 	)
+	specwait(10)
 
 	load slice collection (0)
 
@@ -89,16 +98,17 @@ script, initBattle, formation, begin
 	set parent (sli, lookupslice(sli:battle col))
 	setElement(get array(array:battleinfo), battle:formation, formation)
 
-
+	#2d turn array
 	sli := create container
-	set parent (sli, lookupslice(sli:battle col))
 	set slice lookup (sli, array:turn)
-
-	sli := create container
 	set parent (sli, lookupslice(sli:battle col))
-	set slice lookup (sli, array:stats)
 
-	#checks for hero amount
+	#2d stat array
+	sli := create container
+	set slice lookup (sli, array:stats)
+	set parent (sli, lookupslice(sli:battle col))
+
+	#checks hero count
 	for (i, 0, 3) do (
 		if (hero by slot (i)<>-1) then (
 			battleAddHero(i), counter += 1
@@ -106,6 +116,7 @@ script, initBattle, formation, begin
 			battleAddHero(i)
 		)
 	)
+	#sets hero count
 	setElement(get array(array:battleinfo), battle:herocount, counter)
 
 	#change number of grid columns
@@ -115,16 +126,17 @@ script, initBattle, formation, begin
 	counter := 0
 
 
-	#checks for enemy amount
+	#checks enemy count
 	for (i, 0, 3) do (
 		if (formation slot enemy (formation, i)<>-1) then (
 			battleAddEnemy(i, formation), counter += 1
 		)
 	)
+	#sets enemy count
 	setElement(get array(array:battleinfo), battle:enemycount, counter)
 
 	#change number of grid columns
-	set grid columns (lookupSlice(sli:enemy grid), enemycount)
+	setGridColumns (lookupSlice(sli:enemy grid), enemycount)
 	
 	setupSprites(lookupSlice(sli:enemy grid), enemycount)
 
@@ -255,7 +267,10 @@ script, battleAddHero, who, begin
 			append (sli, get hero stat (who, i, current stat))
 		)
 		for (i, stat:HP, stat:PP) do (
-			append (sli, get hero stat (who, i, current stat))
+			append (sli, get hero stat (who, i, maximum stat))
+		)
+		for (i, stat:HP, stat:reflect) do (
+			append (0)
 		)
 	) else (
 		sli := initArray(0)
@@ -266,7 +281,7 @@ script, battleAddHero, who, begin
 		for (i, stat:HP, stat:PP) do (
 			append (sli, 0)
 		)
-		for (i, stat:HP, stat:PP) do (
+		for (i, stat:poison, stat:PP) do (
 			append (sli, 0)
 		)
 	)
@@ -333,5 +348,19 @@ script, setmeter, who, stat, begin
 		sli := slice child (sli, 0)
 		set slice y (sli, thousands * -8 -- 8)
 		sli := parent slice (sli)
+	)
+end
+
+
+#=======================================================================
+#=======================================================================
+
+script, initHeroes, who, begin
+	variable (sli,i)
+	sli := createContainer ()
+	setSliceLookup(sli, array:heroes)
+	for (i,  0,3) do (
+		sli := initArray(0,array:heroskill)
+		setParent (sli, lookupSlice(array:heroes))
 	)
 end

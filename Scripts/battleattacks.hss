@@ -1,24 +1,137 @@
-script, addattack, which, who, target, begin
-	variable (speed, sli)
+define constant, begin
+	
 
-	speed := readstat(who,stat:Speed)
 
-	sli := initArray()
-	setParent (sli, lookupslice(array:turn))
-	setSortOrder (sli, 8000--speed + random(0,speed/20))
+	#values for below items
+	1, damage:normal
+	2, damage:pure
+	
+	30,	ticks:default
 
-	append (sli, which)
-	append (sli, who)
-	append (sli, target)
+	1,	targClass:foeNotDead
+	2,	targclass:allyNotDead
+	3,	targclass:self
+	4,	targclass:allNotDead
+	5,	targclass:deadAlly
+
+	1,	targSetting:focus
+	2,	targSetting:spread
+
+	1,	preferTarg:random
+	2,	preferTarg:strongest
+	3,	preferTarg:weakest
+
+	#skill array names
+	22,	skill:names
+	1,	skill:picture
+	2,	skill:frameTicks
+	3,	skill:sound
+	4,	skill:targClass
+	5,	skill:targSetting
+	6,	skill:preferTarg
+	7,	skill:weakStrongStat
+	8,	skill:hits
+	9,	skill:damageMath
+	10,	skill:baseAtkStat
+	11,	skill:baseDefStat
+	12,	skill:targStat
+	13,	skill:extraDamage
+	14,	skill:PPcost
+	15,	skill:HPcost
+	16,	skill:MoneyCost
+	17, skill:autoChooseTarg
+	18, skill:stealitem
+	19,	skill:stealPercent
+	20,	skill:status
+	21,	skill:statusPercent
+	22,	skill:elementType
 end
 
-script, removeattack, begin
-	variable (sli)
+script, returnSkill, which,  begin
+	variable (sli, i, var)
 
-	sli := lookupslice(array:turn)
-	sli := last child (sli)
-	free slice (sli)
+	if (lookupSlice(array:readskill)<>-1) then (
+		free slice (lookupSlice(array:readskill))
+	)
+
+	switch (which) do (
+		case (1) do ()
+		else (template)
+	)
+
+
+	subscript, template, begin 
+			sli := initArray(array:readskill,0,-1)
+			setParent (sli, lookupSlice(sli:battleCol))
+		#damage
+			var := damage:normal
+			setElement (sli, skill:picture, var)
+		#frameTicks
+			var := ticks:default
+			setElement (sli, skill:frameTicks, var)
+		#sound
+			var := 0
+			setElement (sli, skill:sound, var) 
+		#targClass
+			var := targClass:foeNotDead
+			setElement (sli, skill:targClass, var)
+		#targSetting
+			var := targSetting:focus
+			setElement (sli, skill:targSetting, var)
+		#preferTarg
+			var := 0
+			setElement (sli, skill:preferTarg, var)
+		#weakStrongStat
+			var := 0
+			setElement (sli, skill:weakStrongStat, var) 
+		#hits
+			var := 0
+			setElement (sli,skill:hits, var)
+		#damageMath
+			var := 0
+			setElement (sli,skill:damageMath, var)
+		#baseAtkStat
+			var := 0
+			setElement (sli,skill:baseAtkStat, var)
+		#baseDefStat
+			var := 0
+			setElement (sli,skill:baseDefStat, var)
+		#targStat
+			var := 0
+			setElement (sli,skill:targStat, var)
+		#extraDamage
+			var := 0
+			setElement (sli,skill:extraDamage, var)
+		#PPcost
+			var := 0
+			setElement (sli,skill:PPcost, var)
+		#HPcost
+			var := 0
+			setElement (sli,skill:HPcost, var)
+		#MoneyCost
+			var := 0
+			setElement (sli,skill:MoneyCost, var)
+		#autoChooseTarg
+			var := 0
+			setElement (sli,skill:autoChooseTarg, var)
+		#stealitem
+			var := 0
+			setElement (sli,skill:stealitem, var)
+		#stealpercent
+			var := 0
+			setElement (sli,skill:stealPercent, var)
+		#status
+			var := 0
+			setElement (sli,skill:status, var)
+		#statusPercent
+			var := 0
+			setElement (sli,skill:statusPercent, var)
+		#elementType
+			var := 0
+			setElement (sli,skill:elementType, var)
+	end
 end
+
 
 #=======================================================================
 #=======================================================================
@@ -28,7 +141,6 @@ script, turns, begin
 		which, who, target, mod1, mod2, targstat, extdam
 		sli, type, healing, damage, i, var
 	)
-	
 	sli := lookupslice(array:turn)
 	sortChildren (sli)
 
@@ -42,8 +154,8 @@ script, turns, begin
 			case (attack:normal) do (
 				mod1 := readStat (who, stat:Atk)
 				mod2 := readStat (target, stat:Def)
-				targstat := stat:curHP
-				type := battle:normalDamage
+				targstat := stat:HP
+				type := damage:normal
 				extdam := 0
 				healing := 1
 			)
@@ -57,7 +169,7 @@ script, turns, begin
 		if (readStat(target, targstat)<0) then(writeStat (target, targstat, 0))
 
 		animation(which, target, damage)
-		if (readstat(target, stat:curHP)==0) then (KOTarget(target))
+		if (readstat(target, stat:HP)==0) then (KOTarget(target))
 		battlecheck
 
 		freeSlice (firstChild (lookupslice(array:turn)))
@@ -69,8 +181,8 @@ script, turns, begin
 		if (targ>3) then (
 			targ -=4
 			sli := first child (slice child (lookupslice(sli:enemygrid), targ))
-			dissolveSprite (sli, dissolve:puff, 80)
-			specwait (70)
+			dissolveSprite (sli, dissolve:vapourise, 22)
+			specwait (20)
 			set slice visible (sli, false)
 		)
 	end
@@ -214,8 +326,8 @@ script, returndamage, mod1, mod2, extdam, type, healing, begin
 	extdam := extdam+100
 
 	switch (type) do (
-		case (battle:normalDamage) do (var := mod1 -- mod2/2)
-		case (battle:pureDamage) do (var := mod1)
+		case (damage:normal) do (var := mod1 -- mod2/2)
+		case (damage:pure) do (var := mod1)
 	)
 	#var := var + multdiv (var, extdam, 100)
 

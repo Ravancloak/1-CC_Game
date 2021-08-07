@@ -36,6 +36,12 @@ define constant, begin
 	311,	array:herostats
 	312,	array:enemystats
 	313,	array:battletimers
+	314,	array:skill
+	315,	array:readskill
+
+	#hero array
+	350,	array:heroes
+	351,	array:heroskill
 end
 
 globalVariable, begin

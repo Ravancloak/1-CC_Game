@@ -12,27 +12,32 @@ plotscript, battle, formation, begin
 		#go through heroes
 		for (i, 0, herocount--1) do (
 			battle:turn := 0
-			var := getElement(sli, i+1)
-			var -= readStat(i,stat:Speed)
-			if (var<0) then (
-				battle:turn := i
-				battleMenu(i)
-				turns
-				var := random(600, 1000)
+			if (readStat(i,stat:HP)>0) then (
+				var := getElement(sli, i+1)
+				var -= readStat(i,stat:Speed)
+				if (var<0) then (
+					battle:turn := i
+					battleMenu(i)
+					turns
+					var := random(600, 1000)
+				)
+				setElement (sli, i+1, var)
 			)
-			setElement (sli, i+1, var)
+			
 		)
 		#go through enemies
 		for (i, 4, enemycount+3) do (
 			battle:turn := 0
-			var := getElement(sli, i+1)
-			var -= readStat(i,stat:Speed)
-			if (var<0) then (
-				battle:turn := i
-				var := random(600, 1000)
+			if (readStat(i,stat:HP)>0) then (
+				var := getElement(sli, i+1)
+				var -= readStat(i,stat:Speed)
+				if (var<0) then (
+					battle:turn := i
+					var := random(600, 1000)
+				)
+				
+				setElement (sli, i+1, var)
 			)
-			
-			setElement (sli, i+1, var)
 		)
 	end
 
@@ -95,7 +100,7 @@ script, battleMenu, which, begin
 			$2="run"
 			addText(battlemenu:run)
 		)
-		case (hero:Daisy) do (
+		case (hero:Jane) do (
 			#create text for menu
 			$2="slap"
 			addText(battlemenu:attack)
@@ -194,7 +199,7 @@ script, opentarget, which, begin
 		
 		#set slice extra (sli, 0, sel)
 		for (i, 0, enemycount--1) do (
-			if (readstat(sel+4+ext, stat:curHP)==0) then (sel += 1)
+			if (readstat(sel+4+ext, stat:HP)==0) then (sel += 1)
 			else (break)
 		)
 
@@ -217,29 +222,54 @@ script, battlecheck, begin
 	var2 := 0
 	
 
-	counter := getElement(get array(array:battleinfo), battle:enemycount)
-	if (counter==1) then (
-		if (readStat(4, stat:curHP)==0) then (battle:win := 1)
-	)
-	if (counter==2) then (
-		if (
-			readStat(4, stat:curHP)==0&&readStat(5, stat:curHP)==0
-		) then (battle:win := 1)
-	)
-	if (counter==3) then (
-		if (
-			readStat(4, stat:curHP)==0&&readStat(5, stat:curHP)==0&&
-			readStat(6, stat:curHP)==0
-		) then (battle:win := 1)
-	)
-	if (counter==4) then (
-		if (
-			readStat(4, stat:curHP)==0&&readStat(5, stat:curHP)==0&&
-			readStat(6, stat:curHP)==0&&readStat(7, stat:curHP)==0
-		) then (battle:win := 1)
+	switch (enemycount) do (
+		case (1) do (
+			if (readStat(4, stat:HP)==0) then (battle:win := 1)
+		)
+		case (2) do (
+			if (
+				readStat(4, stat:HP)==0&&readStat(5, stat:HP)==0
+			) then (battle:win := 1)
+		)
+		case (3) do (
+			if (
+				readStat(4, stat:HP)==0&&readStat(5, stat:HP)==0&&
+				readStat(6, stat:HP)==0
+			) then (battle:win := 1)
+		)
+		case (4) do (
+			if (
+				readStat(4, stat:HP)==0&&readStat(5, stat:HP)==0&&
+				readStat(6, stat:HP)==0&&readStat(7, stat:HP)==0
+			) then (battle:win := 1)
+		)
 	) 
 end
 
+#=======================================================================
+#=======================================================================
+
+script, addattack, which, who, target, begin
+	variable (speed, sli)
+
+	speed := readstat(who,stat:Speed)
+
+	sli := initArray()
+	setParent (sli, lookupslice(array:turn))
+	setSortOrder (sli, 8000--speed + random(0,speed/20))
+
+	append (sli, which)
+	append (sli, who)
+	append (sli, target)
+end
+
+script, removeattack, begin
+	variable (sli)
+
+	sli := lookupslice(array:turn)
+	sli := last child (sli)
+	free slice (sli)
+end
 
 #=======================================================================
 #=======================================================================

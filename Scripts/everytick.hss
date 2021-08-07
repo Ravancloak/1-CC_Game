@@ -70,13 +70,13 @@ script, battleAnimate, begin
 		if (sli <> 0) then (
 			sli := first child (sli)
 			var := getSliceExtra (sli, 0)
-			if (var >= 32) then (
-				setSpriteFrame (sli, 1)
-				var := 0
-			) else if (var == 16) then (
-				setSpriteFrame (sli, 0)
-				var += 1
-			) else (var += 1)
+			if (game:tick,mod,6==0) then (
+				if (getSpriteFrame(sli)==(spriteFrameCount(sli)--1)) then (
+					setSpriteFrame(sli, 0)
+				) else (
+					setSpriteFrame(sli, getSpriteFrame(sli)+1)
+				)
+			)
 			setSliceExtra (sli, 0, var)
 			var := 0
 			sli := firstChild (first child (slice child (lookupSlice (sli:enemygrid), i)))

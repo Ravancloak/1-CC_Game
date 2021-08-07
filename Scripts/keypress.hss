@@ -231,7 +231,7 @@ script, keybattlemenu, begin
 		exitscript
 	)
 
-	if (keypress(key:up)) then (
+	if (keypress(up key)) then (
 		sli := slice child (lookupslice (sli:actionmenu), sel)
 		setSliceLookup(sli, 0)
 		setTextColor(sli, ui:menuitem)
@@ -243,7 +243,7 @@ script, keybattlemenu, begin
 		setSliceLookup(sli, sli:selected text)
 		exit script
 	)
-	if(keypress(key:down)) then (
+	if(keypress(down key)) then (
 		sli := slice child (lookupslice (sli:actionmenu), sel)
 		setSliceLookup(sli, 0)
 		setTextColor(sli, ui:menuitem)
@@ -274,12 +274,12 @@ script, keyseltargetatk, begin
 		exit script
 	)
 
-	if (keypress(key:left)) then (
+	if (keypress(left key)) then (
 		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
 
-		if (sel > 0) then (if (readstat(sel+3, stat:curHP)<>0) then (sel -= 1))
+		if (sel > 0) then (if (readstat(sel+3, stat:HP)<>0) then (sel -= 1))
 
-		if (readstat(sel+3, stat:curHP)==0 && sel > 1) then (
+		if (readstat(sel+3, stat:HP)==0 && sel > 1) then (
 			sel-=2
 		)
 		if (sel < 0) then (sel := 0)
@@ -288,13 +288,13 @@ script, keyseltargetatk, begin
 		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
 		exit script
 	)
-	if(keypress(key:right)) then ( 
+	if(keypress(right key)) then ( 
 		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
 		
-		if (sel < enemyCount--1) then (if (readstat(sel+5, stat:curHP)<>0)then(sel += 1))
+		if (sel < enemyCount--1) then (if (readstat(sel+5, stat:HP)<>0)then(sel += 1))
 
 		if (sel < enemyCount--2) then (
-			if (readstat(sel+5, stat:curHP)==0) then (sel+=2)
+			if (readstat(sel+5, stat:HP)==0) then (sel+=2)
 		)
 		if (sel > enemyCount--1) then (sel := enemyCount--1)
 
