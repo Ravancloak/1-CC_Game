@@ -27,7 +27,7 @@ script, keypressMovement, begin
 		)
 		exit script
 	)
-	
+
 	if (newkeypressX) then (
 		#mm()
 		opensettingsmenu()

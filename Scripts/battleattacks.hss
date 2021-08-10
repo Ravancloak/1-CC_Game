@@ -8,21 +8,35 @@ define constant, begin
 	
 	30,	ticks:default
 
-	1,	targClass:foeNotDead
-	2,	targclass:allyNotDead
-	3,	targclass:self
-	4,	targclass:allNotDead
-	5,	targclass:deadAlly
+	0,	targClass:foeNotDead
+	1,	targclass:allyNotDead
+	2,	targclass:self
+	3,	targclass:allNotDead
+	4,	targclass:deadAlly
 
-	1,	targSetting:focus
-	2,	targSetting:spread
+	0,	targSetting:focus
+	1,	targSetting:spread
 
-	1,	preferTarg:random
-	2,	preferTarg:strongest
-	3,	preferTarg:weakest
+	0,	preferTarg:random
+	1,	preferTarg:strongest
+	2,	preferTarg:weakest
+
+	12, weakStrongStat:targetstat
+
+	1,	status:poison
+	2,	status:paralyze
+	3,	status:confused
+	4,	status:burnt
+	5,	status:frozen
+	6,	status:mute
+	7,	status:stun
+	8,	status:regen
+	9,	status:invincible
+	10, status:shell
+	11, status:reflect
 
 	#skill array names
-	22,	skill:names
+	25,	skill:names
 	1,	skill:picture
 	2,	skill:frameTicks
 	3,	skill:sound
@@ -45,24 +59,25 @@ define constant, begin
 	20,	skill:status
 	21,	skill:statusPercent
 	22,	skill:elementType
+	23, skill:curebit
+	24, skill:rowcheck
 end
 
 script, returnSkill, which,  begin
 	variable (sli, i, var)
 
-	if (lookupSlice(array:readskill)<>-1) then (
-		free slice (lookupSlice(array:readskill))
-	)
+	#if (lookupSlice(array:readskill)<>0) then (
+	#	free slice (lookupSlice(array:readskill))
+	#)
 
 	switch (which) do (
-		case (1) do ()
+		case (0) do (template)
 		else (template)
 	)
 
-
 	subscript, template, begin 
-			sli := initArray(array:readskill,0,-1)
-			setParent (sli, lookupSlice(sli:battleCol))
+		sli := initArray(skill:names, array:readskill,-2)
+		setParent (sli, lookupSlice(sli:battleCol))
 		#damage
 			var := damage:normal
 			setElement (sli, skill:picture, var)
@@ -79,56 +94,62 @@ script, returnSkill, which,  begin
 			var := targSetting:focus
 			setElement (sli, skill:targSetting, var)
 		#preferTarg
-			var := 0
+			var := preferTarg:random
 			setElement (sli, skill:preferTarg, var)
 		#weakStrongStat
-			var := 0
+			var := weakStrongStat:targetstat
 			setElement (sli, skill:weakStrongStat, var) 
 		#hits
-			var := 0
+			var := 1
 			setElement (sli,skill:hits, var)
 		#damageMath
-			var := 0
+			var := damage:normal
 			setElement (sli,skill:damageMath, var)
 		#baseAtkStat
-			var := 0
+			var := stat:atk
 			setElement (sli,skill:baseAtkStat, var)
 		#baseDefStat
-			var := 0
+			var := stat:def
 			setElement (sli,skill:baseDefStat, var)
 		#targStat
-			var := 0
+			var := stat:HP
 			setElement (sli,skill:targStat, var)
 		#extraDamage
 			var := 0
 			setElement (sli,skill:extraDamage, var)
 		#PPcost
-			var := 0
+			var := false
 			setElement (sli,skill:PPcost, var)
 		#HPcost
-			var := 0
+			var := false
 			setElement (sli,skill:HPcost, var)
 		#MoneyCost
-			var := 0
+			var := false
 			setElement (sli,skill:MoneyCost, var)
 		#autoChooseTarg
-			var := 0
+			var := false
 			setElement (sli,skill:autoChooseTarg, var)
 		#stealitem
-			var := 0
+			var := false
 			setElement (sli,skill:stealitem, var)
 		#stealpercent
-			var := 0
+			var := false
 			setElement (sli,skill:stealPercent, var)
 		#status
-			var := 0
+			var := false
 			setElement (sli,skill:status, var)
 		#statusPercent
-			var := 0
+			var := false
 			setElement (sli,skill:statusPercent, var)
 		#elementType
-			var := 0
+			var := element:Norm
 			setElement (sli,skill:elementType, var)
+		#curebit
+			var := 1
+			setElement (sli,skill:curebit, var)
+		#rowcheck
+			var := true
+			setElement (sli,skill:rowcheck, var)
 	end
 end
 
@@ -150,28 +171,36 @@ script, turns, begin
 		who			:= getElement(sli, 1)
 		target		:= getElement(sli, 2)
 
-		switch (which) do (
-			case (attack:normal) do (
-				mod1 := readStat (who, stat:Atk)
-				mod2 := readStat (target, stat:Def)
-				targstat := stat:HP
-				type := damage:normal
-				extdam := 0
-				healing := 1
-			)
+		returnSkill(which)
+		sli := lookupslice (array:readskill)
+
+		mod1 := readStat (who, getElement (sli,skill:baseAtkStat))
+		mod2 := readStat (who, getElement (sli,skill:baseDefStat))
+
+		damage	:= returndamage (
+			mod1
+			mod2
+			getElement (sli,skill:extraDamage)
+			getElement (sli,skill:damageMath)
+			getElement (sli,skill:curebit)
 		)
 
-		damage	:= returndamage (mod1, mod2, extdam, type, healing)
-		if (healing == 1 && readStat(target, stat:row)==1) then (
+		if (getElement (sli,skill:rowcheck) == true && readStat(target, stat:row)==1) then (
 			damage := damage -- damage/3
 		)
-		writeStat (target, targstat, readStat(target, targstat) -- damage)
-		if (readStat(target, targstat)<0) then(writeStat (target, targstat, 0))
+		writeStat (target, getElement (sli,skill:targStat), readStat(target, getElement (sli,skill:targStat)) -- damage)
+		if (readStat(target, getElement (sli,skill:targStat))<0) then(writeStat (target, getElement (sli,skill:targStat), 0))
 
 		animation(which, target, damage)
+
+		for (i, 0, herocount--1) do (
+			setmeter (i, stat:hp)
+			setmeter (i, stat:pp)
+		)
+
 		if (readstat(target, stat:HP)==0) then (KOTarget(target))
 		battlecheck
-
+		free slice (lookupSlice(array:readskill))
 		freeSlice (firstChild (lookupslice(array:turn)))
 	)
 	initTurnArray()
@@ -181,11 +210,40 @@ script, turns, begin
 		if (targ>3) then (
 			targ -=4
 			sli := first child (slice child (lookupslice(sli:enemygrid), targ))
-			dissolveSprite (sli, dissolve:vapourise, 22)
+			dissolveSprite (sli, dissolve:flicker, 22)
 			specwait (20)
 			set slice visible (sli, false)
 		)
 	end
+
+	#subscript, readSkill, begin
+	#	sli := getArray(array:readskill)
+
+	#	getElement (sli, skill:picture)
+	#	getElement (sli, skill:frameTicks)
+	#	getElement (sli, skill:sound)
+	#	getElement (sli, skill:targClass)
+	#	getElement (sli, skill:targSetting)
+	#	getElement (sli, skill:preferTarg)
+	#	getElement (sli, skill:weakStrongStat) 
+	#	getElement (sli,skill:hits)
+	#	getElement (sli,skill:damageMath)
+	#	getElement (sli,skill:baseAtkStat)
+	#	getElement (sli,skill:baseDefStat)
+	#	getElement (sli,skill:targStat)
+	#	getElement (sli,skill:extraDamage)
+	#	getElement (sli,skill:PPcost)
+	#	getElement (sli,skill:HPcost)
+	#	getElement (sli,skill:MoneyCost)
+	#	getElement (sli,skill:autoChooseTarg)
+	#	getElement (sli,skill:stealitem)
+	#	getElement (sli,skill:stealPercent)
+	#	getElement (sli,skill:status)
+	#	getElement (sli,skill:statusPercent)
+	#	getElement (sli,skill:elementType)
+	#	getElement (sli,skill:curebit)
+	#	getElement (sli,skill:rowcheck)
+	#end
 end
 
 #=======================================================================

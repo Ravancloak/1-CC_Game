@@ -20,20 +20,24 @@ plotscript, battle, formation, begin
 					battleMenu(i)
 					turns
 					var := random(600, 1000)
+					specwait (1)
 				)
 				setElement (sli, i+1, var)
 			)
 			
 		)
+
 		#go through enemies
 		for (i, 4, enemycount+3) do (
-			battle:turn := 0
 			if (readStat(i,stat:HP)>0) then (
 				var := getElement(sli, i+1)
 				var -= readStat(i,stat:Speed)
 				if (var<0) then (
-					battle:turn := i
+					enemyturn(i)
 					var := random(600, 1000)
+					show value (i)
+					turns
+					specwait (1)
 				)
 				
 				setElement (sli, i+1, var)
@@ -209,6 +213,15 @@ script, opentarget, which, begin
 
 		battle:bkey := bkey:targatk
 	end
+end
+
+#=======================================================================
+#=======================================================================
+
+script, enemyturn, who, begin
+	variable (target)
+	target := random (0, herocount--1)
+	addattack (attack:normal, who, target)
 end
 
 #=======================================================================

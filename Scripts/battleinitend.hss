@@ -80,7 +80,7 @@ script, initBattle, formation, begin
 			specwait(8)
 		)
 	)
-	specwait(5)
+	specwait(30)
 	for (i, 0, 3) do (
 		if (hero by slot (i)<>-1) then (
 			sli := get hero sprite by slot (i)
@@ -223,7 +223,7 @@ script, battleEnd, condition=1, begin
 		set sprite visible (lookupslice (sli:enemygrid), false)
 
 		freebattleback
-		specwait (20)
+		specwait (10)
 
 		#show and reverse dissolve hero sprites
 		for (i, 0, 3) do (
@@ -236,6 +236,7 @@ script, battleEnd, condition=1, begin
 				sli := get hero sprite by slot (i)
 				set slice visible (sli, true)
 				dissolve sprite (sli, dissolve:puff, 45, 0, true)
+				specwait(8)
 			)
 		)
 
@@ -269,8 +270,8 @@ script, battleAddHero, who, begin
 		for (i, stat:HP, stat:PP) do (
 			append (sli, get hero stat (who, i, maximum stat))
 		)
-		for (i, stat:HP, stat:reflect) do (
-			append (0)
+		for (i, stat:poison, stat:reflect) do (
+			append (sli, 0)
 		)
 	) else (
 		sli := initArray(0)
@@ -281,11 +282,13 @@ script, battleAddHero, who, begin
 		for (i, stat:HP, stat:PP) do (
 			append (sli, 0)
 		)
-		for (i, stat:poison, stat:PP) do (
+		for (i, stat:HP, stat:PP) do (
+			append (sli, 0)
+		)
+		for (i, stat:poison, stat:reflect) do (
 			append (sli, 0)
 		)
 	)
-
 end
 
 script, battleAddEnemy, who, formation, begin
@@ -300,6 +303,9 @@ script, battleAddEnemy, who, formation, begin
 	)
 		for (i, stat:HP, stat:PP) do (
 		append (sli, get enemy stat (formation slot enemy (formation, who), i))
+	)
+	for (i, stat:poison, stat:PP) do (
+		append (sli, 0)
 	)
 end
 
