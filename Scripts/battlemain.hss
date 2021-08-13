@@ -70,52 +70,29 @@ script, battleMenu, which, begin
 
 	who := hero by slot (which)
 
-	switch (who) do (
-		case (hero:Keifer) do (
-			#create text for menu
-			$2="stab"
-			addText(battlemenu:attack)
-			$2="skill"
-			addText(battlemenu:skill)
-			$2="item"
-			addText(battlemenu:item)
-			$2="run"
-			addText(battlemenu:run)
-		)
-		case (hero:Jenkins) do (
-			#create text for menu
-			$2="splash"
-			addText(battlemenu:attack)
-			$2="skill"
-			addText(battlemenu:skill)
-			$2="item"
-			addText(battlemenu:item)
-			$2="run"
-			addText(battlemenu:run)
-		)
-		case (hero:GMoney) do (
-			#create text for menu
-			$2="punch"
-			addText(battlemenu:attack)
-			$2="skill"
-			addText(battlemenu:skill)
-			$2="item"
-			addText(battlemenu:item)
-			$2="run"
-			addText(battlemenu:run)
-		)
-		case (hero:Jane) do (
-			#create text for menu
-			$2="slap"
-			addText(battlemenu:attack)
-			$2="skill"
-			addText(battlemenu:skill)
-			$2="item"
-			addText(battlemenu:item)
-			$2="run"
-			addText(battlemenu:run)
+	#create text for menu
+
+	#get attack based on equip
+	switch (check equipment (who, slot:weapon)) do (
+		case (item:Nothing) do (
+			switch (who) do (
+				case (hero:Keifer) do ($2="punch")
+				case (hero:Jenkins) do ($2="splash")
+				case (hero:GMoney) do ($2="punch")
+				case (hero:Jane) do ($2="slap")
+			)
 		)
 	)
+	addText(battlemenu:attack)
+	$2="skill"
+	addText(battlemenu:skill)
+	$2="item"
+	addText(battlemenu:item)
+	$2="defend"
+	addtext(battlemenu:defend)
+	$2="run"
+	addText(battlemenu:run)
+
 
 	sli := lookupslice (sli:actionmenu)
 	set slice visible (sli, true)

@@ -62,9 +62,10 @@ define constant, begin
 	5,	bkey:run
 
 	#battle menu items
-	1, battlemenu:attack
-	2, battlemenu:skill
-	3, battlemenu:item
+	0, battlemenu:attack
+	1, battlemenu:skill
+	2, battlemenu:item
+	3, battlemenu:defend
 	4, battlemenu:run
 end
 
@@ -80,13 +81,13 @@ script, initBattle, formation, begin
 			specwait(8)
 		)
 	)
-	specwait(30)
+	specwait(10)
 	for (i, 0, 3) do (
 		if (hero by slot (i)<>-1) then (
 			sli := get hero sprite by slot (i)
 			set slice visible (sli, false)
-			specwait(8)
-		)
+			specwait(6)
+		) else (specwait(6))
 	)
 	specwait(10)
 
@@ -161,7 +162,12 @@ script, initBattle, formation, begin
 	)
 	specwait (20)
 
-	showsprites 
+	showsprites
+
+	switch (formation) do (
+		case (1) do (play song (0))
+	)
+	
 
 	specwait (50)
 
@@ -223,7 +229,7 @@ script, battleEnd, condition=1, begin
 		set sprite visible (lookupslice (sli:enemygrid), false)
 
 		freebattleback
-		specwait (10)
+		fade music out(20)
 
 		#show and reverse dissolve hero sprites
 		for (i, 0, 3) do (
@@ -236,17 +242,15 @@ script, battleEnd, condition=1, begin
 				sli := get hero sprite by slot (i)
 				set slice visible (sli, true)
 				dissolve sprite (sli, dissolve:puff, 45, 0, true)
-				specwait(8)
-			)
+				specwait(6)
+			)  else (specwait(6))
 		)
-
-		specwait (20)
-
 		free slice (lookupslice(array:battleinfo))
 		free slice (lookupslice(sli:battlecol))
 		show no value
 
 		specwait(60)
+
 
 		resumeMovement
 	)
@@ -368,5 +372,5 @@ script, initHeroes, who, begin
 	for (i,  0,3) do (
 		sli := initArray(0,array:heroskill)
 		setParent (sli, lookupSlice(array:heroes))
-	)
+	) 
 end

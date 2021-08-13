@@ -75,7 +75,7 @@ script, returnSkill, which,  begin
 		else (template)
 	)
 
-	subscript, template, begin 
+	subscript, template, begin
 		sli := initArray(skill:names, array:readskill,-2)
 		setParent (sli, lookupSlice(sli:battleCol))
 		#damage

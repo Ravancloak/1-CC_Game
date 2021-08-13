@@ -19,7 +19,7 @@ end
 script, mapUpdate, begin,
 	variable (grassLayer, sli, i)
 	switch (currentMap) do (
-		case (map:TEST MAP) do (scrollLayer0(8,0))
+		#case (map:TEST MAP) do (scrollLayer0(8,0))
 		case (1) do ()
 	)
 

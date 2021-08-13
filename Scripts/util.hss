@@ -68,10 +68,10 @@ plotscript, doorscriptstairs, begin
 	resume movement
 end
 
-script,fademusicout,time,begin
+script,fademusicout,time=40,begin
 	variable(loop)
 	var:musicVol := get music volume
-	for(loop,1,time,1) do(
+	for(loop,1,time) do(
 		set music volume(var:musicVol --(var:musicVol/time)*loop)
 		specwait
 	)
@@ -84,10 +84,6 @@ script, walkNPCs, begin
 	who := next NPC reference()  # The first NPC
 
 	while (who) do (
-		
-		if (npcIsWalking(who)==false) then (
-			set NPC frame (0)
-		)
 		if (readNPC(who,NPCstat:move type)==NPCmovetype:wander) then (
 			sli := get npc sprite (who)
 			var := get slice extra (sli, 0)

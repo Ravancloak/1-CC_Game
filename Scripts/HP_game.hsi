@@ -2,10 +2,15 @@
 
 define constant, begin
 2,tag:YesNo
+0,song:military_battle
+0,sfx:water_steps
+1,sfx:big_explosion
+2,sfx:doorclose
 0,hero:Keifer
 1,hero:Jenkins
 2,hero:GMoney
 3,hero:Jane
+0,item:Nothing
 0,stat:HP
 1,stat:PP
 2,stat:Atk
@@ -37,8 +42,8 @@ define constant, begin
 1,slot:Weapon
 2,slot:Head
 3,slot:Body
-4,slot:Arms
-5,slot:Legs
+4,slot:Legs
+5,slot:Other
 0,map:TEST MAP
 1,atk:Basic
 1,menu:Settings

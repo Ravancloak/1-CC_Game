@@ -218,11 +218,11 @@ script, keybattlemenu, begin
 
 	if (keypressA) then (
 		switch (sel) do (
-			case (0) do (
+			case (battlemenu:attack) do (
 				suspendMovement
 				battle:bkey := bkey:targatk
 			)
-			case (3) do (
+			case (battlemenu:run) do (
 				suspendMovement
 				battle:bkey := bkey:run
 				battle:win := 1

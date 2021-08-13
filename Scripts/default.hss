@@ -3,9 +3,9 @@ plotscript, defnewgame, begin
 	suspend NPCs
 	resume movement
 	resetControls
-	#add hero (hero:Jenkins)
-	#add hero (hero:GMoney)
-	#add hero (hero:Kate)
+	add hero (hero:Jenkins)
+	add hero (hero:GMoney)
+	add hero (hero:Jane)
 	
 	initArray(0,array:skill)
 	mainloop
