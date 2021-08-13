@@ -59,3 +59,4 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 3545.6  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
 4414.9  C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\battle portraits\kiefer.bmp contains 10 colors
 4456.8  Saving - been editing for 8m57s
+4579.8  Saving - been editing for 33s
