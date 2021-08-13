@@ -62,11 +62,11 @@ define constant, begin
 	5,	bkey:run
 
 	#battle menu items
-	0, battlemenu:attack
-	1, battlemenu:skill
-	2, battlemenu:item
-	3, battlemenu:defend
-	4, battlemenu:run
+	1, battlemenu:attack
+	2, battlemenu:skill
+	3, battlemenu:item
+	4, battlemenu:defend
+	5, battlemenu:run
 end
 
 script, initBattle, formation, begin
@@ -179,7 +179,7 @@ script, initBattle, formation, begin
 			case (1) do (
 			)
 			case (2) do (
-				clone slice (first child (gridslice))
+				cloneslice (first child (gridslice))
 			)
 			case (3) do (
 				cloneslice (firstchild (gridslice))

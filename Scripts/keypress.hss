@@ -236,7 +236,7 @@ script, keybattlemenu, begin
 		setSliceLookup(sli, 0)
 		setTextColor(sli, ui:menuitem)
 
-		if (sel > 0) then (sel -= 1) else (sel := (child count(lookupslice (sli:actionmenu)))--1)
+		if (sel > 1) then (sel -= 1) else (sel := (child count(lookupslice (sli:actionmenu)))--1)
 
 		setSliceExtra (lookupslice (sli:actionmenu), 0, sel)
 		sli := slice child (lookupslice (sli:actionmenu), sel)
@@ -248,7 +248,7 @@ script, keybattlemenu, begin
 		setSliceLookup(sli, 0)
 		setTextColor(sli, ui:menuitem)
 
-		if (sel <(child count(lookupslice (sli:actionmenu)))--1) then (sel += 1) else (sel := 0)
+		if (sel <(child count(lookupslice (sli:actionmenu)))--1) then (sel += 1) else (sel := 1)
 		
 		setSliceExtra(lookupslice (sli:actionmenu), 0, sel)
 		sli := slice child (lookupslice (sli:actionmenu), sel)
@@ -265,11 +265,13 @@ script, keyseltargetatk, begin
 
 	if (keypressA) then (
 		suspendMovement
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
 		addattack (attack:normal, battle:turn, sel+4)
 		exit script
 	)
 	if (keypressB) then (
 		suspendMovement
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
 		battle:bkey := bkey:action
 		exit script
 	)
@@ -284,7 +286,7 @@ script, keyseltargetatk, begin
 		)
 		if (sel < 0) then (sel := 0)
 
-		setSliceExtra (lookupslice (sli:enemygrid), 0, sel) 
+		setSliceExtra (lookupslice (sli:enemygrid), 0, sel)
 		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
 		exit script
 	)

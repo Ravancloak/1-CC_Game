@@ -2,6 +2,7 @@
 
 define constant, begin
 2,tag:YesNo
+3,tag:overbridge
 0,song:military_battle
 0,sfx:water_steps
 1,sfx:big_explosion

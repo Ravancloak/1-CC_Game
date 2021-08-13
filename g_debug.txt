@@ -1,151 +1,426 @@
 Loading C:\OHRRPGCE\support\CrashRpt1403.dll
- 0.1   ----Starting OHRRPGCE Game----
- 0.1  08-12-2021 20:11:14
- 0.1  OHRRPGCE wip 20210803.12314 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
- 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
- 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
- 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
- 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
- 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_56067'
- 0.1  Spawned from Custom
- 0.1  Initialising gfx_sdl2...
- 0.2  setvideomode zoom=2 w*h = 640,400
- 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
- 0.2  disable_native_text_input=0
- 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
- 0.2  Setting default window settings...
- 0.2  set_resolution 320*200
- 0.2  Setting graphics scaling to x2 change_windowsize=-1
- 0.2  Received message from Custom: V OHRRPGCE,4,12314,OHRRPGCE wip 20210803
- 0.2  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
- 0.2  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+ 0.4   ----Starting OHRRPGCE Game----
+ 0.4  08-13-2021 00:28:19
+ 0.4  OHRRPGCE wip 20210803.12314 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.4  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.4  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.4  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.4  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.4  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_3927'
+ 0.4  Spawned from Custom
+ 0.4  Initialising gfx_sdl2...
+ 0.5  setvideomode zoom=2 w*h = 640,400
+ 0.5  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.5  disable_native_text_input=0
+ 0.6  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.6  Setting default window settings...
+ 0.6  set_resolution 320*200
+ 0.6  Setting graphics scaling to x2 change_windowsize=-1
+ 0.6  Received message from Custom: V OHRRPGCE,4,12314,OHRRPGCE wip 20210803
+ 0.6  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.6  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
 end_debug: no debug/error messages during startup (skipping rest of startup)
 
- 0.2   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
- 0.2  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
- 0.2  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210812201114.436.tmp\
- 0.2  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
- 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
- 0.3  Name: 
- 0.6  plotscr.hsd version: 3U 
- 1.0  lock_resolution()
- 1.0  set_resolution 300*200
- 1.1  recenter_window_hint()
- 1.1  get_screen_size: true screen size 1600x900
- 1.1  Desktop resolution: 1600*860
- 1.1  automatic_scale_factor(0.5), screen size: 1600*860
- 1.1  Setting graphics scaling to x2 change_windowsize=-1
- 1.1  Preserving fullscreen/windowed state
- 1.1  genRungameFullscreenIndependent: 0
-59.9  msg: M ohrrpgce.gen
-59.9  msg: M general.reld
-64.3  msg: CM 0
-64.3  msg: M song0.it
-64.3  msg: M song0.it
-64.3  msg: M songdata.bin
-64.7  msg: M songdata.bin
-65.3  msg: M ohrrpgce.gen
-65.3  msg: M general.reld
-195.6  msg: M songdata.bin
-3299.7  msg: M ohrrpgce.gen
-3299.7  msg: M general.reld
-3303.3  msg: M ohrrpgce.hsp
-3303.3  msg: M plotscr.lst
-3303.3  msg: M plotscr.lst
-3303.3  msg: M lookup1.bin
-3303.4  plotscr.hsd version: 3U 
-3342.9  msg: M ohrrpgce.hsp
-3342.9  msg: M plotscr.lst
-3342.9  msg: M plotscr.lst
-3342.9  msg: M lookup1.bin
-3343.1  plotscr.hsd version: 3U 
-3377.8  msg: M ohrrpgce.hsp
-3377.8  msg: M plotscr.lst
-3377.8  msg: M plotscr.lst
-3377.8  msg: M lookup1.bin
-3377.9  plotscr.hsd version: 3U 
-3407.6  msg: M ohrrpgce.gen
-3407.6  msg: M general.reld
-3439.5  msg: M slicetree_0_0.reld
-3439.5  msg: M ohrrpgce.gen
-3439.5  did not reload slicetree_0_0.reld
-3439.5  msg: M general.reld
-3439.9  msg: M ohrrpgce.gen
-3455.8  msg: M defpal5.bin
-3455.8  msg: M weapons.rgfx
-3455.8  did not reload defpal5.bin
-3455.8  msg: M ohrrpgce.pal
-3455.8  msg: PAL 0
-4225.0  msg: M ohrrpgce.gen
-4250.9  msg: M ohrrpgce.pal
-4250.9  msg: PAL 0
-4251.1  msg: M ohrrpgce.pal
-4251.1  msg: PAL 1
-4251.3  msg: M ohrrpgce.pal
-4251.3  msg: PAL 2
-4251.5  msg: M ohrrpgce.pal
-4251.5  msg: PAL 3
-4251.6  msg: M ohrrpgce.pal
-4251.6  msg: PAL 4
-4251.9  msg: M ohrrpgce.pal
-4251.9  msg: PAL 5
-4252.0  msg: M ohrrpgce.pal
-4252.0  msg: PAL 6
-4252.2  msg: M ohrrpgce.pal
-4252.2  msg: PAL 7
-4252.4  msg: M ohrrpgce.pal
-4252.4  msg: PAL 8
-4252.6  msg: M ohrrpgce.pal
-4252.6  msg: PAL 9
-4252.7  msg: M ohrrpgce.pal
-4252.7  msg: PAL 10
-4253.0  msg: M ohrrpgce.pal
-4253.0  msg: PAL 11
-4253.1  msg: M ohrrpgce.pal
-4253.1  msg: PAL 12
-4253.3  msg: M ohrrpgce.pal
-4253.3  msg: PAL 13
-4253.5  msg: M ohrrpgce.pal
-4253.5  msg: PAL 14
-4253.7  msg: M ohrrpgce.pal
-4253.7  msg: PAL 15
-4253.9  msg: M ohrrpgce.pal
-4253.9  msg: PAL 16
-4254.1  msg: M ohrrpgce.pal
-4254.1  msg: PAL 17
-4254.3  msg: M ohrrpgce.pal
-4254.3  msg: PAL 18
-4254.5  msg: M ohrrpgce.pal
-4254.5  msg: PAL 19
-4254.7  msg: M ohrrpgce.pal
-4254.7  msg: PAL 20
-4254.9  msg: M ohrrpgce.pal
-4254.9  msg: M ohrrpgce.pal
-4254.9  msg: M ohrrpgce.pal
-4254.9  msg: PAL 21
-4254.9  msg: M ohrrpgce.pal
-4254.9  msg: M ohrrpgce.pal
-4254.9  msg: M ohrrpgce.pal
-4254.9  msg: PAL 22
-4255.2  msg: M ohrrpgce.pal
-4255.2  msg: PAL 21
-4255.4  msg: M ohrrpgce.pal
-4255.4  msg: PAL 20
-4255.6  msg: M ohrrpgce.pal
-4255.6  msg: PAL 19
-4256.1  msg: M ohrrpgce.pal
-4256.1  msg: PAL 18
-4257.0  msg: M defpal8.bin
-4257.0  msg: M portraits.rgfx
-4257.0  msg: M ohrrpgce.pal
-4257.0  msg: PAL 19
-4257.0  did not reload defpal8.bin
-4285.4  msg: M ohrrpgce.gen
-4285.7  msg: M ohrrpgce.gen
-4285.7  msg: M general.reld
-4286.4  msg: M ohrrpgce.gen
-4287.9  msg: M ohrrpgce.gen
-4287.9  msg: M general.reld
-4408.3  msg: M ohrrpgce.gen
-4410.9  msg: M ohrrpgce.gen
-4410.9  msg: M general.reld
+ 0.6   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.6  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.6  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210813002819.308.tmp\
+ 0.6  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.6  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.6  Name: 
+ 0.9  plotscr.hsd version: 3U 
+ 1.4  lock_resolution()
+ 1.4  set_resolution 300*200
+ 1.4  recenter_window_hint()
+ 1.4  get_screen_size: true screen size 1600x900
+ 1.4  Desktop resolution: 1600*860
+ 1.4  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.4  Setting graphics scaling to x2 change_windowsize=-1
+ 1.4  Preserving fullscreen/windowed state
+ 1.4  genRungameFullscreenIndependent: 0
+35.1  msg: M ohrrpgce.gen
+35.1  msg: M general.reld
+63.2  msg: M ohrrpgce.map
+63.2  msg: M ohrrpgce.t00
+63.2  msg: M ohrrpgce.p00
+63.2  msg: M ohrrpgce.e00
+63.2  msg: M ohrrpgce.z00
+63.2  msg: M ohrrpgce.l00
+63.2  msg: M ohrrpgce.n00
+63.2  msg: M ohrrpgce.dox
+63.2  msg: M ohrrpgce.d00
+63.2  msg: M ohrrpgce.mn
+63.2  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+63.2  did not reload ohrrpgce.d00
+74.0  msg: M ohrrpgce.map
+74.0  msg: M ohrrpgce.t00
+74.0  msg: M ohrrpgce.p00
+74.0  msg: M ohrrpgce.e00
+74.0  msg: M ohrrpgce.z00
+74.0  msg: M ohrrpgce.l00
+74.0  msg: M ohrrpgce.n00
+74.0  msg: M ohrrpgce.dox
+74.0  msg: M ohrrpgce.d00
+74.0  msg: M ohrrpgce.mn
+74.1  did not reload ohrrpgce.d00
+74.5  msg: M ohrrpgce.gen
+74.5  msg: M general.reld
+159.7  msg: M ohrrpgce.hsp
+159.7  msg: M plotscr.lst
+159.7  msg: M plotscr.lst
+159.7  msg: M lookup1.bin
+159.8  plotscr.hsd version: 3U 
+162.8  msg: M ohrrpgce.map
+162.8  msg: M ohrrpgce.t00
+162.8  msg: M ohrrpgce.p00
+162.8  msg: M ohrrpgce.e00
+162.8  msg: M ohrrpgce.z00
+162.8  RELOADMAP_ZONEMAP zonemap.dirty=0 zonemap.changed=-1 zonemap.mode=1
+162.8  msg: M ohrrpgce.l00
+162.8  msg: M ohrrpgce.n00
+162.8  msg: M ohrrpgce.dox
+162.8  msg: M ohrrpgce.d00
+162.8  msg: M ohrrpgce.mn
+162.8  did not reload ohrrpgce.d00
+163.0  msg: M ohrrpgce.map
+163.0  msg: M ohrrpgce.t00
+163.0  msg: M ohrrpgce.p00
+163.0  msg: M ohrrpgce.e00
+163.0  msg: M ohrrpgce.z00
+163.0  msg: M ohrrpgce.l00
+163.0  msg: M ohrrpgce.n00
+163.0  msg: M ohrrpgce.dox
+163.0  msg: M ohrrpgce.d00
+163.0  msg: M ohrrpgce.mn
+163.0  did not reload ohrrpgce.d00
+163.5  msg: M ohrrpgce.gen
+163.5  msg: M general.reld
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.7  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.stt
+165.8  msg: M ohrrpgce.gen
+165.8  msg: M general.reld
+182.7  msg: M browse.txt
+182.7  msg: M browse.txt
+182.7  msg: M general.reld
+182.7  msg: M ohrrpgce.gen
+182.7  msg: M general.reld
+183.3  msg: M ohrrpgce.gen
+287.5  msg: M ohrrpgce.hsp
+287.5  msg: M plotscr.lst
+287.5  msg: M plotscr.lst
+287.6  plotscr.hsd version: 3U 
+317.8  msg: M lookup1.bin
+317.8  msg: M ohrrpgce.hsp
+317.8  msg: M plotscr.lst
+317.9  plotscr.hsd version: 3U 
+328.9  unlock_resolution(300,200)
+330.1  set_resolution 300*200
+330.1  lock_resolution()
+332.5  unlock_resolution(300,200)
+334.4  set_resolution 300*200
+334.4  lock_resolution()
+336.2  unlock_resolution(300,200)
+336.2  ! Can't find a SliceCollectionContext
+337.2  set_resolution 300*200
+337.2  lock_resolution()
+340.1  unlock_resolution(300,200)
+341.2  set_resolution 300*200
+341.2  lock_resolution()
+382.7  msg: M plotscr.lst
+382.7  msg: M lookup1.bin
+382.7  msg: M ohrrpgce.hsp
+382.7  msg: M plotscr.lst
+382.8  plotscr.hsd version: 3U 
+417.2  msg: M plotscr.lst
+417.2  msg: M lookup1.bin
+417.2  msg: M ohrrpgce.map
+417.2  msg: M ohrrpgce.t00
+417.2  msg: M ohrrpgce.p00
+417.2  msg: M ohrrpgce.e00
+417.2  msg: M ohrrpgce.z00
+417.2  msg: M ohrrpgce.l00
+417.2  msg: M ohrrpgce.n00
+417.2  msg: M ohrrpgce.dox
+417.2  msg: M ohrrpgce.d00
+417.2  RELOADMAP_ZONEMAP zonemap.dirty=0 zonemap.changed=-1 zonemap.mode=1
+417.2  did not reload ohrrpgce.d00
+424.4  msg: M ohrrpgce.mn
+424.4  msg: M ohrrpgce.map
+424.4  msg: M ohrrpgce.t00
+424.4  msg: M ohrrpgce.p00
+424.4  msg: M ohrrpgce.e00
+424.4  msg: M ohrrpgce.z00
+424.4  msg: M ohrrpgce.l00
+424.4  msg: M ohrrpgce.n00
+424.4  msg: M ohrrpgce.dox
+424.4  msg: M ohrrpgce.d00
+424.4  did not reload ohrrpgce.d00
+424.4  msg: M ohrrpgce.mn
+432.5  msg: M ohrrpgce.map
+432.5  msg: M ohrrpgce.t00
+432.5  msg: M ohrrpgce.p00
+432.5  msg: M ohrrpgce.e00
+432.5  msg: M ohrrpgce.z00
+432.5  msg: M ohrrpgce.l00
+432.5  msg: M ohrrpgce.n00
+432.5  msg: M ohrrpgce.dox
+432.5  msg: M ohrrpgce.d00
+432.5  msg: M ohrrpgce.mn
+432.5  did not reload ohrrpgce.d00
+432.9  msg: M ohrrpgce.map
+432.9  msg: M ohrrpgce.t00
+432.9  msg: M ohrrpgce.p00
+432.9  msg: M ohrrpgce.e00
+432.9  msg: M ohrrpgce.z00
+432.9  msg: M ohrrpgce.l00
+432.9  msg: M ohrrpgce.n00
+432.9  msg: M ohrrpgce.dox
+432.9  msg: M ohrrpgce.d00
+432.9  msg: M ohrrpgce.mn
+432.9  did not reload ohrrpgce.d00
+434.3  msg: M ohrrpgce.gen
+434.3  msg: M general.reld
+443.5  unlock_resolution(300,200)
+444.4  set_resolution 300*200
+444.4  lock_resolution()
+449.4  unlock_resolution(300,200)
+452.5  set_resolution 300*200
+452.5  lock_resolution()
+537.8  msg: M ohrrpgce.map
+537.8  msg: M ohrrpgce.t00
+537.8  msg: M ohrrpgce.p00
+537.8  msg: M ohrrpgce.e00
+537.8  msg: M ohrrpgce.z00
+537.8  msg: M ohrrpgce.l00
+537.8  msg: M ohrrpgce.n00
+537.8  msg: M ohrrpgce.dox
+537.8  msg: M ohrrpgce.d00
+537.8  msg: M ohrrpgce.mn
+537.9  did not reload ohrrpgce.d00
+555.4  msg: M ohrrpgce.map
+555.4  msg: M ohrrpgce.t00
+555.4  msg: M ohrrpgce.p00
+555.4  msg: M ohrrpgce.e00
+555.4  msg: M ohrrpgce.z00
+555.4  msg: M ohrrpgce.l00
+555.4  msg: M ohrrpgce.n00
+555.4  msg: M ohrrpgce.dox
+555.4  msg: M ohrrpgce.d00
+555.4  msg: M ohrrpgce.mn
+555.4  RELOADMAP_ZONEMAP zonemap.dirty=0 zonemap.changed=-1 zonemap.mode=1
+555.4  did not reload ohrrpgce.d00
+616.8  msg: M ohrrpgce.map
+616.8  msg: M ohrrpgce.t00
+616.8  msg: M ohrrpgce.p00
+616.8  msg: M ohrrpgce.e00
+616.8  msg: M ohrrpgce.z00
+616.8  msg: M ohrrpgce.l00
+616.8  msg: M ohrrpgce.n00
+616.8  msg: M ohrrpgce.dox
+616.8  msg: M ohrrpgce.d00
+616.8  msg: M ohrrpgce.mn
+616.8  RELOADMAP_ZONEMAP zonemap.dirty=0 zonemap.changed=-1 zonemap.mode=1
+616.8  did not reload ohrrpgce.d00
+675.5  msg: M ohrrpgce.map
+675.5  msg: M ohrrpgce.t00
+675.5  msg: M ohrrpgce.p00
+675.5  msg: M ohrrpgce.e00
+675.5  msg: M ohrrpgce.z00
+675.5  msg: M ohrrpgce.l00
+675.5  msg: M ohrrpgce.n00
+675.5  msg: M ohrrpgce.dox
+675.5  msg: M ohrrpgce.d00
+675.5  msg: M ohrrpgce.mn
+675.5  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+675.5  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+675.5  did not reload ohrrpgce.d00
+756.6  Cleaning up and terminating 0
+756.6  Closing music backend...
+756.7  ...done
+756.7  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210813002819.308.tmp\
+756.8  Closing gfx backend & allmodex...
+756.8  ...done
+756.8  End.

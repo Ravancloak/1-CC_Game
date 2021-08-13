@@ -37,8 +37,33 @@ plotscript, defautorun, begin
 	)
 end
 
+plotscript, defaultonstep, begin
+	switch (current map) do (
+		case (map:TEST MAP) do (mapstep0)
+		case (1) do ()
+	)
+end
+
 script, mapauto0, begin
 	variable (sli)
+	resume overlay
 	#sli := load backdrop sprite (9)
 	#set parent (sli, lookupslice(sl:maplayer2))
+end
+
+script, mapstep0, begin
+	variable (sli)
+	if (read zone(9, hero X, hero Y)) then (
+		if (checktag(3)==true) then (
+			#stairs on
+			sli := lookup slice(sl:map layer4)
+			set opacity (sli, 100)
+			set tag (3, off) #under bridge
+		) else (
+			#stairs off
+			sli := lookup slice(sl:map layer4)
+			set opacity (sli, 0)
+			set tag (3, on) #over bridge
+		)
+	)
 end

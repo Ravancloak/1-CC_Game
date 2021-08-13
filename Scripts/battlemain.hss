@@ -73,6 +73,8 @@ script, battleMenu, which, begin
 	#create text for menu
 
 	#get attack based on equip
+	get hero name (2, who)
+	addText(-1)
 	switch (check equipment (who, slot:weapon)) do (
 		case (item:Nothing) do (
 			switch (who) do (
@@ -94,6 +96,7 @@ script, battleMenu, which, begin
 	addText(battlemenu:run)
 
 
+	sel := 1
 	sli := lookupslice (sli:actionmenu)
 	set slice visible (sli, true)
 	set slice extra (sli, 0, sel)
@@ -123,6 +126,7 @@ script, battleMenu, which, begin
 	subscript, addText, extra, begin
 		sli := create text
 		set slice text (sli, 2)
+		realign slice (sli, edge:center, edge:top, edge:center, edge:top)
 		set outline(sli, true)
 		set text color(sli, ui:menuitem)
 		set slice extra (sli, 0, extra)
@@ -148,7 +152,7 @@ script, opentarget, which, begin
 	sel := getSliceExtra (sli, 0)
 
 	switch (sel) do (
-		case (0) do (
+		case (battlemenu:attack) do (
 			initTargatk
 		)
 	)
@@ -173,20 +177,22 @@ script, opentarget, which, begin
 	end
 
 	subscript, initTargatk, begin
-		variable (sli, var, sel, ext, who)
+		variable (sli, var, sel, who)
 
-		#get enemy count then set the offset.
-		sel := 0
+		#reset the selected one
+		sli := lookupslice (sli:enemygrid)
+		sel := getSliceExtra (sli, 0)
+		if (readstat(sel+4, stat:HP)<=0) then (sel := 0)
 		
 		#set slice extra (sli, 0, sel)
-		for (i, 0, enemycount--1) do (
-			if (readstat(sel+4+ext, stat:HP)==0) then (sel += 1)
+		for (i, 4, 4+enemycount--1) do (
+			if (readstat(sel+4, stat:HP)<=0) then (sel += 1)
 			else (break)
 		)
 
 		#set extra and slice visible of the target marker
 		setSliceExtra (lookupslice (sli:enemygrid), 0, sel)
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel+ext))), true)
+		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
 
 		battle:bkey := bkey:targatk
 	end
