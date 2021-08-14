@@ -3,7 +3,7 @@ script, loadbattleback, formation, height=240, begin
 
 	sli := load backdrop sprite (2)
 	dissolve sprite (sli , dissolve:fade, 40, 0, true)
-	put slice (sli, -20, 20)
+	put slice (sli, -20, 10)
 	set slice clipping (sli, true)
 	set slice lookup(sli, sli:battleback)
 	set parent (sli, lookupslice(sli:battlecol))
@@ -137,7 +137,7 @@ end
 script, freebattleback, begin
 	variable (i, j, height, sli)
 
-	dissolve sprite (lookupslice(sli:battleback), dissolve:fade, 45)
+	dissolve sprite (lookupslice(sli:battleback), dissolve:fade, 105)
 
 	sli := slice child (first child (first child (lookupslice(sli:battleback))))
 	height := slice height (sli)
@@ -145,7 +145,7 @@ script, freebattleback, begin
 	for (j, 0, 1) do (
 		for (i, 0, height--1) do (
 			sli := first child (slice child (slice child (lookupslice(sli:battleback), j), i))
-			dissolve sprite (sli, dissolve:fade, 45)		
+			dissolve sprite (sli, dissolve:fade, 105)		
 		)
 	)
 end

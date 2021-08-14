@@ -3,7 +3,8 @@
 define constant, begin
 2,tag:YesNo
 3,tag:overbridge
-0,song:military_battle
+0,song:battle against a childish oppo
+1,song:neo memphis
 0,sfx:water_steps
 1,sfx:big_explosion
 2,sfx:doorclose
@@ -57,4 +58,5 @@ define constant, begin
 3,sli:hero grid
 4,sli:action menu
 5,sli:hide heroes
+6,sli:hide action menu
 end

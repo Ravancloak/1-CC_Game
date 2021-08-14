@@ -19,12 +19,11 @@ plotscript, battle, formation, begin
 					battle:turn := i
 					battleMenu(i)
 					turns
-					var := random(600, 1000)
+					var := random(1000, 1000 -- readStat(i,stat:Speed)/2)
 					specwait (1)
 				)
 				setElement (sli, i+1, var)
 			)
-			
 		)
 
 		#go through enemies
@@ -34,7 +33,7 @@ plotscript, battle, formation, begin
 				var -= readStat(i,stat:Speed)
 				if (var<0) then (
 					enemyturn(i)
-					var := random(600, 1000)
+					var := random(1000, 1000 -- readStat(i,stat:Speed)/2)
 					show value (i)
 					turns
 					specwait (1)
@@ -56,15 +55,18 @@ script, battleMenu, which, begin
 	battle:bkey := bkey:action
 
 	#position and show slice
-	var := getElement(get array(array:battleinfo), battle:herocount)
-	sli := lookupslice (sli:actionmenu)
-
-	switch (var) do (
+	switch (herocount) do (
 		case (1, 3) do(
-			put slice (sli, battle:turn*86+40, sliceY(sli))		
+			#sli := lookupslice (sli:actionmenu)
+			#put slice (sli, battle:turn*86+40, sliceY(sli))
+			#sli := last child (lookupslice (sli:hideactionmenu))
+			#put slice (sli, battle:turn*86+34, sliceY(sli))		
 		)
 		case (2,4) do(
-			put slice (sli, battle:turn*65+20, sliceY(sli))
+			#sli := lookupslice (sli:actionmenu)
+			#put slice (sli, battle:turn*65+20, sliceY(sli))
+			#sli := last child (lookupslice (sli:hideactionmenu))
+			#put slice (sli, battle:turn*65+14, sliceY(sli))
 		)
 	)
 
@@ -74,7 +76,6 @@ script, battleMenu, which, begin
 
 	#get attack based on equip
 	get hero name (2, who)
-	addText(-1)
 	switch (check equipment (who, slot:weapon)) do (
 		case (item:Nothing) do (
 			switch (who) do (
@@ -96,16 +97,33 @@ script, battleMenu, which, begin
 	addText(battlemenu:run)
 
 
-	sel := 1
-	sli := lookupslice (sli:actionmenu)
-	set slice visible (sli, true)
-	set slice extra (sli, 0, sel)
+	sel := battlemenu:attack
+
+	set slice extra (lookupslice (sli:actionmenu), 0, sel)
 
 	#set text to flash
-	sli := slice child (sli, sel)
+	sli := slice child (lookupslice (sli:actionmenu), sel)
 	set slice lookup(sli, sli:selected text)
 
-	specwait(8)
+	sli := battlePortrait(which)
+
+	slice to back (sli)
+	dissolve sprite (sli, dissolve:sink into ground, 10) 
+	specwait(9)
+	slice to front (sli)
+
+	set slice visible (sli, false)
+
+	specwait(20)
+	set slice visible (lookupslice (sli:hideactionmenu), true)
+
+	sli := last child (lookupslice (sli:hideactionmenu))
+	replaceportraitsprite (sli, get hero picture (who, hero portrait))
+	slice to back (sli)
+	dissolve sprite (sli, dissolve:sink into ground, 10, 0, true) 
+
+	specwait(15)
+	slice to front (sli)
 
 	game:mode := mode:battle
 	while (game:mode == mode:battle) do (
@@ -138,11 +156,25 @@ script, battleMenu, which, begin
 
 	subscript, exitBattleMenu, begin
 		#hide slice and resume battle shit
+		sli := last child (lookupslice (sli:hideactionmenu))
+		slice to back (sli)
+		dissolve sprite (sli, dissolve:sink into ground, 10) 
+		specwait(9)
+		slice to front (sli)
+
 		sli := lookupslice (sli:actionmenu)
 		set slice height (sli, 8)
 		free slice children (sli)
-		set slice visible (sli, false)
+		set slice visible (lookupslice (sli:hideactionmenu), false)
 		specwait (10)
+
+		sli := battlePortrait(which)
+		set slice visible (sli, true)
+		slice to back (sli)
+		dissolve sprite (sli, dissolve:sink into ground, 10, 0, true) 
+
+		specwait(15)
+		slice to front (sli)
 	end
 end
 

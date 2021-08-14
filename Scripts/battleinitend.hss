@@ -62,11 +62,11 @@ define constant, begin
 	5,	bkey:run
 
 	#battle menu items
-	1, battlemenu:attack
-	2, battlemenu:skill
-	3, battlemenu:item
-	4, battlemenu:defend
-	5, battlemenu:run
+	0, battlemenu:attack
+	1, battlemenu:skill
+	2, battlemenu:item
+	3, battlemenu:defend
+	4, battlemenu:run
 end
 
 script, initBattle, formation, begin
@@ -89,8 +89,9 @@ script, initBattle, formation, begin
 			specwait(6)
 		) else (specwait(6))
 	)
-	specwait(10)
-
+	fadeMusicOut(20)
+	playSound(1)
+	specwait(20)
 	load slice collection (0)
 
 	#load arrays
@@ -125,6 +126,7 @@ script, initBattle, formation, begin
 
 	setupSprites(lookupSlice(sli:hero grid), herocount)
 	counter := 0
+	for (i, 0, herocount--1) do (updateportrait(i))
 
 
 	#checks enemy count
@@ -153,15 +155,6 @@ script, initBattle, formation, begin
 	set sprite visible (lookupslice (sli:enemygrid), true)
 
 	loadbattleback(formation)
-	specwait (20)
-
-	for (i, 0, 3) do (
-		if (hero by slot (i)<>-1) then (
-			set hero picture (i, 0)
-		)
-	)
-	specwait (20)
-
 	showsprites
 
 	switch (formation) do (
@@ -229,14 +222,11 @@ script, battleEnd, condition=1, begin
 		set sprite visible (lookupslice (sli:enemygrid), false)
 
 		freebattleback
-		fade music out(20)
+		fade music out(100)
+		free slice (lookupslice(array:battleinfo))
+		free slice (lookupslice(sli:battlecol))
 
 		#show and reverse dissolve hero sprites
-		for (i, 0, 3) do (
-			if (hero by slot (i)<>-1) then (
-				reset hero picture (i)
-			)
-		)
 		for (i, 0, 3) do (
 			if (hero by slot (i)<>-1) then (
 				sli := get hero sprite by slot (i)
@@ -245,12 +235,9 @@ script, battleEnd, condition=1, begin
 				specwait(6)
 			)  else (specwait(6))
 		)
-		free slice (lookupslice(array:battleinfo))
-		free slice (lookupslice(sli:battlecol))
 		show no value
-
-		specwait(60)
-
+		play song (get ambient music)
+		specwait(20)
 
 		resumeMovement
 	)
@@ -261,8 +248,8 @@ end
 #=======================================================================
 
 script, battleAddHero, who, begin
-	variable (i , sli)
-	if (hero by slot (i)<>-1) then (
+	variable (i, sli)
+	if (hero by slot (who)<>-1) then (
 		sli := initArray(0)
 		set parent (sli, lookupslice(array:stats))
 		for (i, stat:HP, stat:Hits) do (
@@ -293,6 +280,7 @@ script, battleAddHero, who, begin
 			append (sli, 0)
 		)
 	)
+
 end
 
 script, battleAddEnemy, who, formation, begin
@@ -361,6 +349,28 @@ script, setmeter, who, stat, begin
 	)
 end
 
+
+script, updateportrait, which, begin
+	variable (sli, who, var)
+	who := herobyslot(which)
+	var := readstat (who, stat:hp)
+
+	sli := battlePortrait(which)
+	if (var > 0) then (
+		replaceportraitsprite (sli, get hero picture (who, hero portrait))
+	) else (
+		replaceportraitsprite (sli, which+4)
+	)
+end
+
+
+script, battlePortrait, which, begin
+	variable (sli)
+	#go to slice child container "who" of the hero grid
+	sli := slice child (lookupslice (sli:herogrid), which)
+	#go to portrait
+	return (last child (sli))
+end
 
 #=======================================================================
 #=======================================================================

@@ -10,6 +10,7 @@ include, thirdparty.hss
 include, anidistortions.hss
 include, menu.hss
 include, everytick.hss
+include, skills.hss
 
 define constant, begin
 	#game modes

@@ -236,7 +236,7 @@ script, keybattlemenu, begin
 		setSliceLookup(sli, 0)
 		setTextColor(sli, ui:menuitem)
 
-		if (sel > 1) then (sel -= 1) else (sel := (child count(lookupslice (sli:actionmenu)))--1)
+		if (sel > battlemenu:attack) then (sel -= 1) else (sel := (child count(lookupslice (sli:actionmenu)))--1)
 
 		setSliceExtra (lookupslice (sli:actionmenu), 0, sel)
 		sli := slice child (lookupslice (sli:actionmenu), sel)
@@ -248,7 +248,7 @@ script, keybattlemenu, begin
 		setSliceLookup(sli, 0)
 		setTextColor(sli, ui:menuitem)
 
-		if (sel <(child count(lookupslice (sli:actionmenu)))--1) then (sel += 1) else (sel := 1)
+		if (sel <(child count(lookupslice (sli:actionmenu)))--1) then (sel += 1) else (sel := battlemenu:attack)
 		
 		setSliceExtra(lookupslice (sli:actionmenu), 0, sel)
 		sli := slice child (lookupslice (sli:actionmenu), sel)

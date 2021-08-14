@@ -39,7 +39,7 @@ end
 
 plotscript, defaultonstep, begin
 	switch (current map) do (
-		case (map:TEST MAP) do (mapstep0)
+		case (map:TEST MAP) do ()
 		case (1) do ()
 	)
 end
@@ -51,7 +51,7 @@ script, mapauto0, begin
 	#set parent (sli, lookupslice(sl:maplayer2))
 end
 
-script, mapstep0, begin
+script, bridgething, begin
 	variable (sli)
 	if (read zone(9, hero X, hero Y)) then (
 		if (checktag(3)==true) then (
