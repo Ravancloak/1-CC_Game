@@ -14,7 +14,7 @@ script, returnSkill, which,  begin
 		sli := initArray(skill:names, array:readskill,-2)
 		setParent (sli, lookupSlice(sli:battleCol))
 		#skill:picture
-			var := 1
+			var := 0
 			setElement (sli, skill:picture, var)
 		#frameTicks
 			var := ticks:default

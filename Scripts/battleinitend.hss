@@ -42,6 +42,7 @@ define constant, begin
 	24,		stat:invincible	#
 	25,		stat:shell		#physical shield
 	26,		stat:reflect	#psi shield
+	27,		stat:defending
 
 	#values for who's attacking
 	0, turnarray:hero1
@@ -60,6 +61,7 @@ define constant, begin
 	3,	bkey:targskl
 	4,	bkey:item
 	5,	bkey:run
+	6,	bkey:defend
 
 	#battle menu items
 	0, battlemenu:attack
@@ -261,7 +263,7 @@ script, battleAddHero, who, begin
 		for (i, stat:HP, stat:PP) do (
 			append (sli, get hero stat (who, i, maximum stat))
 		)
-		for (i, stat:poison, stat:reflect) do (
+		for (i, stat:poison, stat:defending) do (
 			append (sli, 0)
 		)
 	) else (
@@ -276,7 +278,7 @@ script, battleAddHero, who, begin
 		for (i, stat:HP, stat:PP) do (
 			append (sli, 0)
 		)
-		for (i, stat:poison, stat:reflect) do (
+		for (i, stat:poison, stat:defending) do (
 			append (sli, 0)
 		)
 	)
@@ -296,7 +298,7 @@ script, battleAddEnemy, who, formation, begin
 		for (i, stat:HP, stat:PP) do (
 		append (sli, get enemy stat (formation slot enemy (formation, who), i))
 	)
-	for (i, stat:poison, stat:PP) do (
+	for (i, stat:poison, stat:defending) do (
 		append (sli, 0)
 	)
 end
@@ -336,15 +338,27 @@ script, setmeter, who, stat, begin
 		sli := slice child (sli, 2)
 		set slice y (sli, tens * -8 -- 8)
 		sli := parent slice (sli)
+	) else (
+		sli := slice child (sli, 2)
+		set slice y (sli, 0)
+		sli := parent slice (sli)
 	)
 	if (var > 100) then (
 		sli := slice child (sli, 1)
 		set slice y (sli, hundreds * -8 -- 8)
 		sli := parent slice (sli)
+	) else (
+		sli := slice child (sli, 1)
+		set slice y (sli, 0)
+		sli := parent slice (sli)
 	)
 	if (var > 1000) then (
 		sli := slice child (sli, 0)
 		set slice y (sli, thousands * -8 -- 8)
+		sli := parent slice (sli)
+	) else (
+		sli := slice child (sli, 0)
+		set slice y (sli, 0)
 		sli := parent slice (sli)
 	)
 end

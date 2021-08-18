@@ -97,10 +97,14 @@ script, turns, begin
 		if (getElement (sli,skill:rowcheck) == true && readStat(target, stat:row)==1) then (
 			damage := damage -- damage/3
 		)
+		if (readStat(target, stat:defending)==true) then (
+			damage := damage -- damage/2
+		)
+
 		writeStat (target, getElement (sli,skill:targStat), readStat(target, getElement (sli,skill:targStat)) -- damage)
 		if (readStat(target, getElement (sli,skill:targStat))<0) then(writeStat (target, getElement (sli,skill:targStat), 0))
 
-		animation(which, target, damage)
+		animation(which, target, damage, who)
 
 		for (i, 0, herocount--1) do (
 			setmeter (i, stat:hp)
@@ -157,31 +161,53 @@ end
 #=======================================================================
 #=======================================================================
 
-script, animation, which, target, damage, begin
-	variable (sli, sli2, i, j, picture, ticks, loop)
+script, animation, which, target, damage, who, begin
+	variable (sli, sli2, sli3, i, j, picture, ticks, loop, var, var2, var3)
 	#setup to animate
 	if (target < 4) then (
 		sli := battlePortrait(target)
 	) else (
 		sli := first child (slice child(lookupslice(sli:enemygrid), target--4))
 	)
+	if (who > 3) then (
+		sli3 := first child (slice child(lookupslice(sli:enemygrid), who--4))
+	)
+
 	sli2 := lookupslice (array:readskill)	
 	picture := getElement (sli2,skill:picture)
 	ticks	:= getElement (sli2,skill:frameTicks)
 	loop 	:= getElement (sli2,skill:loop)
+	if (who > 3) then (
+		var3 := sliceY(sli3)
+		setSliceY (sli3, sliceY(sli3)+10)
+		specwait(10)
+	)
+	if (picture<>0) then (
+		sli2	:= loadAttackSprite (picture)
+		set parent (sli2, sli)
+		center slice (sli2)
 
-	sli2	:= loadAttackSprite (picture)
-	set parent (sli2, sli)
-	center slice (sli2)
-
+		for (j, 0, loop--1) do (
+			for (i, 0, 2) do (
+				setSpriteFrame (sli2, i)
+				specwait(ticks)
+			)
+		)
+		free slice (sli2)
+	)
+	var := sliceX(sli)
+	var2 := 1
 	for (j, 0, loop--1) do (
-		for (i, 0, 2) do (
-			set sprite frame (sli2, i)
-			specwait(ticks)
+		for (i,5,0,-1) do (
+			setSliceX(sli,i*var2)
+			var2 := var2 * -1
+			specwait(5)
 		)
 	)
-	free slice (sli2)
-
+	setSliceX(sli, var)
+	if (who > 3) then (
+		setSliceY (sli3, var3)
+	)
 	#end animation
 	endanimation(which, sli, damage, target)
 end

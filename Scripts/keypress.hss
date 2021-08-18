@@ -222,6 +222,10 @@ script, keybattlemenu, begin
 				suspendMovement
 				battle:bkey := bkey:targatk
 			)
+			case (battlemenu:defend) do (
+				suspendMovement
+				battle:bkey := bkey:defend
+			)
 			case (battlemenu:run) do (
 				suspendMovement
 				battle:bkey := bkey:run

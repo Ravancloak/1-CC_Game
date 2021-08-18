@@ -1,1603 +1,3 @@
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15247.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15484.7  msg: M ohrrpgce.gen
-15484.7  msg: M general.reld
-15633.1  msg: M ohrrpgce.dt6
-15633.1  msg: M attack.bin
-15633.1  did not reload ohrrpgce.dt6
-15633.1  did not reload attack.bin
-17658.5  msg: M ohrrpgce.gen
-17658.5  msg: M general.reld
-17658.5  msg: M ohrrpgce.gen
-17720.8  msg: M ohrrpgce.hsp
-17720.8  msg: M plotscr.lst
-17720.8  msg: M plotscr.lst
-17720.8  msg: M lookup1.bin
-17720.9  plotscr.hsd version: 3U 
-17721.8  msg: M ohrrpgce.gen
-17721.8  msg: M general.reld
-17722.4  msg: M ohrrpgce.gen
-17723.4  msg: P 
-17724.6  msg: M ohrrpgce.gen
-17724.6  msg: M general.reld
-17724.6  msg: Q 
-17724.6  Cleaning up and terminating 0
-17724.6  Closing music backend...
-17724.7  ...done
-17724.7  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210807122615.793.tmp\
-17724.8  Closing gfx backend & allmodex...
-17724.9  ...done
-17724.9  End.
-
-  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
-
-Loading C:\OHRRPGCE\support\CrashRpt1403.dll
- 0.2   ----Starting OHRRPGCE Game----
- 0.2  08-09-2021 20:51:41
- 0.2  OHRRPGCE wip 20210803.12314 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
- 0.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
- 0.2  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
- 0.2  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
- 0.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
- 0.2  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_80118'
- 0.2  Spawned from Custom
- 0.2  Initialising gfx_sdl2...
- 0.3  setvideomode zoom=2 w*h = 640,400
- 0.4  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
- 0.4  disable_native_text_input=0
- 0.5  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
- 0.5  Setting default window settings...
- 0.5  set_resolution 320*200
- 0.5  Setting graphics scaling to x2 change_windowsize=-1
- 0.5  Received message from Custom: V OHRRPGCE,4,12314,OHRRPGCE wip 20210803
- 0.5  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
- 0.5  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
-end_debug: no debug/error messages during startup (skipping rest of startup)
-
- 0.5   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
- 0.5  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
- 0.5  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210809205141.840.tmp\
- 0.5  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
- 0.5  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
- 0.5  Name: 
- 0.7  plotscr.hsd version: 3U 
- 1.2  lock_resolution()
- 1.2  set_resolution 300*200
- 1.2  recenter_window_hint()
- 1.2  get_screen_size: true screen size 1600x900
- 1.2  Desktop resolution: 1600*860
- 1.2  automatic_scale_factor(0.5), screen size: 1600*860
- 1.2  Setting graphics scaling to x2 change_windowsize=-1
- 1.2  Preserving fullscreen/windowed state
- 1.2  genRungameFullscreenIndependent: 0
- 2.0  Joystick 0 GUID 030000004c050000c4050000000168 instance_id 0
- 2.0   Opened as gamecontroller PS4 Controller
- 2.0  Opened joystick 0 PS4 Controller (id 0) -- 16 buttons 6 axes 0 hats 0 balls
-15.5  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-15.5  unlock_resolution(300,200)
-16.4  set_resolution 300*200
-16.4  lock_resolution()
-16.4  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-16.4  unlock_resolution(300,200)
-16.9  set_resolution 300*200
-16.9  lock_resolution()
-16.9  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-16.9  unlock_resolution(300,200)
-18.9  set_resolution 300*200
-18.9  lock_resolution()
-18.9  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-18.9  unlock_resolution(300,200)
-19.1  set_resolution 300*200
-19.1  lock_resolution()
-19.1  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-19.1  unlock_resolution(300,200)
-19.7  set_resolution 300*200
-19.7  lock_resolution()
-19.7  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-19.7  unlock_resolution(300,200)
-19.7  set_resolution 300*200
-19.7  lock_resolution()
-19.7  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-19.7  unlock_resolution(300,200)
-19.8  set_resolution 300*200
-19.8  lock_resolution()
-19.8  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-19.8  unlock_resolution(300,200)
-19.9  set_resolution 300*200
-19.9  lock_resolution()
-19.9  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-19.9  unlock_resolution(300,200)
-20.0  set_resolution 300*200
-20.0  lock_resolution()
-20.0  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.0  unlock_resolution(300,200)
-20.1  set_resolution 300*200
-20.1  lock_resolution()
-20.1  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.1  unlock_resolution(300,200)
-20.2  set_resolution 300*200
-20.2  lock_resolution()
-20.2  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.2  unlock_resolution(300,200)
-20.3  set_resolution 300*200
-20.3  lock_resolution()
-20.3  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.3  unlock_resolution(300,200)
-20.3  set_resolution 300*200
-20.3  lock_resolution()
-20.3  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.3  unlock_resolution(300,200)
-20.4  set_resolution 300*200
-20.4  lock_resolution()
-20.4  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.4  unlock_resolution(300,200)
-20.5  set_resolution 300*200
-20.5  lock_resolution()
-20.5  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.5  unlock_resolution(300,200)
-20.6  set_resolution 300*200
-20.6  lock_resolution()
-20.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.6  unlock_resolution(300,200)
-20.7  set_resolution 300*200
-20.7  lock_resolution()
-20.7  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.7  unlock_resolution(300,200)
-20.7  set_resolution 300*200
-20.7  lock_resolution()
-20.7  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.7  unlock_resolution(300,200)
-20.8  set_resolution 300*200
-20.8  lock_resolution()
-20.8  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.8  unlock_resolution(300,200)
-20.8  set_resolution 300*200
-20.8  lock_resolution()
-20.8  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.8  unlock_resolution(300,200)
-20.9  set_resolution 300*200
-20.9  lock_resolution()
-20.9  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-20.9  unlock_resolution(300,200)
-21.0  set_resolution 300*200
-21.0  lock_resolution()
-21.0  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-21.0  unlock_resolution(300,200)
-21.1  set_resolution 300*200
-21.1  lock_resolution()
-21.1  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-21.1  unlock_resolution(300,200)
-21.1  set_resolution 300*200
-21.1  lock_resolution()
-21.1  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-21.1  unlock_resolution(300,200)
-21.2  set_resolution 300*200
-21.2  lock_resolution()
-21.2  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-21.2  unlock_resolution(300,200)
-21.3  set_resolution 300*200
-21.3  lock_resolution()
-21.3  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-21.3  unlock_resolution(300,200)
-21.4  set_resolution 300*200
-21.4  lock_resolution()
-21.4  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-21.4  unlock_resolution(300,200)
-21.5  set_resolution 300*200
-21.5  lock_resolution()
-21.5  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-21.5  unlock_resolution(300,200)
-21.6  set_resolution 300*200
-21.6  lock_resolution()
-21.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-21.6  unlock_resolution(300,200)
-21.7  set_resolution 300*200
-21.7  lock_resolution()
-21.7  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-21.7  unlock_resolution(300,200)
-21.7  set_resolution 300*200
-21.7  lock_resolution()
-21.7  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-21.7  unlock_resolution(300,200)
-21.8  set_resolution 300*200
-21.8  lock_resolution()
-21.8  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-21.8  unlock_resolution(300,200)
-21.9  set_resolution 300*200
-21.9  lock_resolution()
-21.9  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-21.9  unlock_resolution(300,200)
-22.6  Killing script fibre; last script = append
-22.6  set_resolution 300*200
-22.6  lock_resolution()
-25.8  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-25.8  unlock_resolution(300,200)
-107.7  msg: M ohrrpgce.gen
-107.7  msg: M general.reld
-112.9  set_resolution 300*200
-112.9  lock_resolution()
-112.9  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-112.9  unlock_resolution(300,200)
-114.3  Killing script fibre; last script = append
-114.3  set_resolution 300*200
-114.3  lock_resolution()
-118.0  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-118.0  unlock_resolution(300,200)
-152.3  set_resolution 300*200
-152.3  lock_resolution()
-152.3  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-152.3  unlock_resolution(300,200)
-152.8  set_resolution 300*200
-152.8  lock_resolution()
-152.8  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-152.8  unlock_resolution(300,200)
-153.0  set_resolution 300*200
-153.0  lock_resolution()
-153.0  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-153.0  unlock_resolution(300,200)
-153.2  set_resolution 300*200
-153.2  lock_resolution()
-153.2  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-153.2  unlock_resolution(300,200)
-153.6  set_resolution 300*200
-153.6  lock_resolution()
-153.6  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-153.6  unlock_resolution(300,200)
-153.8  set_resolution 300*200
-153.8  lock_resolution()
-153.8  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-153.8  unlock_resolution(300,200)
-153.9  set_resolution 300*200
-153.9  lock_resolution()
-153.9  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-153.9  unlock_resolution(300,200)
-154.1  set_resolution 300*200
-154.1  lock_resolution()
-154.1  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-154.1  unlock_resolution(300,200)
-154.3  set_resolution 300*200
-154.3  lock_resolution()
-154.3  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-154.3  unlock_resolution(300,200)
-154.5  set_resolution 300*200
-154.5  lock_resolution()
-154.5  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-154.5  unlock_resolution(300,200)
-154.7  set_resolution 300*200
-154.7  lock_resolution()
-154.7  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-154.7  unlock_resolution(300,200)
-154.9  set_resolution 300*200
-154.9  lock_resolution()
-154.9  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-154.9  unlock_resolution(300,200)
-155.1  set_resolution 300*200
-155.1  lock_resolution()
-155.1  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-155.1  unlock_resolution(300,200)
-155.3  set_resolution 300*200
-155.3  lock_resolution()
-155.3  ! Scripterr(5): battle -> initbattle -> battleaddhero -> append: setparent: invalid slice handle 0
-155.3  unlock_resolution(300,200)
-156.0  Killing script fibre; last script = append
-156.0  set_resolution 300*200
-156.0  lock_resolution()
-157.5  msg: M ohrrpgce.gen
-157.5  msg: M general.reld
-165.7  msg: M ohrrpgce.hsp
-165.7  msg: M plotscr.lst
-165.7  msg: M plotscr.lst
-165.7  msg: M lookup1.bin
-165.8  plotscr.hsd version: 3U 
-383.6  msg: M ohrrpgce.hsp
-383.6  msg: M plotscr.lst
-383.6  msg: M plotscr.lst
-383.6  msg: M lookup1.bin
-383.7  plotscr.hsd version: 3U 
-455.1  msg: M ohrrpgce.hsp
-455.1  msg: M plotscr.lst
-455.1  msg: M plotscr.lst
-455.1  msg: M lookup1.bin
-455.2  plotscr.hsd version: 3U 
-494.5  msg: M ohrrpgce.hsp
-494.5  msg: M plotscr.lst
-494.5  msg: M plotscr.lst
-494.5  msg: M lookup1.bin
-494.7  plotscr.hsd version: 3U 
-528.9  msg: M ohrrpgce.hsp
-528.9  msg: M plotscr.lst
-528.9  msg: M plotscr.lst
-528.9  msg: M lookup1.bin
-529.0  plotscr.hsd version: 3U 
-544.5  msg: M ohrrpgce.hsp
-544.5  msg: M plotscr.lst
-544.5  msg: M plotscr.lst
-544.5  msg: M lookup1.bin
-544.6  plotscr.hsd version: 3U 
-572.0  msg: M ohrrpgce.hsp
-572.0  msg: M plotscr.lst
-572.0  msg: M plotscr.lst
-572.1  msg: M lookup1.bin
-572.2  plotscr.hsd version: 3U 
-606.4  msg: M ohrrpgce.hsp
-606.4  msg: M plotscr.lst
-606.4  msg: M plotscr.lst
-606.4  msg: M lookup1.bin
-606.6  plotscr.hsd version: 3U 
-631.2  msg: M ohrrpgce.hsp
-631.2  msg: M plotscr.lst
-631.2  msg: M plotscr.lst
-631.2  msg: M lookup1.bin
-631.3  plotscr.hsd version: 3U 
-773.6  msg: M ohrrpgce.gen
-773.6  msg: M general.reld
-1285.5  msg: M ohrrpgce.dt6
-1285.5  msg: M attack.bin
-1285.5  did not reload ohrrpgce.dt6
-1285.5  did not reload attack.bin
-1286.1  msg: M ohrrpgce.gen
-1286.1  msg: M general.reld
-1289.7  msg: M ohrrpgce.hsp
-1289.7  msg: M plotscr.lst
-1289.7  msg: M plotscr.lst
-1289.7  msg: M lookup1.bin
-1289.8  plotscr.hsd version: 3U 
-2953.4  msg: M ohrrpgce.hsp
-2953.4  msg: M plotscr.lst
-2953.4  msg: M plotscr.lst
-2953.4  msg: M lookup1.bin
-2953.5  plotscr.hsd version: 3U 
-2957.4  ! Scripterr(2): battle -> battleloophandler -> turns -> returnskill: freeslice: invalid slice handle 0
-2957.4  unlock_resolution(300,200)
-2958.5  set_resolution 300*200
-2958.5  lock_resolution()
-2958.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2958.5  unlock_resolution(300,200)
-2958.8  set_resolution 300*200
-2958.8  lock_resolution()
-2958.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2958.8  unlock_resolution(300,200)
-2959.3  set_resolution 300*200
-2959.3  lock_resolution()
-2959.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2959.4  unlock_resolution(300,200)
-2959.4  set_resolution 300*200
-2959.4  lock_resolution()
-2959.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2959.4  unlock_resolution(300,200)
-2959.5  set_resolution 300*200
-2959.5  lock_resolution()
-2959.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2959.5  unlock_resolution(300,200)
-2959.6  set_resolution 300*200
-2959.6  lock_resolution()
-2959.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2959.6  unlock_resolution(300,200)
-2959.7  set_resolution 300*200
-2959.7  lock_resolution()
-2959.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2959.7  unlock_resolution(300,200)
-2959.8  set_resolution 300*200
-2959.8  lock_resolution()
-2959.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2959.8  unlock_resolution(300,200)
-2959.9  set_resolution 300*200
-2959.9  lock_resolution()
-2959.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2959.9  unlock_resolution(300,200)
-2960.0  set_resolution 300*200
-2960.0  lock_resolution()
-2960.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2960.0  unlock_resolution(300,200)
-2960.1  set_resolution 300*200
-2960.1  lock_resolution()
-2960.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2960.1  unlock_resolution(300,200)
-2960.2  set_resolution 300*200
-2960.2  lock_resolution()
-2960.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2960.2  unlock_resolution(300,200)
-2960.2  set_resolution 300*200
-2960.2  lock_resolution()
-2960.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2960.2  unlock_resolution(300,200)
-2960.3  set_resolution 300*200
-2960.3  lock_resolution()
-2960.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2960.3  unlock_resolution(300,200)
-2960.4  set_resolution 300*200
-2960.4  lock_resolution()
-2960.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2960.4  unlock_resolution(300,200)
-2960.5  set_resolution 300*200
-2960.5  lock_resolution()
-2960.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2960.5  unlock_resolution(300,200)
-2960.6  set_resolution 300*200
-2960.6  lock_resolution()
-2960.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2960.6  unlock_resolution(300,200)
-2960.7  set_resolution 300*200
-2960.7  lock_resolution()
-2960.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2960.7  unlock_resolution(300,200)
-2960.8  set_resolution 300*200
-2960.8  lock_resolution()
-2960.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2960.8  unlock_resolution(300,200)
-2960.9  set_resolution 300*200
-2960.9  lock_resolution()
-2960.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2960.9  unlock_resolution(300,200)
-2961.0  set_resolution 300*200
-2961.0  lock_resolution()
-2961.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2961.0  unlock_resolution(300,200)
-2961.0  set_resolution 300*200
-2961.0  lock_resolution()
-2961.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2961.0  unlock_resolution(300,200)
-2961.1  set_resolution 300*200
-2961.1  lock_resolution()
-2961.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2961.1  unlock_resolution(300,200)
-2961.1  set_resolution 300*200
-2961.1  lock_resolution()
-2961.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2961.1  unlock_resolution(300,200)
-2961.2  set_resolution 300*200
-2961.2  lock_resolution()
-2961.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2961.2  unlock_resolution(300,200)
-2961.3  set_resolution 300*200
-2961.3  lock_resolution()
-2961.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2961.3  unlock_resolution(300,200)
-2961.4  set_resolution 300*200
-2961.4  lock_resolution()
-2961.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2961.4  unlock_resolution(300,200)
-2961.5  set_resolution 300*200
-2961.5  lock_resolution()
-2961.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2961.5  unlock_resolution(300,200)
-2961.6  set_resolution 300*200
-2961.6  lock_resolution()
-2961.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2961.6  unlock_resolution(300,200)
-2961.7  set_resolution 300*200
-2961.7  lock_resolution()
-2961.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2961.7  unlock_resolution(300,200)
-2961.8  set_resolution 300*200
-2961.8  lock_resolution()
-2961.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2961.8  unlock_resolution(300,200)
-2961.9  set_resolution 300*200
-2961.9  lock_resolution()
-2961.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2961.9  unlock_resolution(300,200)
-2961.9  set_resolution 300*200
-2962.0  lock_resolution()
-2962.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2962.0  unlock_resolution(300,200)
-2962.0  set_resolution 300*200
-2962.0  lock_resolution()
-2962.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2962.0  unlock_resolution(300,200)
-2962.1  set_resolution 300*200
-2962.1  lock_resolution()
-2962.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2962.1  unlock_resolution(300,200)
-2962.2  set_resolution 300*200
-2962.2  lock_resolution()
-2962.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2962.2  unlock_resolution(300,200)
-2962.3  set_resolution 300*200
-2962.3  lock_resolution()
-2962.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2962.3  unlock_resolution(300,200)
-2962.4  set_resolution 300*200
-2962.4  lock_resolution()
-2962.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2962.4  unlock_resolution(300,200)
-2962.5  set_resolution 300*200
-2962.5  lock_resolution()
-2962.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2962.5  unlock_resolution(300,200)
-2962.6  set_resolution 300*200
-2962.6  lock_resolution()
-2962.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2962.6  unlock_resolution(300,200)
-2962.7  set_resolution 300*200
-2962.7  lock_resolution()
-2962.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2962.7  unlock_resolution(300,200)
-2962.8  set_resolution 300*200
-2962.8  lock_resolution()
-2962.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2962.8  unlock_resolution(300,200)
-2962.8  set_resolution 300*200
-2962.8  lock_resolution()
-2962.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2962.8  unlock_resolution(300,200)
-2962.9  set_resolution 300*200
-2962.9  lock_resolution()
-2962.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2962.9  unlock_resolution(300,200)
-2963.0  set_resolution 300*200
-2963.0  lock_resolution()
-2963.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2963.0  unlock_resolution(300,200)
-2963.1  set_resolution 300*200
-2963.1  lock_resolution()
-2963.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2963.1  unlock_resolution(300,200)
-2963.1  set_resolution 300*200
-2963.1  lock_resolution()
-2963.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2963.1  unlock_resolution(300,200)
-2963.2  set_resolution 300*200
-2963.2  lock_resolution()
-2963.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2963.2  unlock_resolution(300,200)
-2963.3  set_resolution 300*200
-2963.3  lock_resolution()
-2963.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2963.3  unlock_resolution(300,200)
-2963.4  set_resolution 300*200
-2963.4  lock_resolution()
-2963.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2963.4  unlock_resolution(300,200)
-2963.5  set_resolution 300*200
-2963.5  lock_resolution()
-2963.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2963.5  unlock_resolution(300,200)
-2963.6  set_resolution 300*200
-2963.6  lock_resolution()
-2963.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2963.6  unlock_resolution(300,200)
-2963.7  set_resolution 300*200
-2963.7  lock_resolution()
-2963.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2963.7  unlock_resolution(300,200)
-2963.8  set_resolution 300*200
-2963.8  lock_resolution()
-2963.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2963.8  unlock_resolution(300,200)
-2963.8  set_resolution 300*200
-2963.8  lock_resolution()
-2963.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2963.8  unlock_resolution(300,200)
-2963.9  set_resolution 300*200
-2963.9  lock_resolution()
-2963.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2963.9  unlock_resolution(300,200)
-2964.0  set_resolution 300*200
-2964.0  lock_resolution()
-2964.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2964.0  unlock_resolution(300,200)
-2964.1  set_resolution 300*200
-2964.1  lock_resolution()
-2964.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2964.1  unlock_resolution(300,200)
-2964.2  set_resolution 300*200
-2964.2  lock_resolution()
-2964.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2964.2  unlock_resolution(300,200)
-2983.5  msg: M ohrrpgce.hsp
-2983.5  msg: M plotscr.lst
-2983.5  msg: M plotscr.lst
-2983.5  msg: M lookup1.bin
-2983.6  plotscr.hsd version: 3U 
-2985.0  set_resolution 300*200
-2985.0  lock_resolution()
-2985.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2985.0  unlock_resolution(300,200)
-2985.3  set_resolution 300*200
-2985.3  lock_resolution()
-2985.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2985.3  unlock_resolution(300,200)
-2985.8  set_resolution 300*200
-2985.8  lock_resolution()
-2985.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2985.9  unlock_resolution(300,200)
-2985.9  set_resolution 300*200
-2985.9  lock_resolution()
-2985.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2985.9  unlock_resolution(300,200)
-2986.0  set_resolution 300*200
-2986.0  lock_resolution()
-2986.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2986.0  unlock_resolution(300,200)
-2986.1  set_resolution 300*200
-2986.1  lock_resolution()
-2986.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2986.1  unlock_resolution(300,200)
-2986.2  set_resolution 300*200
-2986.2  lock_resolution()
-2986.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2986.2  unlock_resolution(300,200)
-2986.3  set_resolution 300*200
-2986.3  lock_resolution()
-2990.5  ! Scripterr(2): battle -> battleloophandler -> turns -> returnskill: freeslice: invalid slice handle 0
-2990.5  unlock_resolution(300,200)
-2991.3  set_resolution 300*200
-2991.3  lock_resolution()
-2991.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2991.3  unlock_resolution(300,200)
-2991.9  set_resolution 300*200
-2991.9  lock_resolution()
-2991.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2991.9  unlock_resolution(300,200)
-2991.9  set_resolution 300*200
-2991.9  lock_resolution()
-2991.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2991.9  unlock_resolution(300,200)
-2992.0  set_resolution 300*200
-2992.0  lock_resolution()
-2992.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2992.0  unlock_resolution(300,200)
-2992.1  set_resolution 300*200
-2992.1  lock_resolution()
-2992.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2992.1  unlock_resolution(300,200)
-2992.2  set_resolution 300*200
-2992.2  lock_resolution()
-2992.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2992.2  unlock_resolution(300,200)
-2992.3  set_resolution 300*200
-2992.3  lock_resolution()
-2992.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2992.3  unlock_resolution(300,200)
-2992.4  set_resolution 300*200
-2992.4  lock_resolution()
-2992.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2992.4  unlock_resolution(300,200)
-2992.5  set_resolution 300*200
-2992.5  lock_resolution()
-2992.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2992.5  unlock_resolution(300,200)
-2992.6  set_resolution 300*200
-2992.6  lock_resolution()
-2992.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2992.6  unlock_resolution(300,200)
-2992.7  set_resolution 300*200
-2992.7  lock_resolution()
-2992.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2992.7  unlock_resolution(300,200)
-2992.7  set_resolution 300*200
-2992.7  lock_resolution()
-2992.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2992.7  unlock_resolution(300,200)
-2992.8  set_resolution 300*200
-2992.8  lock_resolution()
-2992.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2992.8  unlock_resolution(300,200)
-2992.9  set_resolution 300*200
-2992.9  lock_resolution()
-2992.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2992.9  unlock_resolution(300,200)
-2993.0  set_resolution 300*200
-2993.0  lock_resolution()
-2993.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2993.0  unlock_resolution(300,200)
-2993.1  set_resolution 300*200
-2993.1  lock_resolution()
-2993.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2993.1  unlock_resolution(300,200)
-2993.2  set_resolution 300*200
-2993.2  lock_resolution()
-2993.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2993.2  unlock_resolution(300,200)
-2993.3  set_resolution 300*200
-2993.3  lock_resolution()
-2993.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2993.3  unlock_resolution(300,200)
-2993.4  set_resolution 300*200
-2993.4  lock_resolution()
-2993.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2993.4  unlock_resolution(300,200)
-2993.5  set_resolution 300*200
-2993.5  lock_resolution()
-2993.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2993.5  unlock_resolution(300,200)
-2993.5  set_resolution 300*200
-2993.5  lock_resolution()
-2993.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2993.6  unlock_resolution(300,200)
-2993.6  set_resolution 300*200
-2993.6  lock_resolution()
-2993.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2993.6  unlock_resolution(300,200)
-2993.7  set_resolution 300*200
-2993.7  lock_resolution()
-2993.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2993.7  unlock_resolution(300,200)
-2993.8  set_resolution 300*200
-2993.8  lock_resolution()
-2993.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2993.8  unlock_resolution(300,200)
-2993.9  set_resolution 300*200
-2993.9  lock_resolution()
-2993.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2993.9  unlock_resolution(300,200)
-2993.9  set_resolution 300*200
-2993.9  lock_resolution()
-2993.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2993.9  unlock_resolution(300,200)
-2994.0  set_resolution 300*200
-2994.0  lock_resolution()
-2994.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2994.0  unlock_resolution(300,200)
-2994.1  set_resolution 300*200
-2994.1  lock_resolution()
-2994.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2994.1  unlock_resolution(300,200)
-2994.2  set_resolution 300*200
-2994.2  lock_resolution()
-2994.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2994.2  unlock_resolution(300,200)
-2994.3  set_resolution 300*200
-2994.3  lock_resolution()
-2994.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2994.3  unlock_resolution(300,200)
-2994.4  set_resolution 300*200
-2994.4  lock_resolution()
-2994.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2994.4  unlock_resolution(300,200)
-2994.5  set_resolution 300*200
-2994.5  lock_resolution()
-2994.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2994.5  unlock_resolution(300,200)
-2994.5  set_resolution 300*200
-2994.6  lock_resolution()
-2994.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2994.6  unlock_resolution(300,200)
-2994.6  set_resolution 300*200
-2994.6  lock_resolution()
-2994.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2994.6  unlock_resolution(300,200)
-2994.7  set_resolution 300*200
-2994.7  lock_resolution()
-2994.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2994.7  unlock_resolution(300,200)
-2994.8  set_resolution 300*200
-2994.8  lock_resolution()
-2994.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2994.8  unlock_resolution(300,200)
-2994.9  set_resolution 300*200
-2994.9  lock_resolution()
-2994.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2994.9  unlock_resolution(300,200)
-2995.0  set_resolution 300*200
-2995.0  lock_resolution()
-2995.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2995.0  unlock_resolution(300,200)
-2995.1  set_resolution 300*200
-2995.1  lock_resolution()
-2995.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2995.1  unlock_resolution(300,200)
-2995.2  set_resolution 300*200
-2995.2  lock_resolution()
-2995.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2995.2  unlock_resolution(300,200)
-2995.2  set_resolution 300*200
-2995.2  lock_resolution()
-2995.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2995.2  unlock_resolution(300,200)
-2995.3  set_resolution 300*200
-2995.3  lock_resolution()
-2995.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2995.3  unlock_resolution(300,200)
-2995.4  set_resolution 300*200
-2995.4  lock_resolution()
-2995.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2995.4  unlock_resolution(300,200)
-2995.5  set_resolution 300*200
-2995.5  lock_resolution()
-2995.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2995.5  unlock_resolution(300,200)
-2995.6  set_resolution 300*200
-2995.6  lock_resolution()
-2995.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2995.6  unlock_resolution(300,200)
-2995.6  set_resolution 300*200
-2995.6  lock_resolution()
-2995.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2995.6  unlock_resolution(300,200)
-2995.7  set_resolution 300*200
-2995.7  lock_resolution()
-2995.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-2995.7  unlock_resolution(300,200)
-2995.8  set_resolution 300*200
-2995.8  lock_resolution()
-2995.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-2995.8  unlock_resolution(300,200)
-2995.9  set_resolution 300*200
-2995.9  lock_resolution()
-2995.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2995.9  unlock_resolution(300,200)
-2996.0  set_resolution 300*200
-2996.0  lock_resolution()
-2996.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2996.0  unlock_resolution(300,200)
-2996.1  set_resolution 300*200
-2996.1  lock_resolution()
-2996.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2996.1  unlock_resolution(300,200)
-2996.2  set_resolution 300*200
-2996.2  lock_resolution()
-2996.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2996.2  unlock_resolution(300,200)
-2996.3  set_resolution 300*200
-2996.3  lock_resolution()
-2996.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2996.3  unlock_resolution(300,200)
-2996.4  set_resolution 300*200
-2996.4  lock_resolution()
-2996.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2996.4  unlock_resolution(300,200)
-2996.4  set_resolution 300*200
-2996.4  lock_resolution()
-2996.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2996.4  unlock_resolution(300,200)
-2996.5  set_resolution 300*200
-2996.5  lock_resolution()
-2996.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2996.5  unlock_resolution(300,200)
-2996.6  set_resolution 300*200
-2996.6  lock_resolution()
-2996.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2996.6  unlock_resolution(300,200)
-2996.7  set_resolution 300*200
-2996.7  lock_resolution()
-2996.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2996.7  unlock_resolution(300,200)
-2996.8  set_resolution 300*200
-2996.8  lock_resolution()
-2996.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2996.8  unlock_resolution(300,200)
-2996.9  set_resolution 300*200
-2996.9  lock_resolution()
-2996.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2996.9  unlock_resolution(300,200)
-2997.0  set_resolution 300*200
-2997.0  lock_resolution()
-2997.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2997.0  unlock_resolution(300,200)
-2997.1  set_resolution 300*200
-2997.1  lock_resolution()
-2997.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2997.1  unlock_resolution(300,200)
-2997.2  set_resolution 300*200
-2997.2  lock_resolution()
-2997.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2997.2  unlock_resolution(300,200)
-2997.2  set_resolution 300*200
-2997.2  lock_resolution()
-2997.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2997.2  unlock_resolution(300,200)
-2997.3  set_resolution 300*200
-2997.3  lock_resolution()
-2997.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-2997.3  unlock_resolution(300,200)
-2997.4  set_resolution 300*200
-2997.4  lock_resolution()
-2997.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-2997.4  unlock_resolution(300,200)
-2997.5  set_resolution 300*200
-2997.5  lock_resolution()
-3000.3  ! Scripterr(2): battle -> battleloophandler -> turns -> returnskill: freeslice: invalid slice handle 0
-3000.3  unlock_resolution(300,200)
-3014.6  msg: M ohrrpgce.hsp
-3014.6  msg: M plotscr.lst
-3014.6  msg: M plotscr.lst
-3014.6  msg: M lookup1.bin
-3014.7  plotscr.hsd version: 3U 
-3014.7  not reloading script returnskill because it's in use: refcount=1
-3014.7  unlock_resolution(300,200)
-3016.3  set_resolution 300*200
-3016.3  lock_resolution()
-3016.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3016.3  unlock_resolution(300,200)
-3016.9  set_resolution 300*200
-3016.9  lock_resolution()
-3016.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3016.9  unlock_resolution(300,200)
-3017.0  set_resolution 300*200
-3017.0  lock_resolution()
-3017.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3017.0  unlock_resolution(300,200)
-3017.4  Killing script fibre; last script = getelement
-3017.4  set_resolution 300*200
-3017.4  lock_resolution()
-3017.9  plotscr.hsd version: 3U 
-3022.5  ! Scripterr(2): battle -> battleloophandler -> turns -> returnskill: freeslice: invalid slice handle 0
-3022.5  unlock_resolution(300,200)
-3023.3  set_resolution 300*200
-3023.3  lock_resolution()
-3023.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3023.3  unlock_resolution(300,200)
-3023.8  set_resolution 300*200
-3023.8  lock_resolution()
-3023.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3023.8  unlock_resolution(300,200)
-3023.9  set_resolution 300*200
-3023.9  lock_resolution()
-3023.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3023.9  unlock_resolution(300,200)
-3024.0  set_resolution 300*200
-3024.0  lock_resolution()
-3024.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3024.0  unlock_resolution(300,200)
-3024.1  set_resolution 300*200
-3024.1  lock_resolution()
-3024.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3024.1  unlock_resolution(300,200)
-3024.1  set_resolution 300*200
-3024.1  lock_resolution()
-3024.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3024.1  unlock_resolution(300,200)
-3024.2  set_resolution 300*200
-3024.2  lock_resolution()
-3024.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3024.2  unlock_resolution(300,200)
-3024.3  set_resolution 300*200
-3024.3  lock_resolution()
-3024.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3024.3  unlock_resolution(300,200)
-3024.4  set_resolution 300*200
-3024.4  lock_resolution()
-3024.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3024.4  unlock_resolution(300,200)
-3024.5  set_resolution 300*200
-3024.5  lock_resolution()
-3024.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3024.5  unlock_resolution(300,200)
-3024.6  set_resolution 300*200
-3024.6  lock_resolution()
-3024.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3024.6  unlock_resolution(300,200)
-3024.7  set_resolution 300*200
-3024.7  lock_resolution()
-3024.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3024.7  unlock_resolution(300,200)
-3024.8  set_resolution 300*200
-3024.8  lock_resolution()
-3024.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3024.8  unlock_resolution(300,200)
-3024.8  set_resolution 300*200
-3024.9  lock_resolution()
-3024.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3024.9  unlock_resolution(300,200)
-3024.9  set_resolution 300*200
-3024.9  lock_resolution()
-3024.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3024.9  unlock_resolution(300,200)
-3024.9  set_resolution 300*200
-3025.0  lock_resolution()
-3025.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3025.0  unlock_resolution(300,200)
-3025.0  set_resolution 300*200
-3025.0  lock_resolution()
-3025.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3025.0  unlock_resolution(300,200)
-3025.1  set_resolution 300*200
-3025.1  lock_resolution()
-3025.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3025.1  unlock_resolution(300,200)
-3025.2  set_resolution 300*200
-3025.2  lock_resolution()
-3025.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3025.2  unlock_resolution(300,200)
-3025.3  set_resolution 300*200
-3025.3  lock_resolution()
-3025.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3025.3  unlock_resolution(300,200)
-3025.4  set_resolution 300*200
-3025.4  lock_resolution()
-3025.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3025.4  unlock_resolution(300,200)
-3025.5  set_resolution 300*200
-3025.5  lock_resolution()
-3025.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3025.5  unlock_resolution(300,200)
-3025.6  set_resolution 300*200
-3025.6  lock_resolution()
-3025.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3025.6  unlock_resolution(300,200)
-3025.7  set_resolution 300*200
-3025.7  lock_resolution()
-3025.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3025.7  unlock_resolution(300,200)
-3025.8  set_resolution 300*200
-3025.8  lock_resolution()
-3025.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3025.8  unlock_resolution(300,200)
-3025.8  set_resolution 300*200
-3025.8  lock_resolution()
-3025.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3025.8  unlock_resolution(300,200)
-3025.9  set_resolution 300*200
-3025.9  lock_resolution()
-3025.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3025.9  unlock_resolution(300,200)
-3026.0  set_resolution 300*200
-3026.0  lock_resolution()
-3026.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3026.0  unlock_resolution(300,200)
-3026.1  set_resolution 300*200
-3026.1  lock_resolution()
-3026.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3026.1  unlock_resolution(300,200)
-3026.2  set_resolution 300*200
-3026.2  lock_resolution()
-3026.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3026.2  unlock_resolution(300,200)
-3026.3  set_resolution 300*200
-3026.3  lock_resolution()
-3026.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3026.3  unlock_resolution(300,200)
-3026.4  set_resolution 300*200
-3026.4  lock_resolution()
-3026.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3026.4  unlock_resolution(300,200)
-3026.5  set_resolution 300*200
-3026.5  lock_resolution()
-3026.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3026.5  unlock_resolution(300,200)
-3026.5  set_resolution 300*200
-3026.6  lock_resolution()
-3026.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3026.6  unlock_resolution(300,200)
-3026.6  set_resolution 300*200
-3026.6  lock_resolution()
-3026.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3026.6  unlock_resolution(300,200)
-3026.7  set_resolution 300*200
-3026.7  lock_resolution()
-3026.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3026.7  unlock_resolution(300,200)
-3026.8  set_resolution 300*200
-3026.8  lock_resolution()
-3026.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3026.8  unlock_resolution(300,200)
-3026.9  set_resolution 300*200
-3026.9  lock_resolution()
-3026.9  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3026.9  unlock_resolution(300,200)
-3027.0  set_resolution 300*200
-3027.0  lock_resolution()
-3027.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3027.0  unlock_resolution(300,200)
-3027.1  set_resolution 300*200
-3027.1  lock_resolution()
-3027.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3027.1  unlock_resolution(300,200)
-3027.2  set_resolution 300*200
-3027.2  lock_resolution()
-3027.2  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3027.2  unlock_resolution(300,200)
-3027.3  set_resolution 300*200
-3027.3  lock_resolution()
-3027.3  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3027.3  unlock_resolution(300,200)
-3027.4  set_resolution 300*200
-3027.4  lock_resolution()
-3027.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3027.4  unlock_resolution(300,200)
-3027.4  set_resolution 300*200
-3027.4  lock_resolution()
-3027.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3027.4  unlock_resolution(300,200)
-3027.5  set_resolution 300*200
-3027.5  lock_resolution()
-3027.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3027.5  unlock_resolution(300,200)
-3027.6  set_resolution 300*200
-3027.6  lock_resolution()
-3027.6  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3027.6  unlock_resolution(300,200)
-3027.7  set_resolution 300*200
-3027.7  lock_resolution()
-3027.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3027.7  unlock_resolution(300,200)
-3027.8  set_resolution 300*200
-3027.8  lock_resolution()
-3027.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3027.8  unlock_resolution(300,200)
-3027.9  set_resolution 300*200
-3027.9  lock_resolution()
-3027.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3027.9  unlock_resolution(300,200)
-3028.0  set_resolution 300*200
-3028.0  lock_resolution()
-3028.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3028.0  unlock_resolution(300,200)
-3034.3  msg: M ohrrpgce.hsp
-3034.3  msg: M plotscr.lst
-3034.3  msg: M plotscr.lst
-3034.3  msg: M lookup1.bin
-3034.4  plotscr.hsd version: 3U 
-3034.9  set_resolution 300*200
-3034.9  lock_resolution()
-3034.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3034.9  unlock_resolution(300,200)
-3035.5  set_resolution 300*200
-3035.5  lock_resolution()
-3035.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3035.5  unlock_resolution(300,200)
-3035.6  set_resolution 300*200
-3035.6  lock_resolution()
-3035.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3035.6  unlock_resolution(300,200)
-3035.6  set_resolution 300*200
-3035.7  lock_resolution()
-3035.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3035.7  unlock_resolution(300,200)
-3035.7  set_resolution 300*200
-3035.7  lock_resolution()
-3035.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3035.7  unlock_resolution(300,200)
-3036.1  Killing script fibre; last script = getelement
-3036.1  set_resolution 300*200
-3036.1  lock_resolution()
-3041.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3041.1  unlock_resolution(300,200)
-3042.0  set_resolution 300*200
-3042.0  lock_resolution()
-3042.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3042.0  unlock_resolution(300,200)
-3043.0  set_resolution 300*200
-3043.0  lock_resolution()
-3043.0  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3043.0  unlock_resolution(300,200)
-3043.5  set_resolution 300*200
-3043.5  lock_resolution()
-3043.5  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3043.5  unlock_resolution(300,200)
-3043.8  set_resolution 300*200
-3043.8  lock_resolution()
-3043.8  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3043.8  unlock_resolution(300,200)
-3044.1  set_resolution 300*200
-3044.1  lock_resolution()
-3044.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3044.1  unlock_resolution(300,200)
-3044.4  set_resolution 300*200
-3044.4  lock_resolution()
-3044.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3044.4  unlock_resolution(300,200)
-3044.7  set_resolution 300*200
-3044.7  lock_resolution()
-3044.7  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3044.7  unlock_resolution(300,200)
-3045.1  set_resolution 300*200
-3045.1  lock_resolution()
-3045.1  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicechild: invalid slice handle 0
-3045.1  unlock_resolution(300,200)
-3045.4  set_resolution 300*200
-3045.4  lock_resolution()
-3045.4  ! Scripterr(5): battle -> battleloophandler -> turns -> readskill -> getelement: slicex: invalid slice handle 0
-3045.4  unlock_resolution(300,200)
-3098.3  msg: M ohrrpgce.hsp
-3098.3  msg: M plotscr.lst
-3098.3  msg: M plotscr.lst
-3098.3  msg: M lookup1.bin
-3098.5  plotscr.hsd version: 3U 
-3098.5  not reloading script turns because it's in use: refcount=1
-3098.5  unlock_resolution(300,200)
-3101.1  Killing script fibre; last script = getelement
-3101.1  set_resolution 300*200
-3101.1  lock_resolution()
-3101.5  plotscr.hsd version: 3U 
-3106.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3106.1  unlock_resolution(300,200)
-3107.2  set_resolution 300*200
-3107.2  lock_resolution()
-3107.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3107.2  unlock_resolution(300,200)
-3108.0  set_resolution 300*200
-3108.0  lock_resolution()
-3108.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3108.0  unlock_resolution(300,200)
-3111.2  set_resolution 300*200
-3111.2  lock_resolution()
-3111.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3111.2  unlock_resolution(300,200)
-3111.6  set_resolution 300*200
-3111.6  lock_resolution()
-3111.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3111.6  unlock_resolution(300,200)
-3111.9  set_resolution 300*200
-3111.9  lock_resolution()
-3111.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3111.9  unlock_resolution(300,200)
-3112.2  set_resolution 300*200
-3112.2  lock_resolution()
-3112.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3112.2  unlock_resolution(300,200)
-3112.5  set_resolution 300*200
-3112.5  lock_resolution()
-3112.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3112.5  unlock_resolution(300,200)
-3112.8  set_resolution 300*200
-3112.8  lock_resolution()
-3112.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3112.8  unlock_resolution(300,200)
-3113.1  set_resolution 300*200
-3113.1  lock_resolution()
-3113.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3113.1  unlock_resolution(300,200)
-3113.6  set_resolution 300*200
-3113.6  lock_resolution()
-3113.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3113.6  unlock_resolution(300,200)
-3113.7  set_resolution 300*200
-3113.7  lock_resolution()
-3113.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3113.7  unlock_resolution(300,200)
-3113.8  set_resolution 300*200
-3113.8  lock_resolution()
-3113.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3113.8  unlock_resolution(300,200)
-3113.9  set_resolution 300*200
-3113.9  lock_resolution()
-3113.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3113.9  unlock_resolution(300,200)
-3114.0  set_resolution 300*200
-3114.0  lock_resolution()
-3114.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3114.0  unlock_resolution(300,200)
-3114.1  set_resolution 300*200
-3114.1  lock_resolution()
-3114.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3114.1  unlock_resolution(300,200)
-3114.2  set_resolution 300*200
-3114.2  lock_resolution()
-3114.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3114.2  unlock_resolution(300,200)
-3114.3  set_resolution 300*200
-3114.3  lock_resolution()
-3114.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3114.3  unlock_resolution(300,200)
-3114.3  set_resolution 300*200
-3114.3  lock_resolution()
-3136.9  msg: M ohrrpgce.hsp
-3136.9  msg: M plotscr.lst
-3136.9  msg: M plotscr.lst
-3136.9  msg: M lookup1.bin
-3137.0  plotscr.hsd version: 3U 
-3138.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3138.2  unlock_resolution(300,200)
-3140.2  set_resolution 300*200
-3140.2  lock_resolution()
-3140.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3140.2  unlock_resolution(300,200)
-3140.4  set_resolution 300*200
-3140.4  lock_resolution()
-3140.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3140.4  unlock_resolution(300,200)
-3141.0  set_resolution 300*200
-3141.0  lock_resolution()
-3141.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3141.0  unlock_resolution(300,200)
-3141.1  set_resolution 300*200
-3141.1  lock_resolution()
-3141.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3141.1  unlock_resolution(300,200)
-3141.1  set_resolution 300*200
-3141.1  lock_resolution()
-3141.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3141.1  unlock_resolution(300,200)
-3141.9  Killing script fibre; last script = getelement
-3141.9  set_resolution 300*200
-3141.9  lock_resolution()
-3146.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3146.9  unlock_resolution(300,200)
-3147.7  set_resolution 300*200
-3147.7  lock_resolution()
-3147.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3147.7  unlock_resolution(300,200)
-3148.7  set_resolution 300*200
-3148.7  lock_resolution()
-3148.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3148.7  unlock_resolution(300,200)
-3149.1  set_resolution 300*200
-3149.2  lock_resolution()
-3149.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3149.2  unlock_resolution(300,200)
-3149.5  set_resolution 300*200
-3149.5  lock_resolution()
-3149.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3149.5  unlock_resolution(300,200)
-3149.8  set_resolution 300*200
-3149.8  lock_resolution()
-3149.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3149.8  unlock_resolution(300,200)
-3150.1  set_resolution 300*200
-3150.1  lock_resolution()
-3150.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3150.1  unlock_resolution(300,200)
-3150.3  set_resolution 300*200
-3150.3  lock_resolution()
-3150.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3150.3  unlock_resolution(300,200)
-3150.6  set_resolution 300*200
-3150.6  lock_resolution()
-3150.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3150.6  unlock_resolution(300,200)
-3150.9  set_resolution 300*200
-3150.9  lock_resolution()
-3150.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3150.9  unlock_resolution(300,200)
-3151.2  set_resolution 300*200
-3151.2  lock_resolution()
-3151.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3151.2  unlock_resolution(300,200)
-3151.5  set_resolution 300*200
-3151.5  lock_resolution()
-3151.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3151.5  unlock_resolution(300,200)
-3151.7  set_resolution 300*200
-3151.7  lock_resolution()
-3151.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3151.7  unlock_resolution(300,200)
-3152.0  set_resolution 300*200
-3152.0  lock_resolution()
-3152.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3152.0  unlock_resolution(300,200)
-3152.3  set_resolution 300*200
-3152.3  lock_resolution()
-3152.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3152.3  unlock_resolution(300,200)
-3152.6  set_resolution 300*200
-3152.6  lock_resolution()
-3152.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3152.6  unlock_resolution(300,200)
-3152.9  set_resolution 300*200
-3152.9  lock_resolution()
-3152.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3152.9  unlock_resolution(300,200)
-3153.2  set_resolution 300*200
-3153.2  lock_resolution()
-3153.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3153.2  unlock_resolution(300,200)
-3153.5  set_resolution 300*200
-3153.5  lock_resolution()
-3206.8  msg: M ohrrpgce.hsp
-3206.8  msg: M plotscr.lst
-3206.8  msg: M plotscr.lst
-3206.8  msg: M lookup1.bin
-3207.0  plotscr.hsd version: 3U 
-3207.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3207.9  unlock_resolution(300,200)
-3208.9  set_resolution 300*200
-3208.9  lock_resolution()
-3208.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3208.9  unlock_resolution(300,200)
-3209.4  set_resolution 300*200
-3209.4  lock_resolution()
-3209.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3209.4  unlock_resolution(300,200)
-3209.5  set_resolution 300*200
-3209.5  lock_resolution()
-3209.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3209.5  unlock_resolution(300,200)
-3209.6  set_resolution 300*200
-3209.6  lock_resolution()
-3209.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3209.6  unlock_resolution(300,200)
-3209.7  set_resolution 300*200
-3209.7  lock_resolution()
-3209.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3209.7  unlock_resolution(300,200)
-3209.8  set_resolution 300*200
-3209.8  lock_resolution()
-3209.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3209.8  unlock_resolution(300,200)
-3209.9  set_resolution 300*200
-3209.9  lock_resolution()
-3209.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3209.9  unlock_resolution(300,200)
-3209.9  set_resolution 300*200
-3209.9  lock_resolution()
-3209.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3209.9  unlock_resolution(300,200)
-3210.0  set_resolution 300*200
-3210.0  lock_resolution()
-3210.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3210.0  unlock_resolution(300,200)
-3210.1  set_resolution 300*200
-3210.1  lock_resolution()
-3210.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3210.1  unlock_resolution(300,200)
-3210.2  set_resolution 300*200
-3210.2  lock_resolution()
-3210.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3210.2  unlock_resolution(300,200)
-3210.3  set_resolution 300*200
-3210.3  lock_resolution()
-3210.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3210.3  unlock_resolution(300,200)
-3210.4  set_resolution 300*200
-3210.4  lock_resolution()
-3210.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3210.4  unlock_resolution(300,200)
-3210.5  set_resolution 300*200
-3210.5  lock_resolution()
-3210.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3210.5  unlock_resolution(300,200)
-3210.6  set_resolution 300*200
-3210.6  lock_resolution()
-3210.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3210.6  unlock_resolution(300,200)
-3210.7  set_resolution 300*200
-3210.7  lock_resolution()
-3210.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3210.7  unlock_resolution(300,200)
-3210.7  set_resolution 300*200
-3210.7  lock_resolution()
-3210.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3210.7  unlock_resolution(300,200)
-3210.8  set_resolution 300*200
-3210.8  lock_resolution()
-3217.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3217.3  unlock_resolution(300,200)
-3239.8  msg: M ohrrpgce.hsp
-3239.8  msg: M plotscr.lst
-3239.8  msg: M plotscr.lst
-3239.8  msg: M lookup1.bin
-3240.0  plotscr.hsd version: 3U 
-3240.3  set_resolution 300*200
-3240.3  lock_resolution()
-3240.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3240.3  unlock_resolution(300,200)
-3241.9  set_resolution 300*200
-3241.9  lock_resolution()
-3241.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3241.9  unlock_resolution(300,200)
-3242.4  set_resolution 300*200
-3242.4  lock_resolution()
-3242.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3242.4  unlock_resolution(300,200)
-3242.5  set_resolution 300*200
-3242.5  lock_resolution()
-3242.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3242.5  unlock_resolution(300,200)
-3242.6  set_resolution 300*200
-3242.6  lock_resolution()
-3242.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3242.6  unlock_resolution(300,200)
-3242.7  set_resolution 300*200
-3242.7  lock_resolution()
-3242.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3242.7  unlock_resolution(300,200)
-3242.8  set_resolution 300*200
-3242.8  lock_resolution()
-3242.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3242.8  unlock_resolution(300,200)
-3242.9  set_resolution 300*200
-3242.9  lock_resolution()
-3242.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3242.9  unlock_resolution(300,200)
-3243.0  set_resolution 300*200
-3243.0  lock_resolution()
-3243.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3243.0  unlock_resolution(300,200)
-3243.0  set_resolution 300*200
-3243.0  lock_resolution()
-3243.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3243.1  unlock_resolution(300,200)
-3243.1  set_resolution 300*200
-3243.1  lock_resolution()
-3243.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3243.1  unlock_resolution(300,200)
-3243.2  set_resolution 300*200
-3243.2  lock_resolution()
-3243.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3243.2  unlock_resolution(300,200)
-3243.3  set_resolution 300*200
-3243.3  lock_resolution()
-3243.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3243.3  unlock_resolution(300,200)
-3243.4  set_resolution 300*200
-3243.4  lock_resolution()
-3243.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3243.4  unlock_resolution(300,200)
-3243.5  set_resolution 300*200
-3243.5  lock_resolution()
-3243.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3243.5  unlock_resolution(300,200)
-3243.5  set_resolution 300*200
-3243.5  lock_resolution()
-3243.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3243.5  unlock_resolution(300,200)
-3243.6  set_resolution 300*200
-3243.6  lock_resolution()
-3243.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3243.6  unlock_resolution(300,200)
-3243.7  set_resolution 300*200
-3243.7  lock_resolution()
-3245.6  ! Scripterr(2): battle -> battleloophandler -> turns: freeslice: invalid slice handle 0
-3245.6  unlock_resolution(300,200)
-3246.3  set_resolution 300*200
-3246.3  lock_resolution()
-3252.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3252.2  unlock_resolution(300,200)
-3253.1  set_resolution 300*200
-3253.1  lock_resolution()
-3253.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3253.1  unlock_resolution(300,200)
-3253.5  set_resolution 300*200
-3253.5  lock_resolution()
-3253.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3253.5  unlock_resolution(300,200)
-3254.0  set_resolution 300*200
-3254.0  lock_resolution()
-3254.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3254.0  unlock_resolution(300,200)
-3254.1  set_resolution 300*200
-3254.1  lock_resolution()
-3254.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3254.1  unlock_resolution(300,200)
-3254.2  set_resolution 300*200
-3254.2  lock_resolution()
-3254.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3254.2  unlock_resolution(300,200)
-3254.3  set_resolution 300*200
-3254.3  lock_resolution()
-3254.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
-3254.3  unlock_resolution(300,200)
-3254.4  set_resolution 300*200
-3254.4  lock_resolution()
-3254.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
-3254.4  unlock_resolution(300,200)
-3254.5  set_resolution 300*200
-3254.5  lock_resolution()
-3254.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicechild: invalid slice handle 0
 3254.5  unlock_resolution(300,200)
 3254.6  set_resolution 300*200
 3254.6  lock_resolution()
@@ -2889,3 +1289,2298 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 7044.9  Closing gfx backend & allmodex...
 7044.9  ...done
 7044.9  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  08-14-2021 14:33:00
+ 0.1  OHRRPGCE wip 20210803.12314 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_42492'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12314,OHRRPGCE wip 20210803
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210814143300.517.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.5  plotscr.hsd version: 3U 
+ 1.0  lock_resolution()
+ 1.0  set_resolution 300*200
+ 1.0  recenter_window_hint()
+ 1.0  get_screen_size: true screen size 1600x900
+ 1.0  Desktop resolution: 1600*860
+ 1.0  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.0  Setting graphics scaling to x2 change_windowsize=-1
+ 1.0  Preserving fullscreen/windowed state
+ 1.0  genRungameFullscreenIndependent: 0
+78.1  msg: M ohrrpgce.gen
+78.1  msg: M general.reld
+85.5  msg: M ohrrpgce.gen
+85.5  msg: M general.reld
+93.6  msg: M ohrrpgce.til
+93.6  msg: M defpass.bin
+93.6  did not reload defpass.bin
+97.6  msg: M ohrrpgce.gen
+98.3  msg: M ohrrpgce.gen
+98.3  msg: M general.reld
+140.0  msg: M ohrrpgce.map
+140.0  msg: M ohrrpgce.t00
+140.0  msg: M ohrrpgce.p00
+140.0  msg: M ohrrpgce.e00
+140.0  msg: M ohrrpgce.z00
+140.0  msg: M ohrrpgce.l00
+140.0  msg: M ohrrpgce.n00
+140.0  msg: M ohrrpgce.dox
+140.0  msg: M ohrrpgce.d00
+140.0  msg: M ohrrpgce.mn
+140.0  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+140.0  reload_MAP_lump: layers changed
+140.0  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+140.0  did not reload ohrrpgce.d00
+152.9  msg: M ohrrpgce.map
+152.9  msg: M ohrrpgce.t00
+152.9  msg: M ohrrpgce.p00
+152.9  msg: M ohrrpgce.e00
+152.9  msg: M ohrrpgce.z00
+152.9  msg: M ohrrpgce.l00
+152.9  msg: M ohrrpgce.n00
+152.9  msg: M ohrrpgce.dox
+152.9  msg: M ohrrpgce.d00
+152.9  msg: M ohrrpgce.mn
+152.9  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+152.9  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+152.9  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+152.9  did not reload ohrrpgce.d00
+155.6  msg: M ohrrpgce.map
+155.6  msg: M ohrrpgce.t00
+155.6  msg: M ohrrpgce.p00
+155.6  msg: M ohrrpgce.e00
+155.6  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+155.6  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+155.6  msg: M ohrrpgce.z00
+155.6  msg: M ohrrpgce.l00
+155.6  msg: M ohrrpgce.n00
+155.6  msg: M ohrrpgce.dox
+155.6  msg: M ohrrpgce.d00
+155.6  msg: M ohrrpgce.mn
+155.7  did not reload ohrrpgce.d00
+172.3  msg: M ohrrpgce.map
+172.3  msg: M ohrrpgce.t00
+172.3  msg: M ohrrpgce.p00
+172.3  msg: M ohrrpgce.e00
+172.3  msg: M ohrrpgce.z00
+172.3  msg: M ohrrpgce.l00
+172.3  msg: M ohrrpgce.n00
+172.3  msg: M ohrrpgce.dox
+172.3  msg: M ohrrpgce.d00
+172.3  msg: M ohrrpgce.mn
+172.3  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+172.3  did not reload ohrrpgce.d00
+172.6  msg: M ohrrpgce.map
+172.6  msg: M ohrrpgce.t00
+172.6  msg: M ohrrpgce.p00
+172.6  msg: M ohrrpgce.e00
+172.6  msg: M ohrrpgce.z00
+172.6  msg: M ohrrpgce.l00
+172.6  msg: M ohrrpgce.n00
+172.6  msg: M ohrrpgce.dox
+172.6  msg: M ohrrpgce.d00
+172.6  msg: M ohrrpgce.mn
+172.6  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+172.6  did not reload ohrrpgce.d00
+173.3  msg: M ohrrpgce.gen
+173.3  msg: M general.reld
+176.0  msg: M ohrrpgce.gen
+176.0  msg: M general.reld
+770.8  msg: M ohrrpgce.map
+770.8  msg: M ohrrpgce.t00
+770.8  msg: M ohrrpgce.p00
+770.8  msg: M ohrrpgce.e00
+770.8  msg: M ohrrpgce.z00
+770.8  msg: M ohrrpgce.l00
+770.8  msg: M ohrrpgce.n00
+770.8  msg: M ohrrpgce.dox
+770.8  msg: M ohrrpgce.d00
+770.8  msg: M ohrrpgce.mn
+770.8  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+770.8  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+770.8  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+770.8  did not reload ohrrpgce.d00
+813.6  msg: M ohrrpgce.map
+813.6  msg: M ohrrpgce.t00
+813.6  msg: M ohrrpgce.p00
+813.6  msg: M ohrrpgce.e00
+813.6  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+813.6  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+813.6  msg: M ohrrpgce.z00
+813.6  msg: M ohrrpgce.l00
+813.6  msg: M ohrrpgce.n00
+813.6  msg: M ohrrpgce.dox
+813.6  msg: M ohrrpgce.d00
+813.6  msg: M ohrrpgce.mn
+813.6  did not reload ohrrpgce.d00
+814.2  msg: M ohrrpgce.map
+814.2  msg: M ohrrpgce.t00
+814.2  msg: M ohrrpgce.p00
+814.2  msg: M ohrrpgce.e00
+814.2  msg: M ohrrpgce.z00
+814.2  msg: M ohrrpgce.l00
+814.2  msg: M ohrrpgce.n00
+814.2  msg: M ohrrpgce.dox
+814.2  msg: M ohrrpgce.d00
+814.2  msg: M ohrrpgce.mn
+814.2  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+814.2  did not reload ohrrpgce.d00
+853.6  msg: M ohrrpgce.map
+853.6  msg: M ohrrpgce.t00
+853.6  msg: M ohrrpgce.p00
+853.6  msg: M ohrrpgce.e00
+853.6  msg: M ohrrpgce.z00
+853.6  msg: M ohrrpgce.l00
+853.6  msg: M ohrrpgce.n00
+853.6  msg: M ohrrpgce.dox
+853.6  msg: M ohrrpgce.d00
+853.6  msg: M ohrrpgce.mn
+853.6  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+853.6  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+853.6  did not reload ohrrpgce.d00
+923.8  msg: M ohrrpgce.map
+923.8  msg: M ohrrpgce.t00
+923.8  msg: M ohrrpgce.p00
+923.8  msg: M ohrrpgce.e00
+923.8  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+923.8  msg: M ohrrpgce.z00
+923.8  msg: M ohrrpgce.l00
+923.8  msg: M ohrrpgce.n00
+923.8  msg: M ohrrpgce.dox
+923.8  msg: M ohrrpgce.d00
+923.8  msg: M ohrrpgce.mn
+923.8  did not reload ohrrpgce.d00
+924.1  msg: M ohrrpgce.gen
+924.1  msg: M general.reld
+927.1  msg: M ohrrpgce.hsp
+927.1  msg: M plotscr.lst
+927.1  msg: M plotscr.lst
+927.1  msg: M lookup1.bin
+927.2  plotscr.hsd version: 3U 
+942.4  msg: M ohrrpgce.gen
+942.4  msg: M general.reld
+945.0  msg: M ohrrpgce.gen
+953.0  msg: M ohrrpgce.til
+953.0  msg: M defpass.bin
+953.0  did not reload defpass.bin
+954.7  msg: M ohrrpgce.til
+954.7  msg: M defpass.bin
+954.7  did not reload defpass.bin
+960.4  msg: M ohrrpgce.til
+966.1  msg: M ohrrpgce.til
+966.1  msg: M defpass.bin
+966.1  did not reload defpass.bin
+966.9  msg: M ohrrpgce.gen
+967.5  msg: M ohrrpgce.gen
+967.5  msg: M general.reld
+971.4  msg: M ohrrpgce.map
+971.4  msg: M ohrrpgce.t00
+971.4  msg: M ohrrpgce.p00
+971.4  msg: M ohrrpgce.e00
+971.4  msg: M ohrrpgce.z00
+971.4  msg: M ohrrpgce.l00
+971.4  msg: M ohrrpgce.n00
+971.4  msg: M ohrrpgce.dox
+971.4  msg: M ohrrpgce.d00
+971.4  msg: M ohrrpgce.mn
+971.4  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+971.4  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+971.4  did not reload ohrrpgce.d00
+1052.5  msg: M ohrrpgce.map
+1052.5  msg: M ohrrpgce.t00
+1052.5  msg: M ohrrpgce.p00
+1052.5  msg: M ohrrpgce.e00
+1052.5  msg: M ohrrpgce.z00
+1052.5  msg: M ohrrpgce.l00
+1052.5  msg: M ohrrpgce.n00
+1052.5  msg: M ohrrpgce.dox
+1052.5  msg: M ohrrpgce.d00
+1052.5  msg: M ohrrpgce.mn
+1052.5  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+1052.5  did not reload ohrrpgce.d00
+1053.0  msg: M ohrrpgce.gen
+1053.0  msg: M general.reld
+1059.8  msg: M defpal6.bin
+1059.8  msg: M attacks.rgfx
+1059.8  did not reload defpal6.bin
+1088.7  msg: M defpal6.bin
+1088.7  msg: M attacks.rgfx
+1088.7  msg: M ohrrpgce.pal
+1088.7  msg: PAL 0
+1088.7  did not reload defpal6.bin
+1094.6  msg: M defpal6.bin
+1094.6  did not reload defpal6.bin
+1094.6  msg: M attacks.rgfx
+1136.8  msg: M attacks.rgfx
+1148.7  msg: M ohrrpgce.pal
+1148.7  msg: PAL 0
+1148.8  msg: M ohrrpgce.pal
+1148.8  msg: PAL 1
+1149.0  msg: M ohrrpgce.pal
+1149.0  msg: PAL 2
+1149.3  msg: M ohrrpgce.pal
+1149.3  msg: PAL 3
+1149.5  msg: M ohrrpgce.pal
+1149.5  msg: PAL 4
+1149.6  msg: M ohrrpgce.pal
+1149.6  msg: PAL 5
+1149.8  msg: M ohrrpgce.pal
+1149.8  msg: PAL 6
+1150.0  msg: M ohrrpgce.pal
+1150.0  msg: PAL 7
+1150.2  msg: M ohrrpgce.pal
+1150.2  msg: PAL 8
+1150.5  msg: M ohrrpgce.pal
+1150.5  msg: PAL 9
+1151.0  msg: M ohrrpgce.pal
+1151.0  msg: PAL 10
+1151.2  msg: M ohrrpgce.pal
+1151.2  msg: PAL 11
+1151.5  msg: M ohrrpgce.pal
+1151.5  msg: PAL 12
+1151.8  msg: M ohrrpgce.pal
+1151.8  msg: PAL 13
+1152.0  msg: M ohrrpgce.pal
+1152.0  msg: PAL 14
+1152.2  msg: M ohrrpgce.pal
+1152.2  msg: PAL 15
+1152.5  msg: M ohrrpgce.pal
+1152.5  msg: PAL 16
+1152.7  msg: M ohrrpgce.pal
+1152.7  msg: PAL 17
+1153.1  msg: M ohrrpgce.pal
+1153.1  msg: PAL 18
+1153.4  msg: M ohrrpgce.pal
+1153.4  msg: PAL 19
+1154.0  msg: M ohrrpgce.pal
+1154.0  msg: PAL 20
+1154.6  msg: M ohrrpgce.pal
+1154.6  msg: PAL 21
+1155.0  msg: M ohrrpgce.pal
+1155.0  msg: PAL 22
+1155.4  msg: M ohrrpgce.pal
+1155.4  msg: M ohrrpgce.pal
+1155.4  msg: M ohrrpgce.pal
+1155.4  msg: PAL 23
+1156.6  msg: M ohrrpgce.pal
+1156.6  msg: M ohrrpgce.pal
+1156.6  msg: M ohrrpgce.pal
+1156.6  msg: PAL 24
+1156.9  msg: M ohrrpgce.pal
+1156.9  msg: PAL 23
+1158.3  msg: M ohrrpgce.pal
+1158.3  msg: PAL 22
+1178.4  msg: M defpal6.bin
+1178.4  msg: M attacks.rgfx
+1178.4  msg: M ohrrpgce.pal
+1178.4  msg: PAL 23
+1178.4  did not reload defpal6.bin
+1185.7  msg: M attacks.rgfx
+1188.1  msg: M attacks.rgfx
+1196.6  msg: M defpal6.bin
+1196.6  msg: M attacks.rgfx
+1196.6  msg: M ohrrpgce.pal
+1196.6  msg: PAL 23
+1196.6  did not reload defpal6.bin
+1218.8  msg: M defpal6.bin
+1218.8  did not reload defpal6.bin
+1218.8  msg: M attacks.rgfx
+1218.8  msg: M ohrrpgce.pal
+1218.8  msg: PAL 23
+1223.2  msg: M defpal6.bin
+1223.2  msg: M attacks.rgfx
+1223.2  msg: M ohrrpgce.pal
+1223.2  msg: PAL 23
+1223.2  did not reload defpal6.bin
+1248.8  msg: M defpal6.bin
+1248.8  did not reload defpal6.bin
+1248.8  msg: M attacks.rgfx
+1248.8  msg: M ohrrpgce.pal
+1248.8  msg: PAL 23
+1988.4  msg: M ohrrpgce.gen
+1989.1  msg: M ohrrpgce.gen
+1989.1  msg: M general.reld
+1992.0  msg: M ohrrpgce.hsp
+1992.0  msg: M plotscr.lst
+1992.0  msg: M plotscr.lst
+1992.0  msg: M lookup1.bin
+1992.2  plotscr.hsd version: 3U 
+2056.0  msg: M ohrrpgce.hsp
+2056.0  msg: M plotscr.lst
+2056.0  msg: M plotscr.lst
+2056.0  msg: M lookup1.bin
+2056.1  plotscr.hsd version: 3U 
+2056.6  msg: M ohrrpgce.gen
+2056.6  msg: M general.reld
+2060.2  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2060.2  unlock_resolution(300,200)
+2080.3  set_resolution 300*200
+2080.3  lock_resolution()
+2080.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2080.3  unlock_resolution(300,200)
+2080.7  set_resolution 300*200
+2080.7  lock_resolution()
+2082.5  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2082.5  unlock_resolution(300,200)
+2083.0  set_resolution 300*200
+2083.0  lock_resolution()
+2083.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2083.0  unlock_resolution(300,200)
+2083.4  set_resolution 300*200
+2083.4  lock_resolution()
+2096.0  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2096.0  unlock_resolution(300,200)
+2096.8  set_resolution 300*200
+2096.8  lock_resolution()
+2096.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2096.8  unlock_resolution(300,200)
+2097.2  set_resolution 300*200
+2097.2  lock_resolution()
+2232.7  msg: M ohrrpgce.hsp
+2232.9  plotscr.hsd version: 3U 
+2232.9  msg: M plotscr.lst
+2232.9  msg: M plotscr.lst
+2239.1  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2239.1  unlock_resolution(300,200)
+2241.8  set_resolution 300*200
+2241.8  lock_resolution()
+2241.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2241.8  unlock_resolution(300,200)
+2242.4  set_resolution 300*200
+2242.4  lock_resolution()
+2247.0  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2247.0  unlock_resolution(300,200)
+2247.8  set_resolution 300*200
+2247.8  lock_resolution()
+2247.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2247.8  unlock_resolution(300,200)
+2248.2  set_resolution 300*200
+2248.2  lock_resolution()
+2265.6  msg: M lookup1.bin
+2265.6  msg: M ohrrpgce.hsp
+2265.6  msg: M plotscr.lst
+2265.6  msg: M plotscr.lst
+2265.7  plotscr.hsd version: 3U 
+2267.2  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2267.2  unlock_resolution(300,200)
+2267.8  set_resolution 300*200
+2267.8  lock_resolution()
+2267.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2267.8  unlock_resolution(300,200)
+2268.1  set_resolution 300*200
+2268.1  lock_resolution()
+2269.9  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2269.9  unlock_resolution(300,200)
+2270.5  set_resolution 300*200
+2270.5  lock_resolution()
+2270.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2270.5  unlock_resolution(300,200)
+2270.8  set_resolution 300*200
+2270.8  lock_resolution()
+2312.8  msg: M lookup1.bin
+2312.8  msg: M ohrrpgce.hsp
+2312.8  msg: M plotscr.lst
+2312.8  msg: M plotscr.lst
+2313.0  plotscr.hsd version: 3U 
+2422.1  msg: M lookup1.bin
+2422.1  msg: M ohrrpgce.hsp
+2422.1  msg: M plotscr.lst
+2422.1  msg: M plotscr.lst
+2422.3  plotscr.hsd version: 3U 
+2422.9  msg: M lookup1.bin
+2422.9  msg: M ohrrpgce.gen
+2422.9  msg: M general.reld
+2429.6  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2429.6  unlock_resolution(300,200)
+2430.9  set_resolution 300*200
+2430.9  lock_resolution()
+2430.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2430.9  unlock_resolution(300,200)
+2431.3  set_resolution 300*200
+2431.3  lock_resolution()
+2435.8  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2435.8  unlock_resolution(300,200)
+2436.6  set_resolution 300*200
+2436.6  lock_resolution()
+2436.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2436.6  unlock_resolution(300,200)
+2437.0  set_resolution 300*200
+2437.0  lock_resolution()
+2471.9  msg: M ohrrpgce.hsp
+2471.9  msg: M plotscr.lst
+2471.9  msg: M plotscr.lst
+2472.0  plotscr.hsd version: 3U 
+2473.9  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2473.9  unlock_resolution(300,200)
+2474.6  set_resolution 300*200
+2474.6  lock_resolution()
+2474.6  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2474.6  unlock_resolution(300,200)
+2474.8  set_resolution 300*200
+2474.8  lock_resolution()
+2474.8  ! Scripterr(5): battle -> battleloophandler -> turns -> animation -> getelement: slicex: invalid slice handle 0
+2474.8  unlock_resolution(300,200)
+2475.2  set_resolution 300*200
+2475.2  lock_resolution()
+2475.2  ! Scripterr(5): battle -> battleloophandler -> turns -> animation -> getelement: slicex: invalid slice handle 0
+2475.2  unlock_resolution(300,200)
+2475.5  set_resolution 300*200
+2475.5  lock_resolution()
+2477.4  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2477.4  unlock_resolution(300,200)
+2481.8  set_resolution 300*200
+2481.8  lock_resolution()
+2481.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2481.8  unlock_resolution(300,200)
+2484.8  set_resolution 300*200
+2484.8  lock_resolution()
+2484.8  ! Scripterr(5): battle -> battleloophandler -> turns -> animation -> getelement: slicex: invalid slice handle 0
+2484.8  unlock_resolution(300,200)
+2485.5  set_resolution 300*200
+2485.5  lock_resolution()
+2500.9  msg: M lookup1.bin
+2500.9  msg: M ohrrpgce.hsp
+2500.9  msg: M plotscr.lst
+2500.9  msg: M plotscr.lst
+2501.0  plotscr.hsd version: 3U 
+2502.2  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2502.2  unlock_resolution(300,200)
+2502.9  set_resolution 300*200
+2502.9  lock_resolution()
+2502.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2502.9  unlock_resolution(300,200)
+2503.1  set_resolution 300*200
+2503.1  lock_resolution()
+2516.0  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2516.0  unlock_resolution(300,200)
+2538.8  set_resolution 300*200
+2538.8  lock_resolution()
+2538.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2538.8  unlock_resolution(300,200)
+2539.2  set_resolution 300*200
+2539.2  lock_resolution()
+2542.0  msg: M lookup1.bin
+2542.0  msg: M ohrrpgce.hsp
+2542.0  msg: M plotscr.lst
+2542.0  msg: M plotscr.lst
+2542.2  plotscr.hsd version: 3U 
+2542.2  not reloading script endanimation because it's in use: refcount=1
+2542.2  unlock_resolution(300,200)
+2542.8  set_resolution 300*200
+2542.8  lock_resolution()
+2543.3  plotscr.hsd version: 3U 
+2549.4  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+2549.4  unlock_resolution(300,200)
+2550.1  set_resolution 300*200
+2550.1  lock_resolution()
+2550.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+2550.1  unlock_resolution(300,200)
+2550.5  set_resolution 300*200
+2550.5  lock_resolution()
+4859.3  msg: M lookup1.bin
+4859.3  msg: M ohrrpgce.gen
+4859.3  msg: M general.reld
+5133.5  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+5133.5  unlock_resolution(300,200)
+5134.8  set_resolution 300*200
+5134.8  lock_resolution()
+5134.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+5134.8  unlock_resolution(300,200)
+5135.2  set_resolution 300*200
+5135.2  lock_resolution()
+5430.9  msg: M ohrrpgce.gen
+5430.9  msg: M general.reld
+5434.1  msg: M ohrrpgce.hsp
+5434.1  msg: M plotscr.lst
+5434.1  msg: M plotscr.lst
+5434.3  plotscr.hsd version: 3U 
+6141.0  msg: M lookup1.bin
+6141.0  msg: M ohrrpgce.hsp
+6141.0  msg: M plotscr.lst
+6141.0  msg: M plotscr.lst
+6141.1  plotscr.hsd version: 3U 
+6164.6  msg: M lookup1.bin
+6164.6  msg: M ohrrpgce.gen
+6164.6  msg: M general.reld
+6185.9  msg: M ohrrpgce.map
+6185.9  msg: M ohrrpgce.t00
+6185.9  msg: M ohrrpgce.p00
+6185.9  msg: M ohrrpgce.e00
+6185.9  msg: M ohrrpgce.z00
+6185.9  msg: M ohrrpgce.l00
+6185.9  msg: M ohrrpgce.n00
+6185.9  msg: M ohrrpgce.dox
+6185.9  msg: M ohrrpgce.d00
+6185.9  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+6185.9  did not reload ohrrpgce.d00
+10660.1  msg: M ohrrpgce.mn
+10660.1  msg: M ohrrpgce.map
+10660.1  msg: M ohrrpgce.t00
+10660.1  msg: M ohrrpgce.p00
+10660.1  msg: M ohrrpgce.e00
+10660.1  msg: M ohrrpgce.z00
+10660.1  msg: M ohrrpgce.l00
+10660.1  msg: M ohrrpgce.n00
+10660.1  msg: M ohrrpgce.dox
+10660.1  msg: M ohrrpgce.d00
+10660.1  msg: M ohrrpgce.mn
+10660.1  did not reload ohrrpgce.d00
+10661.0  msg: M ohrrpgce.map
+10661.0  msg: M ohrrpgce.t00
+10661.0  msg: M ohrrpgce.p00
+10661.0  msg: M ohrrpgce.e00
+10661.0  msg: M ohrrpgce.z00
+10661.0  msg: M ohrrpgce.l00
+10661.0  msg: M ohrrpgce.n00
+10661.0  msg: M ohrrpgce.dox
+10661.0  msg: M ohrrpgce.d00
+10661.0  msg: M ohrrpgce.mn
+10661.1  did not reload ohrrpgce.d00
+10661.8  msg: M ohrrpgce.gen
+10661.8  msg: M general.reld
+10667.1  msg: M ohrrpgce.hsp
+10667.1  msg: M plotscr.lst
+10667.1  msg: M plotscr.lst
+10667.1  msg: M lookup1.bin
+10667.3  plotscr.hsd version: 3U 
+10668.1  msg: M ohrrpgce.gen
+10668.1  msg: M general.reld
+10680.0  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10680.0  unlock_resolution(300,200)
+10681.0  set_resolution 300*200
+10681.0  lock_resolution()
+10681.0  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10681.0  unlock_resolution(300,200)
+10681.4  set_resolution 300*200
+10681.4  lock_resolution()
+10685.6  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10685.6  unlock_resolution(300,200)
+10686.4  set_resolution 300*200
+10686.4  lock_resolution()
+10686.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10686.4  unlock_resolution(300,200)
+10686.7  set_resolution 300*200
+10686.7  lock_resolution()
+10691.4  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10691.4  unlock_resolution(300,200)
+10691.9  set_resolution 300*200
+10691.9  lock_resolution()
+10691.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10691.9  unlock_resolution(300,200)
+10692.3  set_resolution 300*200
+10692.3  lock_resolution()
+10695.2  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10695.2  unlock_resolution(300,200)
+10695.7  set_resolution 300*200
+10695.7  lock_resolution()
+10695.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10695.7  unlock_resolution(300,200)
+10696.1  set_resolution 300*200
+10696.1  lock_resolution()
+10719.1  msg: M ohrrpgce.hsp
+10719.1  msg: M plotscr.lst
+10719.1  msg: M plotscr.lst
+10719.1  msg: M lookup1.bin
+10719.2  plotscr.hsd version: 3U 
+10723.8  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10723.8  unlock_resolution(300,200)
+10724.7  set_resolution 300*200
+10724.7  lock_resolution()
+10724.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10724.7  unlock_resolution(300,200)
+10724.9  set_resolution 300*200
+10724.9  lock_resolution()
+10744.1  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10744.1  unlock_resolution(300,200)
+10744.9  set_resolution 300*200
+10744.9  lock_resolution()
+10744.9  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10744.9  unlock_resolution(300,200)
+10745.1  set_resolution 300*200
+10745.1  lock_resolution()
+10791.9  msg: M ohrrpgce.hsp
+10791.9  msg: M plotscr.lst
+10791.9  msg: M plotscr.lst
+10791.9  msg: M lookup1.bin
+10792.1  plotscr.hsd version: 3U 
+10796.6  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10796.6  unlock_resolution(300,200)
+10797.3  set_resolution 300*200
+10797.3  lock_resolution()
+10797.3  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10797.3  unlock_resolution(300,200)
+10797.5  set_resolution 300*200
+10797.5  lock_resolution()
+10802.1  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10802.1  unlock_resolution(300,200)
+10802.7  set_resolution 300*200
+10802.7  lock_resolution()
+10802.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10802.7  unlock_resolution(300,200)
+10802.9  set_resolution 300*200
+10802.9  lock_resolution()
+10825.2  msg: M ohrrpgce.hsp
+10825.2  msg: M plotscr.lst
+10825.4  plotscr.hsd version: 3U 
+10825.4  not reloading script battlemenu because it's in use: refcount=7
+10825.4  unlock_resolution(300,200)
+10826.5  set_resolution 300*200
+10826.5  lock_resolution()
+10826.5  msg: M plotscr.lst
+10826.5  msg: M lookup1.bin
+10827.4  plotscr.hsd version: 3U 
+10833.5  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10833.5  unlock_resolution(300,200)
+10834.2  set_resolution 300*200
+10834.2  lock_resolution()
+10834.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10834.2  unlock_resolution(300,200)
+10834.4  set_resolution 300*200
+10834.4  lock_resolution()
+10838.5  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10838.5  unlock_resolution(300,200)
+10839.2  set_resolution 300*200
+10839.2  lock_resolution()
+10839.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10839.2  unlock_resolution(300,200)
+10839.4  set_resolution 300*200
+10839.4  lock_resolution()
+10844.1  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10844.1  unlock_resolution(300,200)
+10844.8  set_resolution 300*200
+10844.8  lock_resolution()
+10844.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10844.8  unlock_resolution(300,200)
+10845.1  set_resolution 300*200
+10845.1  lock_resolution()
+10850.6  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10850.6  unlock_resolution(300,200)
+10851.4  set_resolution 300*200
+10851.4  lock_resolution()
+10851.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10851.4  unlock_resolution(300,200)
+10851.6  set_resolution 300*200
+10851.6  lock_resolution()
+10854.1  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10854.1  unlock_resolution(300,200)
+10854.7  set_resolution 300*200
+10854.7  lock_resolution()
+10854.7  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10854.7  unlock_resolution(300,200)
+10855.0  set_resolution 300*200
+10855.0  lock_resolution()
+10945.9  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10945.9  unlock_resolution(300,200)
+10946.8  set_resolution 300*200
+10946.8  lock_resolution()
+10946.8  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10946.8  unlock_resolution(300,200)
+10968.9  set_resolution 300*200
+10968.9  lock_resolution()
+10976.6  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10976.6  unlock_resolution(300,200)
+10977.5  set_resolution 300*200
+10977.5  lock_resolution()
+10977.5  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10977.5  unlock_resolution(300,200)
+10977.8  set_resolution 300*200
+10977.8  lock_resolution()
+10981.3  msg: M ohrrpgce.hsp
+10981.3  msg: M plotscr.lst
+10981.3  msg: M plotscr.lst
+10981.3  msg: M lookup1.bin
+10981.5  plotscr.hsd version: 3U 
+10982.7  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10982.7  unlock_resolution(300,200)
+10983.4  set_resolution 300*200
+10983.4  lock_resolution()
+10983.4  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+10983.4  unlock_resolution(300,200)
+10983.6  set_resolution 300*200
+10983.6  lock_resolution()
+10986.2  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+10986.2  unlock_resolution(300,200)
+11015.9  msg: M ohrrpgce.hsp
+11015.9  msg: M plotscr.lst
+11015.9  msg: M plotscr.lst
+11015.9  msg: M lookup1.bin
+11016.1  plotscr.hsd version: 3U 
+11017.1  set_resolution 300*200
+11017.1  lock_resolution()
+11017.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+11017.2  unlock_resolution(300,200)
+11017.6  set_resolution 300*200
+11017.6  lock_resolution()
+11021.3  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+11021.3  unlock_resolution(300,200)
+11038.2  set_resolution 300*200
+11038.2  lock_resolution()
+11038.2  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+11038.2  unlock_resolution(300,200)
+11038.8  set_resolution 300*200
+11038.8  lock_resolution()
+11042.1  ! Scripterr(5): battle -> battleloophandler -> turns -> returnskill -> template -> setelement: setslicex: invalid slice handle 0
+11042.1  unlock_resolution(300,200)
+11069.8  msg: M ohrrpgce.hsp
+11069.8  msg: M plotscr.lst
+11069.8  msg: M plotscr.lst
+11069.8  msg: M lookup1.bin
+11069.9  plotscr.hsd version: 3U 
+11070.0  not reloading script template because it's in use: refcount=1
+11070.0  unlock_resolution(300,200)
+11071.1  set_resolution 300*200
+11071.1  lock_resolution()
+11071.1  ! Scripterr(5): battle -> battleloophandler -> turns -> getelement: slicex: invalid slice handle 0
+11071.1  unlock_resolution(300,200)
+11072.0  set_resolution 300*200
+11072.0  lock_resolution()
+11072.9  plotscr.hsd version: 3U 
+11103.9  msg: M ohrrpgce.hsp
+11103.9  msg: M plotscr.lst
+11103.9  msg: M plotscr.lst
+11103.9  msg: M lookup1.bin
+11104.0  plotscr.hsd version: 3U 
+11185.4  msg: M ohrrpgce.hsp
+11185.4  msg: M plotscr.lst
+11185.4  msg: M plotscr.lst
+11185.4  msg: M lookup1.bin
+11185.5  plotscr.hsd version: 3U 
+11202.2  msg: M ohrrpgce.hsp
+11202.2  msg: M plotscr.lst
+11202.2  msg: M plotscr.lst
+11202.2  msg: M lookup1.bin
+11202.4  plotscr.hsd version: 3U 
+11215.1  msg: M ohrrpgce.hsp
+11215.1  msg: M plotscr.lst
+11215.1  msg: M plotscr.lst
+11215.1  msg: M lookup1.bin
+11215.3  plotscr.hsd version: 3U 
+11238.5  msg: M ohrrpgce.gen
+11238.5  msg: M general.reld
+11241.4  msg: M ohrrpgce.gen
+11241.4  msg: M general.reld
+11244.7  msg: M ohrrpgce.gen
+11249.4  msg: M defpal6.bin
+11249.4  msg: M attacks.rgfx
+11249.4  msg: M ohrrpgce.pal
+11249.4  msg: PAL 23
+11249.4  did not reload defpal6.bin
+11252.1  msg: M attacks.rgfx
+11254.4  msg: M attacks.rgfx
+11254.8  msg: M attacks.rgfx
+11270.2  msg: M defpal6.bin
+11270.2  msg: M attacks.rgfx
+11270.2  msg: M ohrrpgce.pal
+11270.2  msg: PAL 23
+11270.2  did not reload defpal6.bin
+11282.6  msg: M defpal6.bin
+11282.6  msg: M attacks.rgfx
+11282.6  msg: M ohrrpgce.pal
+11282.6  did not reload defpal6.bin
+11282.6  msg: PAL 23
+11283.4  msg: M ohrrpgce.gen
+11287.0  msg: M ohrrpgce.gen
+11287.0  msg: M general.reld
+11324.0  msg: M ohrrpgce.hsp
+11324.0  msg: M plotscr.lst
+11324.0  msg: M plotscr.lst
+11324.0  msg: M lookup1.bin
+11324.2  plotscr.hsd version: 3U 
+11366.7  msg: M ohrrpgce.hsp
+11366.7  msg: M plotscr.lst
+11366.7  msg: M plotscr.lst
+11366.7  msg: M lookup1.bin
+11366.9  plotscr.hsd version: 3U 
+11415.1  msg: M ohrrpgce.hsp
+11415.1  msg: M plotscr.lst
+11415.1  msg: M plotscr.lst
+11415.1  msg: M lookup1.bin
+11415.3  plotscr.hsd version: 3U 
+11459.8  msg: M ohrrpgce.hsp
+11459.8  msg: M plotscr.lst
+11459.8  msg: M plotscr.lst
+11459.8  msg: M lookup1.bin
+11459.9  plotscr.hsd version: 3U 
+11490.6  msg: M ohrrpgce.hsp
+11490.6  msg: M plotscr.lst
+11490.6  msg: M plotscr.lst
+11490.6  msg: M lookup1.bin
+11490.7  plotscr.hsd version: 3U 
+11504.1  msg: M ohrrpgce.gen
+11504.1  msg: M general.reld
+11513.3  msg: M attacks.rgfx
+11516.9  msg: M defpal6.bin
+11516.9  msg: M attacks.rgfx
+11516.9  did not reload defpal6.bin
+11520.0  msg: M attacks.rgfx
+11521.4  msg: M attacks.rgfx
+11522.4  msg: M attacks.rgfx
+11524.4  msg: M defpal6.bin
+11524.4  msg: M attacks.rgfx
+11524.4  did not reload defpal6.bin
+11526.0  msg: M ohrrpgce.gen
+11551.5  msg: M defpal6.bin
+11551.5  msg: M attacks.rgfx
+11551.5  msg: M ohrrpgce.pal
+11551.5  msg: PAL 23
+11551.5  did not reload defpal6.bin
+11576.4  msg: M defpal6.bin
+11576.4  did not reload defpal6.bin
+11576.4  msg: M attacks.rgfx
+11576.4  msg: M ohrrpgce.pal
+11576.4  msg: PAL 23
+11621.1  msg: M defpal6.bin
+11621.1  did not reload defpal6.bin
+11621.1  msg: M attacks.rgfx
+11621.1  msg: M ohrrpgce.pal
+11621.1  msg: PAL 23
+11643.9  msg: M defpal6.bin
+11643.9  msg: M attacks.rgfx
+11643.9  msg: M ohrrpgce.pal
+11643.9  msg: PAL 23
+11643.9  did not reload defpal6.bin
+11654.5  msg: M defpal6.bin
+11654.5  msg: M attacks.rgfx
+11654.5  msg: M ohrrpgce.pal
+11654.5  msg: PAL 23
+11654.5  did not reload defpal6.bin
+11668.6  msg: M defpal6.bin
+11668.6  did not reload defpal6.bin
+11668.7  msg: M attacks.rgfx
+11668.7  msg: M ohrrpgce.pal
+11668.7  msg: PAL 23
+11678.6  msg: M defpal6.bin
+11678.6  did not reload defpal6.bin
+11678.6  msg: M attacks.rgfx
+11678.6  msg: M ohrrpgce.pal
+11678.6  msg: PAL 23
+11746.1  msg: M ohrrpgce.gen
+11746.6  msg: M ohrrpgce.gen
+11746.6  msg: M general.reld
+11748.2  msg: M browse.txt
+11748.2  msg: M browse.txt
+11748.2  msg: M general.reld
+11748.2  msg: M ohrrpgce.gen
+11748.2  msg: M general.reld
+11750.4  msg: M ohrrpgce.hsp
+11750.4  msg: M plotscr.lst
+11750.4  msg: M plotscr.lst
+11750.4  msg: M lookup1.bin
+11750.5  plotscr.hsd version: 3U 
+11828.6  msg: M ohrrpgce.hsp
+11828.6  msg: M plotscr.lst
+11828.6  msg: M plotscr.lst
+11828.6  msg: M lookup1.bin
+11828.8  plotscr.hsd version: 3U 
+11943.9  msg: M ohrrpgce.gen
+11943.9  msg: M general.reld
+11947.5  msg: M songdata.bin
+11948.8  msg: M songdata.bin
+11963.2  msg: M song1.ogg
+11963.2  msg: M songdata.bin
+11964.9  msg: M songdata.bin
+11965.7  msg: M ohrrpgce.gen
+11965.7  msg: M general.reld
+11972.8  msg: M ohrrpgce.map
+11972.8  msg: M ohrrpgce.t00
+11972.8  msg: M ohrrpgce.p00
+11972.8  msg: M ohrrpgce.e00
+11972.8  msg: M ohrrpgce.z00
+11972.8  msg: M ohrrpgce.l00
+11972.8  msg: M ohrrpgce.n00
+11972.8  msg: M ohrrpgce.dox
+11972.8  msg: M ohrrpgce.d00
+11972.8  msg: M ohrrpgce.mn
+11972.8  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+11972.8  did not reload ohrrpgce.d00
+11973.3  msg: M ohrrpgce.map
+11973.3  msg: M ohrrpgce.t00
+11973.3  msg: M ohrrpgce.p00
+11973.3  msg: M ohrrpgce.e00
+11973.3  msg: M ohrrpgce.z00
+11973.3  msg: M ohrrpgce.l00
+11973.3  msg: M ohrrpgce.n00
+11973.3  msg: M ohrrpgce.dox
+11973.3  msg: M ohrrpgce.d00
+11973.3  msg: M ohrrpgce.mn
+11973.3  RELOADMAP_GMAP_NO_TILESETS gmap.dirty=0 gmap.changed=-1 gmap.mode=1
+11973.3  did not reload ohrrpgce.d00
+11973.7  msg: M ohrrpgce.gen
+11973.7  msg: M general.reld
+11974.1  msg: M ohrrpgce.gen
+12030.1  msg: M ohrrpgce.hsp
+12030.1  msg: M plotscr.lst
+12030.1  msg: M plotscr.lst
+12030.1  msg: M lookup1.bin
+12030.2  plotscr.hsd version: 3U 
+12152.0  msg: M ohrrpgce.hsp
+12152.0  msg: M plotscr.lst
+12152.0  msg: M plotscr.lst
+12152.0  msg: M lookup1.bin
+12152.2  plotscr.hsd version: 3U 
+12196.2  msg: M ohrrpgce.hsp
+12196.2  msg: M plotscr.lst
+12196.2  msg: M plotscr.lst
+12196.2  msg: M lookup1.bin
+12196.4  plotscr.hsd version: 3U 
+12216.5  msg: M ohrrpgce.gen
+12216.5  msg: M general.reld
+12218.5  msg: M ohrrpgce.gen
+12218.5  msg: M general.reld
+12238.5  msg: M slicetree_0_0.reld
+12238.5  msg: M ohrrpgce.gen
+12238.5  msg: M general.reld
+12238.5  did not reload slicetree_0_0.reld
+12239.2  msg: M ohrrpgce.gen
+12242.9  msg: M ohrrpgce.gen
+12243.7  msg: M ohrrpgce.gen
+12243.7  msg: M general.reld
+12296.2  msg: M ohrrpgce.hsp
+12296.2  msg: M plotscr.lst
+12296.2  msg: M plotscr.lst
+12296.2  msg: M lookup1.bin
+12296.4  plotscr.hsd version: 3U 
+12350.3  msg: M ohrrpgce.hsp
+12350.3  msg: M plotscr.lst
+12350.3  msg: M plotscr.lst
+12350.3  msg: M lookup1.bin
+12350.4  plotscr.hsd version: 3U 
+12403.6  msg: M ohrrpgce.hsp
+12403.6  msg: M plotscr.lst
+12403.6  msg: M plotscr.lst
+12403.6  msg: M lookup1.bin
+12403.7  plotscr.hsd version: 3U 
+12407.8  msg: M ohrrpgce.hsp
+12407.8  msg: M plotscr.lst
+12407.8  msg: M plotscr.lst
+12407.8  msg: M lookup1.bin
+12407.9  plotscr.hsd version: 3U 
+12438.9  msg: M ohrrpgce.hsp
+12438.9  msg: M plotscr.lst
+12438.9  msg: M plotscr.lst
+12438.9  msg: M lookup1.bin
+12439.1  plotscr.hsd version: 3U 
+12476.2  msg: M ohrrpgce.hsp
+12476.2  msg: M plotscr.lst
+12476.2  msg: M plotscr.lst
+12476.2  msg: M lookup1.bin
+12476.4  plotscr.hsd version: 3U 
+12516.2  msg: M ohrrpgce.hsp
+12516.2  msg: M plotscr.lst
+12516.2  msg: M plotscr.lst
+12516.2  msg: M lookup1.bin
+12516.3  plotscr.hsd version: 3U 
+12603.9  msg: M ohrrpgce.hsp
+12603.9  msg: M plotscr.lst
+12603.9  msg: M plotscr.lst
+12603.9  msg: M lookup1.bin
+12604.0  plotscr.hsd version: 3U 
+12613.5  msg: M ohrrpgce.gen
+12613.5  msg: M general.reld
+12654.8  msg: M slicetree_0_0.reld
+12654.8  msg: M ohrrpgce.gen
+12654.8  msg: M general.reld
+12654.8  did not reload slicetree_0_0.reld
+12658.0  msg: M ohrrpgce.hsp
+12658.0  msg: M plotscr.lst
+12658.0  msg: M plotscr.lst
+12658.0  msg: M lookup1.bin
+12658.1  plotscr.hsd version: 3U 
+12681.0  msg: M ohrrpgce.hsp
+12681.0  msg: M plotscr.lst
+12681.0  msg: M plotscr.lst
+12681.0  msg: M lookup1.bin
+12681.1  plotscr.hsd version: 3U 
+12723.6  msg: M ohrrpgce.hsp
+12723.6  msg: M plotscr.lst
+12723.6  msg: M plotscr.lst
+12723.6  msg: M lookup1.bin
+12723.7  plotscr.hsd version: 3U 
+12748.6  msg: M ohrrpgce.hsp
+12748.6  msg: M plotscr.lst
+12748.6  msg: M plotscr.lst
+12748.6  msg: M lookup1.bin
+12748.7  plotscr.hsd version: 3U 
+12774.8  msg: M ohrrpgce.hsp
+12774.8  msg: M plotscr.lst
+12774.8  msg: M plotscr.lst
+12774.8  msg: M lookup1.bin
+12774.9  plotscr.hsd version: 3U 
+12832.5  msg: M ohrrpgce.hsp
+12832.5  msg: M plotscr.lst
+12832.5  msg: M plotscr.lst
+12832.5  msg: M lookup1.bin
+12832.6  plotscr.hsd version: 3U 
+12882.1  msg: M ohrrpgce.gen
+12882.1  msg: M general.reld
+13041.4  msg: M ohrrpgce.gen
+13041.4  msg: M general.reld
+13059.9  msg: M ohrrpgce.hsp
+13059.9  msg: M plotscr.lst
+13059.9  msg: M plotscr.lst
+13059.9  msg: M lookup1.bin
+13060.0  plotscr.hsd version: 3U 
+13061.0  msg: M ohrrpgce.gen
+13061.0  msg: M general.reld
+13077.9  msg: M ohrrpgce.hsp
+13078.1  plotscr.hsd version: 3U 
+13078.1  msg: M plotscr.lst
+13078.1  msg: M plotscr.lst
+13078.1  msg: M lookup1.bin
+13183.2  msg: M ohrrpgce.hsp
+13183.2  msg: M plotscr.lst
+13183.2  msg: M plotscr.lst
+13183.2  msg: M lookup1.bin
+13183.3  plotscr.hsd version: 3U 
+13212.6  msg: M ohrrpgce.hsp
+13212.6  msg: M plotscr.lst
+13212.6  msg: M plotscr.lst
+13212.6  msg: M lookup1.bin
+13212.7  plotscr.hsd version: 3U 
+13238.5  msg: M ohrrpgce.hsp
+13238.5  msg: M plotscr.lst
+13238.5  msg: M plotscr.lst
+13238.5  msg: M lookup1.bin
+13238.6  plotscr.hsd version: 3U 
+13409.1  msg: M ohrrpgce.hsp
+13409.1  msg: M plotscr.lst
+13409.1  msg: M plotscr.lst
+13409.1  msg: M lookup1.bin
+13409.2  plotscr.hsd version: 3U 
+13409.3  not reloading script battleloophandler because it's in use: refcount=1
+13409.3  unlock_resolution(300,200)
+13411.6  set_resolution 300*200
+13411.6  lock_resolution()
+13433.5  msg: M ohrrpgce.hsp
+13433.5  msg: M plotscr.lst
+13433.5  msg: M plotscr.lst
+13433.5  msg: M lookup1.bin
+13433.7  plotscr.hsd version: 3U 
+13433.7  not reloading script battleloophandler because it's in use: refcount=1
+13433.7  unlock_resolution(300,200)
+13434.4  set_resolution 300*200
+13434.4  lock_resolution()
+13434.9  plotscr.hsd version: 3U 
+17295.0  msg: M ohrrpgce.gen
+17295.0  msg: M general.reld
+17298.3  msg: M ohrrpgce.gen
+17308.5  msg: M ohrrpgce.til
+17311.5  msg: M ohrrpgce.gen
+17318.3  msg: M ohrrpgce.gen
+17335.6  msg: M ohrrpgce.tap
+17336.1  msg: M ohrrpgce.tap
+17344.2  msg: M ohrrpgce.tap
+17365.5  msg: M ohrrpgce.tap
+17387.2  msg: M ohrrpgce.tap
+17415.2  msg: M ohrrpgce.tap
+17437.3  msg: M ohrrpgce.til
+17438.0  msg: M ohrrpgce.til
+17443.8  msg: M ohrrpgce.til
+17443.8  msg: M defpass.bin
+17443.8  did not reload defpass.bin
+17599.1  msg: M ohrrpgce.gen
+17599.9  msg: M ohrrpgce.gen
+17599.9  msg: M general.reld
+17604.2  msg: M ohrrpgce.map
+17604.2  msg: M ohrrpgce.t01
+17604.2  msg: M ohrrpgce.p01
+17604.2  msg: M ohrrpgce.e01
+17604.3  msg: M ohrrpgce.z01
+17604.3  msg: M ohrrpgce.l01
+17604.3  msg: M ohrrpgce.n01
+17604.3  msg: M ohrrpgce.dox
+17604.3  msg: M ohrrpgce.d01
+17604.3  msg: M ohrrpgce.mn
+17604.3  did not reload ohrrpgce.d01
+17609.8  msg: M ohrrpgce.map
+17609.8  msg: M ohrrpgce.t01
+17609.8  msg: M ohrrpgce.p01
+17609.8  msg: M ohrrpgce.e01
+17609.8  msg: M ohrrpgce.z01
+17609.8  msg: M ohrrpgce.l01
+17609.8  msg: M ohrrpgce.n01
+17609.8  msg: M ohrrpgce.dox
+17609.8  msg: M ohrrpgce.d01
+17609.8  msg: M ohrrpgce.mn
+17609.8  did not reload ohrrpgce.d01
+17615.6  msg: M ohrrpgce.map
+17615.6  msg: M ohrrpgce.t00
+17615.6  msg: M ohrrpgce.p00
+17615.6  msg: M ohrrpgce.e00
+17615.6  msg: M ohrrpgce.z00
+17615.6  msg: M ohrrpgce.l00
+17615.6  msg: M ohrrpgce.n00
+17615.6  msg: M ohrrpgce.dox
+17615.6  msg: M ohrrpgce.d00
+17615.6  msg: M ohrrpgce.mn
+17615.7  did not reload ohrrpgce.d00
+17660.8  msg: M ohrrpgce.map
+17660.8  msg: M ohrrpgce.t01
+17660.8  msg: M ohrrpgce.p01
+17660.8  msg: M ohrrpgce.e01
+17660.8  msg: M ohrrpgce.z01
+17660.8  msg: M ohrrpgce.l01
+17660.8  msg: M ohrrpgce.n01
+17660.8  msg: M ohrrpgce.dox
+17660.8  msg: M ohrrpgce.d01
+17660.8  msg: M ohrrpgce.mn
+17660.8  did not reload ohrrpgce.d01
+17665.0  msg: M ohrrpgce.map
+17665.0  msg: M ohrrpgce.t01
+17665.0  msg: M ohrrpgce.p01
+17665.0  msg: M ohrrpgce.e01
+17665.0  msg: M ohrrpgce.z01
+17665.0  msg: M ohrrpgce.l01
+17665.0  msg: M ohrrpgce.n01
+17665.0  msg: M ohrrpgce.dox
+17665.0  msg: M ohrrpgce.d01
+17665.0  msg: M ohrrpgce.mn
+17665.0  did not reload ohrrpgce.d01
+17670.1  msg: M ohrrpgce.map
+17670.1  msg: M ohrrpgce.t01
+17670.1  msg: M ohrrpgce.p01
+17670.1  msg: M ohrrpgce.e01
+17670.1  msg: M ohrrpgce.z01
+17670.1  msg: M ohrrpgce.l01
+17670.1  msg: M ohrrpgce.n01
+17670.1  msg: M ohrrpgce.dox
+17670.1  msg: M ohrrpgce.d01
+17670.1  msg: M ohrrpgce.mn
+17670.1  did not reload ohrrpgce.d01
+17747.2  msg: M ohrrpgce.map
+17747.2  msg: M ohrrpgce.t01
+17747.2  msg: M ohrrpgce.p01
+17747.2  msg: M ohrrpgce.e01
+17747.2  msg: M ohrrpgce.z01
+17747.2  msg: M ohrrpgce.l01
+17747.2  msg: M ohrrpgce.n01
+17747.2  msg: M ohrrpgce.dox
+17747.2  msg: M ohrrpgce.d01
+17747.2  msg: M ohrrpgce.mn
+17747.2  did not reload ohrrpgce.d01
+17757.9  msg: M ohrrpgce.map
+17757.9  msg: M ohrrpgce.t01
+17757.9  msg: M ohrrpgce.p01
+17757.9  msg: M ohrrpgce.e01
+17757.9  msg: M ohrrpgce.z01
+17757.9  msg: M ohrrpgce.l01
+17757.9  msg: M ohrrpgce.n01
+17757.9  msg: M ohrrpgce.dox
+17757.9  msg: M ohrrpgce.d01
+17757.9  msg: M ohrrpgce.mn
+17757.9  did not reload ohrrpgce.d01
+17875.7  msg: M ohrrpgce.map
+17875.7  msg: M ohrrpgce.t01
+17875.7  msg: M ohrrpgce.p01
+17875.7  msg: M ohrrpgce.e01
+17875.7  msg: M ohrrpgce.z01
+17875.7  msg: M ohrrpgce.l01
+17875.7  msg: M ohrrpgce.n01
+17875.7  msg: M ohrrpgce.dox
+17875.7  msg: M ohrrpgce.d01
+17875.7  msg: M ohrrpgce.mn
+17875.7  did not reload ohrrpgce.d01
+17882.6  msg: M ohrrpgce.map
+17882.6  msg: M ohrrpgce.t01
+17882.6  msg: M ohrrpgce.p01
+17882.6  msg: M ohrrpgce.e01
+17882.6  msg: M ohrrpgce.z01
+17882.6  msg: M ohrrpgce.l01
+17882.6  msg: M ohrrpgce.n01
+17882.6  msg: M ohrrpgce.dox
+17882.6  msg: M ohrrpgce.d01
+17882.6  msg: M ohrrpgce.mn
+17882.6  did not reload ohrrpgce.d01
+17882.8  msg: M ohrrpgce.map
+17882.8  msg: M ohrrpgce.t01
+17882.8  msg: M ohrrpgce.p01
+17882.8  msg: M ohrrpgce.e01
+17882.8  msg: M ohrrpgce.z01
+17882.8  msg: M ohrrpgce.l01
+17882.8  msg: M ohrrpgce.n01
+17882.8  msg: M ohrrpgce.dox
+17882.8  msg: M ohrrpgce.d01
+17882.8  msg: M ohrrpgce.mn
+17882.8  did not reload ohrrpgce.d01
+17883.1  msg: M ohrrpgce.gen
+17883.1  msg: M general.reld
+17910.2  msg: M ohrrpgce.gen
+17910.2  msg: M general.reld
+17910.6  msg: M ohrrpgce.gen
+17912.2  msg: M ohrrpgce.gen
+17913.1  msg: M ohrrpgce.gen
+17913.1  msg: M general.reld
+17918.8  msg: M ohrrpgce.map
+17918.8  msg: M ohrrpgce.t01
+17918.8  msg: M ohrrpgce.p01
+17918.8  msg: M ohrrpgce.e01
+17918.8  msg: M ohrrpgce.z01
+17918.8  msg: M ohrrpgce.l01
+17918.8  msg: M ohrrpgce.n01
+17918.8  msg: M ohrrpgce.dox
+17918.8  msg: M ohrrpgce.d01
+17918.8  msg: M ohrrpgce.mn
+17918.8  did not reload ohrrpgce.d01
+17924.8  msg: M ohrrpgce.map
+17924.8  msg: M ohrrpgce.t01
+17924.8  msg: M ohrrpgce.p01
+17924.8  msg: M ohrrpgce.e01
+17924.8  msg: M ohrrpgce.z01
+17924.8  msg: M ohrrpgce.l01
+17924.8  msg: M ohrrpgce.n01
+17924.8  msg: M ohrrpgce.dox
+17924.8  msg: M ohrrpgce.d01
+17924.8  msg: M ohrrpgce.mn
+17924.8  did not reload ohrrpgce.d01
+17926.1  msg: M ohrrpgce.gen
+17926.1  msg: M general.reld
+17942.2  msg: M ohrrpgce.map
+17942.2  msg: M ohrrpgce.t01
+17942.2  msg: M ohrrpgce.p01
+17942.2  msg: M ohrrpgce.e01
+17942.2  msg: M ohrrpgce.z01
+17942.2  msg: M ohrrpgce.l01
+17942.2  msg: M ohrrpgce.n01
+17942.2  msg: M ohrrpgce.dox
+17942.2  msg: M ohrrpgce.d01
+17942.2  msg: M ohrrpgce.mn
+17942.2  did not reload ohrrpgce.d01
+17944.5  msg: M ohrrpgce.map
+17944.5  msg: M ohrrpgce.t01
+17944.5  msg: M ohrrpgce.p01
+17944.5  msg: M ohrrpgce.e01
+17944.5  msg: M ohrrpgce.z01
+17944.5  msg: M ohrrpgce.l01
+17944.5  msg: M ohrrpgce.n01
+17944.5  msg: M ohrrpgce.dox
+17944.5  msg: M ohrrpgce.d01
+17944.5  msg: M ohrrpgce.mn
+17944.5  RELOADMAP_PASSMAP passmap.dirty=0 passmap.changed=-1 passmap.mode=1
+17944.5  did not reload ohrrpgce.d01
+17966.7  Starting to record to C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0000.gif
+18034.6  msg: M ohrrpgce.map
+18034.6  msg: M ohrrpgce.t01
+18034.6  msg: M ohrrpgce.p01
+18034.6  msg: M ohrrpgce.e01
+18034.6  msg: M ohrrpgce.z01
+18034.6  msg: M ohrrpgce.l01
+18034.6  msg: M ohrrpgce.n01
+18034.6  msg: M ohrrpgce.dox
+18034.6  msg: M ohrrpgce.d01
+18034.6  msg: M ohrrpgce.mn
+18034.6  did not reload ohrrpgce.d01
+18054.3  msg: M ohrrpgce.map
+18054.3  msg: M ohrrpgce.t00
+18054.3  msg: M ohrrpgce.p00
+18054.3  msg: M ohrrpgce.e00
+18054.3  msg: M ohrrpgce.z00
+18054.3  msg: M ohrrpgce.l00
+18054.3  msg: M ohrrpgce.n00
+18054.3  msg: M ohrrpgce.dox
+18054.3  msg: M ohrrpgce.d00
+18054.3  msg: M ohrrpgce.mn
+18054.3  did not reload ohrrpgce.d00
+18060.9  msg: M ohrrpgce.map
+18060.9  msg: M ohrrpgce.t00
+18060.9  msg: M ohrrpgce.p00
+18060.9  msg: M ohrrpgce.e00
+18060.9  msg: M ohrrpgce.z00
+18060.9  msg: M ohrrpgce.l00
+18060.9  msg: M ohrrpgce.n00
+18060.9  msg: M ohrrpgce.dox
+18060.9  msg: M ohrrpgce.d00
+18060.9  msg: M ohrrpgce.mn
+18060.9  did not reload ohrrpgce.d00
+18061.4  msg: M ohrrpgce.map
+18061.4  msg: M ohrrpgce.t00
+18061.4  msg: M ohrrpgce.p00
+18061.4  msg: M ohrrpgce.e00
+18061.4  msg: M ohrrpgce.z00
+18061.4  msg: M ohrrpgce.l00
+18061.4  msg: M ohrrpgce.n00
+18061.4  msg: M ohrrpgce.dox
+18061.4  msg: M ohrrpgce.d00
+18061.4  msg: M ohrrpgce.mn
+18061.4  did not reload ohrrpgce.d00
+18065.3  msg: M ohrrpgce.map
+18065.3  msg: M ohrrpgce.t01
+18065.3  msg: M ohrrpgce.p01
+18065.3  msg: M ohrrpgce.e01
+18065.3  msg: M ohrrpgce.z01
+18065.3  msg: M ohrrpgce.l01
+18065.3  msg: M ohrrpgce.n01
+18065.3  msg: M ohrrpgce.dox
+18065.3  msg: M ohrrpgce.d01
+18065.3  msg: M ohrrpgce.mn
+18065.3  did not reload ohrrpgce.d01
+18066.6  msg: M ohrrpgce.map
+18066.6  msg: M ohrrpgce.t01
+18066.6  msg: M ohrrpgce.p01
+18066.6  msg: M ohrrpgce.e01
+18066.6  msg: M ohrrpgce.z01
+18066.6  msg: M ohrrpgce.l01
+18066.6  msg: M ohrrpgce.n01
+18066.6  msg: M ohrrpgce.dox
+18066.6  msg: M ohrrpgce.d01
+18066.6  msg: M ohrrpgce.mn
+18066.6  did not reload ohrrpgce.d01
+18074.8  msg: M ohrrpgce.d01
+18074.8  msg: M ohrrpgce.map
+18074.8  msg: M ohrrpgce.t01
+18074.8  msg: M ohrrpgce.p01
+18074.8  msg: M ohrrpgce.e01
+18074.8  did not reload ohrrpgce.d01
+18074.8  msg: M ohrrpgce.z01
+18074.8  msg: M ohrrpgce.l01
+18074.8  msg: M ohrrpgce.n01
+18074.8  msg: M ohrrpgce.dox
+18074.8  msg: M ohrrpgce.d01
+18074.8  msg: M ohrrpgce.mn
+18074.8  did not reload ohrrpgce.d01
+18075.6  msg: M ohrrpgce.map
+18075.6  msg: M ohrrpgce.t01
+18075.6  msg: M ohrrpgce.p01
+18075.6  msg: M ohrrpgce.e01
+18075.6  msg: M ohrrpgce.z01
+18075.6  msg: M ohrrpgce.l01
+18075.6  msg: M ohrrpgce.n01
+18075.6  msg: M ohrrpgce.dox
+18075.6  msg: M ohrrpgce.d01
+18075.6  msg: M ohrrpgce.mn
+18075.6  did not reload ohrrpgce.d01
+18078.0  msg: M ohrrpgce.map
+18078.0  msg: M ohrrpgce.t00
+18078.0  msg: M ohrrpgce.p00
+18078.0  msg: M ohrrpgce.e00
+18078.1  msg: M ohrrpgce.z00
+18078.1  msg: M ohrrpgce.l00
+18078.1  msg: M ohrrpgce.n00
+18078.1  msg: M ohrrpgce.dox
+18078.1  msg: M ohrrpgce.d00
+18078.1  msg: M ohrrpgce.mn
+18078.1  did not reload ohrrpgce.d00
+18085.5  msg: M ohrrpgce.d00
+18085.5  msg: M ohrrpgce.map
+18085.5  msg: M ohrrpgce.t00
+18085.5  msg: M ohrrpgce.p00
+18085.5  msg: M ohrrpgce.e00
+18085.5  msg: M ohrrpgce.z00
+18085.5  msg: M ohrrpgce.l00
+18085.5  msg: M ohrrpgce.n00
+18085.5  msg: M ohrrpgce.dox
+18085.5  did not reload ohrrpgce.d00
+18085.5  msg: M ohrrpgce.d00
+18085.5  msg: M ohrrpgce.mn
+18085.5  did not reload ohrrpgce.d00
+18086.5  msg: M ohrrpgce.map
+18086.5  msg: M ohrrpgce.t00
+18086.5  msg: M ohrrpgce.p00
+18086.5  msg: M ohrrpgce.e00
+18086.5  msg: M ohrrpgce.z00
+18086.5  msg: M ohrrpgce.l00
+18086.5  msg: M ohrrpgce.n00
+18086.5  msg: M ohrrpgce.dox
+18086.5  msg: M ohrrpgce.d00
+18086.5  msg: M ohrrpgce.mn
+18086.5  did not reload ohrrpgce.d00
+18088.0  msg: M ohrrpgce.map
+18088.0  msg: M ohrrpgce.t01
+18088.0  msg: M ohrrpgce.p01
+18088.0  msg: M ohrrpgce.e01
+18088.0  msg: M ohrrpgce.z01
+18088.0  msg: M ohrrpgce.l01
+18088.0  msg: M ohrrpgce.n01
+18088.0  msg: M ohrrpgce.dox
+18088.0  msg: M ohrrpgce.d01
+18088.0  msg: M ohrrpgce.mn
+18088.0  did not reload ohrrpgce.d01
+18089.2  msg: M ohrrpgce.d01
+18089.2  msg: M ohrrpgce.map
+18089.2  msg: M ohrrpgce.t01
+18089.2  msg: M ohrrpgce.p01
+18089.2  msg: M ohrrpgce.e01
+18089.2  msg: M ohrrpgce.z01
+18089.2  msg: M ohrrpgce.l01
+18089.2  msg: M ohrrpgce.n01
+18089.2  msg: M ohrrpgce.dox
+18089.2  msg: M ohrrpgce.d01
+18089.2  msg: M ohrrpgce.mn
+18089.2  did not reload ohrrpgce.d01
+18089.5  msg: M ohrrpgce.map
+18089.5  msg: M ohrrpgce.t01
+18089.5  msg: M ohrrpgce.p01
+18089.5  msg: M ohrrpgce.e01
+18089.5  msg: M ohrrpgce.z01
+18089.5  msg: M ohrrpgce.l01
+18089.5  msg: M ohrrpgce.n01
+18089.5  msg: M ohrrpgce.dox
+18089.5  msg: M ohrrpgce.d01
+18089.5  msg: M ohrrpgce.mn
+18089.5  did not reload ohrrpgce.d01
+18090.5  msg: M ohrrpgce.gen
+18090.5  msg: M general.reld
+18748.8  msg: M defpal6.bin
+18748.8  did not reload defpal6.bin
+18748.8  msg: M attacks.rgfx
+18748.8  msg: M ohrrpgce.pal
+18748.8  msg: PAL 23
+18750.8  msg: M ohrrpgce.gen
+18770.4  msg: M defpal6.bin
+18770.4  did not reload defpal6.bin
+18770.4  msg: M attacks.rgfx
+18770.4  msg: M ohrrpgce.pal
+18770.4  msg: PAL 23
+18782.2  msg: M defpal6.bin
+18782.2  msg: M attacks.rgfx
+18782.2  msg: M ohrrpgce.pal
+18782.2  msg: PAL 23
+18782.2  did not reload defpal6.bin
+19126.2  Cleaning up and terminating 0
+19126.2  Closing music backend...
+19126.3  ...done
+19126.3  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210814143300.517.tmp\
+19126.4  Closing gfx backend & allmodex...
+19126.4  ...done
+19126.4  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.2   ----Starting OHRRPGCE Game----
+ 0.2  08-15-2021 11:29:40
+ 0.2  OHRRPGCE wip 20210803.12314 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.2  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.2  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.2  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_30811'
+ 0.2  Spawned from Custom
+ 0.2  Initialising gfx_sdl2...
+ 0.3  setvideomode zoom=2 w*h = 640,400
+ 0.4  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.4  disable_native_text_input=0
+ 0.4  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.4  Setting default window settings...
+ 0.4  set_resolution 320*200
+ 0.4  Setting graphics scaling to x2 change_windowsize=-1
+ 0.4  Received message from Custom: V OHRRPGCE,4,12314,OHRRPGCE wip 20210803
+ 0.4  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.4  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.4   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.4  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.4  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210815112940.91.tmp\
+ 0.4  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.4  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.4  Name: 
+ 1.1  plotscr.hsd version: 3U 
+ 2.1  lock_resolution()
+ 2.1  set_resolution 300*200
+ 2.1  recenter_window_hint()
+ 2.1  get_screen_size: true screen size 1600x900
+ 2.1  Desktop resolution: 1600*860
+ 2.1  automatic_scale_factor(0.5), screen size: 1600*860
+ 2.1  Setting graphics scaling to x2 change_windowsize=-1
+ 2.1  Preserving fullscreen/windowed state
+ 2.1  genRungameFullscreenIndependent: 0
+114.3  msg: M ohrrpgce.gen
+114.3  msg: M general.reld
+476.0  msg: M ohrrpgce.hsp
+476.0  msg: M plotscr.lst
+476.0  msg: M plotscr.lst
+476.0  msg: M lookup1.bin
+476.2  plotscr.hsd version: 3U 
+513.8  msg: M ohrrpgce.hsp
+513.8  msg: M plotscr.lst
+513.8  msg: M plotscr.lst
+513.8  msg: M lookup1.bin
+513.9  plotscr.hsd version: 3U 
+525.0  msg: M ohrrpgce.hsp
+525.0  msg: M plotscr.lst
+525.0  msg: M plotscr.lst
+525.0  msg: M lookup1.bin
+525.1  plotscr.hsd version: 3U 
+544.9  msg: M ohrrpgce.hsp
+544.9  msg: M plotscr.lst
+544.9  msg: M plotscr.lst
+544.9  msg: M lookup1.bin
+545.0  plotscr.hsd version: 3U 
+556.2  msg: M ohrrpgce.hsp
+556.2  msg: M plotscr.lst
+556.2  msg: M plotscr.lst
+556.2  msg: M lookup1.bin
+556.3  plotscr.hsd version: 3U 
+567.0  msg: M ohrrpgce.hsp
+567.0  msg: M plotscr.lst
+567.0  msg: M plotscr.lst
+567.0  msg: M lookup1.bin
+567.1  plotscr.hsd version: 3U 
+575.2  msg: M ohrrpgce.hsp
+575.2  msg: M plotscr.lst
+575.2  msg: M plotscr.lst
+575.2  msg: M lookup1.bin
+575.4  plotscr.hsd version: 3U 
+589.4  msg: M ohrrpgce.hsp
+589.4  msg: M plotscr.lst
+589.4  msg: M plotscr.lst
+589.4  msg: M lookup1.bin
+589.6  plotscr.hsd version: 3U 
+596.6  msg: M ohrrpgce.hsp
+596.6  msg: M plotscr.lst
+596.6  msg: M plotscr.lst
+596.6  msg: M lookup1.bin
+596.7  plotscr.hsd version: 3U 
+615.0  msg: M ohrrpgce.hsp
+615.0  msg: M plotscr.lst
+615.0  msg: M plotscr.lst
+615.0  msg: M lookup1.bin
+615.1  plotscr.hsd version: 3U 
+630.4  msg: M ohrrpgce.hsp
+630.4  msg: M plotscr.lst
+630.4  msg: M plotscr.lst
+630.4  msg: M lookup1.bin
+630.5  plotscr.hsd version: 3U 
+644.8  msg: M ohrrpgce.hsp
+644.8  msg: M plotscr.lst
+644.8  msg: M plotscr.lst
+644.8  msg: M lookup1.bin
+644.9  plotscr.hsd version: 3U 
+666.1  msg: M ohrrpgce.hsp
+666.1  msg: M plotscr.lst
+666.1  msg: M plotscr.lst
+666.1  msg: M lookup1.bin
+666.2  plotscr.hsd version: 3U 
+691.3  msg: M ohrrpgce.hsp
+691.3  msg: M plotscr.lst
+691.3  msg: M plotscr.lst
+691.3  msg: M lookup1.bin
+691.4  plotscr.hsd version: 3U 
+752.2  msg: M ohrrpgce.hsp
+752.2  msg: M plotscr.lst
+752.2  msg: M plotscr.lst
+752.2  msg: M lookup1.bin
+752.3  plotscr.hsd version: 3U 
+766.4  msg: M ohrrpgce.hsp
+766.4  msg: M plotscr.lst
+766.4  msg: M plotscr.lst
+766.4  msg: M lookup1.bin
+766.5  plotscr.hsd version: 3U 
+774.7  msg: M ohrrpgce.hsp
+774.7  msg: M plotscr.lst
+774.7  msg: M plotscr.lst
+774.7  msg: M lookup1.bin
+774.9  plotscr.hsd version: 3U 
+807.9  msg: M ohrrpgce.gen
+807.9  msg: M general.reld
+815.3  msg: CM 0
+815.3  msg: M song0.ogg
+815.3  msg: M song0.ogg
+815.3  msg: M songdata.bin
+816.0  msg: M songdata.bin
+816.4  msg: M songdata.bin
+818.3  msg: CM 2
+818.3  msg: M song2.ogg
+818.3  msg: M song2.ogg
+818.3  msg: M songdata.bin
+819.7  msg: M songdata.bin
+820.1  msg: M ohrrpgce.gen
+820.1  msg: M general.reld
+908.8  msg: M ohrrpgce.gen
+908.8  msg: M general.reld
+911.5  msg: M ohrrpgce.hsp
+911.5  msg: M plotscr.lst
+911.5  msg: M plotscr.lst
+911.5  msg: M lookup1.bin
+911.6  plotscr.hsd version: 3U 
+937.2  msg: M ohrrpgce.hsp
+937.2  msg: M plotscr.lst
+937.2  msg: M plotscr.lst
+937.2  msg: M lookup1.bin
+937.4  plotscr.hsd version: 3U 
+960.9  msg: M ohrrpgce.hsp
+960.9  msg: M plotscr.lst
+960.9  msg: M plotscr.lst
+960.9  msg: M lookup1.bin
+961.0  plotscr.hsd version: 3U 
+986.1  msg: M ohrrpgce.hsp
+986.1  msg: M plotscr.lst
+986.1  msg: M plotscr.lst
+986.1  msg: M lookup1.bin
+986.2  plotscr.hsd version: 3U 
+1148.0  msg: M ohrrpgce.hsp
+1148.0  msg: M plotscr.lst
+1148.0  msg: M plotscr.lst
+1148.0  msg: M lookup1.bin
+1148.1  plotscr.hsd version: 3U 
+1159.2  msg: M ohrrpgce.hsp
+1159.2  msg: M plotscr.lst
+1159.2  msg: M plotscr.lst
+1159.2  msg: M lookup1.bin
+1159.3  plotscr.hsd version: 3U 
+1159.3  not reloading script [id 32437] because it's in use: refcount=1
+1159.3  not reloading script [id 32443] because it's in use: refcount=2
+1159.3  not reloading script [id 32444] because it's in use: refcount=1
+1159.3  not reloading script [id 32456] because it's in use: refcount=1
+1159.3  not reloading script [id 32502] because it's in use: refcount=1
+1159.3  not reloading script [id 32512] because it's in use: refcount=1
+1159.3  not reloading script [id 32518] because it's in use: refcount=1
+1159.3  not reloading script [id 32543] because it's in use: refcount=1
+1159.3  not reloading script [id 32545] because it's in use: refcount=1
+1159.3  unlock_resolution(300,200)
+1160.3  set_resolution 300*200
+1160.3  lock_resolution()
+1161.6  ! Script interpreter: received interruption
+1161.6  ! Script interrupted: defnewgame -> bridgething -> battleend -> loadbattleback
+1161.6  unlock_resolution(300,200)
+1161.7  ! script_interrupt: User opted to quit
+1161.7  Cleaning up and terminating 1
+1161.7  Closing music backend...
+1161.8  ...done
+1161.8  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210815112940.91.tmp\
+1162.0  Closing gfx backend & allmodex...
+1162.0  ...done
+1162.0  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  08-15-2021 11:49:04
+ 0.1  OHRRPGCE wip 20210803.12314 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_51503'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (0 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.2  Setting default window settings...
+ 0.2  set_resolution 320*200
+ 0.2  Setting graphics scaling to x2 change_windowsize=-1
+ 0.2  Received message from Custom: V OHRRPGCE,4,12314,OHRRPGCE wip 20210803
+ 0.2  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.2  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210815114904.564.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 300*200
+ 0.9  recenter_window_hint()
+ 0.9  get_screen_size: true screen size 1600x900
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 7.9  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: slicey: invalid slice handle 0
+ 7.9  unlock_resolution(300,200)
+ 8.9  set_resolution 300*200
+ 8.9  lock_resolution()
+ 8.9  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: setslicey: invalid slice handle 0
+ 8.9  unlock_resolution(300,200)
+ 9.3  set_resolution 300*200
+ 9.3  lock_resolution()
+ 9.8  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: setslicey: invalid slice handle 0
+ 9.8  unlock_resolution(300,200)
+59.0  msg: M ohrrpgce.gen
+59.0  msg: M general.reld
+59.2  msg: P 
+59.7  msg: M ohrrpgce.gen
+59.7  msg: M general.reld
+60.8  msg: M ohrrpgce.gen
+60.8  msg: M general.reld
+63.2  msg: M ohrrpgce.hsp
+63.2  msg: M plotscr.lst
+63.2  msg: M plotscr.lst
+63.2  msg: M lookup1.bin
+63.4  plotscr.hsd version: 3U 
+63.4  not reloading script animation because it's in use: refcount=1
+63.4  unlock_resolution(300,200)
+64.9  set_resolution 300*200
+64.9  lock_resolution()
+65.2  plotscr.hsd version: 3U 
+78.4  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: firstchild: invalid slice handle 0
+78.4  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: slicey: invalid slice handle 0
+78.4  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: setslicey: invalid slice handle 0
+78.9  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: setslicey: invalid slice handle 0
+98.7  msg: M ohrrpgce.hsp
+98.7  msg: M plotscr.lst
+98.7  msg: M plotscr.lst
+98.7  msg: M lookup1.bin
+98.8  plotscr.hsd version: 3U 
+125.0  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: firstchild: invalid slice handle 0
+125.0  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: slicey: invalid slice handle 0
+125.0  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: slicey: invalid slice handle 0
+125.0  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: setslicey: invalid slice handle 0
+125.5  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: setslicey: invalid slice handle 0
+159.6  msg: M ohrrpgce.hsp
+159.6  msg: M plotscr.lst
+159.6  msg: M plotscr.lst
+159.6  msg: M lookup1.bin
+159.7  plotscr.hsd version: 3U 
+188.0  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: firstchild: invalid slice handle 0
+188.0  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: slicey: invalid slice handle 0
+188.0  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: slicey: invalid slice handle 0
+188.0  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: setslicey: invalid slice handle 0
+188.7  ! Scripterr(5): battle -> battleloophandler -> turns -> animation: setslicey: invalid slice handle 0
+193.4  msg: M ohrrpgce.gen
+193.4  msg: M general.reld
+266.8  msg: M slicetree_0_0.reld
+266.8  msg: M ohrrpgce.gen
+266.8  msg: M general.reld
+266.8  did not reload slicetree_0_0.reld
+267.1  msg: M ohrrpgce.gen
+270.3  msg: M ohrrpgce.hsp
+270.3  msg: M plotscr.lst
+270.3  msg: M plotscr.lst
+270.4  msg: M lookup1.bin
+270.5  plotscr.hsd version: 3U 
+297.3  msg: M ohrrpgce.hsp
+297.3  msg: M plotscr.lst
+297.3  msg: M plotscr.lst
+297.3  msg: M lookup1.bin
+297.4  plotscr.hsd version: 3U 
+1642.4  Cleaning up and terminating 0
+1642.4  Closing music backend...
+1642.4  ...done
+1642.4  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210815114904.564.tmp\
+1642.6  Closing gfx backend & allmodex...
+1642.6  ...done
+1642.6  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.3   ----Starting OHRRPGCE Game----
+ 0.3  08-17-2021 10:52:09
+ 0.3  OHRRPGCE wip 20210803.12314 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.3  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.3  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.3  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_45414'
+ 0.3  Spawned from Custom
+ 0.3  Initialising gfx_sdl2...
+ 0.4  setvideomode zoom=2 w*h = 640,400
+ 0.4  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.4  disable_native_text_input=0
+ 0.5  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.5  Setting default window settings...
+ 0.5  set_resolution 320*200
+ 0.5  Setting graphics scaling to x2 change_windowsize=-1
+ 0.5  Received message from Custom: V OHRRPGCE,4,12314,OHRRPGCE wip 20210803
+ 0.5  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.5  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.5   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.5  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.5  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210817105209.617.tmp\
+ 0.5  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.5  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.5  Name: 
+ 1.0  plotscr.hsd version: 3U 
+ 1.5  lock_resolution()
+ 1.5  set_resolution 300*200
+ 1.5  recenter_window_hint()
+ 1.5  get_screen_size: true screen size 1600x900
+ 1.5  Desktop resolution: 1600*860
+ 1.5  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.5  Setting graphics scaling to x2 change_windowsize=-1
+ 1.5  Preserving fullscreen/windowed state
+ 1.5  genRungameFullscreenIndependent: 0
+ 5.2  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 5.2   Opened as gamecontroller Xbox 360 Controller
+ 5.2  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+12.5  msg: M ohrrpgce.gen
+12.5  msg: M general.reld
+14.9  msg: M ohrrpgce.gen
+14.9  msg: M general.reld
+19.7  msg: M sfxdata.bin
+22.4  msg: M sfxdata.bin
+24.9  msg: M sfxdata.bin
+26.2  msg: M sfxdata.bin
+26.8  msg: M sfxdata.bin
+27.8  msg: M ohrrpgce.gen
+27.8  msg: M general.reld
+41.0  msg: M sfxdata.bin
+41.7  msg: M sfxdata.bin
+42.2  msg: M ohrrpgce.gen
+42.2  msg: M general.reld
+86.6  msg: M ohrrpgce.dt0
+86.6  msg: M heroes.reld
+87.3  msg: M ohrrpgce.dt0
+87.3  msg: M heroes.reld
+97.5  msg: M ohrrpgce.dt0
+97.5  msg: M heroes.reld
+98.0  msg: M ohrrpgce.dt0
+98.0  msg: M heroes.reld
+119.8  msg: M ohrrpgce.dt0
+119.8  msg: M heroes.reld
+120.4  msg: M ohrrpgce.dt0
+120.4  msg: M heroes.reld
+135.7  msg: M ohrrpgce.dt0
+135.7  msg: M heroes.reld
+136.2  msg: M ohrrpgce.dt0
+136.3  msg: M heroes.reld
+136.8  msg: M ohrrpgce.gen
+136.8  msg: M general.reld
+139.0  msg: M ohrrpgce.gen
+225.9  msg: M ohrrpgce.gen
+225.9  msg: M general.reld
+232.4  msg: M ohrrpgce.hsp
+232.4  msg: M plotscr.lst
+232.4  msg: M plotscr.lst
+232.4  msg: M lookup1.bin
+232.5  plotscr.hsd version: 3U 
+272.2  msg: M ohrrpgce.hsp
+272.2  msg: M plotscr.lst
+272.2  msg: M plotscr.lst
+272.2  msg: M lookup1.bin
+272.3  plotscr.hsd version: 3U 
+533.9  msg: M ohrrpgce.hsp
+533.9  msg: M plotscr.lst
+533.9  msg: M plotscr.lst
+533.9  msg: M lookup1.bin
+534.0  plotscr.hsd version: 3U 
+734.7  msg: M ohrrpgce.hsp
+734.7  msg: M plotscr.lst
+734.7  msg: M plotscr.lst
+734.7  msg: M lookup1.bin
+734.8  plotscr.hsd version: 3U 
+734.9  not reloading script battlemenu because it's in use: refcount=1
+734.9  unlock_resolution(300,200)
+736.2  set_resolution 300*200
+736.2  lock_resolution()
+737.3  plotscr.hsd version: 3U 
+1009.1  msg: M ohrrpgce.hsp
+1009.1  msg: M plotscr.lst
+1009.1  msg: M plotscr.lst
+1009.1  msg: M lookup1.bin
+1009.2  plotscr.hsd version: 3U 
+1121.5  msg: M ohrrpgce.hsp
+1121.5  msg: M plotscr.lst
+1121.5  msg: M plotscr.lst
+1121.5  msg: M lookup1.bin
+1121.6  plotscr.hsd version: 3U 
+1240.0  msg: M ohrrpgce.gen
+1240.0  msg: M general.reld
+1367.9  msg: M ohrrpgce.gen
+1367.9  msg: M general.reld
+1368.2  msg: M browse.txt
+1368.2  msg: M browse.txt
+1368.2  msg: M general.reld
+1368.3  msg: M ohrrpgce.gen
+1368.3  msg: M general.reld
+1368.7  msg: M ohrrpgce.gen
+1369.2  msg: M ohrrpgce.gen
+1391.2  msg: M backdrops.rgfx
+1392.2  msg: M ohrrpgce.gen
+1528.3  Starting to record to C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0000.gif
+2133.1  msg: M ohrrpgce.gen
+2144.4  msg: M ohrrpgce.til
+2145.8  msg: M ohrrpgce.gen
+2146.8  msg: M ohrrpgce.gen
+2146.8  msg: M general.reld
+2185.4  msg: M ohrrpgce.til
+2186.3  msg: M ohrrpgce.gen
+2217.7  msg: M ohrrpgce.gen
+2217.7  msg: M general.reld
+2369.0  msg: M ohrrpgce.til
+2374.2  msg: M ohrrpgce.til
+2503.2  msg: M ohrrpgce.gen
+2531.0  msg: M ohrrpgce.til
+2531.9  msg: M ohrrpgce.gen
+2532.6  msg: M ohrrpgce.gen
+2532.6  msg: M general.reld
+2565.7  msg: M ohrrpgce.gen
+2565.7  msg: M general.reld
+2579.1  msg: M ohrrpgce.map
+2579.1  msg: M ohrrpgce.t01
+2579.1  msg: M ohrrpgce.p01
+2579.1  msg: M ohrrpgce.e01
+2579.1  msg: M ohrrpgce.z01
+2579.1  msg: M ohrrpgce.l01
+2579.1  msg: M ohrrpgce.n01
+2579.1  msg: M ohrrpgce.dox
+2579.1  msg: M ohrrpgce.d01
+2579.1  msg: M ohrrpgce.mn
+2579.1  did not reload ohrrpgce.d01
+2579.5  msg: M ohrrpgce.map
+2579.5  msg: M ohrrpgce.t01
+2579.5  msg: M ohrrpgce.p01
+2579.5  msg: M ohrrpgce.e01
+2579.5  msg: M ohrrpgce.z01
+2579.5  msg: M ohrrpgce.l01
+2579.5  msg: M ohrrpgce.n01
+2579.5  msg: M ohrrpgce.dox
+2579.5  msg: M ohrrpgce.d01
+2579.5  msg: M ohrrpgce.mn
+2579.5  did not reload ohrrpgce.d01
+2580.1  msg: M ohrrpgce.gen
+2580.1  msg: M general.reld
+2588.9  msg: M ohrrpgce.gen
+2618.7  msg: M ohrrpgce.gen
+2618.7  msg: M general.reld
+3006.1  msg: M ohrrpgce.map
+3006.1  msg: M ohrrpgce.t01
+3006.1  msg: M ohrrpgce.p01
+3006.1  msg: M ohrrpgce.e01
+3006.1  msg: M ohrrpgce.z01
+3006.1  msg: M ohrrpgce.l01
+3006.1  msg: M ohrrpgce.n01
+3006.1  msg: M ohrrpgce.dox
+3006.1  msg: M ohrrpgce.d01
+3006.1  msg: M ohrrpgce.mn
+3006.1  RELOADMAP_ZONEMAP zonemap.dirty=0 zonemap.changed=-1 zonemap.mode=1
+3006.1  did not reload ohrrpgce.d01
+3006.6  msg: M ohrrpgce.map
+3006.6  msg: M ohrrpgce.t01
+3006.6  msg: M ohrrpgce.p01
+3006.6  msg: M ohrrpgce.e01
+3006.6  msg: M ohrrpgce.z01
+3006.6  msg: M ohrrpgce.l01
+3006.6  msg: M ohrrpgce.n01
+3006.6  msg: M ohrrpgce.dox
+3006.6  msg: M ohrrpgce.d01
+3006.6  msg: M ohrrpgce.mn
+3006.6  did not reload ohrrpgce.d01
+3007.1  msg: M ohrrpgce.gen
+3007.1  msg: M general.reld
+3066.1  msg: M ohrrpgce.gen
+3066.5  msg: M ohrrpgce.gen
+3066.5  msg: M general.reld
+3069.7  msg: M ohrrpgce.hsp
+3069.7  msg: M plotscr.lst
+3069.7  msg: M plotscr.lst
+3069.7  msg: M lookup1.bin
+3069.8  plotscr.hsd version: 3U 
+3094.3  msg: M ohrrpgce.hsp
+3094.3  msg: M plotscr.lst
+3094.3  msg: M plotscr.lst
+3094.3  msg: M lookup1.bin
+3094.4  plotscr.hsd version: 3U 
+3101.0  msg: M ohrrpgce.gen
+3101.0  msg: M general.reld
+3216.1  msg: M browse.txt
+3216.1  msg: M browse.txt
+3216.1  msg: M general.reld
+3216.1  msg: M ohrrpgce.gen
+3216.1  msg: M general.reld
+3218.9  msg: M ohrrpgce.hsp
+3218.9  msg: M plotscr.lst
+3218.9  msg: M plotscr.lst
+3218.9  msg: M lookup1.bin
+3219.0  plotscr.hsd version: 3U 
+3220.4  ! Scripterr(5): defaultonstep -> mapstep1 -> steppicture: zoneatspot: invalid map position 120,120 -- map is 64*64 tiles
+3220.4  unlock_resolution(300,200)
+3223.4  set_resolution 300*200
+3223.4  lock_resolution()
+3223.4  ! Scripterr(5): defaultonstep -> mapstep1 -> steppicture: zoneatspot: invalid map position 120,120 -- map is 64*64 tiles
+3223.4  unlock_resolution(300,200)
+3234.1  msg: M ohrrpgce.hsp
+3234.1  msg: M plotscr.lst
+3234.1  msg: M plotscr.lst
+3234.1  msg: M lookup1.bin
+3234.2  plotscr.hsd version: 3U 
+3234.2  not reloading script steppicture because it's in use: refcount=1
+3234.2  unlock_resolution(300,200)
+3238.7  plotscr.hsd version: 3U 
+3238.7  not reloading script steppicture because it's in use: refcount=1
+3238.7  unlock_resolution(300,200)
+3239.6  set_resolution 300*200
+3239.6  lock_resolution()
+3244.7  plotscr.hsd version: 3U 
+3316.9  msg: M ohrrpgce.hsp
+3316.9  msg: M plotscr.lst
+3316.9  msg: M plotscr.lst
+3316.9  msg: M lookup1.bin
+3317.1  plotscr.hsd version: 3U 
+3329.2  msg: M ohrrpgce.gen
+3329.2  msg: M general.reld
+3336.6  msg: M defpal4.bin
+3336.6  msg: M walkabouts.rgfx
+3336.6  msg: M ohrrpgce.pal
+3336.6  msg: PAL 1
+3336.6  did not reload defpal4.bin
+3372.6  msg: M defpal4.bin
+3372.6  msg: M walkabouts.rgfx
+3372.6  msg: M ohrrpgce.pal
+3372.6  msg: PAL 1
+3372.6  did not reload defpal4.bin
+3385.8  msg: M defpal4.bin
+3385.8  msg: M walkabouts.rgfx
+3385.8  msg: M ohrrpgce.pal
+3385.8  msg: PAL 2
+3385.8  did not reload defpal4.bin
+3395.7  msg: M defpal4.bin
+3395.7  msg: M walkabouts.rgfx
+3395.7  msg: M ohrrpgce.pal
+3395.7  msg: PAL 3
+3395.7  did not reload defpal4.bin
+3404.4  msg: M defpal4.bin
+3404.4  msg: M walkabouts.rgfx
+3404.4  msg: M ohrrpgce.pal
+3404.4  msg: PAL 4
+3404.4  did not reload defpal4.bin
+3405.0  msg: M ohrrpgce.gen
+3433.2  msg: M ohrrpgce.gen
+3433.2  msg: M general.reld
+3846.1  msg: M ohrrpgce.hsp
+3846.1  msg: M plotscr.lst
+3846.1  msg: M plotscr.lst
+3846.1  msg: M lookup1.bin
+3846.2  plotscr.hsd version: 3U 
+3866.4  msg: M ohrrpgce.gen
+3866.4  msg: M general.reld
+3943.1  msg: M ohrrpgce.map
+3943.1  msg: M ohrrpgce.t01
+3943.1  msg: M ohrrpgce.p01
+3943.1  msg: M ohrrpgce.e01
+3943.1  msg: M ohrrpgce.z01
+3943.1  msg: M ohrrpgce.l01
+3943.1  msg: M ohrrpgce.n01
+3943.1  msg: M ohrrpgce.dox
+3943.1  msg: M ohrrpgce.d01
+3943.1  msg: M ohrrpgce.mn
+3943.1  RELOADMAP_ZONEMAP zonemap.dirty=0 zonemap.changed=-1 zonemap.mode=1
+3943.1  did not reload ohrrpgce.d01
+3972.5  msg: M ohrrpgce.map
+3972.5  msg: M ohrrpgce.t01
+3972.5  msg: M ohrrpgce.p01
+3972.5  msg: M ohrrpgce.e01
+3972.5  msg: M ohrrpgce.z01
+3972.5  msg: M ohrrpgce.l01
+3972.5  msg: M ohrrpgce.n01
+3972.5  msg: M ohrrpgce.dox
+3972.5  msg: M ohrrpgce.d01
+3972.5  msg: M ohrrpgce.mn
+3972.5  did not reload ohrrpgce.d01
+3973.1  msg: M ohrrpgce.gen
+3973.1  msg: M general.reld
+3976.1  msg: M ohrrpgce.hsp
+3976.1  msg: M plotscr.lst
+3976.1  msg: M plotscr.lst
+3976.1  msg: M lookup1.bin
+3976.3  plotscr.hsd version: 3U 
+3989.7  msg: M ohrrpgce.hsp
+3989.7  msg: M plotscr.lst
+3989.7  msg: M plotscr.lst
+3989.7  msg: M lookup1.bin
+3989.8  plotscr.hsd version: 3U 
+4005.6  msg: M ohrrpgce.hsp
+4005.6  msg: M plotscr.lst
+4005.6  msg: M plotscr.lst
+4005.6  msg: M lookup1.bin
+4005.7  plotscr.hsd version: 3U 
+4019.1  msg: M ohrrpgce.hsp
+4019.1  msg: M plotscr.lst
+4019.1  msg: M plotscr.lst
+4019.1  msg: M lookup1.bin
+4019.2  plotscr.hsd version: 3U 
+4022.1  msg: M ohrrpgce.gen
+4022.1  msg: M general.reld
+4062.1  msg: M ohrrpgce.gen
+4062.6  msg: M ohrrpgce.gen
+4062.6  msg: M general.reld
+4065.8  msg: M ohrrpgce.hsp
+4065.8  msg: M plotscr.lst
+4065.8  msg: M plotscr.lst
+4065.8  msg: M lookup1.bin
+4065.9  plotscr.hsd version: 3U 
+4132.5  msg: M ohrrpgce.hsp
+4132.5  msg: M plotscr.lst
+4132.5  msg: M plotscr.lst
+4132.5  msg: M lookup1.bin
+4132.6  plotscr.hsd version: 3U 
+4281.5  msg: M ohrrpgce.gen
+4281.5  msg: M general.reld
+4332.0  msg: P 
+4332.1  msg: M ohrrpgce.gen
+4332.1  msg: M general.reld
+4332.3  msg: P 
+4332.9  msg: M ohrrpgce.gen
+4332.9  msg: M general.reld
+4340.5  msg: M ohrrpgce.hsp
+4340.5  msg: M plotscr.lst
+4340.5  msg: M plotscr.lst
+4340.5  msg: M lookup1.bin
+4340.7  plotscr.hsd version: 3U 
+4348.7  msg: M ohrrpgce.hsp
+4348.7  msg: M plotscr.lst
+4348.7  msg: M plotscr.lst
+4348.7  msg: M lookup1.bin
+4348.9  plotscr.hsd version: 3U 
+4358.6  msg: M ohrrpgce.hsp
+4358.6  msg: M plotscr.lst
+4358.6  msg: M plotscr.lst
+4358.6  msg: M lookup1.bin
+4358.7  plotscr.hsd version: 3U 
+4393.3  msg: M ohrrpgce.hsp
+4393.3  msg: M plotscr.lst
+4393.3  msg: M plotscr.lst
+4393.3  msg: M lookup1.bin
+4393.4  plotscr.hsd version: 3U 
+4418.2  msg: M ohrrpgce.hsp
+4418.2  msg: M plotscr.lst
+4418.2  msg: M plotscr.lst
+4418.2  msg: M lookup1.bin
+4418.4  plotscr.hsd version: 3U 
+4433.2  msg: M ohrrpgce.hsp
+4433.2  msg: M plotscr.lst
+4433.2  msg: M plotscr.lst
+4433.2  msg: M lookup1.bin
+4433.4  plotscr.hsd version: 3U 
+4463.0  msg: M ohrrpgce.gen
+4463.0  msg: M general.reld
+4574.8  msg: M ohrrpgce.gen
+4574.8  msg: M general.reld
+4649.3  msg: M ohrrpgce.map
+4649.4  msg: M ohrrpgce.t01
+4649.4  msg: M ohrrpgce.p01
+4649.4  msg: M ohrrpgce.e01
+4649.4  msg: M ohrrpgce.z01
+4649.4  msg: M ohrrpgce.l01
+4649.4  msg: M ohrrpgce.n01
+4649.4  msg: M ohrrpgce.dox
+4649.4  msg: M ohrrpgce.d01
+4649.4  msg: M ohrrpgce.mn
+4649.4  RELOADMAP_ZONEMAP zonemap.dirty=0 zonemap.changed=-1 zonemap.mode=1
+4649.4  did not reload ohrrpgce.d01
+4650.0  msg: M ohrrpgce.map
+4650.0  msg: M ohrrpgce.t01
+4650.0  msg: M ohrrpgce.p01
+4650.0  msg: M ohrrpgce.e01
+4650.0  msg: M ohrrpgce.z01
+4650.0  msg: M ohrrpgce.l01
+4650.0  msg: M ohrrpgce.n01
+4650.0  msg: M ohrrpgce.dox
+4650.0  msg: M ohrrpgce.d01
+4650.0  msg: M ohrrpgce.mn
+4650.0  did not reload ohrrpgce.d01
+4650.4  msg: M ohrrpgce.gen
+4650.4  msg: M general.reld
+4654.5  msg: M ohrrpgce.hsp
+4654.5  msg: M plotscr.lst
+4654.5  msg: M plotscr.lst
+4654.5  msg: M lookup1.bin
+4654.7  plotscr.hsd version: 3U 
+4670.4  msg: M ohrrpgce.hsp
+4670.4  msg: M plotscr.lst
+4670.6  plotscr.hsd version: 3U 
+4670.6  msg: M plotscr.lst
+4670.6  msg: M lookup1.bin
+4734.0  msg: M ohrrpgce.gen
+4734.0  msg: M general.reld
+4749.7  msg: M ohrrpgce.til
+4751.0  msg: M ohrrpgce.gen
+4817.2  msg: M ohrrpgce.gen
+4817.2  msg: M general.reld
+4819.5  msg: M ohrrpgce.gen
+4819.5  msg: M general.reld
+4825.5  msg: M ohrrpgce.til
+4829.6  msg: M ohrrpgce.gen
+4842.7  msg: M ohrrpgce.gen
+4842.7  msg: M general.reld
+4859.8  msg: M ohrrpgce.map
+4859.8  msg: M ohrrpgce.t01
+4859.8  msg: M ohrrpgce.p01
+4859.9  msg: M ohrrpgce.e01
+4859.9  msg: M ohrrpgce.z01
+4859.9  msg: M ohrrpgce.l01
+4859.9  msg: M ohrrpgce.n01
+4859.9  msg: M ohrrpgce.dox
+4859.9  msg: M ohrrpgce.d01
+4859.9  msg: M ohrrpgce.mn
+4859.9  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+4859.9  did not reload ohrrpgce.d01
+4884.0  msg: M ohrrpgce.map
+4884.0  msg: M ohrrpgce.t01
+4884.0  msg: M ohrrpgce.p01
+4884.0  msg: M ohrrpgce.e01
+4884.0  RELOADMAP_TILEMAP_AND_TILESETS maptiles.dirty=0 maptiles.changed=-1 maptiles.mode=1
+4884.0  msg: M ohrrpgce.z01
+4884.0  msg: M ohrrpgce.l01
+4884.0  msg: M ohrrpgce.n01
+4884.0  msg: M ohrrpgce.dox
+4884.0  msg: M ohrrpgce.d01
+4884.0  msg: M ohrrpgce.mn
+4884.0  did not reload ohrrpgce.d01
+4885.7  msg: M ohrrpgce.map
+4885.7  msg: M ohrrpgce.t01
+4885.7  msg: M ohrrpgce.p01
+4885.7  msg: M ohrrpgce.e01
+4885.7  msg: M ohrrpgce.z01
+4885.7  msg: M ohrrpgce.l01
+4885.7  msg: M ohrrpgce.n01
+4885.7  msg: M ohrrpgce.dox
+4885.7  msg: M ohrrpgce.d01
+4885.7  msg: M ohrrpgce.mn
+4885.7  did not reload ohrrpgce.d01
+4888.3  msg: M ohrrpgce.gen
+4888.3  msg: M general.reld
+4918.7  msg: M defpal4.bin
+4918.7  msg: M walkabouts.rgfx
+4918.7  msg: M ohrrpgce.pal
+4918.7  did not reload defpal4.bin
+4918.7  msg: PAL 1
+4923.6  msg: M defpal4.bin
+4923.6  msg: M walkabouts.rgfx
+4923.6  msg: M ohrrpgce.pal
+4923.6  msg: PAL 2
+4923.6  did not reload defpal4.bin
+4927.1  msg: M defpal4.bin
+4927.1  did not reload defpal4.bin
+4927.2  msg: M walkabouts.rgfx
+4927.2  msg: M ohrrpgce.pal
+4927.2  msg: PAL 3
+4930.9  msg: M defpal4.bin
+4930.9  msg: M walkabouts.rgfx
+4930.9  msg: M ohrrpgce.pal
+4930.9  msg: PAL 4
+4930.9  did not reload defpal4.bin
+4931.6  msg: M ohrrpgce.gen
+4933.6  msg: M ohrrpgce.gen
+4933.6  msg: M general.reld
+6114.8  Cleaning up and terminating 0
+6114.8  Closing music backend...
+6114.9  ...done
+6114.9  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210817105209.617.tmp\
+6115.0  Closing gfx backend & allmodex...
+6115.0  ...done
+6115.0  End.

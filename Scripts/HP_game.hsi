@@ -3,11 +3,6 @@
 define constant, begin
 2,tag:YesNo
 3,tag:overbridge
-0,song:battle against a childish oppo
-1,song:neo memphis
-0,sfx:water_steps
-1,sfx:big_explosion
-2,sfx:doorclose
 0,hero:Keifer
 1,hero:Jenkins
 2,hero:GMoney
@@ -46,7 +41,8 @@ define constant, begin
 3,slot:Body
 4,slot:Legs
 5,slot:Other
-0,map:TEST MAP
+0,map:TEST1
+1,map:TEST2
 1,atk:Basic
 1,menu:Settings
 0,enemy:Blank

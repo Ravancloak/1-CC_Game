@@ -131,10 +131,13 @@ script, battleMenu, which, begin
 	)
 
 	exitBattleMenu
-
+	writeStat(which, stat:defending, false)
 	switch (battle:bkey) do (
 		case (bkey:targatk) do (
 			opentarget(which)
+		)
+		case (bkey:defend) do (
+			writeStat(which, stat:defending, true)
 		)
 		case (bkey:run) do (
 			exit script
@@ -235,7 +238,11 @@ end
 
 script, enemyturn, who, begin
 	variable (target)
-	target := random (0, herocount--1)
+	while (true) do (
+		target := random (0, herocount--1)
+		if (readstat(target, stat:HP)>0) then (break)
+	)
+	
 	addattack (attack:normal, who, target)
 end
 
@@ -246,9 +253,28 @@ script, battlecheck, begin
 	variable (var, var2, sli, counter, i)
 
 	#check for all characters dead or all enemies dead
-	counter := herocount
-	var2 := 0
-	
+	switch (herocount) do (
+		case (1) do (
+			if (readStat(0, stat:HP)==0) then (battle:win := 1)
+		)
+		case (2) do (
+			if (
+				readStat(0, stat:HP)==0&&readStat(1, stat:HP)==0
+			) then (battle:win := 1)
+		)
+		case (3) do (
+			if (
+				readStat(0, stat:HP)==0&&readStat(1, stat:HP)==0&&
+				readStat(2, stat:HP)==0
+			) then (battle:win := 1)
+		)
+		case (4) do (
+			if (
+				readStat(0, stat:HP)==0&&readStat(1, stat:HP)==0&&
+				readStat(2, stat:HP)==0&&readStat(3, stat:HP)==0
+			) then (battle:win := 0)
+		)
+	) 
 
 	switch (enemycount) do (
 		case (1) do (
@@ -272,6 +298,7 @@ script, battlecheck, begin
 			) then (battle:win := 1)
 		)
 	) 
+
 end
 
 #=======================================================================
