@@ -34,7 +34,6 @@ plotscript, battle, formation, begin
 				if (var<0) then (
 					enemyturn(i)
 					var := random(1000, 1000 -- readStat(i,stat:Speed)/2)
-					show value (i)
 					turns
 					specwait (1)
 				)
@@ -118,7 +117,7 @@ script, battleMenu, which, begin
 	set slice visible (lookupslice (sli:hideactionmenu), true)
 
 	sli := last child (lookupslice (sli:hideactionmenu))
-	replaceportraitsprite (sli, get hero picture (who, hero portrait))
+	replaceportraitsprite (sli, who)
 	slice to back (sli)
 	dissolve sprite (sli, dissolve:sink into ground, 10, 0, true) 
 

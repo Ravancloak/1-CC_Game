@@ -49,6 +49,7 @@ define constant, begin
 1,enemy:Rat King
 2,enemy:Doll Dancer
 3,enemy:Mushroom Man
+4,enemy:Tentas
 1,sli:battle col
 2,sli:enemy grid
 3,sli:hero grid

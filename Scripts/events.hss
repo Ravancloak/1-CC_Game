@@ -1,0 +1,8 @@
+plotscript, benchheal, begin
+	write(2, 0, 2)
+	if (checktag(tag:yesno)) then (
+		healparty
+		write(3)
+		settag(tag:yesno, off)
+	) else (write (4))
+end

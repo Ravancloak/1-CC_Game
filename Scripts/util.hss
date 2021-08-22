@@ -32,6 +32,17 @@ script, soundpercent, begin
 end
 
 #various==========================================
+
+script, healparty, begin
+	variable (i)
+	for (i, 0, 3) do (
+		if (hero by slot (i)<>-1) then (
+			setHeroStat(i, stat:HP, getHeroStat(i, stat:HP, maximumstat))
+			setHeroStat(i, stat:PP, getHeroStat(i, stat:PP, maximumstat))
+		)
+	)
+end
+
 plotscript, doorscript, begin
 	variable (x, y, who, door)
 	suspendmovement
@@ -169,8 +180,8 @@ script, resetControls, begin
 	cont:X	:= joy:Y
 	cont:Y	:= joy:X
 	
-	board:A	:= key:z
-	board:B	:= key:X
+	board:A	:= key:x
+	board:B	:= key:z
 	board:X	:= key:Enter
 	board:Y	:= key:rightShift
 end

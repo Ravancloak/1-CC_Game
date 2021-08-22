@@ -125,6 +125,8 @@ script, turns, begin
 			dissolveSprite (sli, dissolve:flicker, 22)
 			specwait (20)
 			set slice visible (sli, false)
+		) else (
+			updateportrait(targ)
 		)
 	end
 

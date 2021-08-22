@@ -11,6 +11,7 @@ include, anidistortions.hss
 include, menu.hss
 include, everytick.hss
 include, skills.hss
+include, events.hss
 
 define constant, begin
 	#game modes

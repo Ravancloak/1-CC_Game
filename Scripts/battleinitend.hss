@@ -223,6 +223,11 @@ script, battleEnd, condition=1, begin
 		set sprite visible (lookupslice (sli:hide heroes), false)
 		set sprite visible (lookupslice (sli:enemygrid), false)
 
+		for (i, 0, herocount--1) do (
+			setHeroStat(i, stat:HP, readstat(i, stat:HP))
+			setHeroStat(i, stat:PP, readstat(i, stat:PP))
+		)
+
 		freebattleback
 		fade music out(100)
 		free slice (lookupslice(array:battleinfo))
@@ -371,9 +376,23 @@ script, updateportrait, which, begin
 
 	sli := battlePortrait(which)
 	if (var > 0) then (
-		replaceportraitsprite (sli, get hero picture (who, hero portrait))
+		replaceportraitsprite (sli, which)
 	) else (
 		replaceportraitsprite (sli, which+4)
+	)
+end
+
+
+script, largeupdateportrait, which, begin
+	variable (sli, who, var)
+	who := herobyslot(which)
+	var := readstat (who, stat:hp)
+
+	sli := battlePortrait(which)
+	if (var > 0) then (
+		replaceportraitsprite (sli, which+8)
+	) else (
+		replaceportraitsprite (sli, which+12)
 	)
 end
 
@@ -385,6 +404,7 @@ script, battlePortrait, which, begin
 	#go to portrait
 	return (last child (sli))
 end
+
 
 #=======================================================================
 #=======================================================================
