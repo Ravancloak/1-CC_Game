@@ -137,7 +137,7 @@ script, screenfadeout, ticks=30, begin
 	variable (sli,i)
 	sli := load backdrop sprite (0)
 	setSliceLookup (sli, sli:fade)
-	dissolveSprite (sli, dissolve:fade, 60, 0, true)
+	dissolveSprite (sli, dissolve:fade, ticks, 0, true)
 	for (i,0,ticks) do (
 		specwait
 	)
@@ -145,8 +145,8 @@ end
 
 script, screenfadein, ticks=30, begin
 	variable (sli,i)
-	sli := Lookupslice(sli:fade)
-	dissolveSprite (sli, dissolve:fade, 60, 0)
+	sli := lookupslice(sli:fade)
+	dissolveSprite (sli, dissolve:fade, ticks, 0)
 	if (ticks<10) then (ticks:=10)
 	for (i,0,ticks--10) do (
 		specwait

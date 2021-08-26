@@ -1,0 +1,325 @@
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.8   ----Starting OHRRPGCE Custom----
+ 0.8  08-26-2021 14:11:48
+ 0.8  OHRRPGCE wip 20210803.12314 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.8  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 0.8  orig_dir: C:\OHRRPGCE
+ 0.8  curdir: C:\OHRRPGCE
+ 0.8  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.8  documents_dir: C:\Users\Dell\Documents
+ 0.8  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.9  Initialising gfx_sdl2...
+ 1.1  setvideomode zoom=2 w*h = 640,400
+ 1.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 1.2  disable_native_text_input=0
+ 1.2  unlock_resolution(320,200)
+ 1.2  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 1.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 1.3  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 1.4  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.4   Opened as gamecontroller Xbox 360 Controller
+ 1.4  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 1.4  JOYSTICKSTATE.UPDATE_KEYBITS(0) took 43ms
+23.5  check_ok_to_open...
+23.5  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+23.5  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+23.5  prev_session.info_file_exists = YES
+23.5  prev_session.pid = 5692 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+23.5  prev_session.running = YES
+23.5  prev_session.partial_rpg = NO
+23.5  prev_session.fresh_danger_tmp = NO
+23.5  prev_session.sourcerpg = 
+23.5  prev_session.sourcerpg_old_mtime = 0
+23.5  prev_session.sourcerpg_current_mtime = 0
+23.5  prev_session.session_start_time = 2021 Aug 26 14:11:49
+23.5  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+23.5   ----Loading a game----
+23.5  08-26-2021 14:12:11
+23.5  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+23.5  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+23.5  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+23.5  Editing game C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg ( )
+23.7  Full game data upgrade...
+23.7  Last edited by: [[OHRRPGCE wip 20210803.12314 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12220
+23.7  archinym creation info: OHRRPGCE wip 20210417
+25.2  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_13915
+26.0  Channel connection received (after 489ms)
+124.4  Setting graphics scaling to x4 change_windowsize=0
+124.4   ...current window size 640,400
+124.4  recenter_window_hint()
+1153.9  Setting graphics scaling to x2 change_windowsize=0
+1153.9   ...current window size 1280,800
+1153.9  recenter_window_hint()
+1352.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\clouds.bmp twice! Probably a mistake
+1352.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\clouds.bmp twice! Probably a mistake
+1353.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse1.bmp twice! Probably a mistake
+1353.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse1.bmp twice! Probably a mistake
+1353.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse2.bmp twice! Probably a mistake
+1353.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse2.bmp twice! Probably a mistake
+1353.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse3.bmp twice! Probably a mistake
+1353.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse3.bmp twice! Probably a mistake
+1353.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse4.bmp twice! Probably a mistake
+1353.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse4.bmp twice! Probably a mistake
+1353.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+1353.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+1354.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_02.bmp twice! Probably a mistake
+1354.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_02.bmp twice! Probably a mistake
+1414.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_02.bmp twice! Probably a mistake
+1414.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_02.bmp twice! Probably a mistake
+1424.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_02.bmp twice! Probably a mistake
+1424.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_02.bmp twice! Probably a mistake
+1424.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+1424.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+1426.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+1426.7  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+1427.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_02.bmp twice! Probably a mistake
+1427.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_02.bmp twice! Probably a mistake
+1976.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_02.bmp twice! Probably a mistake
+1976.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_02.bmp twice! Probably a mistake
+1977.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+1977.6  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\outside_01.bmp twice! Probably a mistake
+1977.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse4.bmp twice! Probably a mistake
+1977.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse4.bmp twice! Probably a mistake
+1978.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse3.bmp twice! Probably a mistake
+1978.0  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse3.bmp twice! Probably a mistake
+1978.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse2.bmp twice! Probably a mistake
+1978.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse2.bmp twice! Probably a mistake
+1978.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse1.bmp twice! Probably a mistake
+1978.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\keifhouse1.bmp twice! Probably a mistake
+1978.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\clouds.bmp twice! Probably a mistake
+1978.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\tilesets\clouds.bmp twice! Probably a mistake
+1979.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+1979.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\masterpal.bmp twice! Probably a mistake
+1981.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battle glitch.bmp twice! Probably a mistake
+1981.5  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battle glitch.bmp twice! Probably a mistake
+1982.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battle heroes.bmp twice! Probably a mistake
+1982.1  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battle heroes.bmp twice! Probably a mistake
+1982.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battleback1.bmp twice! Probably a mistake
+1982.4  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battleback1.bmp twice! Probably a mistake
+1983.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battle heroes.bmp twice! Probably a mistake
+1983.2  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battle heroes.bmp twice! Probably a mistake
+1984.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battleback1.bmp twice! Probably a mistake
+1984.3  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\battleback1.bmp twice! Probably a mistake
+1984.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\blankback.bmp twice! Probably a mistake
+1984.8  ! (BUG) Opening C:\OHRRPGCE\0_ohrgames\1-CC_game\Art\backdrops\blankback.bmp twice! Probably a mistake
+2097.1  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.179744.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.186585.tmp"
+2097.4  hspeak version '3Uf'
+2097.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2190.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.649178.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.869837.tmp"
+2190.3  hspeak version '3Uf'
+2190.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2239.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.590409.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.476342.tmp"
+2239.7  hspeak version '3Uf'
+2239.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2246.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.638097.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.249873.tmp"
+2246.4  hspeak version '3Uf'
+2246.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2252.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.814075.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.515356.tmp"
+2252.8  hspeak version '3Uf'
+2252.8  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2312.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.225278.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.801230.tmp"
+2312.7  hspeak version '3Uf'
+2312.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2331.6  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.224234.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.911620.tmp"
+2331.7  hspeak version '3Uf'
+2331.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2399.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.76447.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.563668.tmp"
+2399.5  hspeak version '3Uf'
+2399.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2417.7  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.517821.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.783203.tmp"
+2417.7  hspeak version '3Uf'
+2417.7  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2444.5  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.928793.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.168711.tmp"
+2444.5  hspeak version '3Uf'
+2444.5  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2465.2  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.426001.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.965713.tmp"
+2465.3  hspeak version '3Uf'
+2465.3  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2556.8  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.784349.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.509692.tmp"
+2556.9  hspeak version '3Uf'
+2556.9  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" -j "Scripts\0main.hss"
+2641.0  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.774981.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.496405.tmp"
+2641.0  hspeak version '3Uf'
+2641.0  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+2660.3  "C:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.452843.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.387315.tmp"
+2660.4  hspeak version '3Uf'
+2660.4  spawn_and_wait "C:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "Scripts\HP_game.hsi" "Scripts\0main.hss"
+3057.6  getinputtext: not enabled
+3057.7  getinputtext: not enabled
+3057.7  getinputtext: not enabled
+3058.2  getinputtext: not enabled
+3058.2  getinputtext: not enabled
+3058.3  getinputtext: not enabled
+3058.3  getinputtext: not enabled
+3058.4  getinputtext: not enabled
+3058.4  getinputtext: not enabled
+3058.5  getinputtext: not enabled
+3058.6  getinputtext: not enabled
+3058.6  getinputtext: not enabled
+3058.7  getinputtext: not enabled
+3058.7  getinputtext: not enabled
+3058.8  getinputtext: not enabled
+3058.8  getinputtext: not enabled
+3058.9  getinputtext: not enabled
+3058.9  getinputtext: not enabled
+3059.0  getinputtext: not enabled
+3059.1  getinputtext: not enabled
+3059.1  getinputtext: not enabled
+3059.2  getinputtext: not enabled
+3059.2  getinputtext: not enabled
+3059.3  getinputtext: not enabled
+3059.3  getinputtext: not enabled
+3059.4  getinputtext: not enabled
+3059.4  getinputtext: not enabled
+3059.5  getinputtext: not enabled
+3059.5  getinputtext: not enabled
+3059.6  getinputtext: not enabled
+3059.7  getinputtext: not enabled
+3059.7  getinputtext: not enabled
+3059.8  getinputtext: not enabled
+3059.8  getinputtext: not enabled
+3059.9  getinputtext: not enabled
+3059.9  getinputtext: not enabled
+3060.0  getinputtext: not enabled
+3060.0  getinputtext: not enabled
+3060.1  getinputtext: not enabled
+3060.2  getinputtext: not enabled
+3060.2  getinputtext: not enabled
+3060.3  getinputtext: not enabled
+3060.3  getinputtext: not enabled
+3060.4  getinputtext: not enabled
+3060.4  getinputtext: not enabled
+3060.5  getinputtext: not enabled
+3060.5  getinputtext: not enabled
+3060.6  getinputtext: not enabled
+3060.6  getinputtext: not enabled
+3060.7  getinputtext: not enabled
+3060.8  getinputtext: not enabled
+3060.8  getinputtext: not enabled
+3060.9  getinputtext: not enabled
+3060.9  getinputtext: not enabled
+3061.0  getinputtext: not enabled
+3061.0  getinputtext: not enabled
+3061.1  getinputtext: not enabled
+3061.1  getinputtext: not enabled
+3061.2  getinputtext: not enabled
+3061.3  getinputtext: not enabled
+3061.3  getinputtext: not enabled
+3061.4  getinputtext: not enabled
+3061.4  getinputtext: not enabled
+3061.5  getinputtext: not enabled
+3061.5  getinputtext: not enabled
+3061.6  getinputtext: not enabled
+3061.6  getinputtext: not enabled
+3061.7  getinputtext: not enabled
+3061.7  getinputtext: not enabled
+3061.8  getinputtext: not enabled
+3061.9  getinputtext: not enabled
+3061.9  getinputtext: not enabled
+3062.0  getinputtext: not enabled
+3062.0  getinputtext: not enabled
+3062.1  getinputtext: not enabled
+3062.1  getinputtext: not enabled
+3062.2  getinputtext: not enabled
+3062.2  getinputtext: not enabled
+3062.3  getinputtext: not enabled
+3062.4  getinputtext: not enabled
+3062.4  getinputtext: not enabled
+3062.5  getinputtext: not enabled
+3062.5  getinputtext: not enabled
+3062.6  getinputtext: not enabled
+3062.6  getinputtext: not enabled
+3062.7  getinputtext: not enabled
+3062.7  getinputtext: not enabled
+3062.8  getinputtext: not enabled
+3062.8  getinputtext: not enabled
+3062.9  getinputtext: not enabled
+3063.0  getinputtext: not enabled
+3063.0  getinputtext: not enabled
+3063.1  getinputtext: not enabled
+3063.1  getinputtext: not enabled
+3063.2  getinputtext: not enabled
+3063.2  getinputtext: not enabled
+3063.3  getinputtext: not enabled
+3063.3  getinputtext: not enabled
+3063.4  getinputtext: not enabled
+3063.5  getinputtext: not enabled
+3063.5  getinputtext: not enabled
+3063.6  getinputtext: not enabled
+3063.6  getinputtext: not enabled
+3063.7  getinputtext: not enabled
+3063.7  getinputtext: not enabled
+3063.8  getinputtext: not enabled
+3063.8  getinputtext: not enabled
+3063.9  getinputtext: not enabled
+3063.9  getinputtext: not enabled
+3064.0  getinputtext: not enabled
+3064.1  getinputtext: not enabled
+3064.1  getinputtext: not enabled
+3064.2  getinputtext: not enabled
+3064.2  getinputtext: not enabled
+3064.3  getinputtext: not enabled
+3064.3  getinputtext: not enabled
+3064.4  getinputtext: not enabled
+3064.4  getinputtext: not enabled
+3064.5  getinputtext: not enabled
+3064.6  getinputtext: not enabled
+3064.6  getinputtext: not enabled
+3064.7  getinputtext: not enabled
+3064.7  getinputtext: not enabled
+3064.8  getinputtext: not enabled
+3064.8  getinputtext: not enabled
+3064.9  getinputtext: not enabled
+3064.9  getinputtext: not enabled
+3065.0  getinputtext: not enabled
+3065.0  getinputtext: not enabled
+3065.1  getinputtext: not enabled
+3065.2  getinputtext: not enabled
+3065.2  getinputtext: not enabled
+3065.3  getinputtext: not enabled
+3065.3  getinputtext: not enabled
+3065.4  getinputtext: not enabled
+3065.4  getinputtext: not enabled
+3065.5  getinputtext: not enabled
+3065.5  getinputtext: not enabled
+3065.6  getinputtext: not enabled
+3065.7  getinputtext: not enabled
+3065.7  getinputtext: not enabled
+3065.8  getinputtext: not enabled
+3065.8  getinputtext: not enabled
+3065.9  getinputtext: not enabled
+3065.9  getinputtext: not enabled
+3066.0  getinputtext: not enabled
+3066.0  getinputtext: not enabled
+3066.1  getinputtext: not enabled
+3066.1  getinputtext: not enabled
+3066.2  getinputtext: not enabled
+3066.3  getinputtext: not enabled
+3066.3  getinputtext: not enabled
+3066.4  getinputtext: not enabled
+3066.4  getinputtext: not enabled
+3066.5  getinputtext: not enabled
+3066.5  getinputtext: not enabled
+3066.6  getinputtext: not enabled
+3292.8  getinputtext: not enabled
+3292.8  getinputtext: not enabled
+3292.9  getinputtext: not enabled
+3451.4  getinputtext: not enabled
+3451.5  getinputtext: not enabled
+3451.5  getinputtext: not enabled
+3451.6  getinputtext: not enabled
+4005.4  getinputtext: not enabled
+4005.5  getinputtext: not enabled
+4005.5  getinputtext: not enabled
+4674.6  getinputtext: not enabled
+4674.7  getinputtext: not enabled
+4828.5  channel_write error (closing) (wrote 0 of 21): The pipe is being closed.
+4831.9  Saving - been editing for 57m20s
+4832.0  Cleaning up and terminating 0
+4832.0  Closing music backend...
+4832.1  ...done
+4832.7  Closing gfx backend & allmodex...
+4832.8  ...done
+4832.8  End.

@@ -13,7 +13,7 @@ define constant, begin
 2,stat:Atk
 3,stat:Aim
 4,stat:Def
-5,stat:Dodge
+5,stat:Evade
 6,stat:Psi
 7,stat:Will
 8,stat:Speed
@@ -45,6 +45,7 @@ define constant, begin
 1,map:TEST2
 1,atk:Basic
 1,menu:Settings
+2,menu:YesNo
 0,enemy:Blank
 1,enemy:Rat King
 2,enemy:Doll Dancer

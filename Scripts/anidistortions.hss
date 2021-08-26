@@ -1,8 +1,11 @@
-script, loadbattleback, formation, height=240, begin
-	variable (sli, sli2, i, j, set1, set2, blend1, blend2, opacity1, opacity2)
+script, loadbattleback, formation, begin
+	variable (sli, sli2, i, j, height, width)
+	variable (set1, set2, blend1, blend2, opacity1, opacity2)
 
 	sli := load backdrop sprite (2)
-	dissolve sprite (sli , dissolve:fade, 40, 0, true)
+	height := sliceHeight(sli)
+	width  := sliceWidth(sli)
+	dissolve sprite (sli, dissolve:fade, 40, 0, true)
 	put slice (sli, 0, -10)
 	center slice (sli)
 	set slice clipping (sli, true)
@@ -13,10 +16,10 @@ script, loadbattleback, formation, height=240, begin
 	switch (formation)do(
 		case (1) do (
 			set1 := 9, set2 := 9
-			blend1 := blend:add
+			blend1 := blend:normal
 			blend2 := blend:normal
-			opacity1 := 50
-			opacity2 := 40
+			opacity1 := 60
+			opacity2 := 60
 		)
 		case (2) do (
 			set1 := 6, set2 := 7
@@ -72,15 +75,15 @@ script, sinedist, begin
 
 	sli := slice child (first child (first child (lookupslice(sli:battleback))))
 
-	height := sliceHeight (sli)
-	width := sliceWidth(sli)
+	height := sliceHeight (lookupslice(sli:battleback))
+	width := sliceWidth(lookupslice(sli:battleback))
 	for (j, 0, 1) do (
 
 		if (j == 0) then (
 			switch (formation) do (
 				case (1) do (
-					amplitude := 80, frequency := 5, compression := 1
-					timeScaling := 20, mode := 2, scrolly:=-2
+					amplitude := 20, frequency := 1, compression := 1
+					timeScaling := 1, mode := 2, scrolly:=-4
 				)
 				case (2) do (
 					amplitude := 2, frequency := 8, compression := 3
@@ -94,8 +97,8 @@ script, sinedist, begin
 			switch (formation) do (
 
 				case (1) do (
-					amplitude := 200, frequency := 1, compression := 1
-					timeScaling := 200, mode := 2, scrolly:=2
+					amplitude := 100, frequency := 2, compression := 1
+					timeScaling := 1, mode := 2, scrolly:=1
 				)
 				case (2) do (
 					amplitude := 4, frequency := 20, compression := 1
@@ -107,9 +110,9 @@ script, sinedist, begin
 			)
 		)
 
-		t := get slice extra (first child (lookupslice(sli:battleback)), 0)
+		t := game:tick
 		if (timeScaling == 0) then (timeScaling := 1)
-		t := (t * 80)/timeScaling
+		t := t/800000
 
 		for (i, 0, height--1) do (
 			x := 0
@@ -117,7 +120,7 @@ script, sinedist, begin
 			
 			offset := sine ((frequency*i)/2 + game:tick) * amplitude/6000
 			varY := get slice extra (sli, 1) + scrollY
-			Y := varY/4
+			Y := varY/4*t
 			
 			if (mode == 1) then(
 				x := offset

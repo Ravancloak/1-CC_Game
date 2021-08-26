@@ -25,6 +25,11 @@ plotscript, defloadgame, begin
 	end
 end
 
+plotscript, defgameover, begin
+	screenfadeout
+	resetGame
+end
+
 plotscript, defkeypress, begin
 	if (keyIsPressed(key:r)&&keyIsPressed(key:shift)) then (resetGame)
 	if (newkeypress (key:1)) then (wildpal(10))

@@ -101,11 +101,18 @@ script, turns, begin
 			damage := damage -- damage/2
 		)
 
-		writeStat (target, getElement (sli,skill:targStat), readStat(target, getElement (sli,skill:targStat)) -- damage)
-		if (readStat(target, getElement (sli,skill:targStat))<0) then(writeStat (target, getElement (sli,skill:targStat), 0))
+		var := (readstat(target, stat:aim) -- readstat(target, stat:evade))
+		var += random(-1 * readstat(target, stat:aim)/8,  readstat(target, stat:aim)/8)
+		show value (var + 100)
 
-		animation(which, target, damage, who)
+		if (var + 100 >= 100) then (
+			writeStat (target, getElement (sli,skill:targStat), readStat(target, getElement (sli,skill:targStat)) -- damage)
+			if (readStat(target, getElement (sli,skill:targStat))<0) then(writeStat (target, getElement (sli,skill:targStat), 0))
 
+			animation(which, target, damage, who)
+		) else (
+			animation(-1, target, damage, who)
+		)
 		for (i, 0, herocount--1) do (
 			setmeter (i, stat:hp)
 			setmeter (i, stat:pp)
@@ -175,6 +182,31 @@ script, animation, which, target, damage, who, begin
 		sli3 := first child (slice child(lookupslice(sli:enemygrid), who--4))
 	)
 
+	if (which == -1) then (
+		if (who > 3) then (
+			var3 := sliceY(sli3)
+			setSliceY (sli3, sliceY(sli3)+10)
+			specwait(10)
+		)
+		sli2 := loadSmallEnemySprite(6)
+		set parent (sli2, sli)
+		for (i, 0, 14) do (
+			set slice y (sli2, slicey(sli2)--1)
+			specwait (2)
+		)
+		dissolve sprite (sli2, dissolve:puff, 20)
+		for (i, 0, 9) do (
+			set slice y (sli2, slicey(sli2)--1)
+			specwait (2)
+		)
+		freeSlice (sli2)
+
+		if (who > 3) then (
+			setSliceY (sli3, var3)
+		)
+		exitScript ()
+	)
+
 	sli2 := lookupslice (array:readskill)	
 	picture := getElement (sli2,skill:picture)
 	ticks	:= getElement (sli2,skill:frameTicks)
@@ -184,6 +216,8 @@ script, animation, which, target, damage, who, begin
 		setSliceY (sli3, sliceY(sli3)+10)
 		specwait(10)
 	)
+
+
 	if (picture<>0) then (
 		sli2	:= loadAttackSprite (picture)
 		set parent (sli2, sli)

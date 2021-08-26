@@ -30,6 +30,7 @@ define constant, begin
 	204, sli:selected text
 	205, sli:battleback
 	206, sli:battleanimation
+	207, sli:fade
 	
 	#battle arrays
 	308,	array:battleinfo
@@ -74,7 +75,5 @@ globalVariable, begin
 	63, cont:down
 	64, cont:left
 	65, cont:right
-
-	300, sli:fade
 end
 

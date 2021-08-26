@@ -224,6 +224,9 @@ script, battleEnd, condition=1, begin
 		set sprite visible (lookupslice (sli:enemygrid), false)
 
 		for (i, 0, herocount--1) do (
+			if (readstat(i, stat:HP)==0) then (
+				write stat (i, stat:HP, 1)
+			)
 			setHeroStat(i, stat:HP, readstat(i, stat:HP))
 			setHeroStat(i, stat:PP, readstat(i, stat:PP))
 		)
