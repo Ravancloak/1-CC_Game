@@ -409,7 +409,7 @@ subscript, refresh, (
 		waitForAnyKey
 		if (choice<>0) then (set tag (tag:yesno, off), open menu(choice))
 		while (top menu) do (specwait)
-		#skip :=0
+		skip :=1
 		variable(spr)
 		letter:=first container child(msg)
 		play sound (random(3,5),false,true)	

@@ -10,3 +10,19 @@ plotscript, benchheal, begin
 		settag(tag:yesno, off)
 	) else (write (4))
 end
+
+plotscript, texts, blank, which, begin
+	switch (currentMap) do (
+		case (map:TEST1) do (test1texts(which))
+	)
+end
+
+script, test1texts, which, begin
+	variable(i)
+	switch (which) do (
+		case (3) do (
+			
+		)
+	)
+	for (i, 5, 6) do (write(i))
+end

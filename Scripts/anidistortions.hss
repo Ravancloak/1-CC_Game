@@ -11,7 +11,7 @@ script, loadbattleback, formation, begin
 	set slice clipping (sli, true)
 	set slice lookup(sli, sli:battleback)
 	set parent (sli, lookupslice(sli:battlecol))
-	slice to back (sli)
+	sliceToBack (sli)
 
 	switch (formation)do(
 		case (1) do (

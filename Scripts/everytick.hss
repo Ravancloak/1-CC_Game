@@ -22,7 +22,7 @@ script, mapUpdate, begin,
 		#case (map:TEST MAP) do (scrollLayer0(8,0))
 		case (1) do ()
 	)
-
+	
 	subscript, grassSprite, begin
 	end
 
@@ -46,8 +46,6 @@ script, mapUpdate, begin,
 		)
 	end
 end
-
-
 
 script, battleAnimate, begin
 

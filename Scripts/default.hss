@@ -8,8 +8,8 @@ plotscript, defnewgame, begin
 		resume movement
 		resetControls
 		add hero (hero:Jenkins)
-		add hero (hero:GMoney)
-		add hero (hero:Jane)
+		#add hero (hero:GMoney)
+		#add hero (hero:Jane)
 		initArray(0,array:skill)
 	end
 end
@@ -66,7 +66,7 @@ script, mapstep1, begin
 	variable (sli, i)
 	stepPicture(me,4)
 	for (i,1,3) do (
-		if (hero by slot (i)) then (
+		if (hero by slot (i)<>-1) then (
 			stepPicture(i,4)
 		)
 	)
@@ -81,6 +81,7 @@ script, stepPicture, who, offset, begin
 	resetHeroPicture(who)
 	if (zone at spot (x,y)==20) then (
 		setHeroPicture(who, get hero picture(who)+offset)
+		play sound (6)
 	)
 end
 

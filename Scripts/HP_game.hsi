@@ -3,6 +3,11 @@
 define constant, begin
 2,tag:YesNo
 3,tag:overbridge
+0,song:neo memphis
+1,song:battle against a childish oppo
+2,song:battle against an intense oppo
+3,song:battle against an energetic op
+6,sfx:water_steps
 0,hero:Keifer
 1,hero:Jenkins
 2,hero:GMoney
@@ -57,4 +62,7 @@ define constant, begin
 4,sli:action menu
 5,sli:hide heroes
 6,sli:hide action menu
+7,sli:MenuStats
+8,sli:MenuEquip
+9,sli:SelEquip
 end

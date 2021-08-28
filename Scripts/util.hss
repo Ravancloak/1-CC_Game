@@ -91,7 +91,7 @@ script,fademusicout,time=40,begin
 end
 
 script, walkNPCs, begin
-	variable(who , sli, var)
+	variable(who , sli, var, i)
 	who := next NPC reference()  # The first NPC
 
 	while (who) do (
@@ -110,9 +110,25 @@ script, walkNPCs, begin
 			)
 			set slice extra (sli, 0, var)
 		)
+
+			if(game:tick,mod,16==0) then (
+				if ((read NPC (who,NPCstat:move type)<>NPCmovetype:standstill)&&NPC is walking (who)==false) then (
+					setNpcFrame(who, (npcFrame(who)+1),mod,2)
+				)
+			)
+
     	who := next NPC reference(who)
 	)
+
+	for (i, 0, 3) do (
+		if(game:tick,mod,16==0) then (
+			if (heroIsWalking (i)==false) then (
+				setHeroFrame(i, (heroFrame(i)+1),mod,2)
+			)
+		)
+	)
 end
+
 
 #animation==========================================
 

@@ -160,7 +160,7 @@ script, initBattle, formation, begin
 	showsprites
 
 	switch (formation) do (
-		case (1) do (play song (0))
+		case (1) do (play song (random (1,3)))
 	)
 	
 
