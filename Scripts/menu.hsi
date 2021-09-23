@@ -1,0 +1,125 @@
+plotscript, opensettingsmenu, begin
+	open menu(1)
+	$1="Music "
+	append number (1, musicpercent)
+	$1+"%"
+	set menu item caption(menu item by true slot(top menu, 1), 1)
+
+	$1="Sound "
+	append number (1, soundpercent)
+	$1+"%"
+	set menu item caption(menu item by true slot(top menu, 2), 1)
+
+	select menu item (menu item by slot(top menu, menu:lastsettings))
+end
+
+plotscript, menuclosesettings, begin
+	menu:lastsettings := menu item slot (selected menu item(top menu))
+end
+
+plotscript, itemMenu, begin
+
+	variable (sli, sli2, i, max, check, textbox)
+
+	game:mode := mode:menu
+
+	#load slice collection with menu in it
+	#load slice collection with menu in it
+	sli2 := create rect (300, 200)
+	center slice (sli2)
+	sli:= create grid(18, 180, 1, 3)
+	put slice (sli, 10, 0)
+	set parent (sli, sli2)
+	sli := create scroll
+	fill parent(sli)
+	set slice clipping (sli2, true)
+	set padding (sli2, 8)
+	set rect style (sli2, 1)
+
+	#cycles through inventory with variable "i" as the inventory "slot"
+	for (i, 0, get inventory size--1) do (
+		if (item in slot (i) <> -1) then (
+			#create slice text and asign it to the parent grid
+			check := true
+			sli := create text
+			set parent (sli, lastchild(sli2))
+			set slice extra (sli, 0, item in slot (i))
+			
+			#sets slice text to item in slot "i"
+			get item name (1, item in slot (i))
+			set slice text(sli, 1)
+			set outline (sli)
+		)
+	)
+	if (get inventory size == 0) then (exitmenu, exit script)
+
+	sli := slice child (lastchild(sli2), menu:selected)
+	set text color(sli, ui:selected item)
+
+	scroll to child (parent slice (lastchild(sli2)), sli)
+
+	max := child count (lastchild(sli2))
+	wait (3)
+
+	while (true) do (
+		sli := slice child (lastchild(sli2), menu:selected)
+		set text color(sli, ui:text)
+
+		if (keypress (up key)) then (
+			if (menu:selected >= 2) then (
+				menu:selected -= 2
+			) else if (menu:selected == 1) then (
+				menu:selected := max --1
+			) else if (menu:selected == 0) then (
+				menu:selected := max --2
+			)
+		)
+		if (keypress (down key)) then (
+			if (menu:selected <= max -- 3) then (
+				menu:selected += 2
+			) else if (menu:selected == max --1) then (
+				menu:selected := 1
+			) else if (menu:selected == max -- 2) then (
+				menu:selected := 0
+			)
+		)
+		if (keypress (left key)) then (
+			if (menu:selected >= 1) then(
+				menu:selected -= 1
+			)
+		)
+		if (keypress (right key)) then (
+			if (menu:selected <= max -- 2) then (
+				menu:selected += 1
+			)
+		)
+
+		sli := slice child (lastchild(sli2), menu:selected)
+		set text color(sli, ui:selected item)
+		scroll to child (sli2, sli)
+
+		if (new keypressA) then (
+
+			if (get slice extra (sli, 0) == -5) then (
+				#player showed item needed
+				textbox := 3
+				delete item (get slice extra (sli, 0))
+				break (2)
+			) else (
+				#item shown is wrong
+				textbox := 2
+				break (2)
+			)
+		)
+
+		if (new keypressB) then (break)
+		wait
+	)
+	exitmenu
+	show text box (textbox)
+	subscript, exitmenu, begin
+		free slice (sli2)
+		wait (3)
+		resumemovement
+	end
+end

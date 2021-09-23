@@ -1,17 +1,17 @@
-include, message.hss
-include, util.hss
-include, default.hss
-include, keypress.hss
-include, array.hss
-include, battleinitend.hss
-include, battlemain.hss
-include, battleattacks.hss
-include, thirdparty.hss
-include, anidistortions.hss
-include, menu.hss
-include, everytick.hss
-include, skills.hss
-include, events.hss
+include, message.hsi
+include, util.hsi
+include, default.hsi
+include, keypress.hsi
+include, array.hsi
+include, battleinitend.hsi
+include, battlemain.hsi
+include, battleattacks.hsi
+include, thirdparty.hsi
+include, anidistortions.hsi
+include, menu.hsi
+include, everytick.hsi
+include, skills.hsi
+include, events.hsi
 
 define constant, begin
 	#game modes
@@ -57,6 +57,9 @@ globalVariable, begin
 	7, menu:lastsettings
 	8, var:musicVol
 	9, var:soundVol
+
+	10, battle:exp
+	11, battle:money
 
 	#remap variables
 	50, board:a

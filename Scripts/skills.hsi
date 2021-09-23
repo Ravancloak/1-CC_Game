@@ -1,0 +1,92 @@
+script, returnSkill, which,  begin
+	variable (sli, i, var)
+
+	if (lookupSlice(array:readskill)<>0) then (
+		free slice (lookupSlice(array:readskill))
+	)
+
+	switch (which) do (
+		case (0) do (template)
+		else (template)
+	)
+
+	subscript, template, begin
+		sli := initArray(skill:names, array:readskill,-2)
+		setParent (sli, lookupSlice(sli:battleCol))
+		#skill:picture
+			var := 0
+			setElement (sli, skill:picture, var)
+		#frameTicks
+			var := ticks:default
+			setElement (sli, skill:frameTicks, var)
+		#loop
+			var := 1
+			setElement (sli, skill:loop, var)
+		#sound
+			var := 0
+			setElement (sli, skill:sound, var) 
+		#targClass
+			var := targClass:foeNotDead
+			setElement (sli, skill:targClass, var)
+		#targSetting
+			var := targSetting:focus
+			setElement (sli, skill:targSetting, var)
+		#preferTarg
+			var := preferTarg:random
+			setElement (sli, skill:preferTarg, var)
+		#weakStrongStat
+			var := weakStrongStat:targetstat
+			setElement (sli, skill:weakStrongStat, var) 
+		#hits
+			var := 1
+			setElement (sli,skill:hits, var)
+		#damageMath
+			var := damage:normal
+			setElement (sli,skill:damageMath, var)
+		#baseAtkStat
+			var := stat:atk
+			setElement (sli,skill:baseAtkStat, var)
+		#baseDefStat
+			var := stat:def
+			setElement (sli,skill:baseDefStat, var)
+		#targStat
+			var := stat:HP
+			setElement (sli,skill:targStat, var)
+		#extraDamage
+			var := 0
+			setElement (sli,skill:extraDamage, var)
+		#PPcost
+			var := false
+			setElement (sli,skill:PPcost, var)
+		#HPcost
+			var := false
+			setElement (sli,skill:HPcost, var)
+		#MoneyCost
+			var := false
+			setElement (sli,skill:MoneyCost, var)
+		#autoChooseTarg
+			var := false
+			setElement (sli,skill:autoChooseTarg, var)
+		#stealitem
+			var := false
+			setElement (sli,skill:stealitem, var)
+		#stealpercent
+			var := false
+			setElement (sli,skill:stealPercent, var)
+		#status
+			var := false
+			setElement (sli,skill:status, var)
+		#statusPercent
+			var := false
+			setElement (sli,skill:statusPercent, var)
+		#elementType
+			var := element:Norm
+			setElement (sli,skill:elementType, var)
+		#curebit
+			var := 1
+			setElement (sli,skill:curebit, var)
+		#rowcheck
+			var := true
+			setElement (sli,skill:rowcheck, var)
+	end
+end

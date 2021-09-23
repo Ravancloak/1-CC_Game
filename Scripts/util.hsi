@@ -1,0 +1,267 @@
+#util==========================================
+script, activatableNPC, who, begin
+	if (read NPC (who,NPCstat:activation) == NPCactivation:use) then (return (true))
+end
+
+script, dirX, dir, begin
+    switch (dir) do (
+    case (up, down) do (return (0))
+    case (right) do (return (1))
+    case (left) do (return (-1))
+    )
+end
+
+script, dirY, dir, begin
+    switch (dir) do (
+    case (left, right) do (return (0))
+    case (down) do (return (1))
+    case (up) do (return (-1))
+    )
+end
+
+script, musicpercent, begin
+	variable(var)
+	var := (getMusicVolume*160/408--1)
+	return (var+1)
+end
+
+script, soundpercent, begin
+	variable(var)
+	var := (getGlobalSoundvolume*160/408--1)
+	return (var+1)
+end
+
+#various==========================================
+
+script, healparty, begin
+	variable (i)
+	for (i, 0, 3) do (
+		if (hero by slot (i)<>-1) then (
+			setHeroStat(i, stat:HP, getHeroStat(i, stat:HP, maximumstat))
+			setHeroStat(i, stat:PP, getHeroStat(i, stat:PP, maximumstat))
+		)
+	)
+end
+
+plotscript, doorscript, begin
+	variable (x, y, who, door)
+	suspendmovement
+	x := hero x (me)
+	y := hero y (me)
+	door := door at spot (x,y)
+	switch (hero direction (0)) do (
+		case (up) do	(y -= 1)
+		case (down) do	(y += 1)
+		case (right) do (x += 1)
+		case (left) do	(x -= 1)
+	)
+	wait (2)
+	if (npc at spot (x, y)) then (
+		who := npc at spot (x, y)
+		set NPC frame (who, npc frame (who)+1)
+	)
+	wait (6)
+	screenfadeout
+	use door (door, false)
+	screenfadein
+	resumemovement
+end
+
+plotscript, doorscriptstairs, begin
+	variable (x, y, who, door)
+	x := hero x (me)
+	y := hero y (me)
+	door := door at spot (x,y)
+	specwait (8)
+	use door (door, false)
+	suspend movement
+	walk hero (me, 1, east)
+	resume movement
+end
+
+script,fademusicout,time=40,begin
+	variable(loop)
+	var:musicVol := get music volume
+	for(loop,1,time) do(
+		set music volume(var:musicVol --(var:musicVol/time)*loop)
+		specwait
+	)
+	stop song
+	set music volume(var:musicVol)
+end
+
+script, walkNPCs, begin
+	variable(who , sli, var, i)
+	who := next NPC reference()  # The first NPC
+
+	while (who) do (
+		if (readNPC(who,NPCstat:move type)==NPCmovetype:wander) then (
+			sli := get npc sprite (who)
+			var := get slice extra (sli, 0)
+
+			#use extra as timer
+			if (var <= 0) then (
+				var := random(80,300)
+				if (random(0,2)==0) then (
+					setNPCDirection(who, random(0,3))
+				) else (walkNPC (who, random(0,3), 1))
+			) else (
+				var -= 1 
+			)
+			set slice extra (sli, 0, var)
+		)
+
+			if(game:tick,mod,16==0) then (
+				if ((read NPC (who,NPCstat:move type)<>NPCmovetype:standstill)&&NPC is walking (who)==false) then (
+					setNpcFrame(who, (npcFrame(who)+1),mod,2)
+				)
+			)
+
+    	who := next NPC reference(who)
+	)
+
+	for (i, 0, 3) do (
+		if(game:tick,mod,16==0) then (
+			if (heroIsWalking (i)==false) then (
+				setHeroFrame(i, (heroFrame(i)+1),mod,2)
+			)
+		)
+	)
+end
+
+
+#animation==========================================
+
+define constant, begin
+	255, wildpal:palsize
+end
+script, wildpal, rand, begin
+	variable (r, g, b, i)
+	if (rand > 15) then (rand := 15)
+	if (rand < -15) then (rand := -15)
+	reset palette
+	for (i, 1, wildpal:palsize) do (
+		r := random (rand*-1, rand)
+		g := random (rand*-1, rand)
+		b := random (rand*-1, rand)
+		tweak palette (r, g, b, i, i)
+		update palette
+	)
+end
+
+script, screenfadeout, ticks=30, begin
+	variable (sli,i)
+	sli := load backdrop sprite (0)
+	setSliceLookup (sli, sli:fade)
+	dissolveSprite (sli, dissolve:fade, ticks, 0, true)
+	for (i,0,ticks) do (
+		specwait
+	)
+end 
+
+script, screenfadein, ticks=30, begin
+	variable (sli,i)
+	sli := lookupslice(sli:fade)
+	dissolveSprite (sli, dissolve:fade, ticks, 0)
+	if (ticks<10) then (ticks:=10)
+	for (i,0,ticks--10) do (
+		specwait
+	)
+	wait (10)
+	free slice (sli)
+end
+
+script, animateframe, sli, timer, first, last, ticks, begin
+    variable (var)
+    var := get sprite frame (sli)
+    if (var < last) then (set sprite frame (sli, var+1)) else (set sprite frame (sli, first))
+    set slice extra (sli, 0, 0)
+    set timer (timer, ticks, 1, @animate)
+    set timer args (timer, sli, timer, first, last, ticks)
+end
+
+script, animate, sli, timer, first, last, ticks, begin
+    variable (var)
+    var := get sprite set number (sli)
+    if (var < last) then (set sprite set number (sli, var+1)) else (set sprite set number (sli, first))
+    set slice extra (sli, 0, 0)
+    set timer (timer, ticks, 1, @animate)
+    set timer args (timer, sli, timer, first, last, ticks)
+end
+
+#Controls==========================================
+script, resetControls, begin
+	cont:A	:= joy:A
+	cont:B	:= joy:B
+	cont:X	:= joy:Y
+	cont:Y	:= joy:X
+	
+	board:A	:= key:x
+	board:B	:= key:z
+	board:X	:= key:Enter
+	board:Y	:= key:rightShift
+end
+
+script, suspendMovement, begin
+	game:mode := mode:suspend player
+end
+
+script, resumeMovement, begin
+	game:mode := mode:resume player
+end
+
+script, movementAllowed, begin
+	if (game:mode == mode:resume player) then (return (true)) else (return (false))
+end
+
+script, waitForAnyKey, begin
+	while (anyKeyCheck==false) do (specwait)
+end
+script, waitForNewKey, begin
+	while (newKeyCheck==false) do (specwait)
+end
+script, anyKeyCheck, begin
+	if (keypressA||keypressB||keypressX||keypressY|| keypress(key:up)|| keypress(key:down)|| keypress(key:left)|| keypress(key:right)) then (return (true))
+end
+script, newKeyCheck, begin
+	if (newkeypressA||newkeypressB||newkeypressX||newkeypressY|| newkeypress(key:up)|| newkeypress(key:down)|| newkeypress(key:left)|| newkeypress(key:right)) then (return (true))
+end
+
+script, keypressA, begin
+	if (keypress(cont:A) || keypress(board:A)) then (return (true)) else (return (false))
+end
+script, keypressB, begin
+	if (keypress(cont:B) || keypress(board:B)) then (return(true)) else (return (false))
+end
+script, keypressX, begin
+	if (keypress(cont:X) || keypress(board:X)) then (return(true)) else (return (false))
+end
+script, keypressY, begin
+	if (keypress(cont:Y) || keypress(board:Y)) then (return(true)) else (return (false))
+end
+
+script, newkeypressA, begin
+	if (newkeypress(cont:A) || newkeypress(board:A)) then (return (true)) else (return (false))
+end
+script, newkeypressB, begin
+	if (newkeypress(cont:B) || newkeypress(board:B)) then (return(true)) else (return (false))
+end
+script, newkeypressX, begin
+	if (newkeypress(cont:X) || newkeypress(board:X)) then (return(true)) else (return (false))
+end
+script, newkeypressY, begin
+	if (newkeypress(cont:Y) || newkeypress(board:Y)) then (return(true)) else (return (false))
+end
+
+script, keyIsPressedA, begin
+	if (keyIsPressed(cont:A) || keyIsPressed(board:A)) then (return (true)) else (return (false))
+end
+script, keyIsPressedB, begin
+	if (keyIsPressed(cont:B) || keyIsPressed(board:B)) then (return(true)) else (return (false))
+end
+script, keyIsPressedX, begin
+	if (keyIsPressed(cont:X) || keyIsPressed(board:X)) then (return(true)) else (return (false))
+end
+script, keyIsPressedY, begin
+	if (keyIsPressed(cont:Y) || keyIsPressed(board:Y)) then (return(true)) else (return (false))
+end

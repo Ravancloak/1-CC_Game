@@ -1,0 +1,103 @@
+plotscript, defnewgame, begin
+	startgame
+	mainloop
+
+	subscript, startgame, begin
+		suspend player
+		suspend NPCs
+		resume movement
+		resetControls
+		add hero (hero:Jenkins)
+		#add hero (hero:GMoney)
+		#add hero (hero:Jane)
+		initArray(0,array:skill)
+	end
+end
+
+plotscript, defloadgame, begin
+	startgame
+	mainloop
+
+	subscript, startgame, begin
+		suspend player
+		suspend NPCs
+		resume movement
+	end
+end
+
+plotscript, defgameover, begin
+	screenfadeout
+	resetGame
+end
+
+plotscript, defkeypress, begin
+	if (keyIsPressed(key:r)&&keyIsPressed(key:shift)) then (resetGame)
+	if (newkeypress (key:1)) then (wildpal(10))
+	if (newkeypress (key:2)) then (reset palette, update palette)
+	if (topmenu) then (menukeypress, exit script)
+	switch (game:mode) do (
+		case (mode:battle) do (keypressBattle, exit script)
+		case (mode:resume player) do (keypressMovement, exit script)
+	)
+end
+
+plotscript, defautorun, begin
+	switch (current map) do (
+		case (map:TEST1) do (mapauto0)
+		case (1) do ()
+	)
+end
+
+plotscript, defaultonstep, begin
+	switch (current map) do (
+		case (map:TEST1) do ()
+		case (map:TEST2) do (mapstep1)
+	)
+end
+
+script, mapauto0, begin
+	variable (sli)
+	#sli := load backdrop sprite (9)
+	#set parent (sli, lookupslice(sl:maplayer2))
+end
+
+
+script, mapstep1, begin
+	variable (sli, i)
+	stepPicture(me,4)
+	for (i,1,3) do (
+		if (hero by slot (i)<>-1) then (
+			stepPicture(i,4)
+		)
+	)
+end
+
+#checks for zone 20 at spot to reset picture
+#checks for zone 21 at spot to change picture by offset
+script, stepPicture, who, offset, begin
+	variable (x, y)
+	x := heroX(who)
+	y := heroY(who)
+	resetHeroPicture(who)
+	if (zone at spot (x,y)==20) then (
+		setHeroPicture(who, get hero picture(who)+offset)
+		play sound (6)
+	)
+end
+
+script, thing, begin
+	variable (sli)
+	if (read zone(9, hero X, hero Y)) then (
+		if (checktag(3)==true) then (
+			#stairs on
+			sli := lookup slice(sl:map layer4)
+			set opacity (sli, 100)
+			set tag (3, off) #under bridge
+		) else (
+			#stairs off
+			sli := lookup slice(sl:map layer4)
+			set opacity (sli, 0)
+			set tag (3, on) #over bridge
+		)
+	)
+end

@@ -1,124 +1,373 @@
 Loading C:\OHRRPGCE\support\CrashRpt1403.dll
- 0.2   ----Starting OHRRPGCE Game----
- 0.2  08-27-2021 22:26:16
- 0.2  OHRRPGCE wip 20210803.12314 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
- 0.2  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
- 0.2  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
- 0.2  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
- 0.2  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
- 0.2  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_23904'
- 0.2  Spawned from Custom
- 0.2  Initialising gfx_sdl2...
- 0.3  setvideomode zoom=2 w*h = 640,400
- 0.3  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
- 0.3  disable_native_text_input=0
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  09-23-2021 12:46:35
+ 0.1  OHRRPGCE hróðvitnir 20210913.12432 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_37490'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
  0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
- 0.4  Setting default window settings...
- 0.4  set_resolution 320*200
- 0.4  Setting graphics scaling to x2 change_windowsize=-1
- 0.4  Received message from Custom: V OHRRPGCE,4,12314,OHRRPGCE wip 20210803
- 0.4  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
- 0.4  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12432,OHRRPGCE hróðvitnir 20210913
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
 end_debug: no debug/error messages during startup (skipping rest of startup)
 
- 0.4   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
- 0.4  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
- 0.4  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210827222616.412.tmp\
- 0.4  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
- 0.4  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
- 0.4  Name: 
- 0.6  plotscr.hsd version: 3U 
- 1.1  lock_resolution()
- 1.1  set_resolution 300*200
- 1.1  recenter_window_hint()
- 1.1  get_screen_size: true screen size 1600x900
- 1.1  Desktop resolution: 1600*860
- 1.1  automatic_scale_factor(0.5), screen size: 1600*860
- 1.1  Setting graphics scaling to x2 change_windowsize=-1
- 1.1  Preserving fullscreen/windowed state
- 1.1  genRungameFullscreenIndependent: 0
- 1.6  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
- 1.6   Opened as gamecontroller Xbox 360 Controller
- 1.6  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
- 8.8  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 2 is empty
- 8.8  unlock_resolution(300,200)
-10.3  set_resolution 300*200
-10.3  lock_resolution()
-10.3  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 3 is empty
-10.3  unlock_resolution(300,200)
-10.8  set_resolution 300*200
-10.8  lock_resolution()
-11.7  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 2 is empty
-11.7  unlock_resolution(300,200)
-13.3  set_resolution 300*200
-13.3  lock_resolution()
-13.3  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 3 is empty
-13.3  unlock_resolution(300,200)
-13.6  set_resolution 300*200
-13.6  lock_resolution()
-14.0  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 2 is empty
-14.0  unlock_resolution(300,200)
-14.9  set_resolution 300*200
-14.9  lock_resolution()
-14.9  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 3 is empty
-14.9  unlock_resolution(300,200)
-15.2  set_resolution 300*200
-15.2  lock_resolution()
-16.2  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 2 is empty
-16.2  unlock_resolution(300,200)
-16.8  set_resolution 300*200
-16.8  lock_resolution()
-16.8  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 3 is empty
-16.8  unlock_resolution(300,200)
-17.0  set_resolution 300*200
-17.0  lock_resolution()
-17.9  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 2 is empty
-17.9  unlock_resolution(300,200)
-18.3  set_resolution 300*200
-18.3  lock_resolution()
-18.3  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 3 is empty
-18.3  unlock_resolution(300,200)
-18.6  set_resolution 300*200
-18.6  lock_resolution()
-58.7  msg: M ohrrpgce.gen
-58.7  msg: M general.reld
-60.9  msg: M ohrrpgce.hsp
-60.9  msg: M plotscr.lst
-60.9  msg: M plotscr.lst
-60.9  msg: M lookup1.bin
-61.0  plotscr.hsd version: 3U 
-63.0  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 2 is empty
-63.0  unlock_resolution(300,200)
-63.8  set_resolution 300*200
-63.8  lock_resolution()
-63.8  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 3 is empty
-63.8  unlock_resolution(300,200)
-64.3  set_resolution 300*200
-64.3  lock_resolution()
-64.7  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 2 is empty
-64.7  unlock_resolution(300,200)
-65.4  set_resolution 300*200
-65.4  lock_resolution()
-65.4  ! Scripterr(4): defaultonstep -> mapstep1 -> steppicture: resetheropicture: Party hero slot 3 is empty
-65.4  unlock_resolution(300,200)
-65.8  set_resolution 300*200
-65.8  lock_resolution()
-74.8  msg: M ohrrpgce.hsp
-74.8  msg: M plotscr.lst
-74.8  msg: M plotscr.lst
-74.8  msg: M lookup1.bin
-74.9  plotscr.hsd version: 3U 
-102.3  msg: M ohrrpgce.hsp
-102.3  msg: M plotscr.lst
-102.3  msg: M plotscr.lst
-102.3  msg: M lookup1.bin
-102.4  plotscr.hsd version: 3U 
-236.0  msg: M ohrrpgce.gen
-236.0  msg: M general.reld
-245.0  Cleaning up and terminating 0
-245.0  Closing music backend...
-245.0  ...done
-245.0  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210827222616.412.tmp\
-245.1  Closing gfx backend & allmodex...
-245.1  ...done
-245.1  End.
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210923124635.467.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 300*200
+ 0.9  recenter_window_hint()
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 1.5  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.5   Opened as gamecontroller Xbox 360 Controller
+ 1.5  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 1.5  JOYSTICKSTATE.UPDATE_KEYBITS(0) took 36ms
+80.5  ! Scripterr(4): battle -> battleend: readenemydata: invalid enemy ID -1
+80.5  unlock_resolution(300,200)
+83.7  set_resolution 300*200
+83.7  lock_resolution()
+100.1  msg: M ohrrpgce.gen
+100.1  msg: M general.reld
+101.1  msg: M ohrrpgce.gen
+101.1  msg: M general.reld
+110.2  msg: M ohrrpgce.dt1
+118.3  msg: M ohrrpgce.dt1
+160.9  msg: M ohrrpgce.dt1
+161.4  msg: M ohrrpgce.gen
+161.4  msg: M general.reld
+164.5  msg: M ohrrpgce.hsp
+164.5  msg: M plotscr.lst
+164.5  msg: M plotscr.lst
+164.5  msg: M lookup1.bin
+164.6  plotscr.hsd version: 3U 
+1301.2  msg: M ohrrpgce.hsp
+1301.2  msg: M plotscr.lst
+1301.2  msg: M plotscr.lst
+1301.2  msg: M lookup1.bin
+1301.3  plotscr.hsd version: 3U 
+1303.2  msg: M ohrrpgce.gen
+1303.2  msg: M general.reld
+1351.9  msg: M ohrrpgce.gen
+1351.9  msg: M general.reld
+1354.6  msg: M ohrrpgce.hsp
+1354.6  msg: M plotscr.lst
+1354.6  msg: M plotscr.lst
+1354.6  msg: M lookup1.bin
+1354.7  plotscr.hsd version: 3U 
+1368.1  ! Scripterr(5): battle -> battleend -> write: setslicevisible: invalid slice handle 0
+1368.1  unlock_resolution(300,200)
+1369.4  set_resolution 300*200
+1369.4  lock_resolution()
+1369.5  ! Scripterr(5): battle -> battleend -> write: nextsibling: invalid slice handle 0
+1369.5  unlock_resolution(300,200)
+1370.0  set_resolution 300*200
+1370.0  lock_resolution()
+1370.0  ! Scripterr(5): battle -> battleend -> write: setslicevisible: invalid slice handle 0
+1370.0  unlock_resolution(300,200)
+1370.6  set_resolution 300*200
+1370.6  lock_resolution()
+1370.6  ! Scripterr(5): battle -> battleend -> write: nextsibling: invalid slice handle 0
+1370.6  unlock_resolution(300,200)
+1372.2  Killing script fibre; last script = write
+1372.2  set_resolution 300*200
+1372.2  lock_resolution()
+1378.7  ! Scripterr(5): battle -> battleend -> write: setslicevisible: invalid slice handle 0
+1378.7  unlock_resolution(300,200)
+1385.0  Killing script fibre; last script = write
+1385.0  set_resolution 300*200
+1385.0  lock_resolution()
+1445.6  msg: M ohrrpgce.hsp
+1445.6  msg: M plotscr.lst
+1445.6  msg: M plotscr.lst
+1445.6  msg: M lookup1.bin
+1445.7  plotscr.hsd version: 3U 
+1485.8  msg: M ohrrpgce.hsp
+1485.8  msg: M plotscr.lst
+1485.8  msg: M plotscr.lst
+1485.8  msg: M lookup1.bin
+1485.9  plotscr.hsd version: 3U 
+1628.4  msg: M ohrrpgce.hsp
+1628.4  msg: M plotscr.lst
+1628.4  msg: M plotscr.lst
+1628.4  msg: M lookup1.bin
+1628.5  plotscr.hsd version: 3U 
+1690.7  msg: M ohrrpgce.hsp
+1690.7  msg: M plotscr.lst
+1690.7  msg: M plotscr.lst
+1690.7  msg: M lookup1.bin
+1690.9  plotscr.hsd version: 3U 
+1851.3  msg: M ohrrpgce.hsp
+1851.3  msg: M plotscr.lst
+1851.3  msg: M plotscr.lst
+1851.3  msg: M lookup1.bin
+1851.4  plotscr.hsd version: 3U 
+1851.4  not reloading script battleend because it's in use: refcount=1
+1851.4  unlock_resolution(300,200)
+1852.2  set_resolution 300*200
+1852.2  lock_resolution()
+1852.8  plotscr.hsd version: 3U 
+1862.1  msg: M ohrrpgce.hsp
+1862.1  msg: M plotscr.lst
+1862.1  msg: M plotscr.lst
+1862.1  msg: M lookup1.bin
+1862.2  plotscr.hsd version: 3U 
+1884.9  msg: M ohrrpgce.hsp
+1884.9  msg: M plotscr.lst
+1884.9  msg: M plotscr.lst
+1884.9  msg: M lookup1.bin
+1885.0  plotscr.hsd version: 3U 
+1885.0  not reloading script battleend because it's in use: refcount=1
+1885.0  unlock_resolution(300,200)
+1885.7  set_resolution 300*200
+1885.7  lock_resolution()
+1886.1  plotscr.hsd version: 3U 
+2038.1  msg: M ohrrpgce.hsp
+2038.1  msg: M plotscr.lst
+2038.1  msg: M plotscr.lst
+2038.1  msg: M lookup1.bin
+2038.3  plotscr.hsd version: 3U 
+2038.3  not reloading script battleend because it's in use: refcount=1
+2038.3  unlock_resolution(300,200)
+2038.9  set_resolution 300*200
+2038.9  lock_resolution()
+2039.4  plotscr.hsd version: 3U 
+2147.0  msg: M ohrrpgce.gen
+2147.0  msg: M general.reld
+2155.2  msg: M ohrrpgce.say
+2155.2  did not reload ohrrpgce.say
+2216.1  msg: M ohrrpgce.say
+2216.1  did not reload ohrrpgce.say
+2224.7  msg: M ohrrpgce.gen
+2224.7  msg: M general.reld
+2227.6  msg: M ohrrpgce.hsp
+2227.6  msg: M plotscr.lst
+2227.6  msg: M plotscr.lst
+2227.6  msg: M lookup1.bin
+2227.7  plotscr.hsd version: 3U 
+2239.6  msg: M ohrrpgce.gen
+2239.6  msg: M general.reld
+2249.9  msg: M ohrrpgce.say
+2249.9  did not reload ohrrpgce.say
+2293.8  msg: M ohrrpgce.say
+2293.8  did not reload ohrrpgce.say
+2296.4  msg: M ohrrpgce.say
+2296.4  did not reload ohrrpgce.say
+2308.5  msg: M ohrrpgce.say
+2308.5  did not reload ohrrpgce.say
+2315.5  msg: M ohrrpgce.say
+2315.5  did not reload ohrrpgce.say
+2317.4  msg: M ohrrpgce.say
+2317.4  did not reload ohrrpgce.say
+2338.7  msg: M ohrrpgce.say
+2338.7  did not reload ohrrpgce.say
+2340.5  msg: M ohrrpgce.say
+2340.5  did not reload ohrrpgce.say
+2366.1  msg: M ohrrpgce.say
+2366.1  did not reload ohrrpgce.say
+2372.9  msg: M ohrrpgce.say
+2372.9  did not reload ohrrpgce.say
+2379.7  msg: M ohrrpgce.say
+2379.7  did not reload ohrrpgce.say
+2386.0  msg: M ohrrpgce.say
+2386.0  did not reload ohrrpgce.say
+2392.2  msg: M ohrrpgce.say
+2392.2  did not reload ohrrpgce.say
+2690.2  msg: M ohrrpgce.gen
+2690.2  msg: M general.reld
+2693.2  msg: M ohrrpgce.hsp
+2693.2  msg: M plotscr.lst
+2693.2  msg: M plotscr.lst
+2693.2  msg: M lookup1.bin
+2693.4  plotscr.hsd version: 3U 
+2712.2  Starting to record to C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0008.gif
+2747.3  Compressing C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0008.gif with gifsicle; size before = 24143262
+2747.3  ! CreateProcess(_, -O2 "C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0008.gif" -o "C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0008.gif") failed: The system cannot find the file specified.
+2747.3  ! open_process _ failed
+2799.7  Starting to record to C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0009.gif
+2817.5  Compressing C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0009.gif with gifsicle; size before = 11299794
+2817.5  ! CreateProcess(_, -O2 "C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0009.gif" -o "C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0009.gif") failed: The system cannot find the file specified.
+2817.5  ! open_process _ failed
+3024.3  msg: M ohrrpgce.hsp
+3024.3  msg: M plotscr.lst
+3024.3  msg: M plotscr.lst
+3024.3  msg: M lookup1.bin
+3024.4  plotscr.hsd version: 3U 
+3074.7  msg: M ohrrpgce.gen
+3074.7  msg: M general.reld
+3079.0  msg: M ohrrpgce.say
+3079.0  did not reload ohrrpgce.say
+3113.2  msg: M ohrrpgce.say
+3113.2  did not reload ohrrpgce.say
+3152.0  msg: M ohrrpgce.gen
+3152.0  msg: M general.reld
+3154.9  msg: M ohrrpgce.hsp
+3154.9  msg: M plotscr.lst
+3154.9  msg: M plotscr.lst
+3154.9  msg: M lookup1.bin
+3155.0  plotscr.hsd version: 3U 
+3172.4  msg: M ohrrpgce.hsp
+3172.4  msg: M plotscr.lst
+3172.4  msg: M plotscr.lst
+3172.4  msg: M lookup1.bin
+3172.6  plotscr.hsd version: 3U 
+3210.8  msg: M ohrrpgce.hsp
+3210.8  msg: M plotscr.lst
+3210.8  msg: M plotscr.lst
+3210.8  msg: M lookup1.bin
+3210.9  plotscr.hsd version: 3U 
+3210.9  not reloading script battle because it's in use: refcount=1
+3210.9  unlock_resolution(300,200)
+3212.5  set_resolution 300*200
+3212.5  lock_resolution()
+3212.8  plotscr.hsd version: 3U 
+3244.5  msg: M ohrrpgce.hsp
+3244.5  msg: M plotscr.lst
+3244.5  msg: M plotscr.lst
+3244.5  msg: M lookup1.bin
+3244.6  plotscr.hsd version: 3U 
+3327.8  msg: M ohrrpgce.hsp
+3327.8  msg: M plotscr.lst
+3327.8  msg: M plotscr.lst
+3327.8  msg: M lookup1.bin
+3327.9  plotscr.hsd version: 3U 
+3335.6  ! Scripterr(5): battle -> battleloophandler -> battleend -> getelement: slicechild: invalid slice handle 0
+3335.6  unlock_resolution(300,200)
+3368.4  set_resolution 300*200
+3368.4  lock_resolution()
+3368.4  ! Scripterr(5): battle -> battleloophandler -> battleend -> getelement: slicex: invalid slice handle 0
+3368.4  unlock_resolution(300,200)
+3369.0  set_resolution 300*200
+3369.0  lock_resolution()
+3369.0  ! Scripterr(5): battle -> battleloophandler -> battleend: setspritevisible: invalid slice handle 0
+3369.0  unlock_resolution(300,200)
+3369.6  set_resolution 300*200
+3369.6  lock_resolution()
+3369.6  ! Scripterr(5): battle -> battleloophandler -> battleend: setspritevisible: invalid slice handle 0
+3369.6  unlock_resolution(300,200)
+3370.2  set_resolution 300*200
+3370.2  lock_resolution()
+3370.2  ! Scripterr(5): battle -> battleloophandler -> battleend -> herocount -> getelement: slicechild: invalid slice handle 0
+3370.2  unlock_resolution(300,200)
+3370.6  set_resolution 300*200
+3370.6  lock_resolution()
+3370.6  ! Scripterr(5): battle -> battleloophandler -> battleend -> herocount -> getelement: slicex: invalid slice handle 0
+3370.6  unlock_resolution(300,200)
+3370.9  set_resolution 300*200
+3370.9  lock_resolution()
+3370.9  ! Scripterr(5): battle -> battleloophandler -> battleend -> freebattleback: dissolvesprite: invalid slice handle 0
+3370.9  unlock_resolution(300,200)
+3371.2  set_resolution 300*200
+3371.2  lock_resolution()
+3371.2  ! Scripterr(5): battle -> battleloophandler -> battleend -> freebattleback: firstchild: invalid slice handle 0
+3371.2  unlock_resolution(300,200)
+3371.4  set_resolution 300*200
+3371.4  lock_resolution()
+3371.4  ! Scripterr(5): battle -> battleloophandler -> battleend -> freebattleback: firstchild: invalid slice handle 0
+3371.4  unlock_resolution(300,200)
+3371.8  set_resolution 300*200
+3371.8  lock_resolution()
+3371.8  ! Scripterr(5): battle -> battleloophandler -> battleend -> freebattleback: slicechild: invalid slice handle 0
+3371.8  unlock_resolution(300,200)
+3372.1  set_resolution 300*200
+3372.1  lock_resolution()
+3372.1  ! Scripterr(5): battle -> battleloophandler -> battleend -> freebattleback: sliceheight: invalid slice handle 0
+3372.1  unlock_resolution(300,200)
+3372.5  set_resolution 300*200
+3372.5  lock_resolution()
+3374.2  ! Scripterr(2): battle -> battleloophandler -> battleend: freeslice: invalid slice handle 0
+3374.2  unlock_resolution(300,200)
+3374.9  set_resolution 300*200
+3374.9  lock_resolution()
+3374.9  ! Scripterr(2): battle -> battleloophandler -> battleend: freeslice: invalid slice handle 0
+3374.9  unlock_resolution(300,200)
+3375.2  set_resolution 300*200
+3375.2  lock_resolution()
+3375.9  ! Scripterr(5): battle -> battleend -> getelement: slicechild: invalid slice handle 0
+3375.9  unlock_resolution(300,200)
+3376.4  set_resolution 300*200
+3376.4  lock_resolution()
+3376.4  ! Scripterr(5): battle -> battleend -> getelement: slicex: invalid slice handle 0
+3376.4  unlock_resolution(300,200)
+3376.8  set_resolution 300*200
+3376.8  lock_resolution()
+3376.8  ! Scripterr(5): battle -> battleend: setspritevisible: invalid slice handle 0
+3376.8  unlock_resolution(300,200)
+3377.2  set_resolution 300*200
+3377.2  lock_resolution()
+3377.2  ! Scripterr(5): battle -> battleend: setspritevisible: invalid slice handle 0
+3377.2  unlock_resolution(300,200)
+3377.5  set_resolution 300*200
+3377.5  lock_resolution()
+3377.5  ! Scripterr(5): battle -> battleend -> herocount -> getelement: slicechild: invalid slice handle 0
+3377.5  unlock_resolution(300,200)
+3377.7  set_resolution 300*200
+3377.7  lock_resolution()
+3377.7  ! Scripterr(5): battle -> battleend -> herocount -> getelement: slicex: invalid slice handle 0
+3377.7  unlock_resolution(300,200)
+3378.2  set_resolution 300*200
+3378.2  lock_resolution()
+3378.2  ! Scripterr(5): battle -> battleend -> freebattleback: dissolvesprite: invalid slice handle 0
+3378.2  unlock_resolution(300,200)
+3378.5  set_resolution 300*200
+3378.5  lock_resolution()
+3378.5  ! Scripterr(5): battle -> battleend -> freebattleback: firstchild: invalid slice handle 0
+3378.5  unlock_resolution(300,200)
+3378.8  set_resolution 300*200
+3378.8  lock_resolution()
+3378.8  ! Scripterr(5): battle -> battleend -> freebattleback: firstchild: invalid slice handle 0
+3378.8  unlock_resolution(300,200)
+3379.1  set_resolution 300*200
+3379.1  lock_resolution()
+3379.1  ! Scripterr(5): battle -> battleend -> freebattleback: slicechild: invalid slice handle 0
+3379.1  unlock_resolution(300,200)
+3379.4  set_resolution 300*200
+3379.4  lock_resolution()
+3379.5  ! Scripterr(5): battle -> battleend -> freebattleback: sliceheight: invalid slice handle 0
+3379.5  unlock_resolution(300,200)
+3379.8  set_resolution 300*200
+3379.8  lock_resolution()
+3381.5  ! Scripterr(2): battle -> battleend: freeslice: invalid slice handle 0
+3381.5  unlock_resolution(300,200)
+3405.3  set_resolution 300*200
+3405.3  lock_resolution()
+3405.4  ! Scripterr(2): battle -> battleend: freeslice: invalid slice handle 0
+3405.4  unlock_resolution(300,200)
+3405.7  set_resolution 300*200
+3405.7  lock_resolution()
+3409.5  msg: M ohrrpgce.hsp
+3409.5  msg: M plotscr.lst
+3409.5  msg: M plotscr.lst
+3409.5  msg: M lookup1.bin
+3409.7  plotscr.hsd version: 3U 
+4057.1  msg: M ohrrpgce.gen
+4057.1  msg: M general.reld
+4058.0  msg: M ohrrpgce.gen
+4060.8  msg: P 
+4061.9  msg: M ohrrpgce.gen
+4061.9  msg: M general.reld
+4062.0  msg: Q 
+4062.0  Cleaning up and terminating 0
+4062.0  Closing music backend...
+4062.0  ...done
+4062.0  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210923124635.467.tmp\
+4062.2  Closing gfx backend & allmodex...
+4062.2  ...done
+4062.2  End.

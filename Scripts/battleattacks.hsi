@@ -1,0 +1,327 @@
+define constant, begin
+	
+
+
+	#values for below items
+	1, damage:normal
+	2, damage:pure
+	
+	12,	ticks:default
+
+	0,	targClass:foeNotDead
+	1,	targclass:allyNotDead
+	2,	targclass:self
+	3,	targclass:allNotDead
+	4,	targclass:deadAlly
+
+	0,	targSetting:focus
+	1,	targSetting:spread
+
+	0,	preferTarg:random
+	1,	preferTarg:strongest
+	2,	preferTarg:weakest
+
+	12, weakStrongStat:targetstat
+
+	1,	status:poison
+	2,	status:paralyze
+	3,	status:confused
+	4,	status:burnt
+	5,	status:frozen
+	6,	status:mute
+	7,	status:stun
+	8,	status:regen
+	9,	status:invincible
+	10, status:shell
+	11, status:reflect
+
+	#skill array names
+	26,	skill:names
+	1,	skill:picture
+	2,	skill:frameTicks
+	3,	skill:loop
+	4,	skill:sound
+	5,	skill:targClass
+	6,	skill:targSetting
+	7,	skill:preferTarg
+	8,	skill:weakStrongStat
+	9,	skill:hits
+	10,	skill:damageMath
+	11,	skill:baseAtkStat
+	12,	skill:baseDefStat
+	13,	skill:targStat
+	14,	skill:extraDamage
+	15,	skill:PPcost
+	16,	skill:HPcost
+	17,	skill:MoneyCost
+	18, skill:autoChooseTarg
+	19, skill:stealitem
+	20,	skill:stealPercent
+	21,	skill:status
+	22,	skill:statusPercent
+	23,	skill:elementType
+	24, skill:curebit
+	25, skill:rowcheck
+end
+#=======================================================================
+#=======================================================================
+
+script, turns, begin
+	variable (
+		which, who, target, mod1, mod2, targstat, extdam
+		sli, type, healing, damage, i, var
+	)
+	sli := lookupslice(array:turn)
+	sortChildren (sli)
+
+	while (firstChild (lookupslice(array:turn))) do (
+		sli := firstChild (lookupslice(array:turn))
+		which		:= getElement(sli, 0)
+		who			:= getElement(sli, 1)
+		target		:= getElement(sli, 2)
+
+		returnSkill(which)
+		sli := lookupslice (array:readskill)
+
+		mod1 := readStat (who, getElement (sli,skill:baseAtkStat))
+		mod2 := readStat (who, getElement (sli,skill:baseDefStat))
+
+		damage	:= returndamage (
+			mod1
+			mod2
+			getElement (sli,skill:extraDamage)
+			getElement (sli,skill:damageMath)
+			getElement (sli,skill:curebit)
+		)
+
+		if (getElement (sli,skill:rowcheck) == true && readStat(target, stat:row)==1) then (
+			damage := damage -- damage/3
+		)
+		if (readStat(target, stat:defending)==true) then (
+			damage := damage -- damage/2
+		)
+
+		var := (readstat(target, stat:aim) -- readstat(target, stat:evade))
+		var += random(-1 * readstat(target, stat:aim)/8,  readstat(target, stat:aim)/8)
+		show value (var + 100)
+
+		if (var + 100 >= 100) then (
+			writeStat (target, getElement (sli,skill:targStat), readStat(target, getElement (sli,skill:targStat)) -- damage)
+			if (readStat(target, getElement (sli,skill:targStat))<0) then(writeStat (target, getElement (sli,skill:targStat), 0))
+
+			animation(which, target, damage, who)
+		) else (
+			animation(-1, target, damage, who)
+		)
+		for (i, 0, herocount--1) do (
+			setmeter (i, stat:hp)
+			setmeter (i, stat:pp)
+		)
+
+		if (readstat(target, stat:HP)==0) then (KOTarget(target))
+		battlecheck
+		freeSlice (firstChild (lookupslice(array:turn)))
+	)
+	initTurnArray()
+	specwait (10)
+
+	subscript, koTarget, targ, begin
+		if (targ>3) then (
+			targ -=4
+			sli := first child (slice child (lookupslice(sli:enemygrid), targ))
+			dissolveSprite (sli, dissolve:flicker, 22)
+			specwait (20)
+			set slice visible (sli, false)
+		) else (
+			updateportrait(targ)
+		)
+	end
+
+	#subscript, readSkill, begin
+	#	sli := getArray(array:readskill)
+
+	#	getElement (sli, skill:picture)
+	#	getElement (sli, skill:frameTicks)
+	#	getElement (sli, skill:sound)
+	#	getElement (sli, skill:targClass)
+	#	getElement (sli, skill:targSetting)
+	#	getElement (sli, skill:preferTarg)
+	#	getElement (sli, skill:weakStrongStat) 
+	#	getElement (sli,skill:hits)
+	#	getElement (sli,skill:damageMath)
+	#	getElement (sli,skill:baseAtkStat)
+	#	getElement (sli,skill:baseDefStat)
+	#	getElement (sli,skill:targStat)
+	#	getElement (sli,skill:extraDamage)
+	#	getElement (sli,skill:PPcost)
+	#	getElement (sli,skill:HPcost)
+	#	getElement (sli,skill:MoneyCost)
+	#	getElement (sli,skill:autoChooseTarg)
+	#	getElement (sli,skill:stealitem)
+	#	getElement (sli,skill:stealPercent)
+	#	getElement (sli,skill:status)
+	#	getElement (sli,skill:statusPercent)
+	#	getElement (sli,skill:elementType)
+	#	getElement (sli,skill:curebit)
+	#	getElement (sli,skill:rowcheck)
+	#end
+end
+
+#=======================================================================
+#=======================================================================
+
+script, animation, which, target, damage, who, begin
+	variable (sli, sli2, sli3, i, j, picture, ticks, loop, var, var2, var3)
+	#setup to animate
+	if (target < 4) then (
+		sli := battlePortrait(target)
+	) else (
+		sli := first child (slice child(lookupslice(sli:enemygrid), target--4))
+	)
+	if (who > 3) then (
+		sli3 := first child (slice child(lookupslice(sli:enemygrid), who--4))
+	)
+
+	if (which == -1) then (
+		if (who > 3) then (
+			var3 := sliceY(sli3)
+			setSliceY (sli3, sliceY(sli3)+10)
+			specwait(10)
+		)
+		sli2 := loadSmallEnemySprite(6)
+		set parent (sli2, sli)
+		for (i, 0, 14) do (
+			set slice y (sli2, slicey(sli2)--1)
+			specwait (2)
+		)
+		dissolve sprite (sli2, dissolve:puff, 20)
+		for (i, 0, 9) do (
+			set slice y (sli2, slicey(sli2)--1)
+			specwait (2)
+		)
+		freeSlice (sli2)
+
+		if (who > 3) then (
+			setSliceY (sli3, var3)
+		)
+		exitScript ()
+	)
+
+	sli2 := lookupslice (array:readskill)	
+	picture := getElement (sli2,skill:picture)
+	ticks	:= getElement (sli2,skill:frameTicks)
+	loop 	:= getElement (sli2,skill:loop)
+	if (who > 3) then (
+		var3 := sliceY(sli3)
+		setSliceY (sli3, sliceY(sli3)+10)
+		specwait(10)
+	)
+
+
+	if (picture<>0) then (
+		sli2	:= loadAttackSprite (picture)
+		set parent (sli2, sli)
+		center slice (sli2)
+
+		for (j, 0, loop--1) do (
+			for (i, 0, 2) do (
+				setSpriteFrame (sli2, i)
+				specwait(ticks)
+			)
+		)
+		free slice (sli2)
+	)
+	var := sliceX(sli)
+	var2 := 1
+	for (j, 0, loop--1) do (
+		for (i,5,0,-1) do (
+			setSliceX(sli,i*var2)
+			var2 := var2 * -1
+			specwait(5)
+		)
+	)
+	setSliceX(sli, var)
+	if (who > 3) then (
+		setSliceY (sli3, var3)
+	)
+	#end animation
+	endanimation(which, sli, damage, target)
+end
+
+script, endanimation, which, sli, damage, target, begin
+	variable (i)
+
+	variable(sli2, ones, tens, hundreds)
+
+	hundreds := modulus(damage/100,10)
+	tens := modulus(damage/10,10)
+	ones := modulus(damage/1,10)
+
+	if (target < 4) then (
+		sli2 := battlePortrait(target)
+	) else (
+		sli2 := first child (slice child(lookupslice(sli:enemygrid), target--4))
+	)
+
+	sli:= createGrid(72, 24, 0, 3)
+	set parent (sli, sli2)
+	center slice (sli)
+
+	if (hundreds <> 0) then(
+		sli2 := load border sprite(1)
+		set parent (sli2, sli)
+		set sprite frame (sli2, hundreds+1)
+		sli2 := load border sprite(1)
+		set parent (sli2, sli)
+		set sprite frame (sli2, tens+1)
+		sli2 := load border sprite(1)
+		set parent (sli2, sli)
+		set sprite frame (sli2, ones+1)
+	) else if (tens <> 0)then (
+		sli2 := load border sprite(1)
+		set parent (sli2, sli)
+		set sprite frame (sli2, tens+1)
+		sli2 := load border sprite(1)
+		set parent (sli2, sli)
+		set sprite frame (sli2, ones+1)
+	) else(
+		sli2 := create container
+		set parent (sli2, sli)
+		sli2 := load border sprite(1)
+		set parent (sli2, sli)
+		set sprite frame (sli2, ones+1)
+	)
+	for (i, 0, 14) do (
+		set slice y (sli, slicey(sli)--1)
+		specwait (2)
+	)
+	sli2 := firstChild(sli)
+	while (sli2) do (
+		if (slice is sprite (sli2)) then (dissolve sprite (sli2, dissolve:puff, 20))
+		sli2 := nextSibling(sli2)
+	)
+	for (i, 0, 9) do (
+		set slice y (sli, slicey(sli)--1)
+		specwait (2)
+	)
+	free slice (sli)
+end
+
+script, returndamage, mod1, mod2, extdam, type, healing, begin
+	variable (var)
+
+	extdam := extdam+100
+
+	switch (type) do (
+		case (damage:normal) do (var := mod1 -- mod2/2)
+		case (damage:pure) do (var := mod1)
+	)
+	#var := var + multdiv (var, extdam, 100)
+
+	if (var < 0) then (var := 0)
+
+	var := var * healing
+
+	return (var)
+end
+
