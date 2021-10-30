@@ -1,489 +1,3 @@
-405.0  msg: M ohrrpgce.gen
-405.0  msg: M general.reld
-405.0  did not reload slicetree_0_0.reld
-409.1  msg: M slicetree_0_0.reld
-409.1  msg: M ohrrpgce.gen
-409.1  msg: M general.reld
-409.1  did not reload slicetree_0_0.reld
-446.3  msg: M slicetree_0_0.reld
-446.3  msg: M ohrrpgce.gen
-446.3  msg: M general.reld
-446.3  did not reload slicetree_0_0.reld
-447.1  msg: M ohrrpgce.gen
-450.2  msg: M ohrrpgce.gen
-450.2  msg: M general.reld
-628.5  msg: M browse.txt
-628.5  msg: M browse.txt
-628.5  msg: M general.reld
-628.5  msg: M ohrrpgce.gen
-628.5  msg: M general.reld
-641.7  msg: M ohrrpgce.hsp
-641.7  msg: M plotscr.lst
-641.7  msg: M plotscr.lst
-641.7  msg: M lookup1.bin
-641.8  plotscr.hsd version: 3U 
-802.7  msg: M ohrrpgce.gen
-802.7  msg: M general.reld
-810.1  msg: M ohrrpgce.n00
-830.1  msg: M ohrrpgce.n00
-846.4  msg: M ohrrpgce.n00
-848.9  msg: M ohrrpgce.hsp
-848.9  msg: M plotscr.lst
-849.0  msg: M plotscr.lst
-849.0  msg: M lookup1.bin
-849.1  plotscr.hsd version: 3U 
-851.8  msg: M ohrrpgce.n00
-864.8  msg: M ohrrpgce.map
-864.8  msg: M ohrrpgce.t00
-864.8  msg: M ohrrpgce.p00
-864.8  msg: M ohrrpgce.e00
-864.8  msg: M ohrrpgce.z00
-864.8  msg: M ohrrpgce.l00
-864.8  msg: M ohrrpgce.n00
-864.8  msg: M ohrrpgce.dox
-864.8  msg: M ohrrpgce.d00
-864.8  msg: M ohrrpgce.mn
-864.8  did not reload ohrrpgce.d00
-866.6  msg: M ohrrpgce.map
-866.6  msg: M ohrrpgce.t00
-866.6  msg: M ohrrpgce.p00
-866.6  msg: M ohrrpgce.e00
-866.6  msg: M ohrrpgce.z00
-866.6  msg: M ohrrpgce.l00
-866.6  msg: M ohrrpgce.n00
-866.6  msg: M ohrrpgce.dox
-866.6  msg: M ohrrpgce.d00
-866.7  msg: M ohrrpgce.mn
-866.7  did not reload ohrrpgce.d00
-882.1  msg: M ohrrpgce.map
-882.1  msg: M ohrrpgce.t00
-882.1  msg: M ohrrpgce.p00
-882.1  msg: M ohrrpgce.e00
-882.1  msg: M ohrrpgce.z00
-882.1  msg: M ohrrpgce.l00
-882.1  msg: M ohrrpgce.n00
-882.1  msg: M ohrrpgce.dox
-882.1  msg: M ohrrpgce.d00
-882.1  msg: M ohrrpgce.mn
-882.1  did not reload ohrrpgce.d00
-884.6  msg: M ohrrpgce.n00
-887.9  msg: M ohrrpgce.map
-887.9  msg: M ohrrpgce.t00
-887.9  msg: M ohrrpgce.p00
-887.9  msg: M ohrrpgce.e00
-887.9  msg: M ohrrpgce.z00
-887.9  msg: M ohrrpgce.l00
-887.9  msg: M ohrrpgce.n00
-887.9  msg: M ohrrpgce.dox
-887.9  msg: M ohrrpgce.d00
-887.9  msg: M ohrrpgce.mn
-887.9  did not reload ohrrpgce.d00
-888.7  msg: M ohrrpgce.map
-888.7  msg: M ohrrpgce.t00
-888.7  msg: M ohrrpgce.p00
-888.7  msg: M ohrrpgce.e00
-888.7  msg: M ohrrpgce.z00
-888.7  msg: M ohrrpgce.l00
-888.7  msg: M ohrrpgce.n00
-888.7  msg: M ohrrpgce.dox
-888.7  msg: M ohrrpgce.d00
-888.7  msg: M ohrrpgce.mn
-888.7  did not reload ohrrpgce.d00
-889.3  msg: M ohrrpgce.gen
-889.3  msg: M general.reld
-940.6  msg: M ohrrpgce.hsp
-940.6  msg: M plotscr.lst
-940.6  msg: M plotscr.lst
-940.6  msg: M lookup1.bin
-940.8  plotscr.hsd version: 3U 
-1043.6  msg: M ohrrpgce.gen
-1043.6  msg: M general.reld
-1079.9  msg: M ohrrpgce.say
-1079.9  did not reload ohrrpgce.say
-1088.0  msg: M ohrrpgce.say
-1088.0  did not reload ohrrpgce.say
-1088.9  msg: M ohrrpgce.gen
-1088.9  msg: M general.reld
-1092.2  msg: M ohrrpgce.hsp
-1092.2  msg: M plotscr.lst
-1092.2  msg: M plotscr.lst
-1092.2  msg: M lookup1.bin
-1092.3  plotscr.hsd version: 3U 
-1101.6  msg: M ohrrpgce.gen
-1101.6  msg: M general.reld
-1109.2  msg: M ohrrpgce.n00
-1135.0  msg: M ohrrpgce.map
-1135.0  msg: M ohrrpgce.t00
-1135.0  msg: M ohrrpgce.p00
-1135.0  msg: M ohrrpgce.e00
-1135.0  msg: M ohrrpgce.z00
-1135.0  msg: M ohrrpgce.l00
-1135.0  msg: M ohrrpgce.n00
-1135.0  msg: M ohrrpgce.dox
-1135.0  msg: M ohrrpgce.d00
-1135.0  msg: M ohrrpgce.mn
-1135.0  did not reload ohrrpgce.d00
-1140.1  msg: M ohrrpgce.map
-1140.1  msg: M ohrrpgce.t00
-1140.1  msg: M ohrrpgce.p00
-1140.1  msg: M ohrrpgce.e00
-1140.1  msg: M ohrrpgce.z00
-1140.2  msg: M ohrrpgce.l00
-1140.2  msg: M ohrrpgce.n00
-1140.2  msg: M ohrrpgce.dox
-1140.2  msg: M ohrrpgce.d00
-1140.2  msg: M ohrrpgce.mn
-1140.2  did not reload ohrrpgce.d00
-1140.5  msg: M ohrrpgce.map
-1140.5  msg: M ohrrpgce.t00
-1140.5  msg: M ohrrpgce.p00
-1140.5  msg: M ohrrpgce.e00
-1140.5  msg: M ohrrpgce.z00
-1140.5  msg: M ohrrpgce.l00
-1140.5  msg: M ohrrpgce.n00
-1140.5  msg: M ohrrpgce.dox
-1140.5  msg: M ohrrpgce.d00
-1140.5  msg: M ohrrpgce.mn
-1140.5  did not reload ohrrpgce.d00
-1141.1  msg: M ohrrpgce.gen
-1141.1  msg: M general.reld
-1143.9  msg: M ohrrpgce.hsp
-1143.9  msg: M plotscr.lst
-1143.9  msg: M plotscr.lst
-1143.9  msg: M lookup1.bin
-1144.1  plotscr.hsd version: 3U 
-1149.5  msg: M ohrrpgce.gen
-1149.5  msg: M general.reld
-1160.7  msg: M ohrrpgce.say
-1160.7  did not reload ohrrpgce.say
-1161.7  msg: M ohrrpgce.gen
-1161.7  msg: M general.reld
-1164.6  msg: M ohrrpgce.hsp
-1164.8  plotscr.hsd version: 3U 
-1164.8  msg: M plotscr.lst
-1164.8  msg: M plotscr.lst
-1164.8  msg: M lookup1.bin
-1193.1  msg: M ohrrpgce.hsp
-1193.1  msg: M plotscr.lst
-1193.1  msg: M plotscr.lst
-1193.1  msg: M lookup1.bin
-1193.2  plotscr.hsd version: 3U 
-1586.6  msg: M ohrrpgce.gen
-1586.6  msg: M general.reld
-1596.6  msg: M defpal4.bin
-1596.6  msg: M walkabouts.rgfx
-1596.6  did not reload defpal4.bin
-1635.3  msg: M defpal4.bin
-1635.3  msg: M walkabouts.rgfx
-1635.3  msg: M ohrrpgce.pal
-1635.3  msg: PAL 0
-1635.3  did not reload defpal4.bin
-1643.7  msg: M defpal4.bin
-1643.7  did not reload defpal4.bin
-1643.7  msg: M walkabouts.rgfx
-1643.7  msg: M ohrrpgce.pal
-1643.7  msg: PAL 0
-1763.7  msg: M ohrrpgce.gen
-1764.3  msg: M ohrrpgce.gen
-1764.3  msg: M general.reld
-1766.3  msg: M menus.bin
-1766.3  msg: M menuitem.bin
-1766.3  did not reload menus.bin
-1766.3  did not reload menuitem.bin
-1767.9  msg: M menus.bin
-1767.9  msg: M menuitem.bin
-1767.9  did not reload menus.bin
-1767.9  did not reload menuitem.bin
-1885.4  msg: M menus.bin
-1885.4  msg: M menuitem.bin
-1885.4  msg: M ohrrpgce.gen
-1885.4  msg: M general.reld
-1885.4  did not reload menus.bin
-1885.4  did not reload menuitem.bin
-1901.7  msg: M ohrrpgce.hsp
-1901.7  msg: M plotscr.lst
-1901.7  msg: M plotscr.lst
-1901.7  msg: M lookup1.bin
-1901.9  plotscr.hsd version: 3U 
-1983.2  msg: M ohrrpgce.gen
-1983.2  msg: M general.reld
-1987.1  msg: M ohrrpgce.say
-1987.1  did not reload ohrrpgce.say
-2004.7  msg: M ohrrpgce.say
-2004.7  did not reload ohrrpgce.say
-2022.4  msg: M ohrrpgce.say
-2022.4  did not reload ohrrpgce.say
-2025.2  msg: M ohrrpgce.say
-2025.2  did not reload ohrrpgce.say
-2033.3  msg: M ohrrpgce.say
-2033.3  did not reload ohrrpgce.say
-2035.8  msg: M ohrrpgce.gen
-2035.8  msg: M general.reld
-2038.8  msg: M ohrrpgce.hsp
-2038.8  msg: M plotscr.lst
-2038.8  msg: M plotscr.lst
-2038.8  msg: M lookup1.bin
-2039.0  plotscr.hsd version: 3U 
-2039.7  msg: M ohrrpgce.gen
-2039.7  msg: M general.reld
-2041.6  ! Scripterr(6): : Tried to use script 'healparty' but none with that name. (It was missing last time scripts were re-imported. Use "Find broken script triggers" in the editor.)
-2041.6  unlock_resolution(300,200)
-2042.9  set_resolution 300*200
-2042.9  lock_resolution()
-2053.2  msg: M ohrrpgce.n00
-2058.0  msg: M ohrrpgce.n00
-2061.9  msg: M ohrrpgce.map
-2061.9  msg: M ohrrpgce.t00
-2061.9  msg: M ohrrpgce.p00
-2061.9  msg: M ohrrpgce.e00
-2061.9  msg: M ohrrpgce.z00
-2061.9  msg: M ohrrpgce.l00
-2061.9  msg: M ohrrpgce.n00
-2061.9  msg: M ohrrpgce.dox
-2061.9  msg: M ohrrpgce.d00
-2061.9  msg: M ohrrpgce.mn
-2061.9  did not reload ohrrpgce.d00
-2063.2  msg: M ohrrpgce.map
-2063.2  msg: M ohrrpgce.t00
-2063.2  msg: M ohrrpgce.p00
-2063.2  msg: M ohrrpgce.e00
-2063.2  msg: M ohrrpgce.z00
-2063.2  msg: M ohrrpgce.l00
-2063.2  msg: M ohrrpgce.n00
-2063.2  msg: M ohrrpgce.dox
-2063.2  msg: M ohrrpgce.d00
-2063.2  msg: M ohrrpgce.mn
-2063.2  did not reload ohrrpgce.d00
-2063.8  msg: M ohrrpgce.gen
-2063.8  msg: M general.reld
-2084.7  msg: M ohrrpgce.say
-2084.7  did not reload ohrrpgce.say
-2104.6  msg: M ohrrpgce.say
-2104.6  did not reload ohrrpgce.say
-2113.4  msg: M ohrrpgce.say
-2113.4  did not reload ohrrpgce.say
-2125.7  msg: M ohrrpgce.gen
-2125.7  msg: M general.reld
-2128.6  msg: M ohrrpgce.hsp
-2128.6  msg: M plotscr.lst
-2128.6  msg: M plotscr.lst
-2128.6  msg: M lookup1.bin
-2128.8  plotscr.hsd version: 3U 
-2137.1  msg: M ohrrpgce.gen
-2137.1  msg: M general.reld
-2139.8  msg: M menus.bin
-2139.8  msg: M menuitem.bin
-2139.8  did not reload menus.bin
-2139.8  did not reload menuitem.bin
-2140.0  msg: M menus.bin
-2140.0  msg: M menuitem.bin
-2140.0  did not reload menus.bin
-2140.0  did not reload menuitem.bin
-2155.9  msg: M menus.bin
-2155.9  msg: M menuitem.bin
-2155.9  msg: M ohrrpgce.gen
-2155.9  msg: M general.reld
-2155.9  did not reload menus.bin
-2155.9  did not reload menuitem.bin
-2190.2  msg: M menus.bin
-2190.2  msg: M menuitem.bin
-2190.2  msg: M ohrrpgce.gen
-2190.2  msg: M general.reld
-2190.2  did not reload menus.bin
-2190.2  did not reload menuitem.bin
-2191.4  msg: M slicetree_0_0.reld
-2191.5  did not reload slicetree_0_0.reld
-2194.5  msg: M slicetree_0_1.reld
-2194.5  did not reload slicetree_0_1.reld
-2195.5  msg: M slicetree_0_0.reld
-2195.5  did not reload slicetree_0_0.reld
-2226.2  msg: M slicetree_0_0.reld
-2226.2  did not reload slicetree_0_0.reld
-2238.1  msg: M slicetree_0_0.reld
-2238.1  did not reload slicetree_0_0.reld
-2248.1  msg: M slicetree_0_0.reld
-2248.1  did not reload slicetree_0_0.reld
-2250.1  msg: M slicetree_0_0.reld
-2250.1  did not reload slicetree_0_0.reld
-2322.5  msg: M ohrrpgce.gen
-2322.5  msg: M general.reld
-2326.9  msg: M slicetree_0_0.reld
-2326.9  msg: M ohrrpgce.gen
-2326.9  msg: M general.reld
-2326.9  did not reload slicetree_0_0.reld
-2327.2  msg: M ohrrpgce.gen
-2328.1  msg: P 
-2329.3  msg: M ohrrpgce.gen
-2329.3  msg: M general.reld
-2329.3  msg: Q 
-2329.3  Cleaning up and terminating 0
-2329.3  Closing music backend...
-2329.3  ...done
-2329.3  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210822123417.600.tmp\
-2329.4  Closing gfx backend & allmodex...
-2329.4  ...done
-2329.4  End.
-
-  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
-
-Loading C:\OHRRPGCE\support\CrashRpt1403.dll
- 0.5   ----Starting OHRRPGCE Game----
- 0.5  08-23-2021 12:08:36
- 0.5  OHRRPGCE wip 20210803.12314 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
- 0.5  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
- 0.5  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
- 0.5  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
- 0.5  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
- 0.5  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_79352'
- 0.5  Spawned from Custom
- 0.5  Initialising gfx_sdl2...
- 0.6  setvideomode zoom=2 w*h = 640,400
- 0.6  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
- 0.6  disable_native_text_input=0
- 0.7  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
- 0.7  Setting default window settings...
- 0.7  set_resolution 320*200
- 0.7  Setting graphics scaling to x2 change_windowsize=-1
- 0.7  Received message from Custom: V OHRRPGCE,4,12314,OHRRPGCE wip 20210803
- 0.7  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
- 0.7  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
-end_debug: no debug/error messages during startup (skipping rest of startup)
-
- 0.7   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
- 0.7  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
- 0.7  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210823120836.861.tmp\
- 0.7  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
- 0.7  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
- 0.7  Name: 
- 1.0  plotscr.hsd version: 3U 
- 1.5  lock_resolution()
- 1.5  set_resolution 300*200
- 1.5  recenter_window_hint()
- 1.5  get_screen_size: true screen size 1600x900
- 1.5  Desktop resolution: 1600*860
- 1.5  automatic_scale_factor(0.5), screen size: 1600*860
- 1.5  Setting graphics scaling to x2 change_windowsize=-1
- 1.5  Preserving fullscreen/windowed state
- 1.5  genRungameFullscreenIndependent: 0
- 2.1  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
- 2.1   Opened as gamecontroller Xbox 360 Controller
- 2.1  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
- 8.5  msg: M ohrrpgce.gen
- 8.5  msg: M general.reld
-575.2  msg: M ohrrpgce.dt1
-611.6  msg: M ohrrpgce.gen
-611.6  msg: M general.reld
-739.7  msg: M ohrrpgce.dt0
-739.7  msg: M heroes.reld
-740.0  msg: M ohrrpgce.dt0
-740.0  msg: M heroes.reld
-740.5  msg: M ohrrpgce.gen
-740.5  msg: M general.reld
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-750.9  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
-751.0  msg: M ohrrpgce.stt
 751.0  msg: M ohrrpgce.stt
 751.0  msg: M ohrrpgce.stt
 751.0  msg: M ohrrpgce.stt
@@ -3830,3 +3344,379 @@ end_debug: no debug/error messages during startup (skipping rest of startup)
 2818.4  Closing gfx backend & allmodex...
 2818.4  ...done
 2818.4  End.
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Game----
+ 0.1  09-23-2021 12:46:35
+ 0.1  OHRRPGCE hróðvitnir 20210913.12432 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.1  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\game.exe
+ 0.1  orig_dir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.1  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.1  Reading commands from master channel '\\.\pipe\ohrrpgce_lump_updates_testing_37490'
+ 0.1  Spawned from Custom
+ 0.1  Initialising gfx_sdl2...
+ 0.2  setvideomode zoom=2 w*h = 640,400
+ 0.2  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.2  disable_native_text_input=0
+ 0.3  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Setting default window settings...
+ 0.3  set_resolution 320*200
+ 0.3  Setting graphics scaling to x2 change_windowsize=-1
+ 0.3  Received message from Custom: V OHRRPGCE,4,12432,OHRRPGCE hróðvitnir 20210913
+ 0.3  Received message from Custom: G C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg
+ 0.3  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.3   ----Loading C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg----
+ 0.3  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 0.3  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210923124635.467.tmp\
+ 0.3  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.3  savedir: C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.saves
+ 0.3  Name: 
+ 0.4  plotscr.hsd version: 3U 
+ 0.9  lock_resolution()
+ 0.9  set_resolution 300*200
+ 0.9  recenter_window_hint()
+ 0.9  Desktop resolution: 1600*860
+ 0.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Preserving fullscreen/windowed state
+ 0.9  genRungameFullscreenIndependent: 0
+ 1.5  Joystick 0 GUID 030000005e0400008e020000000072 instance_id 0
+ 1.5   Opened as gamecontroller Xbox 360 Controller
+ 1.5  Opened joystick 0 Xbox 360 Controller (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 1.5  JOYSTICKSTATE.UPDATE_KEYBITS(0) took 36ms
+80.5  ! Scripterr(4): battle -> battleend: readenemydata: invalid enemy ID -1
+80.5  unlock_resolution(300,200)
+83.7  set_resolution 300*200
+83.7  lock_resolution()
+100.1  msg: M ohrrpgce.gen
+100.1  msg: M general.reld
+101.1  msg: M ohrrpgce.gen
+101.1  msg: M general.reld
+110.2  msg: M ohrrpgce.dt1
+118.3  msg: M ohrrpgce.dt1
+160.9  msg: M ohrrpgce.dt1
+161.4  msg: M ohrrpgce.gen
+161.4  msg: M general.reld
+164.5  msg: M ohrrpgce.hsp
+164.5  msg: M plotscr.lst
+164.5  msg: M plotscr.lst
+164.5  msg: M lookup1.bin
+164.6  plotscr.hsd version: 3U 
+1301.2  msg: M ohrrpgce.hsp
+1301.2  msg: M plotscr.lst
+1301.2  msg: M plotscr.lst
+1301.2  msg: M lookup1.bin
+1301.3  plotscr.hsd version: 3U 
+1303.2  msg: M ohrrpgce.gen
+1303.2  msg: M general.reld
+1351.9  msg: M ohrrpgce.gen
+1351.9  msg: M general.reld
+1354.6  msg: M ohrrpgce.hsp
+1354.6  msg: M plotscr.lst
+1354.6  msg: M plotscr.lst
+1354.6  msg: M lookup1.bin
+1354.7  plotscr.hsd version: 3U 
+1368.1  ! Scripterr(5): battle -> battleend -> write: setslicevisible: invalid slice handle 0
+1368.1  unlock_resolution(300,200)
+1369.4  set_resolution 300*200
+1369.4  lock_resolution()
+1369.5  ! Scripterr(5): battle -> battleend -> write: nextsibling: invalid slice handle 0
+1369.5  unlock_resolution(300,200)
+1370.0  set_resolution 300*200
+1370.0  lock_resolution()
+1370.0  ! Scripterr(5): battle -> battleend -> write: setslicevisible: invalid slice handle 0
+1370.0  unlock_resolution(300,200)
+1370.6  set_resolution 300*200
+1370.6  lock_resolution()
+1370.6  ! Scripterr(5): battle -> battleend -> write: nextsibling: invalid slice handle 0
+1370.6  unlock_resolution(300,200)
+1372.2  Killing script fibre; last script = write
+1372.2  set_resolution 300*200
+1372.2  lock_resolution()
+1378.7  ! Scripterr(5): battle -> battleend -> write: setslicevisible: invalid slice handle 0
+1378.7  unlock_resolution(300,200)
+1385.0  Killing script fibre; last script = write
+1385.0  set_resolution 300*200
+1385.0  lock_resolution()
+1445.6  msg: M ohrrpgce.hsp
+1445.6  msg: M plotscr.lst
+1445.6  msg: M plotscr.lst
+1445.6  msg: M lookup1.bin
+1445.7  plotscr.hsd version: 3U 
+1485.8  msg: M ohrrpgce.hsp
+1485.8  msg: M plotscr.lst
+1485.8  msg: M plotscr.lst
+1485.8  msg: M lookup1.bin
+1485.9  plotscr.hsd version: 3U 
+1628.4  msg: M ohrrpgce.hsp
+1628.4  msg: M plotscr.lst
+1628.4  msg: M plotscr.lst
+1628.4  msg: M lookup1.bin
+1628.5  plotscr.hsd version: 3U 
+1690.7  msg: M ohrrpgce.hsp
+1690.7  msg: M plotscr.lst
+1690.7  msg: M plotscr.lst
+1690.7  msg: M lookup1.bin
+1690.9  plotscr.hsd version: 3U 
+1851.3  msg: M ohrrpgce.hsp
+1851.3  msg: M plotscr.lst
+1851.3  msg: M plotscr.lst
+1851.3  msg: M lookup1.bin
+1851.4  plotscr.hsd version: 3U 
+1851.4  not reloading script battleend because it's in use: refcount=1
+1851.4  unlock_resolution(300,200)
+1852.2  set_resolution 300*200
+1852.2  lock_resolution()
+1852.8  plotscr.hsd version: 3U 
+1862.1  msg: M ohrrpgce.hsp
+1862.1  msg: M plotscr.lst
+1862.1  msg: M plotscr.lst
+1862.1  msg: M lookup1.bin
+1862.2  plotscr.hsd version: 3U 
+1884.9  msg: M ohrrpgce.hsp
+1884.9  msg: M plotscr.lst
+1884.9  msg: M plotscr.lst
+1884.9  msg: M lookup1.bin
+1885.0  plotscr.hsd version: 3U 
+1885.0  not reloading script battleend because it's in use: refcount=1
+1885.0  unlock_resolution(300,200)
+1885.7  set_resolution 300*200
+1885.7  lock_resolution()
+1886.1  plotscr.hsd version: 3U 
+2038.1  msg: M ohrrpgce.hsp
+2038.1  msg: M plotscr.lst
+2038.1  msg: M plotscr.lst
+2038.1  msg: M lookup1.bin
+2038.3  plotscr.hsd version: 3U 
+2038.3  not reloading script battleend because it's in use: refcount=1
+2038.3  unlock_resolution(300,200)
+2038.9  set_resolution 300*200
+2038.9  lock_resolution()
+2039.4  plotscr.hsd version: 3U 
+2147.0  msg: M ohrrpgce.gen
+2147.0  msg: M general.reld
+2155.2  msg: M ohrrpgce.say
+2155.2  did not reload ohrrpgce.say
+2216.1  msg: M ohrrpgce.say
+2216.1  did not reload ohrrpgce.say
+2224.7  msg: M ohrrpgce.gen
+2224.7  msg: M general.reld
+2227.6  msg: M ohrrpgce.hsp
+2227.6  msg: M plotscr.lst
+2227.6  msg: M plotscr.lst
+2227.6  msg: M lookup1.bin
+2227.7  plotscr.hsd version: 3U 
+2239.6  msg: M ohrrpgce.gen
+2239.6  msg: M general.reld
+2249.9  msg: M ohrrpgce.say
+2249.9  did not reload ohrrpgce.say
+2293.8  msg: M ohrrpgce.say
+2293.8  did not reload ohrrpgce.say
+2296.4  msg: M ohrrpgce.say
+2296.4  did not reload ohrrpgce.say
+2308.5  msg: M ohrrpgce.say
+2308.5  did not reload ohrrpgce.say
+2315.5  msg: M ohrrpgce.say
+2315.5  did not reload ohrrpgce.say
+2317.4  msg: M ohrrpgce.say
+2317.4  did not reload ohrrpgce.say
+2338.7  msg: M ohrrpgce.say
+2338.7  did not reload ohrrpgce.say
+2340.5  msg: M ohrrpgce.say
+2340.5  did not reload ohrrpgce.say
+2366.1  msg: M ohrrpgce.say
+2366.1  did not reload ohrrpgce.say
+2372.9  msg: M ohrrpgce.say
+2372.9  did not reload ohrrpgce.say
+2379.7  msg: M ohrrpgce.say
+2379.7  did not reload ohrrpgce.say
+2386.0  msg: M ohrrpgce.say
+2386.0  did not reload ohrrpgce.say
+2392.2  msg: M ohrrpgce.say
+2392.2  did not reload ohrrpgce.say
+2690.2  msg: M ohrrpgce.gen
+2690.2  msg: M general.reld
+2693.2  msg: M ohrrpgce.hsp
+2693.2  msg: M plotscr.lst
+2693.2  msg: M plotscr.lst
+2693.2  msg: M lookup1.bin
+2693.4  plotscr.hsd version: 3U 
+2712.2  Starting to record to C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0008.gif
+2747.3  Compressing C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0008.gif with gifsicle; size before = 24143262
+2747.3  ! CreateProcess(_, -O2 "C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0008.gif" -o "C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0008.gif") failed: The system cannot find the file specified.
+2747.3  ! open_process _ failed
+2799.7  Starting to record to C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0009.gif
+2817.5  Compressing C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0009.gif with gifsicle; size before = 11299794
+2817.5  ! CreateProcess(_, -O2 "C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0009.gif" -o "C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game0009.gif") failed: The system cannot find the file specified.
+2817.5  ! open_process _ failed
+3024.3  msg: M ohrrpgce.hsp
+3024.3  msg: M plotscr.lst
+3024.3  msg: M plotscr.lst
+3024.3  msg: M lookup1.bin
+3024.4  plotscr.hsd version: 3U 
+3074.7  msg: M ohrrpgce.gen
+3074.7  msg: M general.reld
+3079.0  msg: M ohrrpgce.say
+3079.0  did not reload ohrrpgce.say
+3113.2  msg: M ohrrpgce.say
+3113.2  did not reload ohrrpgce.say
+3152.0  msg: M ohrrpgce.gen
+3152.0  msg: M general.reld
+3154.9  msg: M ohrrpgce.hsp
+3154.9  msg: M plotscr.lst
+3154.9  msg: M plotscr.lst
+3154.9  msg: M lookup1.bin
+3155.0  plotscr.hsd version: 3U 
+3172.4  msg: M ohrrpgce.hsp
+3172.4  msg: M plotscr.lst
+3172.4  msg: M plotscr.lst
+3172.4  msg: M lookup1.bin
+3172.6  plotscr.hsd version: 3U 
+3210.8  msg: M ohrrpgce.hsp
+3210.8  msg: M plotscr.lst
+3210.8  msg: M plotscr.lst
+3210.8  msg: M lookup1.bin
+3210.9  plotscr.hsd version: 3U 
+3210.9  not reloading script battle because it's in use: refcount=1
+3210.9  unlock_resolution(300,200)
+3212.5  set_resolution 300*200
+3212.5  lock_resolution()
+3212.8  plotscr.hsd version: 3U 
+3244.5  msg: M ohrrpgce.hsp
+3244.5  msg: M plotscr.lst
+3244.5  msg: M plotscr.lst
+3244.5  msg: M lookup1.bin
+3244.6  plotscr.hsd version: 3U 
+3327.8  msg: M ohrrpgce.hsp
+3327.8  msg: M plotscr.lst
+3327.8  msg: M plotscr.lst
+3327.8  msg: M lookup1.bin
+3327.9  plotscr.hsd version: 3U 
+3335.6  ! Scripterr(5): battle -> battleloophandler -> battleend -> getelement: slicechild: invalid slice handle 0
+3335.6  unlock_resolution(300,200)
+3368.4  set_resolution 300*200
+3368.4  lock_resolution()
+3368.4  ! Scripterr(5): battle -> battleloophandler -> battleend -> getelement: slicex: invalid slice handle 0
+3368.4  unlock_resolution(300,200)
+3369.0  set_resolution 300*200
+3369.0  lock_resolution()
+3369.0  ! Scripterr(5): battle -> battleloophandler -> battleend: setspritevisible: invalid slice handle 0
+3369.0  unlock_resolution(300,200)
+3369.6  set_resolution 300*200
+3369.6  lock_resolution()
+3369.6  ! Scripterr(5): battle -> battleloophandler -> battleend: setspritevisible: invalid slice handle 0
+3369.6  unlock_resolution(300,200)
+3370.2  set_resolution 300*200
+3370.2  lock_resolution()
+3370.2  ! Scripterr(5): battle -> battleloophandler -> battleend -> herocount -> getelement: slicechild: invalid slice handle 0
+3370.2  unlock_resolution(300,200)
+3370.6  set_resolution 300*200
+3370.6  lock_resolution()
+3370.6  ! Scripterr(5): battle -> battleloophandler -> battleend -> herocount -> getelement: slicex: invalid slice handle 0
+3370.6  unlock_resolution(300,200)
+3370.9  set_resolution 300*200
+3370.9  lock_resolution()
+3370.9  ! Scripterr(5): battle -> battleloophandler -> battleend -> freebattleback: dissolvesprite: invalid slice handle 0
+3370.9  unlock_resolution(300,200)
+3371.2  set_resolution 300*200
+3371.2  lock_resolution()
+3371.2  ! Scripterr(5): battle -> battleloophandler -> battleend -> freebattleback: firstchild: invalid slice handle 0
+3371.2  unlock_resolution(300,200)
+3371.4  set_resolution 300*200
+3371.4  lock_resolution()
+3371.4  ! Scripterr(5): battle -> battleloophandler -> battleend -> freebattleback: firstchild: invalid slice handle 0
+3371.4  unlock_resolution(300,200)
+3371.8  set_resolution 300*200
+3371.8  lock_resolution()
+3371.8  ! Scripterr(5): battle -> battleloophandler -> battleend -> freebattleback: slicechild: invalid slice handle 0
+3371.8  unlock_resolution(300,200)
+3372.1  set_resolution 300*200
+3372.1  lock_resolution()
+3372.1  ! Scripterr(5): battle -> battleloophandler -> battleend -> freebattleback: sliceheight: invalid slice handle 0
+3372.1  unlock_resolution(300,200)
+3372.5  set_resolution 300*200
+3372.5  lock_resolution()
+3374.2  ! Scripterr(2): battle -> battleloophandler -> battleend: freeslice: invalid slice handle 0
+3374.2  unlock_resolution(300,200)
+3374.9  set_resolution 300*200
+3374.9  lock_resolution()
+3374.9  ! Scripterr(2): battle -> battleloophandler -> battleend: freeslice: invalid slice handle 0
+3374.9  unlock_resolution(300,200)
+3375.2  set_resolution 300*200
+3375.2  lock_resolution()
+3375.9  ! Scripterr(5): battle -> battleend -> getelement: slicechild: invalid slice handle 0
+3375.9  unlock_resolution(300,200)
+3376.4  set_resolution 300*200
+3376.4  lock_resolution()
+3376.4  ! Scripterr(5): battle -> battleend -> getelement: slicex: invalid slice handle 0
+3376.4  unlock_resolution(300,200)
+3376.8  set_resolution 300*200
+3376.8  lock_resolution()
+3376.8  ! Scripterr(5): battle -> battleend: setspritevisible: invalid slice handle 0
+3376.8  unlock_resolution(300,200)
+3377.2  set_resolution 300*200
+3377.2  lock_resolution()
+3377.2  ! Scripterr(5): battle -> battleend: setspritevisible: invalid slice handle 0
+3377.2  unlock_resolution(300,200)
+3377.5  set_resolution 300*200
+3377.5  lock_resolution()
+3377.5  ! Scripterr(5): battle -> battleend -> herocount -> getelement: slicechild: invalid slice handle 0
+3377.5  unlock_resolution(300,200)
+3377.7  set_resolution 300*200
+3377.7  lock_resolution()
+3377.7  ! Scripterr(5): battle -> battleend -> herocount -> getelement: slicex: invalid slice handle 0
+3377.7  unlock_resolution(300,200)
+3378.2  set_resolution 300*200
+3378.2  lock_resolution()
+3378.2  ! Scripterr(5): battle -> battleend -> freebattleback: dissolvesprite: invalid slice handle 0
+3378.2  unlock_resolution(300,200)
+3378.5  set_resolution 300*200
+3378.5  lock_resolution()
+3378.5  ! Scripterr(5): battle -> battleend -> freebattleback: firstchild: invalid slice handle 0
+3378.5  unlock_resolution(300,200)
+3378.8  set_resolution 300*200
+3378.8  lock_resolution()
+3378.8  ! Scripterr(5): battle -> battleend -> freebattleback: firstchild: invalid slice handle 0
+3378.8  unlock_resolution(300,200)
+3379.1  set_resolution 300*200
+3379.1  lock_resolution()
+3379.1  ! Scripterr(5): battle -> battleend -> freebattleback: slicechild: invalid slice handle 0
+3379.1  unlock_resolution(300,200)
+3379.4  set_resolution 300*200
+3379.4  lock_resolution()
+3379.5  ! Scripterr(5): battle -> battleend -> freebattleback: sliceheight: invalid slice handle 0
+3379.5  unlock_resolution(300,200)
+3379.8  set_resolution 300*200
+3379.8  lock_resolution()
+3381.5  ! Scripterr(2): battle -> battleend: freeslice: invalid slice handle 0
+3381.5  unlock_resolution(300,200)
+3405.3  set_resolution 300*200
+3405.3  lock_resolution()
+3405.4  ! Scripterr(2): battle -> battleend: freeslice: invalid slice handle 0
+3405.4  unlock_resolution(300,200)
+3405.7  set_resolution 300*200
+3405.7  lock_resolution()
+3409.5  msg: M ohrrpgce.hsp
+3409.5  msg: M plotscr.lst
+3409.5  msg: M plotscr.lst
+3409.5  msg: M lookup1.bin
+3409.7  plotscr.hsd version: 3U 
+4057.1  msg: M ohrrpgce.gen
+4057.1  msg: M general.reld
+4058.0  msg: M ohrrpgce.gen
+4060.8  msg: P 
+4061.9  msg: M ohrrpgce.gen
+4061.9  msg: M general.reld
+4062.0  msg: Q 
+4062.0  Cleaning up and terminating 0
+4062.0  Closing music backend...
+4062.0  ...done
+4062.0  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20210923124635.467.tmp\
+4062.2  Closing gfx backend & allmodex...
+4062.2  ...done
+4062.2  End.

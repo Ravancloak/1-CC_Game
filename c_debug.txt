@@ -1,0 +1,45 @@
+Loading C:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.5   ----Starting OHRRPGCE Custom----
+ 0.5  10-30-2021 09:26:23
+ 0.5  OHRRPGCE hróðvitnir 20210913.12432 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell -g -gen gcc Win32 32-bit
+ 0.5  exepath: C:\OHRRPGCE, exe: C:\OHRRPGCE\custom.exe
+ 0.5  orig_dir: C:\OHRRPGCE
+ 0.5  curdir: C:\OHRRPGCE
+ 0.5  Runtime info:   music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.5  documents_dir: C:\Users\Dell\Documents
+ 0.5  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.5  Initialising gfx_sdl2...
+ 0.6  setvideomode zoom=2 w*h = 640,400
+ 0.6  gfx_sdl2 "SDL 2.0.14 (1 joysticks) Driver:windows (Drivers: windows dummy)"
+ 0.6  disable_native_text_input=0
+ 0.6  unlock_resolution(320,200)
+ 0.6  music_sdl2, SDL 2.0.14, SDL_Mixer 2.0.5
+ 0.7  music_sdl2, SDL_Mixer 2.0.5 (44100Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.7  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 0.7  Joystick 0 GUID 030000004c050000c4050000000168 instance_id 0
+ 0.7   Opened as gamecontroller PS4 Controller
+ 0.7  Opened joystick 0 PS4 Controller (id 0) -- 16 buttons 6 axes 0 hats 0 balls
+ 6.4  check_ok_to_open...
+ 6.4  pid_current_exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe
+ 6.4  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 6.4  prev_session.info_file_exists = YES
+ 6.4  prev_session.pid = 8456 (exe = \Device\HarddiskVolume2\OHRRPGCE\custom.exe)
+ 6.4  prev_session.running = YES
+ 6.4  prev_session.partial_rpg = NO
+ 6.4  prev_session.fresh_danger_tmp = NO
+ 6.4  prev_session.sourcerpg = 
+ 6.4  prev_session.sourcerpg_old_mtime = 0
+ 6.4  prev_session.sourcerpg_current_mtime = 0
+ 6.4  prev_session.session_start_time = 2021 Oct 30 09:26:24
+ 6.4  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 6.4   ----Loading a game----
+ 6.4  10-30-2021 09:26:29
+ 6.4  curdir: C:\OHRRPGCE\0_ohrgames\1-CC_game
+ 6.4  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+ 6.4  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 6.4  Editing game C:\OHRRPGCE\0_ohrgames\1-CC_game\HP_game.rpg ( )
+ 8.2  Full game data upgrade...
+ 8.2  Last edited by: [[OHRRPGCE hróðvitnir 20210913.12432 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.05.0 (01-31-2016) gcc 5.3.0 x86 pdb  Built on vampirecell  -g -gen gcc Win32 32-bit]] branch_rev 12377
+ 8.2  archinym creation info: OHRRPGCE wip 20210417

@@ -5,7 +5,11 @@ script, keypressMovement, begin
 	cur map := current map
 	x := heroX
 	y := heroY
-	if (npc at spot (x,y)) then (suspendMovement, usenpcatspot(), specwait, resumemovement)
+	if (npc at spot (x,y)) then (
+		if (activatableNPC(who) && read NPC (who, NPCstat:activation)==NPCactivation:stepon) then (
+			suspendMovement, usenpcatspot(), specwait, resumemovement
+		)
+	)
 
 	if(hero is walking(0)==false && hero is walking(1)==false && hero is walking(2)==false && hero is walking(3)==false) then (
 		set hero speed(me, 1)
