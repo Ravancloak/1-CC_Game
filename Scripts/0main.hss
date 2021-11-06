@@ -78,5 +78,13 @@ globalVariable, begin
 	63, cont:down
 	64, cont:left
 	65, cont:right
+	66, board:a2
+	67, board:b2
+	68, board:X2
+	69, board:Y2
+	70, board:up2
+	71, board:down2
+	72, board:left2
+	73, board:right2
 end
 

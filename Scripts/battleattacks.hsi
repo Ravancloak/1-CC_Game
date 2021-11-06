@@ -217,7 +217,6 @@ script, animation, which, target, damage, who, begin
 		specwait(10)
 	)
 
-
 	if (picture<>0) then (
 		sli2	:= loadAttackSprite (picture)
 		set parent (sli2, sli)

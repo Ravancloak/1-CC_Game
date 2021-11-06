@@ -3,6 +3,7 @@
 define constant, begin
 2,tag:YesNo
 3,tag:overbridge
+4,tag:AlwaysRun
 0,song:neo memphis
 1,song:battle against a childish oppo
 2,song:battle against an intense oppo
@@ -49,6 +50,7 @@ define constant, begin
 5,slot:Other
 0,map:TEST1
 1,map:TEST2
+2,map:TEST2 2
 1,atk:Basic
 1,menu:Settings
 2,menu:YesNo

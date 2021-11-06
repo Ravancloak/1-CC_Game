@@ -10,6 +10,14 @@ plotscript, opensettingsmenu, begin
 	$1+"%"
 	set menu item caption(menu item by true slot(top menu, 2), 1)
 
+	if (checktag (4)) then (
+		$1="Always Run"
+		set menu item caption(menu item by true slot(top menu, 3), 1)
+	) else (
+		$1="Run Button"
+		set menu item caption(menu item by true slot(top menu, 3), 1)
+	)
+
 	select menu item (menu item by slot(top menu, menu:lastsettings))
 end
 

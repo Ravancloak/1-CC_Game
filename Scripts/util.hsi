@@ -195,11 +195,32 @@ script, resetControls, begin
 	cont:B	:= joy:B
 	cont:X	:= joy:Y
 	cont:Y	:= joy:X
-	
+
+	cont:up		:= joy:up
+	cont:down	:= joy:down
+	cont:left	:= joy:left
+	cont:right	:= joy:right
+
+
 	board:A	:= key:x
 	board:B	:= key:z
 	board:X	:= key:Enter
 	board:Y	:= key:rightShift
+
+	board:up	:= key:up
+	board:down	:= key:down
+	board:left	:= key:left
+	board:right	:= key:right
+
+	board:A2	:= key:e
+	board:B2	:= key:q
+	board:X2	:= key:esc
+	board:Y2	:= key:leftShift
+
+	board:up2	:= key:w
+	board:down2	:= key:s
+	board:left2	:= key:a
+	board:right2:= key:d
 end
 
 script, suspendMovement, begin
@@ -221,47 +242,86 @@ script, waitForNewKey, begin
 	while (newKeyCheck==false) do (specwait)
 end
 script, anyKeyCheck, begin
-	if (keypressA||keypressB||keypressX||keypressY|| keypress(key:up)|| keypress(key:down)|| keypress(key:left)|| keypress(key:right)) then (return (true))
+	if (keypressA||keypressB||keypressX||keypressY|| keypressUp|| keypressDown|| keypressLeft|| keypressright) then (return (true))
 end
 script, newKeyCheck, begin
-	if (newkeypressA||newkeypressB||newkeypressX||newkeypressY|| newkeypress(key:up)|| newkeypress(key:down)|| newkeypress(key:left)|| newkeypress(key:right)) then (return (true))
+	if (newkeypressA||newkeypressB||newkeypressX||newkeypressY|| newkeypressUp|| newkeypressDown|| newkeypressLeft|| newkeypressright) then (return (true))
 end
 
+
+script, keypressUp, begin
+	if (keypress(cont:Up) || keypress(board:Up) || keypress(board:Up2)) then (return (true)) else (return (false))
+end
+script, keypressDown, begin
+	if (keypress(cont:Down) || keypress(board:Down)|| keypress(board:Down2)) then (return (true)) else (return (false))
+end
+script, keypressLeft, begin
+	if (keypress(cont:Left) || keypress(board:Left) || keypress(board:Left2)) then (return (true)) else (return (false))
+end
+script, keypressRight, begin
+	if (keypress(cont:Right) || keypress(board:Right) || keypress(board:Right2)) then (return (true)) else (return (false))
+end
 script, keypressA, begin
-	if (keypress(cont:A) || keypress(board:A)) then (return (true)) else (return (false))
+	if (keypress(cont:A) || keypress(board:A) || keypress(board:A2)) then (return (true)) else (return (false))
 end
 script, keypressB, begin
-	if (keypress(cont:B) || keypress(board:B)) then (return(true)) else (return (false))
+	if (keypress(cont:B) || keypress(board:B) || keypress(board:B2)) then (return(true)) else (return (false))
 end
 script, keypressX, begin
-	if (keypress(cont:X) || keypress(board:X)) then (return(true)) else (return (false))
+	if (keypress(cont:X) || keypress(board:X) || keypress(board:X2)) then (return(true)) else (return (false))
 end
 script, keypressY, begin
-	if (keypress(cont:Y) || keypress(board:Y)) then (return(true)) else (return (false))
+	if (keypress(cont:Y) || keypress(board:Y) || keypress(board:Y2)) then (return(true)) else (return (false))
 end
 
+
+script, newkeypressUp, begin
+	if (newkeypress(cont:Up) || newkeypress(board:Up) || newkeypress(board:Up2)) then (return (true)) else (return (false))
+end
+script, newkeypressDown, begin
+	if (newkeypress(cont:Down) || newkeypress(board:Down) || newkeypress(board:Down2)) then (return (true)) else (return (false))
+end
+script, newkeypressLeft, begin
+	if (newkeypress(cont:Left) || newkeypress(board:Left) || newkeypress(board:Left2)) then (return (true)) else (return (false))
+end
+script, newkeypressRight, begin
+	if (newkeypress(cont:Right) || newkeypress(board:Right) || newkeypress(board:Right2)) then (return (true)) else (return (false))
+end
 script, newkeypressA, begin
-	if (newkeypress(cont:A) || newkeypress(board:A)) then (return (true)) else (return (false))
+	if (newkeypress(cont:A) || newkeypress(board:A) || newkeypress(board:A2)) then (return (true)) else (return (false))
 end
 script, newkeypressB, begin
-	if (newkeypress(cont:B) || newkeypress(board:B)) then (return(true)) else (return (false))
+	if (newkeypress(cont:B) || newkeypress(board:B) || newkeypress(board:B2)) then (return(true)) else (return (false))
 end
 script, newkeypressX, begin
-	if (newkeypress(cont:X) || newkeypress(board:X)) then (return(true)) else (return (false))
+	if (newkeypress(cont:X) || newkeypress(board:X) || newkeypress(board:X2)) then (return(true)) else (return (false))
 end
 script, newkeypressY, begin
-	if (newkeypress(cont:Y) || newkeypress(board:Y)) then (return(true)) else (return (false))
+	if (newkeypress(cont:Y) || newkeypress(board:Y) || newkeypress(board:Y2)) then (return(true)) else (return (false))
 end
 
+
+script, keyIsPressedUp, begin
+	if (keyIsPressed(cont:Up) || keyIsPressed(board:Up) || keyIsPressed(board:Up2)) then (return (true)) else (return (false))
+end
+script, keyIsPressedDown, begin
+	if (keyIsPressed(cont:Down) || keyIsPressed(board:Down) || keyIsPressed(board:Down2)) then (return (true)) else (return (false))
+end
+script, keyIsPressedLeft, begin
+	if (keyIsPressed(cont:Left) || keyIsPressed(board:Left) || keyIsPressed(board:Left2)) then (return (true)) else (return (false))
+end
+script, keyIsPressedRight, begin
+	if (keyIsPressed(cont:Right) || keyIsPressed(board:Right) || keyIsPressed(board:Right2)) then (return (true)) else (return (false))
+end
 script, keyIsPressedA, begin
-	if (keyIsPressed(cont:A) || keyIsPressed(board:A)) then (return (true)) else (return (false))
+	if (keyIsPressed(cont:A) || keyIsPressed(board:A) || keyIsPressed(board:A2)) then (return (true)) else (return (false))
 end
 script, keyIsPressedB, begin
-	if (keyIsPressed(cont:B) || keyIsPressed(board:B)) then (return(true)) else (return (false))
+	if (keyIsPressed(cont:B) || keyIsPressed(board:B) || keyIsPressed(board:B2)) then (return(true)) else (return (false))
 end
 script, keyIsPressedX, begin
-	if (keyIsPressed(cont:X) || keyIsPressed(board:X)) then (return(true)) else (return (false))
+	if (keyIsPressed(cont:X) || keyIsPressed(board:X) || keyIsPressed(board:X2)) then (return(true)) else (return (false))
 end
 script, keyIsPressedY, begin
-	if (keyIsPressed(cont:Y) || keyIsPressed(board:Y)) then (return(true)) else (return (false))
+	if (keyIsPressed(cont:Y) || keyIsPressed(board:Y) || keyIsPressed(board:Y2)) then (return(true)) else (return (false))
 end

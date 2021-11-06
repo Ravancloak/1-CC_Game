@@ -214,6 +214,8 @@ end
 script, battleEnd, condition=1, begin
 	variable (i, formation, sli, level0, level1, level2, level3)
 
+	#get formation for rewards etc
+	formation := getElement(get array(array:battleinfo), battle:formation)
 
 	if (condition == battlecond:lose) then (
 		sli := loadBackdropSprite (8)
@@ -223,10 +225,11 @@ script, battleEnd, condition=1, begin
 		waitforNewKey
 		reset game
 	) else if (condition == battlecond:run) then (
-		#get formation for rewards etc
-		formation := getElement(get array(array:battleinfo), battle:formation)
-
 		set sprite visible (lookupslice (sli:hide heroes), false)
+		
+		#show text "ran away"
+		write (14)
+
 		set sprite visible (lookupslice (sli:enemygrid), false)
 		
 		for (i, 0, herocount--1) do (
@@ -259,7 +262,6 @@ script, battleEnd, condition=1, begin
 
 	) else if (condition == battlecond:win) then (
 		#get formation for rewards etc
-		formation := getElement(get array(array:battleinfo), battle:formation)
 
 		set sprite visible (lookupslice (sli:hide heroes), false)
 		set sprite visible (lookupslice (sli:enemygrid), false)
@@ -286,7 +288,9 @@ script, battleEnd, condition=1, begin
 
 		getMoney (battle:money)
 
-		write (7) 
+		write (13)
+
+		write (7)
 
 		if (hero levelled (0)) then (
 			battle:exp := get hero level (0)
