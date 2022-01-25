@@ -3,22 +3,6 @@ script, activatableNPC, who, begin
 	if (read NPC (who,NPCstat:activation) == NPCactivation:use) then (return (true))
 end
 
-script, dirX, dir, begin
-    switch (dir) do (
-    case (up, down) do (return (0))
-    case (right) do (return (1))
-    case (left) do (return (-1))
-    )
-end
-
-script, dirY, dir, begin
-    switch (dir) do (
-    case (left, right) do (return (0))
-    case (down) do (return (1))
-    case (up) do (return (-1))
-    )
-end
-
 script, musicpercent, begin
 	variable(var)
 	var := (getMusicVolume*160/408--1)
@@ -33,11 +17,19 @@ end
 
 #various==========================================
 
-script, healparty, begin
+script, healpartyHP, begin
 	variable (i)
 	for (i, 0, 3) do (
 		if (hero by slot (i)<>-1) then (
 			setHeroStat(i, stat:HP, getHeroStat(i, stat:HP, maximumstat))
+		)
+	)
+end
+
+script, healpartyPP, begin
+	variable (i)
+	for (i, 0, 3) do (
+		if (hero by slot (i)<>-1) then (
 			setHeroStat(i, stat:PP, getHeroStat(i, stat:PP, maximumstat))
 		)
 	)
