@@ -35,7 +35,7 @@ script, keypressMovement, begin
 
 	if (newkeypressX) then (
 		#mm()
-		opensettingsmenu()
+		open(0)
 		exitscript
 	)
 	#arrow keys, move character
