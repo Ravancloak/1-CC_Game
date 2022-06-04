@@ -259,9 +259,12 @@ script, keypressBattle, begin
 
 	if (battle:bkey == bkey:action) then (
 		keybattlemenu
+	) else if (battle:bkey  == bkey:skill) then (
+		keyskillmenu
 	)else if (battle:bkey  == bkey:targatk) then (
 		keyseltargetatk
 	)
+
 end
 
 script, keybattlemenu, begin
@@ -274,7 +277,12 @@ script, keybattlemenu, begin
 		switch (sel) do (
 			case (battlemenu:attack) do (
 				suspendMovement
+				SetSliceExtra (lookupslice (sli:actionmenu), 1, skill:normal)
 				battle:bkey := bkey:targatk
+			)
+			case (battlemenu:skill) do (
+				suspendMovement
+				battle:bkey := bkey:skill
 			)
 			case (battlemenu:defend) do (
 				suspendMovement
@@ -315,6 +323,70 @@ script, keybattlemenu, begin
 	)
 end
 
+script, keyskillmenu, begin
+	variable (sli, var, var2, sel)
+
+	sli := lookupslice (sli:actionmenu)
+	sel := getSliceExtra (sli, 0)
+
+	if (keypressA) then (
+		switch (sel) do (
+			case (battlemenu:attack) do (
+				suspendMovement
+				SetSliceExtra (lookupslice (sli:actionmenu), 1, skill:normal)
+				battle:bkey := bkey:targatk
+			)
+			case (battlemenu:attack) do (
+				suspendMovement
+				SetSliceExtra (lookupslice (sli:actionmenu), 1, skill:normal)
+				battle:bkey := bkey:targatk
+			)
+			case (battlemenu:attack) do (
+				suspendMovement
+				SetSliceExtra (lookupslice (sli:actionmenu), 1, skill:normal)
+				battle:bkey := bkey:targatk
+			)
+			case (battlemenu:attack) do (
+				suspendMovement
+				SetSliceExtra (lookupslice (sli:actionmenu), 1, skill:normal)
+				battle:bkey := bkey:targatk
+			)
+		)
+		exitscript
+	)
+
+	if (keypressB) then (
+		suspendMovement
+		battle:bkey := bkey:action
+		exit script
+	)
+
+	if (keypressUp) then (
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		setSliceLookup(sli, 0)
+		setTextColor(sli, ui:menuitem)
+
+		if (sel > 0) then (sel -= 1) else (sel := (child count(lookupslice (sli:actionmenu)))--1)
+
+		setSliceExtra (lookupslice (sli:actionmenu), 0, sel)
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		setSliceLookup(sli, sli:selected text)
+		exit script
+	)
+	if(keypressDown) then (
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		setSliceLookup(sli, 0)
+		setTextColor(sli, ui:menuitem)
+
+		if (sel <(child count(lookupslice (sli:actionmenu)))--1) then (sel += 1) else (sel := 0)
+		
+		setSliceExtra(lookupslice (sli:actionmenu), 0, sel)
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		setSliceLookup(sli, sli:selected text)
+		exit script
+	)
+end
+
 script, keyseltargetatk, begin
 	variable (sli, var, var2, sel)
 
@@ -324,7 +396,7 @@ script, keyseltargetatk, begin
 	if (keypressA) then (
 		suspendMovement
 		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
-		addattack (battle:turn, skill:test, sel+4)
+		addattack (battle:turn, getSliceExtra (lookupslice (sli:actionmenu), 1), sel+4)
 		exit script
 	)
 	if (keypressB) then (

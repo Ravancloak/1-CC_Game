@@ -54,79 +54,10 @@ end
 
 script, battleMenu, which, begin
 	variable (sli, var, sel, who)
+
+	openbattlemenu()
+
 	battle:bkey := bkey:action
-
-	#position and show slice
-	switch (herocount) do (
-		case (1, 3) do(
-			#sli := lookupslice (sli:actionmenu)
-			#put slice (sli, battle:turn*86+40, sliceY(sli))
-			#sli := last child (lookupslice (sli:hideactionmenu))
-			#put slice (sli, battle:turn*86+34, sliceY(sli))		
-		)
-		case (2,4) do(
-			#sli := lookupslice (sli:actionmenu)
-			#put slice (sli, battle:turn*65+20, sliceY(sli))
-			#sli := last child (lookupslice (sli:hideactionmenu))
-			#put slice (sli, battle:turn*65+14, sliceY(sli))
-		)
-	)
-
-	who := hero by slot (which)
-
-	#create text for menu
-
-	#get attack based on equip
-	get hero name (2, who)
-	switch (check equipment (who, slot:weapon)) do (
-		case (item:Nothing) do (
-			switch (who) do (
-				case (hero:Keifer) do ($2="punch")
-				case (hero:Jenkins) do ($2="splash")
-				case (hero:GMoney) do ($2="punch")
-				case (hero:Jane) do ($2="slap")
-			)
-		)
-	)
-	addText(battlemenu:attack)
-	$2="skill"
-	addText(battlemenu:skill)
-	$2="item"
-	addText(battlemenu:item)
-	$2="defend"
-	addtext(battlemenu:defend)
-	$2="run"
-	addText(battlemenu:run)
-
-
-	sel := battlemenu:attack
-
-	set slice extra (lookupslice (sli:actionmenu), 0, sel)
-
-	#set text to flash
-	sli := slice child (lookupslice (sli:actionmenu), sel)
-	set slice lookup(sli, sli:selected text)
-
-	sli := battlePortrait(which)
-
-	slice to back (sli)
-	dissolve sprite (sli, dissolve:sink into ground, 10) 
-	specwait(9)
-	slice to front (sli)
-
-	set slice visible (sli, false)
-
-	specwait(20)
-	set slice visible (lookupslice (sli:hideactionmenu), true)
-
-	sli := last child (lookupslice (sli:hideactionmenu))
-	replaceportraitsprite (sli, who)
-	slice to back (sli)
-	dissolve sprite (sli, dissolve:sink into ground, 10, 0, true) 
-
-	specwait(15)
-	slice to front (sli)
-
 	game:mode := mode:battle
 	while (game:mode == mode:battle) do (
 		specwait
@@ -137,6 +68,9 @@ script, battleMenu, which, begin
 	switch (battle:bkey) do (
 		case (bkey:targatk) do (
 			opentarget(which)
+		)
+		case (bkey:skill) do (
+			skillMenu(which)
 		)
 		case (bkey:defend) do (
 			writeStat(which, stat:defending, true)
@@ -159,27 +93,203 @@ script, battleMenu, which, begin
 		set slice height (sli, slice height(sli)+10)
 	end
 
+	subscript, openbattlemenu, begin
+		#position and show slice
+		switch (herocount) do (
+			case (1, 3) do(
+				#sli := lookupslice (sli:actionmenu)
+				#put slice (sli, battle:turn*86+40, sliceY(sli))
+				#sli := last child (lookupslice (sli:hideactionmenu))
+				#put slice (sli, battle:turn*86+34, sliceY(sli))		
+			)
+			case (2,4) do(
+				#sli := lookupslice (sli:actionmenu)
+				#put slice (sli, battle:turn*65+20, sliceY(sli))
+				#sli := last child (lookupslice (sli:hideactionmenu))
+				#put slice (sli, battle:turn*65+14, sliceY(sli))
+			)
+		)
+		#create text for menu
+		who := hero by slot (which)
+		#get attack based on equip
+		get hero name (2, who)
+		switch (check equipment (who, slot:weapon)) do (
+			case (item:Nothing) do (
+				switch (who) do (
+					case (hero:Keifer) do ($2="punch")
+					case (hero:Jenkins) do ($2="splash")
+					case (hero:GMoney) do ($2="punch")
+					case (hero:Jane) do ($2="slap")
+				)
+			)
+		)
+		addText(battlemenu:attack)
+		$2="skill"
+		addText(battlemenu:skill)
+		$2="item"
+		addText(battlemenu:item)
+		$2="defend"
+		addtext(battlemenu:defend)
+		$2="run"
+		addText(battlemenu:run)
+
+
+		sel := battlemenu:attack
+
+		set slice extra (lookupslice (sli:actionmenu), 0, sel)
+
+		#set text to flash
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		set slice lookup(sli, sli:selected text)
+
+		sli := battlePortrait(which)
+		if (GetsliceVisible(sli)) then (
+			sliceToBack (sli)
+			dissolveSprite (sli, dissolve:sink into ground, 10) 
+			specwait(9)
+			sliceToFront (sli)
+			setSliceVisible (sli, false)
+
+			specwait(20)
+			
+			set slice visible (lookupslice (sli:hideactionmenu), true)
+
+			sli := last child (lookupslice (sli:hideactionmenu))
+			replaceportraitsprite (sli, who)
+			slice to back (sli)
+			dissolve sprite (sli, dissolve:sink into ground, 10, 0, true) 
+
+			specwait(15)
+			slice to front (sli)
+		) else (
+			set slice visible (lookupslice (sli:hideactionmenu), true)
+		)
+
+	end
+
 	subscript, exitBattleMenu, begin
 		#hide slice and resume battle shit
-		sli := last child (lookupslice (sli:hideactionmenu))
-		slice to back (sli)
-		dissolve sprite (sli, dissolve:sink into ground, 10) 
-		specwait(9)
-		slice to front (sli)
+		if (battle:bkey <> bkey:skill) then (
+			sli := last child (lookupslice (sli:hideactionmenu))
+			slice to back (sli)
+			dissolve sprite (sli, dissolve:sink into ground, 10) 
+			specwait(9)
+			slice to front (sli)
+		)
+		
+		sli := lookupslice (sli:actionmenu)
+		set slice height (sli, 8)
+		free slice children (sli)
+		set slice visible (lookupslice (sli:hideactionmenu), false)
+
+		if (battle:bkey <> bkey:skill) then (
+			specwait (10)
+			sli := battlePortrait(which)
+			set slice visible (sli, true)
+			slice to back (sli)
+			dissolve sprite (sli, dissolve:sink into ground, 10, 0, true)
+			specwait(15)
+			slice to front (sli)
+		)
+	end
+end
+
+script, skillMenu, which, begin
+	variable (sli, var, sel, who, i)
+	
+	openSkillMenu()
+
+	game:mode := mode:battle
+	while (game:mode == mode:battle) do (
+		specwait
+	)
+	if (battle:bkey == bkey:action) then (
+		exitSkillMenu
+		BattleMenu(which)
+		exit script
+	)
+	exitSkillMenu
+
+	subscript, openSkillMenu, begin
+		sli := lookupslice (sli:actionmenu)
+		sel := 0
+
+		set slice extra (lookupslice (sli:actionmenu), 0, sel)
+		
+		$2="skill 1"
+		addText(1)
+		$2="skill 2"
+		addText(2)
+		$2="skill 3"
+		addtext(3)
+		$2="skill 4"
+		addText(4)
+
+		#set text to flash
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		set slice lookup(sli, sli:selected text)
+
+		sli := battlePortrait(which)
+		if (GetsliceVisible(sli)) then (
+			sliceToBack (sli)
+			dissolveSprite (sli, dissolve:sink into ground, 10) 
+			specwait(9)
+			sliceToFront (sli)
+			setSliceVisible (sli, false)
+
+			specwait(20)
+			
+			set slice visible (lookupslice (sli:hideactionmenu), true)
+
+			sli := last child (lookupslice (sli:hideactionmenu))
+			replaceportraitsprite (sli, who)
+			slice to back (sli)
+			dissolve sprite (sli, dissolve:sink into ground, 10, 0, true) 
+
+			specwait(15)
+			slice to front (sli)
+		) else (
+			set slice visible (lookupslice (sli:hideactionmenu), true)
+		)
+	end
+
+	subscript, exitSkillMenu, begin
+		#hide slice and resume battle shit
+		if (battle:bkey <> bkey:action) then (
+			sli := last child (lookupslice (sli:hideactionmenu))
+			slice to back (sli)
+			dissolve sprite (sli, dissolve:sink into ground, 10) 
+			specwait(9)
+			slice to front (sli)
+		)
 
 		sli := lookupslice (sli:actionmenu)
 		set slice height (sli, 8)
 		free slice children (sli)
 		set slice visible (lookupslice (sli:hideactionmenu), false)
-		specwait (10)
 
-		sli := battlePortrait(which)
-		set slice visible (sli, true)
-		slice to back (sli)
-		dissolve sprite (sli, dissolve:sink into ground, 10, 0, true) 
+		if (battle:bkey <> bkey:action) then (
+			specwait (10)
+			sli := battlePortrait(which)
+			set slice visible (sli, true)
+			slice to back (sli)
+			dissolve sprite (sli, dissolve:sink into ground, 10, 0, true)
+			specwait(15)
+			slice to front (sli)
+		)
+	end
 
-		specwait(15)
-		slice to front (sli)
+	subscript, addText, extra, begin
+		sli := create text
+		set slice text (sli, 2)
+		realign slice (sli, edge:center, edge:top, edge:center, edge:top)
+		set outline(sli, true)
+		set text color(sli, ui:menuitem)
+		set slice extra (sli, 0, extra)
+		set parent (sli, lookupslice (sli:actionmenu))
+		set slice y (sli, slice child index (sli)*10)
+		sli := lookupslice (sli:actionmenu)
+		set slice height (sli, slice height(sli)+10)
 	end
 end
 
