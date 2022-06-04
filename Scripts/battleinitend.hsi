@@ -20,8 +20,6 @@ define constant, begin
 	7,		battle:enemy2timer
 	8,		battle:enemy3timer
 
-	1, attack:normal
-
 	#various values for ease of change
 
 

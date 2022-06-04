@@ -239,13 +239,7 @@ end
 #=======================================================================
 
 script, enemyturn, who, begin
-	variable (target)
-	while (true) do (
-		target := random (0, herocount--1)
-		if (readstat(target, stat:HP)>0) then (break)
-	)
-	
-	addattack (attack:normal, who, target)
+	addattack (who)
 end
 
 #=======================================================================
@@ -306,7 +300,7 @@ end
 #=======================================================================
 #=======================================================================
 
-script, addattack, which, who, target, begin
+script, addattack, who, which=-1, target=-1, begin
 	variable (speed, sli)
 
 	speed := readstat(who,stat:Speed)
@@ -315,8 +309,8 @@ script, addattack, which, who, target, begin
 	setParent (sli, lookupslice(array:turn))
 	setSortOrder (sli, 8000--speed + random(0,speed/20))
 
-	append (sli, which)
 	append (sli, who)
+	append (sli, which)
 	append (sli, target)
 end
 

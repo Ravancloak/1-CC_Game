@@ -35,7 +35,7 @@ script, keypressMovement, begin
 
 	if (newkeypressX) then (
 		#mm()
-		open(0)
+		openMenu(0)
 		exitscript
 	)
 	#arrow keys, move character
@@ -324,7 +324,7 @@ script, keyseltargetatk, begin
 	if (keypressA) then (
 		suspendMovement
 		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
-		addattack (attack:normal, battle:turn, sel+4)
+		addattack (battle:turn, skill:test, sel+4)
 		exit script
 	)
 	if (keypressB) then (
