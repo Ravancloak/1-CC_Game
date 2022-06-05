@@ -5,8 +5,18 @@ script, mainLoop, begin
 end
 
 script, specwait, time=1, begin
-	variable (i)
+	variable (i, sfxvol, mscvol)
 	for (i,1,time) do (
+		sfxvol := get global sound volume
+		mscvol := get music volume
+
+		#while (window is focused==false) do (
+			#set global sound volume(0)
+			#set music volume(0)
+			#wait
+		#)
+		set global sound volume(sfxvol)
+		set music volume(mscvol)
 
 		if (lookupslice(sli:battleback)) then (battleAnimate) 
 		mapUpdate()

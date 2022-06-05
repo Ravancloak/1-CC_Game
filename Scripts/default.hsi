@@ -12,7 +12,8 @@ plotscript, defnewgame, begin
 		#add hero (hero:Jane)
 		initArray(0,array:skill)
 
-		set music volume(0)
+		#set music volume(0)
+		set music volume(69)
 		var:musicVol := getmusicvolume
 	end
 end

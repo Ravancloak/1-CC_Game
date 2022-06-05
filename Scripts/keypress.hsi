@@ -324,34 +324,14 @@ script, keybattlemenu, begin
 end
 
 script, keyskillmenu, begin
-	variable (sli, var, var2, sel)
+	variable (sli, var, var2, sel, skill)
 
 	sli := lookupslice (sli:actionmenu)
 	sel := getSliceExtra (sli, 0)
 
 	if (keypressA) then (
-		switch (sel) do (
-			case (battlemenu:attack) do (
-				suspendMovement
-				SetSliceExtra (lookupslice (sli:actionmenu), 1, skill:normal)
-				battle:bkey := bkey:targatk
-			)
-			case (battlemenu:attack) do (
-				suspendMovement
-				SetSliceExtra (lookupslice (sli:actionmenu), 1, skill:normal)
-				battle:bkey := bkey:targatk
-			)
-			case (battlemenu:attack) do (
-				suspendMovement
-				SetSliceExtra (lookupslice (sli:actionmenu), 1, skill:normal)
-				battle:bkey := bkey:targatk
-			)
-			case (battlemenu:attack) do (
-				suspendMovement
-				SetSliceExtra (lookupslice (sli:actionmenu), 1, skill:normal)
-				battle:bkey := bkey:targatk
-			)
-		)
+		suspendMovement
+		battle:bkey := bkey:targatk
 		exitscript
 	)
 

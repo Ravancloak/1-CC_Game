@@ -52,7 +52,7 @@ script, turns, begin
 		target	:= getElement(sli, 2)
 
 		#when the skill needs to be decided
-		if (which==-1) then (
+		if (which==-1 && target==-1) then (
 			which := getenemyattacks (who)
 		)
 

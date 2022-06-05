@@ -63,8 +63,8 @@ script, battleMenu, which, begin
 		specwait
 	)
 
-	exitBattleMenu
-	writeStat(which, stat:defending, false)
+	exitBattleMenu()
+
 	switch (battle:bkey) do (
 		case (bkey:targatk) do (
 			opentarget(which)
@@ -191,12 +191,14 @@ script, battleMenu, which, begin
 			specwait(15)
 			slice to front (sli)
 		)
+		writeStat(which, stat:defending, false)
 	end
 end
 
 script, skillMenu, which, begin
-	variable (sli, var, sel, who, i)
+	variable (sli, var, sel, who, i, skill)
 	
+	who := hero by slot (which)
 	openSkillMenu()
 
 	game:mode := mode:battle
@@ -208,7 +210,18 @@ script, skillMenu, which, begin
 		BattleMenu(which)
 		exit script
 	)
-	exitSkillMenu
+	exitSkillMenu()
+
+	if (battle:bkey == bkey:targatk) then (
+		sli := lookupslice (sli:actionmenu)
+		sel := getSliceExtra (sli, 0)
+
+		skill := read spell (who, 0, sel)--1
+		if (skill < 0) then (skill := 0)
+
+		SetSliceExtra (lookupslice (sli:actionmenu), 1, skill)
+		opentarget(which)
+	)
 
 	subscript, openSkillMenu, begin
 		sli := lookupslice (sli:actionmenu)
@@ -216,14 +229,30 @@ script, skillMenu, which, begin
 
 		set slice extra (lookupslice (sli:actionmenu), 0, sel)
 		
-		$2="skill 1"
-		addText(1)
-		$2="skill 2"
-		addText(2)
-		$2="skill 3"
-		addtext(3)
-		$2="skill 4"
-		addText(4)
+		if (read spell (who, 0, 0)) then (
+			read attack name (2, read spell (who, 0, 0))
+			addText(1)
+		)
+		if (read spell (who, 0, 1)) then (
+			read attack name (2, read spell (who, 0, 1))
+			addText(1)
+		)
+		if (read spell (who, 0, 2)) then (
+			read attack name (2, read spell (who, 0, 2))
+			addText(1)
+		)
+		if (read spell (who, 0, 3)) then (
+			read attack name (2, read spell (who, 0, 3))
+			addText(1)
+		)
+		if (read spell (who, 0, 4)) then (
+			read attack name (2, read spell (who, 0, 4))
+			addText(1)
+		)
+		if (read spell (who, 0, 5)) then (
+			read attack name (2, read spell (who, 0, 5))
+			addText(1)
+		)
 
 		#set text to flash
 		sli := slice child (lookupslice (sli:actionmenu), sel)
@@ -277,6 +306,7 @@ script, skillMenu, which, begin
 			specwait(15)
 			slice to front (sli)
 		)
+		
 	end
 
 	subscript, addText, extra, begin
@@ -298,11 +328,8 @@ script, opentarget, which, begin
 	sli := lookupslice (sli:actionmenu)
 	sel := getSliceExtra (sli, 0)
 
-	switch (sel) do (
-		case (battlemenu:attack) do (
-			initTargatk
-		)
-	)
+	initTargatk
+
 
 	game:mode := mode:battle
 	while (game:mode == mode:battle) do (
@@ -330,7 +357,7 @@ script, opentarget, which, begin
 		sli := lookupslice (sli:enemygrid)
 		sel := getSliceExtra (sli, 0)
 		if (readstat(sel+4, stat:HP)<=0) then (sel := 0)
-		
+
 		#set slice extra (sli, 0, sel)
 		for (i, 4, 4+enemycount--1) do (
 			if (readstat(sel+4, stat:HP)<=0) then (sel += 1)

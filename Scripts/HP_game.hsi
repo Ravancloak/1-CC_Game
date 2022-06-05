@@ -52,7 +52,8 @@ define constant, begin
 0,map:TEST1
 1,map:TEST2
 2,map:TEST2 2
-1,atk:Basic
+1,atk:Test
+2,atk:Normal
 1,menu:Settings
 2,menu:YesNo
 0,enemy:Blank

@@ -61,6 +61,13 @@ define constant, begin
 	5,	bkey:run
 	6,	bkey:defend
 
+	0,	bkey:skill1
+	1,	bkey:skill2
+	2,	bkey:skill3
+	3,	bkey:skill4
+	4,	bkey:skill5
+	5,	bkey:skill6
+
 	#battle menu items
 	0, battlemenu:attack
 	1, battlemenu:skill
