@@ -13,6 +13,7 @@ script, loadbattleback, formation, begin
 	set parent (sli, lookupslice(sli:battlecol))
 	sliceToBack (sli)
 
+	#sets up variables based on 
 	switch (formation)do(
 		case (1) do (
 			set1 := 4, set2 := 4

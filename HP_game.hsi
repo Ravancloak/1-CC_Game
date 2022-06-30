@@ -1,0 +1,74 @@
+# HamsterSpeak constant definitions for HP_game.rpg
+
+define constant, begin
+2,tag:YesNo
+3,tag:overbridge
+4,tag:AlwaysRun
+0,song:neo memphis
+1,song:battle against a childish oppo
+2,song:battle against an intense oppo
+3,song:battle against an energetic op
+4,song:play more serious
+5,song:military base
+6,sfx:water_steps
+0,hero:Keifer
+1,hero:Jenkins
+2,hero:GMoney
+3,hero:Jane
+0,item:Nothing
+0,stat:HP
+1,stat:PP
+2,stat:Atk
+3,stat:Aim
+4,stat:Def
+5,stat:Evade
+6,stat:Psi
+7,stat:Will
+8,stat:Speed
+9,stat:Row
+10,stat:Psi~
+11,stat:Hits
+0,element:Norm
+1,element:Fire
+2,element:Water
+3,element:Lit
+4,element:Poison
+5,element:Par
+6,element:Sleep
+7,element:Light
+8,element:Dark
+9,element:Colorless
+10,element:Other
+11,element:Other 2
+12,element:Other 3
+13,element:Other 4
+14,element:Other 5
+15,element:Other 6
+1,slot:Weapon
+2,slot:Head
+3,slot:Body
+4,slot:Legs
+5,slot:Other
+0,map:TEST1
+1,map:TEST2
+2,map:TEST2 2
+1,atk:Test
+2,atk:Normal
+3,atk:Cure1
+1,menu:Settings
+2,menu:YesNo
+0,enemy:Blank
+1,enemy:Rat King
+2,enemy:Doll Dancer
+3,enemy:Mushroom Man
+4,enemy:Tentas
+1,sli:battle col
+2,sli:enemy grid
+3,sli:hero grid
+4,sli:action menu
+5,sli:hide heroes
+6,sli:hide action menu
+7,sli:MenuStats
+8,sli:MenuEquip
+9,sli:SelEquip
+end

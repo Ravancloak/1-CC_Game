@@ -11,7 +11,6 @@ script, keypressMovement, begin
 		)
 	)
 
-
 	if(hero is walking(0)==false && hero is walking(1)==false && hero is walking(2)==false && hero is walking(3)==false) then (
 		if (checktag(4)) then (set hero speed(me, 2)) else (set hero speed(me, 1))
 		#b button, dashing
@@ -257,13 +256,13 @@ end
 script, keypressBattle, begin
 	variable ()
 
-	if (battle:bkey == bkey:action) then (
-		keybattlemenu
-	) else if (battle:bkey  == bkey:skill) then (
-		keyskillmenu
-	)else if (battle:bkey  == bkey:targatk) then (
-		keyseltargetatk
-	)
+	#if (battle:bkey == bkey:action) then (
+	#	keybattlemenu
+	#) else if (battle:bkey  == bkey:skill) then (
+	#	keyskillmenu
+	#) else if (battle:bkey  == bkey:targatk) then (
+	#	keyseltargetatk
+	#)
 
 end
 
@@ -277,7 +276,7 @@ script, keybattlemenu, begin
 		switch (sel) do (
 			case (battlemenu:attack) do (
 				suspendMovement
-				SetSliceExtra (lookupslice (sli:actionmenu), 1, skill:normal)
+				set slice extra (lookupslice (array:action), 1, 1)
 				battle:bkey := bkey:targatk
 			)
 			case (battlemenu:skill) do (
@@ -331,6 +330,7 @@ script, keyskillmenu, begin
 
 	if (keypressA) then (
 		suspendMovement
+		set slice extra (lookupslice (array:action), 1, getSliceExtra (slice child (lookupslice (sli:actionmenu), sel), 0))
 		battle:bkey := bkey:targatk
 		exitscript
 	)
@@ -368,52 +368,110 @@ script, keyskillmenu, begin
 end
 
 script, keyseltargetatk, begin
-	variable (sli, var, var2, sel)
+	variable (sli, var, var2, sel, targets)
 
-	sli := lookupslice (sli:enemygrid)
-	sel := getSliceExtra (sli, 0)
+	returnSkill(set slice extra (lookupslice (array:action), 1))
+	#show value(getSliceExtra (lookupslice (sli:actionmenu), 1))
 
-	if (keypressA) then (
-		suspendMovement
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
-		addattack (battle:turn, getSliceExtra (lookupslice (sli:actionmenu), 1), sel+4)
-		exit script
+	switch (getElement (lookupslice (array:readskill), skill:targClass)) do (
+		case (targClass:foeNotDead) do (targetenemies)
+		case (targclass:allyNotDead) do (targetallies)
+		#case (targclass:allNotDead) do ()
+		#case (targclass:self) do ()
+		#case (targclass:deadAlly) do ()	
 	)
-	if (keypressB) then (
-		suspendMovement
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
-		battle:bkey := bkey:action
-		exit script
-	)
+	
+	subscript, targetenemies, begin
+		sli := lookupslice (sli:enemygrid)
+		sel := getSliceExtra (sli, 0)
 
-	if (keypressLeft) then (
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
+		if (keypressA) then (
+			suspendMovement
+			setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
 
-		if (sel > 0) then (if (readstat(sel+3, stat:HP)<>0) then (sel -= 1))
-
-		if (readstat(sel+3, stat:HP)==0 && sel > 1) then (
-			sel-=2
+			#set slice extra (lookupslice (sli:actionmenu), sel+4)
+			set slice extra (lookupslice (array:action), 0, sel+4)
+			#addattack (battle:turn, getSliceExtra (lookupslice (sli:actionmenu), 1), sel+4)
+			exit script
 		)
-		if (sel < 0) then (sel := 0)
-
-		setSliceExtra (lookupslice (sli:enemygrid), 0, sel)
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
-		exit script
-	)
-	if(keypressRight) then ( 
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
-		
-		if (sel < enemyCount--1) then (if (readstat(sel+5, stat:HP)<>0)then(sel += 1))
-
-		if (sel < enemyCount--2) then (
-			if (readstat(sel+5, stat:HP)==0) then (sel+=2)
+		if (keypressB) then (
+			suspendMovement
+			setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
+			battle:bkey := bkey:action
+			exit script
 		)
-		if (sel > enemyCount--1) then (sel := enemyCount--1)
 
-		setSliceExtra (lookupslice (sli:enemygrid), 0, sel) 
+		if (keypressLeft) then (
+			setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
 
-		sli := slice child (lookupslice (sli:enemygrid), sel)
-		setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
-		exit script
-	)
+			if (sel > 0) then (if (readstat(sel+3, stat:HP)<>0) then (sel -= 1))
+
+			if (readstat(sel+3, stat:HP)==0 && sel > 1) then (
+				sel-=2
+			)
+			if (sel < 0) then (sel := 0)
+
+			setSliceExtra (lookupslice (sli:enemygrid), 0, sel)
+			setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
+			exit script
+		)
+		if(keypressRight) then ( 
+			setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), false)
+			
+			if (sel < enemyCount--1) then (if (readstat(sel+5, stat:HP)<>0)then(sel += 1))
+
+			if (sel < enemyCount--2) then (
+				if (readstat(sel+5, stat:HP)==0) then (sel+=2)
+			)
+			if (sel > enemyCount--1) then (sel := enemyCount--1)
+
+			setSliceExtra (lookupslice (sli:enemygrid), 0, sel) 
+
+			setSliceVisible (firstChild (first child (slice child (lookupSlice (sli:enemygrid), sel))), true)
+			exit script
+		)
+	end
+
+	subscript, targetallies, begin
+		sli := lookupslice (sli:herogrid)
+		sel := getSliceExtra (sli, 0)
+		show value (sel)
+
+		if (keypressA) then (
+			suspendMovement
+			set slice extra (lookupslice (array:action), 0, sel)
+			#addattack (battle:turn, getSliceExtra (lookupslice (sli:actionmenu), 1), sel)
+			exit script
+		)
+		if (keypressB) then (
+			suspendMovement
+			battle:bkey := bkey:action
+			exit script
+		)
+
+		if (keypressLeft) then (
+
+			if (sel > 0) then (if (readstat(sel, stat:HP)<>0) then (sel -= 1))
+
+			if (readstat(sel, stat:HP)==0 && sel > 1) then (
+				sel-=2
+			)
+			if (sel < 0) then (sel := 0)
+
+			setSliceExtra (lookupslice (sli:herogrid), 0, sel)
+			exit script
+		)
+		if(keypressRight) then ( 
+			if (sel < heroCount--1) then (if (readstat(sel+1, stat:HP)<>0)then(sel += 1))
+
+			if (sel < heroCount--2) then (
+				if (readstat(sel+1, stat:HP)==0) then (sel+=2)
+			)
+			if (sel > heroCount--1) then (sel := heroCount--1)
+
+			setSliceExtra (lookupslice (sli:herogrid), 0, sel) 
+			exit script
+		)
+	end
+	
 end

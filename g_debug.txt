@@ -1,0 +1,1000 @@
+Loading D:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.2   ----Starting OHRRPGCE Game----
+ 0.2  06-30-2022 12:37:05
+ 0.2  OHRRPGCE wip 20220628.12999 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.08.1 (2021-07-05) gcc 8.1.0 x86 pdb  Built on vampirecell -g FB_ERR=224 -gen gcc Win32 32-bit
+ 0.3  exepath: D:\OHRRPGCE, exe: D:\OHRRPGCE\game.exe
+ 0.3  orig_dir: D:\OHRRPGCE\0OHRGames\1-CC_game
+ 0.3  curdir: D:\OHRRPGCE\0OHRGames\1-CC_game
+ 0.4  Runtime info:   music_sdl2, SDL 2.0.22, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.4  config: C:\Users\Dell\AppData\Roaming\OHRRPGCE\ohrrpgce_config.ini
+ 0.5  Reading commands from channel_to_Custom '\\.\pipe\ohrrpgce_lump_updates_testing_75483'
+ 0.5  Spawned from Custom
+ 0.5  Steam not initialized
+ 0.5  set_resolution 320*200
+ 0.5  Setting graphics scaling to x2 change_windowsize=-1
+ 0.5  Initialising gfx_sdl2...
+ 0.6  setvideomode zoom=2 w*h = 640,400
+ 0.8  gfx_sdl2 "SDL 2.0.22 (1 joysticks) Driver: windows (Drivers: windows dummy) Render driver: direct3d (Drivers: direct3d (hwaccel,vsync,textarget) direct3d11 (hwaccel,vsync,textarget) opengl (hwaccel,vsync,textarget) opengles2 (hwaccel,vsync,textarget) software (vsync,textarget))"
+ 0.8  disable_native_text_input=0
+ 0.8  unlock_resolution(320,200)
+ 0.8  music_sdl2, SDL_Mixer 2.0.5 (48000Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.9  Setting default window settings...
+ 0.9  set_resolution 320*200
+ 0.9  unlock_resolution(320,200)
+ 0.9  Setting graphics scaling to x2 change_windowsize=-1
+ 0.9  Received message from Custom: V OHRRPGCE,4,12999,OHRRPGCE wip 20220628
+ 0.9  Received message from Custom: G D:\OHRRPGCE\0OHRGames\1-CC_game\HP_game.rpg
+ 0.9  Received message from Custom: W C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp\
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.9   ----Loading D:\OHRRPGCE\0OHRGames\1-CC_game\HP_game.rpg----
+ 0.9  curdir: D:\OHRRPGCE\0OHRGames\1-CC_game
+ 0.9  tmpdir: C:\Users\Dell\AppData\Local\Temp\ohrrpgce20220630123705.781.tmp\
+ 0.9  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.9  config: C:\Users\Dell\AppData\Roaming\OHRRPGCE\ohrrpgce_config.ini
+ 0.9  savedir: D:\OHRRPGCE\0OHRGames\1-CC_game\HP_game.saves
+ 0.9  Name: 
+ 1.3  plotscr.hsd version: 3U 
+ 1.8  lock_resolution()
+ 1.8  set_resolution 300*200
+ 1.9  recenter_window_hint()
+ 1.9  Desktop resolution: 1600*860
+ 1.9  automatic_scale_factor(0.5), screen size: 1600*860
+ 1.9  Setting graphics scaling to x2 change_windowsize=-1
+ 1.9  Preserving fullscreen/windowed state
+ 1.9  genRungameFullscreenIndependent: 0
+ 2.5  Joystick 0 GUID 03000000c82d000006500000000000 instance_id 0
+ 2.5   Opened as gamecontroller 8BitDo M30 Gamepad
+ 2.5   Type: 0
+ 2.5  03000000c82d00000650000000000000,8BitDo M30 Gamepad,a:b0,b:b1,back:b10,guide:b2,leftshoulder:b6,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,righttrigger:b9,start:b11,x:b3,y:b4,hint:SDL_GAMECONTROLLER_USE_BUTTON_LABELS:=1,platform:Windows
+ 2.5  Opened joystick 0 8BitDo M30 gamepad (id 0) -- 15 buttons 6 axes 1 hats 0 balls
+ 2.5  JOYSTICKSTATE.UPDATE_KEYBITS(0) took 55ms
+37.0  msg: M ohrrpgce.gen
+37.0  msg: M general.reld
+38.6  msg: M browse.txt
+38.6  msg: M browse.txt
+38.6  msg: M general.reld
+38.6  msg: M browse.txt
+38.6  msg: M browse.txt
+38.6  msg: M general.reld
+38.6  msg: M ohrrpgce.gen
+38.6  msg: M general.reld
+45.1  msg: M ohrrpgce.hsp
+45.1  msg: M plotscr.lst
+45.1  msg: M plotscr.lst
+45.1  msg: M lookup1.bin
+45.3  plotscr.hsd version: 3U 
+45.3  not reloading script battlemenu because it's in use: refcount=1
+45.3  unlock_resolution(320,200)
+54.3  set_resolution 300*200
+54.3  lock_resolution()
+54.3  msg: M ohrrpgce.gen
+54.3  msg: M general.reld
+55.1  plotscr.hsd version: 3U 
+154.5  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation -> battleportrait: lastchild: 0 is not a slice handle
+154.5  unlock_resolution(320,200)
+155.8  set_resolution 300*200
+155.8  lock_resolution()
+155.8  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: slicex: 0 is not a slice handle
+155.8  unlock_resolution(320,200)
+156.3  set_resolution 300*200
+156.3  lock_resolution()
+156.3  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+156.3  unlock_resolution(320,200)
+156.6  set_resolution 300*200
+156.6  lock_resolution()
+156.7  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+156.7  unlock_resolution(320,200)
+156.9  set_resolution 300*200
+156.9  lock_resolution()
+157.0  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+157.0  unlock_resolution(320,200)
+157.4  set_resolution 300*200
+157.4  lock_resolution()
+157.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+157.6  unlock_resolution(320,200)
+157.7  set_resolution 300*200
+157.7  lock_resolution()
+157.9  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+157.9  unlock_resolution(320,200)
+158.0  set_resolution 300*200
+158.0  lock_resolution()
+158.2  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+158.2  unlock_resolution(320,200)
+158.3  set_resolution 300*200
+158.4  lock_resolution()
+158.5  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+158.5  unlock_resolution(320,200)
+158.9  set_resolution 300*200
+158.9  lock_resolution()
+158.9  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation -> endanimation -> battleportrait: lastchild: 0 is not a slice handle
+158.9  unlock_resolution(320,200)
+159.0  set_resolution 300*200
+159.0  lock_resolution()
+159.0  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation -> endanimation: setparent: 0 is not a slice handle
+159.0  unlock_resolution(320,200)
+159.1  set_resolution 300*200
+159.1  lock_resolution()
+159.9  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> kotarget -> updateportrait -> readstat -> getelement: slicechild: 0 is not a slice handle
+159.9  unlock_resolution(320,200)
+160.6  set_resolution 300*200
+160.6  lock_resolution()
+160.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> kotarget -> updateportrait -> readstat -> getelement: slicex: 0 is not a slice handle
+160.6  unlock_resolution(320,200)
+161.1  set_resolution 300*200
+161.1  lock_resolution()
+161.1  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> kotarget -> updateportrait -> battleportrait: lastchild: 0 is not a slice handle
+161.1  unlock_resolution(320,200)
+161.2  set_resolution 300*200
+161.2  lock_resolution()
+161.2  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> kotarget -> updateportrait: replaceportraitsprite: 0 is not a slice handle
+161.2  unlock_resolution(320,200)
+161.3  set_resolution 300*200
+161.3  lock_resolution()
+188.0  msg: M ohrrpgce.hsp
+188.0  msg: M plotscr.lst
+188.0  msg: M plotscr.lst
+188.0  msg: M lookup1.bin
+188.2  plotscr.hsd version: 3U 
+323.3  msg: M ohrrpgce.hsp
+323.3  msg: M plotscr.lst
+323.3  msg: M plotscr.lst
+323.3  msg: M lookup1.bin
+323.5  plotscr.hsd version: 3U 
+367.7  msg: M ohrrpgce.hsp
+367.7  msg: M plotscr.lst
+367.7  msg: M plotscr.lst
+367.7  msg: M lookup1.bin
+367.9  plotscr.hsd version: 3U 
+597.9  msg: M ohrrpgce.hsp
+597.9  msg: M plotscr.lst
+598.0  msg: M plotscr.lst
+598.0  msg: M lookup1.bin
+598.2  plotscr.hsd version: 3U 
+734.7  msg: M ohrrpgce.hsp
+734.8  msg: M plotscr.lst
+734.8  msg: M plotscr.lst
+734.8  msg: M lookup1.bin
+735.0  plotscr.hsd version: 3U 
+737.1  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+737.1  unlock_resolution(320,200)
+737.9  set_resolution 300*200
+737.9  lock_resolution()
+737.9  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+737.9  unlock_resolution(320,200)
+738.3  set_resolution 300*200
+738.3  lock_resolution()
+746.5  msg: M ohrrpgce.hsp
+746.5  msg: M plotscr.lst
+746.5  msg: M plotscr.lst
+746.5  msg: M lookup1.bin
+746.7  plotscr.hsd version: 3U 
+748.0  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+748.0  unlock_resolution(320,200)
+748.7  set_resolution 300*200
+748.7  lock_resolution()
+748.7  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+748.7  unlock_resolution(320,200)
+749.1  set_resolution 300*200
+749.1  lock_resolution()
+749.1  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+749.1  unlock_resolution(320,200)
+749.5  set_resolution 300*200
+749.5  lock_resolution()
+749.5  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+749.5  unlock_resolution(320,200)
+749.7  set_resolution 300*200
+749.7  lock_resolution()
+749.7  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+749.7  unlock_resolution(320,200)
+750.2  set_resolution 300*200
+750.2  lock_resolution()
+750.2  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+750.2  unlock_resolution(320,200)
+750.3  set_resolution 300*200
+750.3  lock_resolution()
+750.3  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+750.3  unlock_resolution(320,200)
+750.4  set_resolution 300*200
+750.4  lock_resolution()
+750.4  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+750.4  unlock_resolution(320,200)
+750.5  set_resolution 300*200
+750.5  lock_resolution()
+750.5  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+750.5  unlock_resolution(320,200)
+750.6  set_resolution 300*200
+750.6  lock_resolution()
+750.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+750.6  unlock_resolution(320,200)
+750.7  set_resolution 300*200
+750.7  lock_resolution()
+750.7  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+750.7  unlock_resolution(320,200)
+750.8  set_resolution 300*200
+750.8  lock_resolution()
+750.8  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+750.8  unlock_resolution(320,200)
+750.9  set_resolution 300*200
+750.9  lock_resolution()
+750.9  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+750.9  unlock_resolution(320,200)
+751.0  set_resolution 300*200
+751.0  lock_resolution()
+751.0  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+751.0  unlock_resolution(320,200)
+751.1  set_resolution 300*200
+751.1  lock_resolution()
+751.1  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+751.1  unlock_resolution(320,200)
+751.1  set_resolution 300*200
+751.1  lock_resolution()
+751.1  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+751.2  unlock_resolution(320,200)
+751.2  set_resolution 300*200
+751.2  lock_resolution()
+751.2  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+751.2  unlock_resolution(320,200)
+751.3  set_resolution 300*200
+751.3  lock_resolution()
+751.3  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+751.3  unlock_resolution(320,200)
+751.3  set_resolution 300*200
+751.3  lock_resolution()
+751.3  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> writestat -> setelement: slicechild: 0 is not a slice handle
+751.3  unlock_resolution(320,200)
+751.4  set_resolution 300*200
+751.4  lock_resolution()
+751.4  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> writestat -> setelement: setslicex: 0 is not a slice handle
+751.4  unlock_resolution(320,200)
+751.5  set_resolution 300*200
+751.5  lock_resolution()
+751.5  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+751.5  unlock_resolution(320,200)
+751.5  set_resolution 300*200
+751.5  lock_resolution()
+751.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+751.6  unlock_resolution(320,200)
+751.6  set_resolution 300*200
+751.6  lock_resolution()
+751.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: firstchild: 0 is not a slice handle
+751.6  unlock_resolution(320,200)
+751.7  set_resolution 300*200
+751.7  lock_resolution()
+751.7  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: slicex: 0 is not a slice handle
+751.7  unlock_resolution(320,200)
+751.7  set_resolution 300*200
+751.7  lock_resolution()
+751.8  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+751.8  unlock_resolution(320,200)
+751.8  set_resolution 300*200
+751.8  lock_resolution()
+751.9  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+751.9  unlock_resolution(320,200)
+752.0  set_resolution 300*200
+752.0  lock_resolution()
+752.1  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+752.1  unlock_resolution(320,200)
+752.2  set_resolution 300*200
+752.2  lock_resolution()
+752.3  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+752.3  unlock_resolution(320,200)
+752.6  set_resolution 300*200
+752.6  lock_resolution()
+752.7  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+752.7  unlock_resolution(320,200)
+753.1  set_resolution 300*200
+753.1  lock_resolution()
+753.3  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+753.3  unlock_resolution(320,200)
+753.3  set_resolution 300*200
+753.3  lock_resolution()
+753.5  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation: setslicex: 0 is not a slice handle
+753.5  unlock_resolution(320,200)
+753.5  set_resolution 300*200
+753.5  lock_resolution()
+753.5  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation -> endanimation: firstchild: 0 is not a slice handle
+753.5  unlock_resolution(320,200)
+753.6  set_resolution 300*200
+753.6  lock_resolution()
+753.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> animation -> endanimation: setparent: 0 is not a slice handle
+753.6  unlock_resolution(320,200)
+753.7  set_resolution 300*200
+753.7  lock_resolution()
+754.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+754.6  unlock_resolution(320,200)
+755.2  set_resolution 300*200
+755.2  lock_resolution()
+755.2  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+755.2  unlock_resolution(320,200)
+755.7  set_resolution 300*200
+756.0  lock_resolution()
+756.0  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+756.0  unlock_resolution(320,200)
+756.1  set_resolution 300*200
+756.1  lock_resolution()
+756.1  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+756.1  unlock_resolution(320,200)
+756.1  set_resolution 300*200
+756.1  lock_resolution()
+756.1  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicechild: 0 is not a slice handle
+756.1  unlock_resolution(320,200)
+756.2  set_resolution 300*200
+756.2  lock_resolution()
+756.2  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> readstat -> getelement: slicex: 0 is not a slice handle
+756.2  unlock_resolution(320,200)
+756.3  set_resolution 300*200
+756.3  lock_resolution()
+756.3  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> kotarget: firstchild: 0 is not a slice handle
+756.3  unlock_resolution(320,200)
+756.4  set_resolution 300*200
+756.4  lock_resolution()
+756.4  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> kotarget: dissolvesprite: 0 is not a slice handle
+756.4  unlock_resolution(320,200)
+756.5  set_resolution 300*200
+756.5  lock_resolution()
+756.9  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> kotarget: setslicevisible: 0 is not a slice handle
+756.9  unlock_resolution(320,200)
+756.9  set_resolution 300*200
+756.9  lock_resolution()
+761.4  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+761.4  unlock_resolution(320,200)
+762.1  set_resolution 300*200
+762.1  lock_resolution()
+762.1  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+762.1  unlock_resolution(320,200)
+762.5  set_resolution 300*200
+762.5  lock_resolution()
+792.7  msg: M ohrrpgce.hsp
+792.7  msg: M plotscr.lst
+792.7  msg: M plotscr.lst
+792.7  msg: M lookup1.bin
+792.9  plotscr.hsd version: 3U 
+793.8  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+793.8  unlock_resolution(320,200)
+794.3  set_resolution 300*200
+794.3  lock_resolution()
+794.4  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+794.4  unlock_resolution(320,200)
+794.6  set_resolution 300*200
+794.6  lock_resolution()
+795.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+795.6  unlock_resolution(320,200)
+796.1  set_resolution 300*200
+796.1  lock_resolution()
+796.1  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+796.1  unlock_resolution(320,200)
+796.5  set_resolution 300*200
+796.5  lock_resolution()
+796.5  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+796.5  unlock_resolution(320,200)
+796.8  set_resolution 300*200
+796.8  lock_resolution()
+796.8  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+796.8  unlock_resolution(320,200)
+797.2  set_resolution 300*200
+797.2  lock_resolution()
+808.9  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+808.9  unlock_resolution(320,200)
+809.7  set_resolution 300*200
+809.7  lock_resolution()
+809.7  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+809.7  unlock_resolution(320,200)
+810.1  set_resolution 300*200
+810.1  lock_resolution()
+810.9  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+810.9  unlock_resolution(320,200)
+811.4  set_resolution 300*200
+811.4  lock_resolution()
+811.4  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+811.4  unlock_resolution(320,200)
+811.9  set_resolution 300*200
+811.9  lock_resolution()
+811.9  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+811.9  unlock_resolution(320,200)
+812.3  set_resolution 300*200
+812.3  lock_resolution()
+812.3  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+812.3  unlock_resolution(320,200)
+812.7  set_resolution 300*200
+812.7  lock_resolution()
+815.0  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+815.0  unlock_resolution(320,200)
+815.5  set_resolution 300*200
+815.5  lock_resolution()
+815.5  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+815.5  unlock_resolution(320,200)
+815.7  set_resolution 300*200
+815.7  lock_resolution()
+816.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+816.6  unlock_resolution(320,200)
+817.2  set_resolution 300*200
+817.2  lock_resolution()
+817.2  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+817.2  unlock_resolution(320,200)
+817.6  set_resolution 300*200
+817.6  lock_resolution()
+817.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+817.6  unlock_resolution(320,200)
+818.0  set_resolution 300*200
+818.0  lock_resolution()
+818.0  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+818.0  unlock_resolution(320,200)
+818.4  set_resolution 300*200
+818.4  lock_resolution()
+824.5  msg: M ohrrpgce.hsp
+824.5  msg: M plotscr.lst
+824.5  msg: M plotscr.lst
+824.5  msg: M lookup1.bin
+824.7  plotscr.hsd version: 3U 
+825.7  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+825.7  unlock_resolution(320,200)
+826.3  set_resolution 300*200
+826.3  lock_resolution()
+826.3  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+826.3  unlock_resolution(320,200)
+826.6  set_resolution 300*200
+826.6  lock_resolution()
+828.1  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+828.1  unlock_resolution(320,200)
+828.6  set_resolution 300*200
+828.6  lock_resolution()
+828.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+828.6  unlock_resolution(320,200)
+828.8  set_resolution 300*200
+828.8  lock_resolution()
+836.2  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+836.2  unlock_resolution(320,200)
+839.3  set_resolution 300*200
+839.3  lock_resolution()
+839.4  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+839.4  unlock_resolution(320,200)
+839.7  set_resolution 300*200
+839.7  lock_resolution()
+864.3  msg: M ohrrpgce.hsp
+864.3  msg: M plotscr.lst
+864.3  msg: M plotscr.lst
+864.3  msg: M lookup1.bin
+864.5  plotscr.hsd version: 3U 
+915.8  msg: M ohrrpgce.hsp
+915.8  msg: M plotscr.lst
+915.8  msg: M plotscr.lst
+915.8  msg: M lookup1.bin
+916.0  plotscr.hsd version: 3U 
+921.9  msg: M ohrrpgce.hsp
+921.9  msg: M plotscr.lst
+921.9  msg: M plotscr.lst
+921.9  msg: M lookup1.bin
+922.1  plotscr.hsd version: 3U 
+1058.9  msg: M ohrrpgce.hsp
+1058.9  msg: M plotscr.lst
+1058.9  msg: M plotscr.lst
+1058.9  msg: M lookup1.bin
+1059.1  plotscr.hsd version: 3U 
+1088.1  msg: M ohrrpgce.hsp
+1088.1  msg: M plotscr.lst
+1088.1  msg: M plotscr.lst
+1088.1  msg: M lookup1.bin
+1088.3  plotscr.hsd version: 3U 
+1156.2  msg: M ohrrpgce.hsp
+1156.2  msg: M plotscr.lst
+1156.2  msg: M plotscr.lst
+1156.2  msg: M lookup1.bin
+1156.4  plotscr.hsd version: 3U 
+1192.9  msg: M ohrrpgce.hsp
+1192.9  msg: M plotscr.lst
+1192.9  msg: M plotscr.lst
+1192.9  msg: M lookup1.bin
+1193.1  plotscr.hsd version: 3U 
+1226.0  msg: M ohrrpgce.hsp
+1226.0  msg: M plotscr.lst
+1226.0  msg: M plotscr.lst
+1226.0  msg: M lookup1.bin
+1226.2  plotscr.hsd version: 3U 
+1254.5  msg: M ohrrpgce.hsp
+1254.5  msg: M plotscr.lst
+1254.5  msg: M plotscr.lst
+1254.5  msg: M lookup1.bin
+1254.7  plotscr.hsd version: 3U 
+1286.6  msg: M ohrrpgce.hsp
+1286.6  msg: M plotscr.lst
+1286.6  msg: M plotscr.lst
+1286.6  msg: M lookup1.bin
+1286.8  plotscr.hsd version: 3U 
+1287.7  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicechild: 0 is not a slice handle
+1287.7  unlock_resolution(320,200)
+1288.3  set_resolution 300*200
+1288.3  lock_resolution()
+1288.3  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> targetmenukeypress -> readstat -> getelement: slicex: 0 is not a slice handle
+1288.3  unlock_resolution(320,200)
+1288.6  set_resolution 300*200
+1288.6  lock_resolution()
+1305.3  msg: M ohrrpgce.hsp
+1305.3  msg: M plotscr.lst
+1305.3  msg: M plotscr.lst
+1305.3  msg: M lookup1.bin
+1305.5  plotscr.hsd version: 3U 
+1322.9  msg: M ohrrpgce.hsp
+1322.9  msg: M plotscr.lst
+1322.9  msg: M plotscr.lst
+1322.9  msg: M lookup1.bin
+1323.1  plotscr.hsd version: 3U 
+1678.9  msg: M ohrrpgce.hsp
+1678.9  msg: M plotscr.lst
+1678.9  msg: M plotscr.lst
+1678.9  msg: M lookup1.bin
+1679.1  plotscr.hsd version: 3U 
+1739.2  msg: M ohrrpgce.hsp
+1739.2  msg: M plotscr.lst
+1739.2  msg: M plotscr.lst
+1739.2  msg: M lookup1.bin
+1739.3  plotscr.hsd version: 3U 
+1830.0  msg: M ohrrpgce.hsp
+1830.1  msg: M plotscr.lst
+1830.1  msg: M plotscr.lst
+1830.1  msg: M lookup1.bin
+1830.2  plotscr.hsd version: 3U 
+1898.0  msg: M ohrrpgce.hsp
+1898.0  msg: M plotscr.lst
+1898.0  msg: M plotscr.lst
+1898.0  msg: M lookup1.bin
+1898.2  plotscr.hsd version: 3U 
+1912.8  msg: M ohrrpgce.gen
+1912.8  msg: M general.reld
+1922.1  msg: M ohrrpgce.for
+1922.9  msg: M ohrrpgce.gen
+1922.9  msg: M general.reld
+1984.6  msg: M browse.txt
+1984.6  msg: M browse.txt
+1984.6  msg: M general.reld
+1984.6  msg: M ohrrpgce.gen
+1984.6  msg: M general.reld
+1987.0  msg: M ohrrpgce.hsp
+1987.1  msg: M plotscr.lst
+1987.1  msg: M plotscr.lst
+1987.1  msg: M lookup1.bin
+1987.2  plotscr.hsd version: 3U 
+2088.2  msg: M ohrrpgce.hsp
+2088.2  msg: M plotscr.lst
+2088.2  msg: M plotscr.lst
+2088.2  msg: M lookup1.bin
+2088.4  plotscr.hsd version: 3U 
+2147.1  msg: M ohrrpgce.hsp
+2147.1  msg: M plotscr.lst
+2147.1  msg: M plotscr.lst
+2147.1  msg: M lookup1.bin
+2147.3  plotscr.hsd version: 3U 
+2223.3  msg: M ohrrpgce.hsp
+2223.3  msg: M plotscr.lst
+2223.3  msg: M plotscr.lst
+2223.3  msg: M lookup1.bin
+2223.5  plotscr.hsd version: 3U 
+2290.4  msg: M ohrrpgce.hsp
+2290.4  msg: M plotscr.lst
+2290.4  msg: M plotscr.lst
+2290.4  msg: M lookup1.bin
+2290.6  plotscr.hsd version: 3U 
+2329.3  msg: M ohrrpgce.hsp
+2329.3  msg: M plotscr.lst
+2329.3  msg: M plotscr.lst
+2329.3  msg: M lookup1.bin
+2329.5  plotscr.hsd version: 3U 
+2513.2  msg: M ohrrpgce.hsp
+2513.2  msg: M plotscr.lst
+2513.2  msg: M plotscr.lst
+2513.2  msg: M lookup1.bin
+2513.3  plotscr.hsd version: 3U 
+2530.0  msg: M ohrrpgce.hsp
+2530.0  msg: M plotscr.lst
+2530.2  plotscr.hsd version: 3U 
+2530.2  msg: M plotscr.lst
+2530.2  msg: M lookup1.bin
+2590.6  msg: M ohrrpgce.hsp
+2590.6  msg: M plotscr.lst
+2590.6  msg: M plotscr.lst
+2590.8  plotscr.hsd version: 3U 
+2590.8  msg: M lookup1.bin
+2657.8  msg: M ohrrpgce.hsp
+2657.8  msg: M plotscr.lst
+2657.8  msg: M plotscr.lst
+2657.8  msg: M lookup1.bin
+2658.0  plotscr.hsd version: 3U 
+2725.5  msg: M ohrrpgce.hsp
+2725.5  msg: M plotscr.lst
+2725.5  msg: M plotscr.lst
+2725.5  msg: M lookup1.bin
+2725.7  plotscr.hsd version: 3U 
+3377.1  msg: M ohrrpgce.hsp
+3377.1  msg: M plotscr.lst
+3377.1  msg: M plotscr.lst
+3377.1  msg: M lookup1.bin
+3377.3  plotscr.hsd version: 3U 
+3377.3  not reloading script battlemenu because it's in use: refcount=1
+3377.3  not reloading script heroturn because it's in use: refcount=1
+3377.3  not reloading script targetmenu because it's in use: refcount=1
+3377.3  unlock_resolution(320,200)
+3378.6  set_resolution 300*200
+3378.6  lock_resolution()
+3379.0  plotscr.hsd version: 3U 
+3600.1  msg: M ohrrpgce.hsp
+3600.1  msg: M plotscr.lst
+3600.1  msg: M plotscr.lst
+3600.1  msg: M lookup1.bin
+3600.4  plotscr.hsd version: 3U 
+3665.8  msg: M ohrrpgce.hsp
+3665.8  msg: M plotscr.lst
+3665.8  msg: M plotscr.lst
+3665.8  msg: M lookup1.bin
+3666.0  plotscr.hsd version: 3U 
+3782.1  msg: M ohrrpgce.hsp
+3782.1  msg: M plotscr.lst
+3782.1  msg: M plotscr.lst
+3782.1  msg: M lookup1.bin
+3782.3  plotscr.hsd version: 3U 
+3975.2  msg: M ohrrpgce.hsp
+3975.2  msg: M plotscr.lst
+3975.2  msg: M plotscr.lst
+3975.2  msg: M lookup1.bin
+3975.4  plotscr.hsd version: 3U 
+3975.4  not reloading script battlemenu because it's in use: refcount=1
+3975.4  not reloading script heroturn because it's in use: refcount=1
+3975.4  unlock_resolution(320,200)
+3976.1  set_resolution 300*200
+3976.1  lock_resolution()
+3976.6  plotscr.hsd version: 3U 
+4087.5  msg: M ohrrpgce.hsp
+4087.5  msg: M plotscr.lst
+4087.5  msg: M plotscr.lst
+4087.5  msg: M lookup1.bin
+4087.7  plotscr.hsd version: 3U 
+4102.9  msg: M ohrrpgce.hsp
+4102.9  msg: M plotscr.lst
+4102.9  msg: M plotscr.lst
+4102.9  msg: M lookup1.bin
+4103.1  plotscr.hsd version: 3U 
+4151.4  msg: M ohrrpgce.hsp
+4151.4  msg: M plotscr.lst
+4151.4  msg: M plotscr.lst
+4151.4  msg: M lookup1.bin
+4151.6  plotscr.hsd version: 3U 
+4183.2  msg: M ohrrpgce.hsp
+4183.2  msg: M plotscr.lst
+4183.2  msg: M plotscr.lst
+4183.2  msg: M lookup1.bin
+4183.4  plotscr.hsd version: 3U 
+4239.5  msg: M ohrrpgce.hsp
+4239.5  msg: M plotscr.lst
+4239.5  msg: M plotscr.lst
+4239.5  msg: M lookup1.bin
+4239.7  plotscr.hsd version: 3U 
+4300.2  msg: M ohrrpgce.hsp
+4300.2  msg: M plotscr.lst
+4300.2  msg: M plotscr.lst
+4300.2  msg: M lookup1.bin
+4300.4  plotscr.hsd version: 3U 
+4353.6  msg: M ohrrpgce.gen
+4353.9  msg: M general.reld
+4628.9  msg: M ohrrpgce.hsp
+4628.9  msg: M plotscr.lst
+4628.9  msg: M plotscr.lst
+4628.9  msg: M lookup1.bin
+4629.1  plotscr.hsd version: 3U 
+4687.2  msg: M ohrrpgce.hsp
+4687.2  msg: M plotscr.lst
+4687.2  msg: M plotscr.lst
+4687.2  msg: M lookup1.bin
+4687.4  plotscr.hsd version: 3U 
+4703.2  msg: M ohrrpgce.hsp
+4703.2  msg: M plotscr.lst
+4703.2  msg: M plotscr.lst
+4703.2  msg: M lookup1.bin
+4703.4  plotscr.hsd version: 3U 
+4790.3  msg: M ohrrpgce.hsp
+4790.3  msg: M plotscr.lst
+4790.3  msg: M plotscr.lst
+4790.3  msg: M lookup1.bin
+4790.5  plotscr.hsd version: 3U 
+4819.5  msg: M ohrrpgce.gen
+4819.5  msg: M general.reld
+4833.6  msg: M ohrrpgce.gen
+4833.6  msg: M general.reld
+4836.7  msg: M ohrrpgce.hsp
+4836.7  msg: M plotscr.lst
+4836.7  msg: M plotscr.lst
+4836.7  msg: M lookup1.bin
+4836.9  plotscr.hsd version: 3U 
+4856.4  msg: M ohrrpgce.hsp
+4856.4  msg: M plotscr.lst
+4856.4  msg: M plotscr.lst
+4856.4  msg: M lookup1.bin
+4856.6  plotscr.hsd version: 3U 
+4856.6  not reloading script battlemenu because it's in use: refcount=1
+4856.6  unlock_resolution(320,200)
+4857.3  set_resolution 300*200
+4857.3  lock_resolution()
+4857.8  plotscr.hsd version: 3U 
+4898.1  msg: M ohrrpgce.hsp
+4898.1  msg: M plotscr.lst
+4898.1  msg: M plotscr.lst
+4898.1  msg: M lookup1.bin
+4898.3  plotscr.hsd version: 3U 
+4898.3  not reloading script battlemenu because it's in use: refcount=1
+4898.3  unlock_resolution(320,200)
+4898.8  set_resolution 300*200
+4898.9  lock_resolution()
+4899.4  plotscr.hsd version: 3U 
+4910.2  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> getelement: slicechild: 36 is not a slice handle
+4910.2  unlock_resolution(320,200)
+4912.0  set_resolution 300*200
+4912.0  lock_resolution()
+4912.0  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> getelement: slicex: 0 is not a slice handle
+4912.0  unlock_resolution(320,200)
+4912.3  set_resolution 300*200
+4912.3  lock_resolution()
+4991.3  msg: M ohrrpgce.hsp
+4991.3  msg: M plotscr.lst
+4991.3  msg: M plotscr.lst
+4991.3  msg: M lookup1.bin
+4991.5  plotscr.hsd version: 3U 
+4991.5  not reloading script targetmenu because it's in use: refcount=1
+4991.5  unlock_resolution(320,200)
+4992.7  set_resolution 300*200
+4992.7  lock_resolution()
+4993.4  plotscr.hsd version: 3U 
+5053.9  msg: M ohrrpgce.hsp
+5053.9  msg: M plotscr.lst
+5053.9  msg: M plotscr.lst
+5053.9  msg: M lookup1.bin
+5054.1  plotscr.hsd version: 3U 
+5111.6  msg: M ohrrpgce.hsp
+5111.6  msg: M plotscr.lst
+5111.6  msg: M plotscr.lst
+5111.6  msg: M lookup1.bin
+5111.8  plotscr.hsd version: 3U 
+5150.6  msg: M ohrrpgce.hsp
+5150.6  msg: M plotscr.lst
+5150.6  msg: M plotscr.lst
+5150.6  msg: M lookup1.bin
+5150.8  plotscr.hsd version: 3U 
+5201.8  msg: M ohrrpgce.hsp
+5201.8  msg: M plotscr.lst
+5201.8  msg: M plotscr.lst
+5201.8  msg: M lookup1.bin
+5202.0  plotscr.hsd version: 3U 
+5202.1  not reloading script targetmenu because it's in use: refcount=13
+5202.1  unlock_resolution(320,200)
+5202.8  set_resolution 300*200
+5202.8  lock_resolution()
+5203.5  plotscr.hsd version: 3U 
+5276.6  msg: M ohrrpgce.hsp
+5276.6  msg: M plotscr.lst
+5276.6  msg: M plotscr.lst
+5276.6  msg: M lookup1.bin
+5276.8  plotscr.hsd version: 3U 
+5276.8  not reloading script targetmenu because it's in use: refcount=2
+5276.8  unlock_resolution(320,200)
+5277.5  set_resolution 300*200
+5277.5  lock_resolution()
+5278.1  plotscr.hsd version: 3U 
+5308.5  msg: M ohrrpgce.hsp
+5308.5  msg: M plotscr.lst
+5308.5  msg: M plotscr.lst
+5308.5  msg: M lookup1.bin
+5308.7  plotscr.hsd version: 3U 
+5308.7  not reloading script targetmenu because it's in use: refcount=3
+5308.8  unlock_resolution(320,200)
+5309.3  set_resolution 300*200
+5309.3  lock_resolution()
+5309.8  plotscr.hsd version: 3U 
+5357.4  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> getelement: slicechild: 47 is not a slice handle
+5357.4  unlock_resolution(320,200)
+5358.2  set_resolution 300*200
+5358.2  lock_resolution()
+5358.2  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> getelement: slicex: 0 is not a slice handle
+5358.2  unlock_resolution(320,200)
+5358.5  set_resolution 300*200
+5358.5  lock_resolution()
+5582.6  msg: M ohrrpgce.hsp
+5582.6  msg: M plotscr.lst
+5582.6  msg: M plotscr.lst
+5582.6  msg: M lookup1.bin
+5582.8  plotscr.hsd version: 3U 
+5589.1  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> getelement: slicechild: 47 is not a slice handle
+5589.1  unlock_resolution(320,200)
+5590.0  set_resolution 300*200
+5590.0  lock_resolution()
+5590.0  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> getelement: slicex: 0 is not a slice handle
+5590.0  unlock_resolution(320,200)
+5590.3  set_resolution 300*200
+5590.3  lock_resolution()
+5590.3  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> getelement: slicechild: 47 is not a slice handle
+5590.3  unlock_resolution(320,200)
+5590.7  set_resolution 300*200
+5590.7  lock_resolution()
+5590.7  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> getelement: slicex: 0 is not a slice handle
+5590.7  unlock_resolution(320,200)
+5591.0  set_resolution 300*200
+5591.0  lock_resolution()
+5753.4  msg: M ohrrpgce.hsp
+5753.4  msg: M plotscr.lst
+5753.4  msg: M plotscr.lst
+5753.4  msg: M lookup1.bin
+5753.6  plotscr.hsd version: 3U 
+5869.2  msg: M ohrrpgce.hsp
+5869.2  msg: M plotscr.lst
+5869.2  msg: M plotscr.lst
+5869.2  msg: M lookup1.bin
+5869.4  plotscr.hsd version: 3U 
+5978.8  msg: M ohrrpgce.hsp
+5978.8  msg: M plotscr.lst
+5978.8  msg: M plotscr.lst
+5978.8  msg: M lookup1.bin
+5979.0  plotscr.hsd version: 3U 
+6147.3  msg: M ohrrpgce.hsp
+6147.3  msg: M plotscr.lst
+6147.3  msg: M plotscr.lst
+6147.3  msg: M lookup1.bin
+6147.5  plotscr.hsd version: 3U 
+6201.2  msg: M ohrrpgce.hsp
+6201.2  msg: M plotscr.lst
+6201.2  msg: M plotscr.lst
+6201.2  msg: M lookup1.bin
+6201.5  plotscr.hsd version: 3U 
+6219.2  msg: M ohrrpgce.gen
+6219.2  msg: M general.reld
+6227.0  msg: M defpal7.bin
+6227.0  did not reload defpal7.bin
+6227.0  msg: M boxborders.rgfx
+6227.7  msg: M defpal7.bin
+6227.7  msg: M boxborders.rgfx
+6227.7  did not reload defpal7.bin
+6232.8  msg: M ohrrpgce.pal
+6232.8  msg: PAL 16
+6233.5  msg: M ohrrpgce.pal
+6233.5  msg: PAL 17
+6234.0  msg: M ohrrpgce.pal
+6234.0  msg: PAL 18
+6234.4  msg: M ohrrpgce.pal
+6234.4  msg: PAL 19
+6234.9  msg: M ohrrpgce.pal
+6234.9  msg: PAL 20
+6235.3  msg: M ohrrpgce.pal
+6235.3  msg: PAL 21
+6235.8  msg: M ohrrpgce.pal
+6235.8  msg: PAL 22
+6236.3  msg: M ohrrpgce.pal
+6236.3  msg: PAL 23
+6236.9  msg: M ohrrpgce.pal
+6236.9  msg: PAL 24
+6237.4  msg: M ohrrpgce.pal
+6237.4  msg: PAL 25
+6237.8  msg: M ohrrpgce.pal
+6237.8  msg: PAL 26
+6238.4  msg: M ohrrpgce.pal
+6238.4  msg: PAL 27
+6238.8  msg: M ohrrpgce.pal
+6238.8  msg: PAL 28
+6240.1  msg: M ohrrpgce.pal
+6240.1  msg: PAL 29
+6240.6  msg: M ohrrpgce.pal
+6240.6  msg: PAL 28
+6241.7  msg: M ohrrpgce.pal
+6241.7  msg: PAL 27
+6252.4  msg: M defpal7.bin
+6252.4  msg: M boxborders.rgfx
+6252.4  msg: M ohrrpgce.pal
+6252.4  msg: PAL 28
+6252.4  did not reload defpal7.bin
+6261.3  msg: M defpal7.bin
+6261.3  msg: M boxborders.rgfx
+6261.3  msg: M ohrrpgce.pal
+6261.3  msg: PAL 28
+6261.3  did not reload defpal7.bin
+6514.6  msg: M ohrrpgce.gen
+6515.0  msg: M ohrrpgce.gen
+6515.0  msg: M general.reld
+6566.8  msg: M ohrrpgce.hsp
+6566.8  msg: M plotscr.lst
+6566.8  msg: M plotscr.lst
+6566.8  msg: M lookup1.bin
+6567.0  plotscr.hsd version: 3U 
+6568.8  msg: M ohrrpgce.hsp
+6568.8  msg: M plotscr.lst
+6568.8  msg: M plotscr.lst
+6568.8  msg: M lookup1.bin
+6569.0  plotscr.hsd version: 3U 
+6810.4  msg: M ohrrpgce.hsp
+6810.4  msg: M plotscr.lst
+6810.4  msg: M plotscr.lst
+6810.4  msg: M lookup1.bin
+6810.6  plotscr.hsd version: 3U 
+6866.0  msg: M ohrrpgce.hsp
+6866.0  msg: M plotscr.lst
+6866.0  msg: M plotscr.lst
+6866.0  msg: M lookup1.bin
+6866.2  plotscr.hsd version: 3U 
+6966.0  msg: M ohrrpgce.hsp
+6966.0  msg: M plotscr.lst
+6966.1  msg: M plotscr.lst
+6966.1  msg: M lookup1.bin
+6966.2  plotscr.hsd version: 3U 
+6985.2  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> getelement: slicechild: 36 is not a slice handle
+6985.2  unlock_resolution(320,200)
+6989.6  set_resolution 300*200
+6989.6  lock_resolution()
+6989.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> turnattack -> getelement: slicex: 0 is not a slice handle
+6989.6  unlock_resolution(320,200)
+6990.1  set_resolution 300*200
+6990.1  lock_resolution()
+7020.9  msg: M ohrrpgce.hsp
+7020.9  msg: M plotscr.lst
+7020.9  msg: M plotscr.lst
+7020.9  msg: M lookup1.bin
+7021.1  plotscr.hsd version: 3U 
+7048.3  msg: M ohrrpgce.hsp
+7048.3  msg: M plotscr.lst
+7048.3  msg: M plotscr.lst
+7048.3  msg: M lookup1.bin
+7048.5  plotscr.hsd version: 3U 
+7091.3  msg: M ohrrpgce.hsp
+7091.3  msg: M plotscr.lst
+7091.3  msg: M plotscr.lst
+7091.3  msg: M lookup1.bin
+7091.5  plotscr.hsd version: 3U 
+7265.3  msg: M ohrrpgce.hsp
+7265.3  msg: M plotscr.lst
+7265.3  msg: M plotscr.lst
+7265.3  msg: M lookup1.bin
+7265.5  plotscr.hsd version: 3U 
+7284.8  msg: M ohrrpgce.hsp
+7284.8  msg: M plotscr.lst
+7284.8  msg: M plotscr.lst
+7284.8  msg: M lookup1.bin
+7285.0  plotscr.hsd version: 3U 
+7504.1  msg: M ohrrpgce.hsp
+7504.1  msg: M plotscr.lst
+7504.1  msg: M plotscr.lst
+7504.1  msg: M lookup1.bin
+7504.3  plotscr.hsd version: 3U 
+7506.6  ! Scripterr(5): battle -> battleloophandler -> heroturn -> battlemenu -> targetmenu -> opentargetmenu -> returnskill -> cure1 -> setelement: setslicex: 0 is not a slice handle
+7506.6  unlock_resolution(320,200)
+7507.5  set_resolution 300*200
+7507.5  lock_resolution()
+7513.2  ! Scripterr(5): battle -> battleloophandler -> enemyturn -> returnskill -> normal -> setelement: setslicex: 0 is not a slice handle
+7513.2  unlock_resolution(320,200)
+7531.8  msg: M ohrrpgce.hsp
+7531.8  msg: M plotscr.lst
+7531.8  msg: M plotscr.lst
+7531.8  msg: M lookup1.bin
+7532.0  plotscr.hsd version: 3U 
+7532.0  not reloading script normal because it's in use: refcount=1
+7532.0  unlock_resolution(320,200)
+7533.4  set_resolution 300*200
+7533.4  lock_resolution()
+7533.4  ! Scripterr(5): battle -> battleloophandler -> enemyturn -> turnattack -> getelement: slicex: 0 is not a slice handle
+7533.4  unlock_resolution(320,200)
+7534.4  set_resolution 300*200
+7534.4  lock_resolution()
+7535.1  plotscr.hsd version: 3U 
+7631.5  msg: M ohrrpgce.hsp
+7631.5  msg: M plotscr.lst
+7631.5  msg: M plotscr.lst
+7631.5  msg: M lookup1.bin
+7631.7  plotscr.hsd version: 3U 
+7667.2  msg: M ohrrpgce.hsp
+7667.2  msg: M plotscr.lst
+7667.2  msg: M plotscr.lst
+7667.2  msg: M lookup1.bin
+7667.4  plotscr.hsd version: 3U 
+7826.4  msg: M ohrrpgce.hsp
+7826.4  msg: M plotscr.lst
+7826.4  msg: M plotscr.lst
+7826.4  msg: M lookup1.bin
+7826.6  plotscr.hsd version: 3U 
+7866.6  Cleaning up and terminating 0
+7866.6  Closing music backend...
+7866.6  ...done
+7866.6  Deleting tmpdir C:\Users\Dell\AppData\Local\Temp\ohrrpgce20220630123705.781.tmp\
+7866.8  Closing gfx backend & allmodex...
+7866.9  ...done
+7866.9  End.

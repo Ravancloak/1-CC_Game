@@ -36,100 +36,335 @@ end
 #=======================================================================
 #=======================================================================
 
-script, turns, begin
-	variable (
-		which, who, target, mod1, mod2, targstat, extdam
-		sli, type, healing, damage, i, var, formation
-	)
-	sli := lookupslice(array:turn)
-	sortChildren (sli)
+script, heroturn, who, begin
+	variable(sli, which, target, var, sel, i, last target, first target)
+	sli := create container
+	#set slice lookup (sli, array:action)
 
-	while (firstChild (lookupslice(array:turn))) do (
-		sli := firstChild (lookupslice(array:turn))
-		
-		who		:= getElement(sli, 0)
-		which	:= getElement(sli, 1)
-		target	:= getElement(sli, 2)
+	battleMenu
 
-		#when the skill needs to be decided
-		if (which==-1 && target==-1) then (
-			which := getenemyattacks (who)
+	returnSkill(which)
+	sli := lookupslice (array:readskill)
+
+	turnattack (who, target, which)
+
+	subscript, addText, extra, begin
+		sli := create text
+		set slice text (sli, 2)
+		realign slice (sli, edge:center, edge:top, edge:center, edge:top)
+		set outline(sli, true)
+		set text color(sli, ui:menuitem)
+		set slice extra (sli, 0, extra)
+		set parent (sli, lookupslice (sli:actionmenu))
+		set slice y (sli, slice child index (sli)*10)
+		sli := lookupslice (sli:actionmenu)
+		set slice height (sli, slice height(sli)+10)
+	end
+
+	subscript, battleMenu, begin
+		sel := 0
+		openbattleMenu
+		while (true) do (
+			waitForAnyKey()
+			if (battlemenukeyress) then (break)
+			wait
 		)
+		switch (sel) do (
+			case (0) do (
+				which := 1
+				exitBattleMenu()
+				targetMenu
+			)
+			case (1) do (
+				which := 2
+				exitBattleMenu()
+				targetMenu
+			)
+		)
+	end
 
-		returnSkill(which)
-		sli := lookupslice (array:readskill)
+	subscript, openbattlemenu, begin
+		#create text for menu
+		var := hero by slot (who)
+		#get attack based on equip
+		get hero name (2, var)
 
-		#when the target needs to be decided
-		if (target==-1) then (
-			switch (getElement (sli, skill:preferTarg)) do (
-				case (preferTarg:random) do (
-					while (true) do (
-						target := random (0, herocount--1)
-						if (readstat(target, stat:HP)>0) then (break)
-					)
+		sli := lookupslice (sli:actionmenu)
+		set slice height (sli, 8)
+		free slice children (sli)
+
+		switch (check equipment (var, slot:weapon)) do (
+			case (item:Nothing) do (
+				switch (var) do (
+					case (hero:Keifer) do ($2="punch")
+					case (hero:Jenkins) do ($2="splash")
+					case (hero:GMoney) do ($2="punch")
+					case (hero:Jane) do ($2="slap")
 				)
 			)
 		)
+		addText(battlemenu:attack)
+		$2="skill"
+		addText(battlemenu:skill)
+		$2="item"
+		addText(battlemenu:item)
+		$2="defend"
+		addtext(battlemenu:defend)
+		$2="run"
+		addText(battlemenu:run)
 
-		mod1 := readStat (who, getElement (sli,skill:baseAtkStat))
-		mod2 := readStat (who, getElement (sli,skill:baseDefStat))
+		sel := battlemenu:attack
 
-		damage	:= returndamage (
-			mod1
-			mod2
-			getElement (sli,skill:extraDamage)
-			getElement (sli,skill:damageMath)
-			getElement (sli,skill:curebit)
-		)
+		#set text to flash
+		sli := slice child (lookupslice (sli:actionmenu), sel)
+		set slice lookup(sli, sli:selected text)
 
-		if (getElement (sli,skill:rowcheck) == true && readStat(target, stat:row)==1) then (
-			damage := damage -- damage/3
-		)
-		if (readStat(target, stat:defending)==true) then (
-			damage := damage -- damage/2
-		)
+		sli := battlePortrait(who)
+		if (GetsliceVisible(sli)) then (
+			sliceToBack (sli)
+			dissolveSprite (sli, dissolve:sink into ground, 10) 
+			specwait(9)
+			sliceToFront (sli)
+			setSliceVisible (sli, false)
 
-		var := (readstat(target, stat:aim) -- readstat(target, stat:evade))
-		var += random(-1 * readstat(target, stat:aim)/8,  readstat(target, stat:aim)/8)
-		#show value (var + 100)
+			specwait(20)
 
-		if (var + 100 >= 100) then (
-			writeStat (target, getElement (sli,skill:targStat), readStat(target, getElement (sli,skill:targStat)) -- damage)
-			if (readStat(target, getElement (sli,skill:targStat))<0) then(writeStat (target, getElement (sli,skill:targStat), 0))
+			set slice visible (lookupslice (sli:hideactionmenu), true)
 
-			animation(which, target, damage, who)
+			sli := last child (lookupslice (sli:hideactionmenu))
+			replaceportraitsprite (sli, var)
+			slice to back (sli)
+			dissolve sprite (sli, dissolve:sink into ground, 10, 0, true) 
+
+			specwait(15)
+			slice to front (sli)
 		) else (
-			animation(-1, target, damage, who)
-		)
-		for (i, 0, herocount--1) do (
-			setmeter (i, stat:hp)
-			setmeter (i, stat:pp)
-		)
-
-		if (readstat(target, stat:HP)==0) then (KOTarget(target))
-		battlecheck
-		freeSlice (firstChild (lookupslice(array:turn)))
-	)
-	initTurnArray()
-	specwait (10)
-
-	subscript, koTarget, targ, begin
-		if (targ>3) then (
-			targ -=4
-			sli := first child (slice child (lookupslice(sli:enemygrid), targ))
-			dissolveSprite (sli, dissolve:flicker, 22)
-			specwait (20)
-			set slice visible (sli, false)
-		) else (
-			updateportrait(targ)
+			set slice visible (lookupslice (sli:hideactionmenu), true)
 		)
 	end
+
+	subscript, battlemenukeyress, begin
+		if (keypressA) then (
+			exitReturning(true)
+		)
+
+		if (keypressUp) then (
+			sli := slice child (lookupslice (sli:actionmenu), sel)
+			setSliceLookup(sli, 0)
+			setTextColor(sli, ui:menuitem)
+
+			if (sel > battlemenu:attack) then (sel -= 1) else (sel := (child count(lookupslice (sli:actionmenu)))--1)
+
+			sli := slice child (lookupslice (sli:actionmenu), sel)
+			setSliceLookup(sli, sli:selected text)
+			exit script
+		)
+		if(keypressDown) then (
+			sli := slice child (lookupslice (sli:actionmenu), sel)
+			setSliceLookup(sli, 0)
+			setTextColor(sli, ui:menuitem)
+
+			if (sel <(child count(lookupslice (sli:actionmenu)))--1) then (sel += 1) else (sel := 0)
+
+			sli := slice child (lookupslice (sli:actionmenu), sel)
+			setSliceLookup(sli, sli:selected text)
+			exit script
+		)
+	end
+
+	subscript, exitBattleMenu, begin
+		#hide slice and resume battle shit
+		#if (sel <> battlemenu:skill) then (
+			sli := last child (lookupslice (sli:hideactionmenu))
+			slice to back (sli)
+			dissolve sprite (sli, dissolve:sink into ground, 10) 
+			specwait(9)
+			slice to front (sli)
+		#)
+		
+		sli := lookupslice (sli:actionmenu)
+		set slice height (sli, 8)
+		free slice children (sli)
+		set slice visible (lookupslice (sli:hideactionmenu), false)
+
+		#if (sel <> battlemenu:skill) then (
+			specwait (10)
+			sli := battlePortrait(who)
+			set slice visible (sli, true)
+			slice to back (sli)
+			dissolve sprite (sli, dissolve:sink into ground, 10, 0, true)
+			specwait(15)
+			slice to front (sli)
+		#)
+		writeStat(who, stat:defending, false)
+	end
+
+	subscript, targetMenu, begin
+		target := 0
+		openTargetMenu
+
+		while (true) do (
+			waitForAnyKey()
+			if (targetMenuKeypress<0) then (
+				break
+			)
+			wait
+		)
+		if (target <> -9) then (exitTargetMenu()) else (exitTargetMenu(), battleMenu)	
+	end
+
+	subscript, openTargetMenu, begin
+		returnSkill(which)
+
+		switch (getElement (lookupslice (array:readskill), skill:targClass)) do (
+			case (targClass:foeNotDead) do (
+				target := 4
+				for (i, 0, 3) do (
+					if (readstat(target, stat:HP)<=0) then (target += 1) else (break)
+				)
+			)
+			case (targclass:allyNotDead) do (
+				target := 0
+				for (i, 0, 3) do (
+					if (readstat(target, stat:HP)<=0) then (target += 1) else (break)
+				)
+			)
+			#case (targclass:allNotDead) do ()
+			#case (targclass:self) do ()
+			#case (targclass:deadAlly) do ()	
+		)
+		show value (target)
+	end
+
+	subscript, targetMenuKeypress, begin
+		switch (getElement (lookupslice (array:readskill), skill:targClass)) do (
+			case (targClass:foeNotDead) do (
+				first target := 4
+				for (i, 0, 3) do (
+					if (readstat(first target, stat:HP)<=0) then (first target += 1) else (break)
+				)
+				last target := 7
+				for (i, 0, 3) do (
+					if (readstat(last target, stat:HP)<=0) then (last target -= 1) else (break)
+				)
+				if (keypressLeft) then (
+					if (target > first target) then (target -= 1)
+					if (readstat(target, stat:HP)<=0) then (
+						if (target > first target) then (target-=1)
+						if (readstat(target, stat:HP)<=0) then (
+							if (target > first target) then (target-=1)
+						)
+					)
+					if (target < first target) then (
+						target := first target
+					)
+					show value (target)
+					exit script
+				)
+				if (keypressRight) then (
+					if (target < last target) then (target += 1)
+					if (readstat(target, stat:HP)<=0) then (
+						if (target < last target) then (target+=1)
+						if (readstat(target, stat:HP)<=0) then (
+							if (target < last target) then (target+=1)
+						)
+					)
+					if (target > last target) then (
+						target := last target
+					)
+					show value (target)
+					exit script
+				)
+				if (keypressA) then (
+					exitReturning(-1)
+				)
+				if (keypressB) then (
+					target := -9
+					exitReturning(-1)
+				)
+			)
+			case (targclass:allyNotDead) do (
+				first target := 0
+				for (i, 0, 3) do (
+					if (readstat(first target, stat:HP)<=0) then (first target += 1) else (break)
+				)
+				last target := 3
+				for (i, 0, 3) do (
+					if (readstat(last target, stat:HP)<=0) then (last target -= 1) else (break)
+				)
+				if (keypressLeft) then (
+					if (target > first target) then (target -= 1)
+					if (readstat(target, stat:HP)<=0) then (
+						if (target > first target) then (target-=1)
+						if (readstat(target, stat:HP)<=0) then (
+							if (target > first target) then (target-=1)
+						)
+					)
+					if (target < first target) then (
+						target := first target
+					)
+					show value (target)
+					exit script
+				)
+				if (keypressRight) then (
+					if (target < last target) then (target += 1)
+					if (readstat(target, stat:HP)<=0) then (
+						if (target < last target) then (target+=1)
+						if (readstat(target, stat:HP)<=0) then (
+							if (target < last target) then (target+=1)
+						)
+					)
+					if (target > last target) then (
+						target := last target
+					)
+					show value (target)
+					exit script
+				)
+				if (keypressA) then (
+					exitReturning(-1)
+				)
+			)
+			#case (targclass:allNotDead) do ()
+			#case (targclass:self) do ()
+			#case (targclass:deadAlly) do ()	
+		)
+	end
+
+	subscript, exitTargetMenu, begin
+		show no value
+	end
+end
+
+
+script, enemyturn, who, begin
+	variable(sli, which, target, formation)
+
+	which := getenemyattacks (who)
+
+	returnSkill(which)
+	sli := lookupslice (array:readskill)
+
+	switch (getElement (sli, skill:preferTarg)) do (
+		case (preferTarg:random) do (
+			while (true) do (
+				target := random (0, herocount--1)
+				if (readstat(target, stat:HP)>0) then (break)
+			)
+		)
+		else (
+			while (true) do (
+				target := random (0, herocount--1)
+				if (readstat(target, stat:HP)>0) then (break)
+			)
+		)
+	)
+	turnattack (who, target, which)
 
 	subscript, getenemyattacks, enemy, begin
 		variable (normalatk1, normalatk2, normalatk3, normalatk4)
 		formation := getElement(get array(array:battleinfo), battle:formation)
 		enemy := formationSlotEnemy (formation, enemy--4)
-		show value (enemy)
+		#show value (enemy)
 		switch (enemy) do (
 			case (enemy:Rat King) do (
 				normalatk1 := skill:normal
@@ -169,35 +404,88 @@ script, turns, begin
 			case (4) do (return (normalatk4))
 		)
 	end
+end
 
-	subscript, readSkill, which, begin
-		sli := getArray(array:readskill)
 
-		getElement (sli, skill:frameTicks)
-		getElement (sli, skill:sound)
-		getElement (sli, skill:targClass)
-		getElement (sli, skill:targSetting)
-		getElement (sli, skill:preferTarg)
-		getElement (sli, skill:weakStrongStat) 
-		getElement (sli,skill:hits)
-		getElement (sli,skill:damageMath)
-		getElement (sli,skill:baseAtkStat)
-		getElement (sli,skill:baseDefStat)
-		getElement (sli,skill:targStat)
+script, turnattack, who, target, which, begin
+	variable (sli, damage, element, var, i)
+
+	sli := lookupslice (array:readskill)
+
+	damage	:= returndamage (
+		readStat (who, getElement (sli,skill:baseAtkStat))
+		readStat (target, getElement (sli,skill:baseDefStat))
 		getElement (sli,skill:extraDamage)
-		getElement (sli,skill:PPcost)
-		getElement (sli,skill:HPcost)
-		getElement (sli,skill:MoneyCost)
-		getElement (sli,skill:autoChooseTarg)
-		getElement (sli,skill:stealitem)
-		getElement (sli,skill:stealPercent)
-		getElement (sli,skill:status)
-		getElement (sli,skill:statusPercent)
-		getElement (sli,skill:elementType)
-		getElement (sli,skill:curebit)
-		getElement (sli,skill:rowcheck)
+		getElement (sli,skill:damageMath)
+	)
+
+	damage := damage * getElement (sli,skill:curebit)
+
+	if (getElement (sli,skill:damageMath)<>damage:pure) then (
+		element := readStat (target, stat:NormResist + getElement (sli,skill:elementType))
+		#show value (element)
+		damage :=  damage*element/100
+
+		switch (readStat (who, getElement (sli,skill:baseAtkStat))) do (
+			case (stat:Atk) do (
+				if (readStat (sli, stat:reflect)) then (damage := damage/2)
+			)
+			case (stat:Psi) do (
+				if (readStat (sli, stat:shell)) then (damage := damage/2)
+			)
+		)
+		if (readStat(target, stat:defending)==true) then (
+			damage := damage -- damage/2
+		)
+	)
+
+	if (getElement (sli,skill:rowcheck) == true && readStat(target, stat:row)==1) then (
+			damage := damage -- damage/4
+	)
+	
+	var := (readstat(target, stat:aim) -- readstat(target, stat:evade))
+	var += random(-1 * readstat(target, stat:aim)/8,  readstat(target, stat:aim)/8)
+
+	#if (getElement (sli, skill:nevermiss)) then (var := 0)
+
+	if (var + 100 >= 100) then (
+		writeStat (target, getElement (sli,skill:targStat), readStat(target, getElement (sli,skill:targStat)) -- damage)
+
+		if (readStat(target, getElement (sli,skill:targStat))<0) then(writeStat (target, getElement (sli,skill:targStat), 0))
+
+		animation(which, target, damage, who)
+
+	) else (
+		animation(-1, target, damage, who)
+	)
+
+	if (readstat(target, stat:HP) > readstat(target, stat:maxHP)) then (
+		writeStat (target, stat:HP, readstat(target, stat:maxHP))
+		show value (readstat(target, stat:maxHP))
+	)
+
+	for (i, 0, herocount--1) do (
+		setmeter (i, stat:hp)
+		setmeter (i, stat:pp)
+	)
+
+	if (readstat(target, stat:HP)==0) then (KOTarget(target))
+	if (readstat(who, stat:HP)==0) then (KOTarget(who))
+	battlecheck
+
+	subscript, koTarget, targ, begin
+		if (targ>3) then (
+			targ -=4
+			sli := first child (slice child (lookupslice(sli:enemygrid), targ))
+			dissolveSprite (sli, dissolve:flicker, 22)
+			specwait (20)
+			set slice visible (sli, false)
+		) else (
+			updateportrait(targ)
+		)
 	end
 end
+
 
 #=======================================================================
 #=======================================================================
@@ -213,6 +501,7 @@ script, animation, which, target, damage, who, begin
 	if (who > 3) then (
 		sli3 := first child (slice child(lookupslice(sli:enemygrid), who--4))
 	)
+
 
 	if (which == -1) then (
 		if (who > 3) then (
@@ -264,11 +553,13 @@ script, animation, which, target, damage, who, begin
 	)
 	var := sliceX(sli)
 	var2 := 1
-	for (j, 0, loop--1) do (
-		for (i,5,0,-1) do (
-			setSliceX(sli,i*var2)
-			var2 := var2 * -1
-			specwait(5)
+	if (get element (lookupslice (array:readskill),skill:curebit) <> -1) then (
+		for (j, 0, loop--1) do (
+			for (i,5,0,-1) do (
+				setSliceX(sli,i*var2)
+				var2 := var2 * -1
+				specwait(5)
+			)
 		)
 	)
 	setSliceX(sli, var)
@@ -280,9 +571,16 @@ script, animation, which, target, damage, who, begin
 end
 
 script, endanimation, which, sli, damage, target, begin
-	variable (i)
+	variable (i, damagesprite)
 
 	variable(sli2, ones, tens, hundreds)
+
+	damagesprite := 1
+
+	if (get element (lookupslice (array:readskill),skill:curebit) == -1) then (
+		damage := damage * -1
+		damagesprite := 2
+	)
 
 	hundreds := modulus(damage/100,10)
 	tens := modulus(damage/10,10)
@@ -299,26 +597,26 @@ script, endanimation, which, sli, damage, target, begin
 	center slice (sli)
 
 	if (hundreds <> 0) then(
-		sli2 := load border sprite(1)
+		sli2 := load border sprite(damagesprite)
 		set parent (sli2, sli)
 		set sprite frame (sli2, hundreds+1)
-		sli2 := load border sprite(1)
+		sli2 := load border sprite(damagesprite)
 		set parent (sli2, sli)
 		set sprite frame (sli2, tens+1)
-		sli2 := load border sprite(1)
+		sli2 := load border sprite(damagesprite)
 		set parent (sli2, sli)
 		set sprite frame (sli2, ones+1)
 	) else if (tens <> 0)then (
-		sli2 := load border sprite(1)
+		sli2 := load border sprite(damagesprite)
 		set parent (sli2, sli)
 		set sprite frame (sli2, tens+1)
-		sli2 := load border sprite(1)
+		sli2 := load border sprite(damagesprite)
 		set parent (sli2, sli)
 		set sprite frame (sli2, ones+1)
 	) else(
 		sli2 := create container
 		set parent (sli2, sli)
-		sli2 := load border sprite(1)
+		sli2 := load border sprite(damagesprite)
 		set parent (sli2, sli)
 		set sprite frame (sli2, ones+1)
 	)
@@ -338,7 +636,7 @@ script, endanimation, which, sli, damage, target, begin
 	free slice (sli)
 end
 
-script, returndamage, mod1, mod2, extdam, type, healing, begin
+script, returndamage, mod1, mod2, extdam, type, begin
 	variable (var)
 
 	extdam := extdam+100
@@ -350,8 +648,6 @@ script, returndamage, mod1, mod2, extdam, type, healing, begin
 	#var := var + multdiv (var, extdam, 100)
 
 	if (var < 0) then (var := 0)
-
-	var := var * healing
 
 	return (var)
 end

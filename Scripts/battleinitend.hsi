@@ -41,6 +41,16 @@ define constant, begin
 	25,		stat:shell		#physical shield
 	26,		stat:reflect	#psi shield
 	27,		stat:defending
+	28,		stat:NormResist
+	29,		stat:FireResist
+	30,		stat:WaterResist
+	31,		stat:LitResist
+	32,		stat:PoisonResist
+	33,		stat:ParResist
+	34,		stat:SleepResist
+	35,		stat:LightResist
+	36,		stat:DarkResist
+	37,		stat:Colorless
 
 	#values for who's attacking
 	0, turnarray:hero1
@@ -124,10 +134,9 @@ script, initBattle, formation, begin
 
 	#checks hero count
 	for (i, 0, 3) do (
+		battleAddHero(i)
 		if (hero by slot (i)<>-1) then (
-			battleAddHero(i), counter += 1
-		) else (
-			battleAddHero(i)
+			counter += 1
 		)
 	)
 	#sets hero count
@@ -143,8 +152,9 @@ script, initBattle, formation, begin
 
 	#checks enemy count
 	for (i, 0, 3) do (
+		battleAddEnemy(i, formation)
 		if (formation slot enemy (formation, i)<>-1) then (
-			battleAddEnemy(i, formation), counter += 1
+			counter += 1
 		)
 	)
 	#sets enemy count
@@ -347,9 +357,9 @@ end
 
 script, battleAddHero, who, begin
 	variable (i, sli)
+	sli := initArray(0)
+	set parent (sli, lookupslice(array:stats))
 	if (hero by slot (who)<>-1) then (
-		sli := initArray(0)
-		set parent (sli, lookupslice(array:stats))
 		for (i, stat:HP, stat:Hits) do (
 			append (sli, get hero stat (who, i, current stat))
 		)
@@ -362,9 +372,10 @@ script, battleAddHero, who, begin
 		for (i, stat:poison, stat:defending) do (
 			append (sli, 0)
 		)
+		for (i, element:Norm, element:Colorless) do (
+			append (sli, hero total elemental resist as int (who, i))
+		)
 	) else (
-		sli := initArray(0)
-		set parent (sli, lookupslice(array:stats))
 		for (i, stat:HP, stat:Hits) do (
 			append (sli, 0)
 		)
@@ -377,6 +388,9 @@ script, battleAddHero, who, begin
 		for (i, stat:poison, stat:defending) do (
 			append (sli, 0)
 		)
+		for (i, element:Norm, element:Colorless) do (
+			append (sli, 0)
+		)
 	)
 
 end
@@ -385,17 +399,39 @@ script, battleAddEnemy, who, formation, begin
 	variable (i, sli)
 	sli := initArray(0)
 	set parent (sli, lookupslice(array:stats))
-	for (i, stat:HP, stat:Hits) do (
-		append (sli, get enemy stat (formation slot enemy (formation, who), i))
-	)
-	for (i, stat:HP, stat:PP) do (
-		append (sli, get enemy stat (formation slot enemy (formation, who), i))
-	)
+	if (formation slot enemy (formation, who)<>-1) then (
+		
+		for (i, stat:HP, stat:Hits) do (
+			append (sli, get enemy stat (formation slot enemy (formation, who), i))
+		)
 		for (i, stat:HP, stat:PP) do (
-		append (sli, get enemy stat (formation slot enemy (formation, who), i))
-	)
-	for (i, stat:poison, stat:defending) do (
-		append (sli, 0)
+			append (sli, get enemy stat (formation slot enemy (formation, who), i))
+		)
+			for (i, stat:HP, stat:PP) do (
+			append (sli, get enemy stat (formation slot enemy (formation, who), i))
+		)
+		for (i, stat:poison, stat:defending) do (
+			append (sli, 0)
+		)
+		for (i, element:Norm, element:Colorless) do (
+			append (sli, enemy elemental resist as int (formation slot enemy (formation, who), i))
+		)
+	) else (
+		for (i, stat:HP, stat:Hits) do (
+			append (sli, 0)
+		)
+		for (i, stat:HP, stat:PP) do (
+			append (sli, 0)
+		)
+		for (i, stat:HP, stat:PP) do (
+			append (sli, 0)
+		)
+		for (i, stat:poison, stat:defending) do (
+			append (sli, 0)
+		)
+		for (i, element:Norm, element:Colorless) do (
+			append (sli, 0)
+		)
 	)
 end
 

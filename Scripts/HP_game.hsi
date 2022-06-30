@@ -30,20 +30,20 @@ define constant, begin
 11,stat:Hits
 0,element:Norm
 1,element:Fire
-2,element:Ice
+2,element:Water
 3,element:Lit
 4,element:Poison
 5,element:Par
 6,element:Sleep
-7,element:Cure
-8,element:Death
-9,element:Other
-10,element:Other 2
-11,element:Other 3
-12,element:Other 4
-13,element:Other 5
-14,element:Other 6
-15,element:Other 7
+7,element:Light
+8,element:Dark
+9,element:Colorless
+10,element:Other
+11,element:Other 2
+12,element:Other 3
+13,element:Other 4
+14,element:Other 5
+15,element:Other 6
 1,slot:Weapon
 2,slot:Head
 3,slot:Body
@@ -54,6 +54,7 @@ define constant, begin
 2,map:TEST2 2
 1,atk:Test
 2,atk:Normal
+3,atk:Cure1
 1,menu:Settings
 2,menu:YesNo
 0,enemy:Blank

@@ -41,6 +41,7 @@ define constant, begin
 	313,	array:battletimers
 	314,	array:skill
 	315,	array:readskill
+	316,	array:action
 
 	#hero array
 	350,	array:heroes

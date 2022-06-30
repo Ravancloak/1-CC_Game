@@ -228,10 +228,16 @@ script, movementAllowed, begin
 end
 
 script, waitForAnyKey, begin
-	while (anyKeyCheck==false) do (specwait)
+	while (true) do (
+		if (anyKeyCheck) then (break)
+		specwait
+	)
 end
 script, waitForNewKey, begin
-	while (newKeyCheck==false) do (specwait)
+	while (true) do (
+		if (newKeyCheck) then (break)
+		specwait
+	)
 end
 script, anyKeyCheck, begin
 	if (keypressA||keypressB||keypressX||keypressY|| keypressUp|| keypressDown|| keypressLeft|| keypressright) then (return (true))
