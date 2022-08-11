@@ -210,7 +210,7 @@ script, heroturn, who, begin
 			)
 			wait
 		)
-		if (target <> -9) then (exitTargetMenu()) else (exitTargetMenu(), battleMenu)	
+		if (target <> -9) then (exitTargetMenu(), specwait (16)) else (exitTargetMenu(), battleMenu)	
 	end
 
 	subscript, openTargetMenu, begin
@@ -234,6 +234,7 @@ script, heroturn, who, begin
 			#case (targclass:deadAlly) do ()	
 		)
 		show value (target)
+		set slice lookup (getBattleSprite(target), sli:selected target)
 	end
 
 	subscript, targetMenuKeypress, begin
@@ -258,7 +259,7 @@ script, heroturn, who, begin
 					if (target < first target) then (
 						target := first target
 					)
-					show value (target)
+					updateTarget
 					exit script
 				)
 				if (keypressRight) then (
@@ -272,7 +273,7 @@ script, heroturn, who, begin
 					if (target > last target) then (
 						target := last target
 					)
-					show value (target)
+					updateTarget
 					exit script
 				)
 				if (keypressA) then (
@@ -303,7 +304,7 @@ script, heroturn, who, begin
 					if (target < first target) then (
 						target := first target
 					)
-					show value (target)
+					updateTarget
 					exit script
 				)
 				if (keypressRight) then (
@@ -317,7 +318,7 @@ script, heroturn, who, begin
 					if (target > last target) then (
 						target := last target
 					)
-					show value (target)
+					updateTarget
 					exit script
 				)
 				if (keypressA) then (
@@ -330,7 +331,21 @@ script, heroturn, who, begin
 		)
 	end
 
+	subscript, updateTarget, begin
+		if (lookup slice (sli:selected target)) then (
+			set slice visible (lookup slice (sli:selected target), true)
+			set slice lookup (lookup slice (sli:selected target), false)
+		)
+		set slice lookup (getBattleSprite(target), sli:selected target)
+		show value (target)
+	end
+
 	subscript, exitTargetMenu, begin
+		if (lookup slice (sli:selected target)) then (
+			sli := lookupslice (sli:selected target)
+			setSliceVisible (sli, true)
+			set slice lookup (sli, false)
+		)
 		show no value
 	end
 end

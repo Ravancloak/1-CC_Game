@@ -509,6 +509,18 @@ script, updateportrait, which, begin
 	)
 end
 
+script, getBattleSprite, which, begin
+	variable (sli)
+	switch (which) do (
+		case (0,1,2,3) do (
+			sli := sliceChild(lookupSlice(sli:heroGrid), which)
+		)
+		case (4,5,6,7) do (
+			sli := sliceChild(lookupSlice(sli:enemyGrid), which--4)
+		)
+	)
+	return (sli)
+end
 
 script, largeupdateportrait, which, begin
 	variable (sli, who, var)

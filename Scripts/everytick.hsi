@@ -113,6 +113,19 @@ script, battleAnimate, begin
 		set slice extra (sli, 0, var)
 		var := 0
 	)
+
+	if (lookupslice (sli:selected target)) then (
+		sli := lookupslice (sli:selected target)
+		var := get slice extra (sli, 0)
+		if (var >= 8) then (
+			if (get slice visible(sli)) then (
+				set slice visible (sli, false)
+			) else (set slice visible (sli, true))
+			var := 0
+		) else (var += 1)
+		set slice extra (sli, 0, var)
+		var := 0
+	)
 end
 
 script, scroll map layer, begin
